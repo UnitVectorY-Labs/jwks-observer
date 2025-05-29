@@ -1,0 +1,50 @@
+{
+  "authorization_endpoint": "https://auth.uber.com/oauth/v2/authorize",
+  "grant_types_supported": [
+    "authorization_code",
+    "refresh_token",
+    "client_credentials",
+    "urn:ietf:params:oauth:grant-type:jwt-bearer",
+    "urn:ietf:params:oauth:grant-type:token-exchange"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://auth.uber.com",
+  "jwks_uri": "https://auth.uber.com/oauth/v2/certs",
+  "prompts_supported": {
+    "consent": true,
+    "login": true
+  },
+  "pushed_authorization_request_endpoint": "https://auth.uber.com/oauth/v2/par",
+  "response_modes_supported": [
+    "web_post_message",
+    "query"
+  ],
+  "response_types_supported": [
+    "code",
+    "token",
+    "id_token",
+    "code token",
+    "code id_token",
+    "id_token token",
+    "code id_token token",
+    "none"
+  ],
+  "revocation_endpoint": "https://auth.uber.com/oauth/v2/revoke",
+  "scopes_supported": [
+    "openid",
+    "offline_access",
+    "profile",
+    "profile.mobile_number"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://auth.uber.com/oauth/v2/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://api.uber.com/v3/me"
+}

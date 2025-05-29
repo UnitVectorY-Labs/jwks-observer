@@ -1,0 +1,8 @@
+{
+  "authorization_endpoint": "https://auth.nextdoor.com/v2/authorize",
+  "introspection_endpoint": "https://auth.nextdoor.com/v2/introspect",
+  "issuer": "https://auth.nextdoor.com",
+  "jwks_uri": "https://auth.nextdoor.com/v2/jwks",
+  "revocation_endpoint": "https://auth.nextdoor.com/v2/revoke",
+  "token_endpoint": "https://auth.nextdoor.com/v2/token"
+}

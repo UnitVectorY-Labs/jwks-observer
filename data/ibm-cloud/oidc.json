@@ -1,0 +1,67 @@
+{
+  "authorization_endpoint": "https://identity-1.us-south.iam.cloud.ibm.com/identity/authorize",
+  "claims_supported": [
+    "iam_id",
+    "sub",
+    "aud",
+    "iss"
+  ],
+  "grant_types_supported": [
+    "implicit",
+    "authorization_code",
+    "password",
+    "refresh_token",
+    "urn:ibm:params:oauth:grant-type:apikey",
+    "urn:ibm:params:oauth:grant-type:identity-cookie",
+    "urn:ibm:params:oauth:grant-type:iam-cookie",
+    "urn:ibm:params:oauth:grant-type:delegated-refresh-token",
+    "urn:ibm:params:oauth:grant-type:ims-portal",
+    "urn:ibm:params:oauth:grant-type:iam-authz",
+    "urn:ibm:params:oauth:grant-type:derive"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://iam.cloud.ibm.com/identity",
+  "jwks_uri": "https://identity-1.us-south.iam.cloud.ibm.com/identity/keys",
+  "passcode_endpoint": "https://identity-1.us-south.iam.cloud.ibm.com/identity/passcode",
+  "public_hosts": [
+    "https://identity-1.us-south.iam.cloud.ibm.com",
+    "https://identity-2.us-south.iam.cloud.ibm.com",
+    "https://identity-3.us-south.iam.cloud.ibm.com",
+    "https://identity-1.uk-south.iam.cloud.ibm.com",
+    "https://identity-2.uk-south.iam.cloud.ibm.com",
+    "https://identity-3.uk-south.iam.cloud.ibm.com",
+    "https://identity-1.eu-central.iam.cloud.ibm.com",
+    "https://identity-2.eu-central.iam.cloud.ibm.com",
+    "https://identity-3.eu-central.iam.cloud.ibm.com",
+    "https://identity-1.ap-south.iam.cloud.ibm.com",
+    "https://identity-2.ap-south.iam.cloud.ibm.com",
+    "https://identity-3.ap-south.iam.cloud.ibm.com",
+    "https://identity-1.ap-north.iam.cloud.ibm.com",
+    "https://identity-2.ap-north.iam.cloud.ibm.com"
+  ],
+  "response_types_supported": [
+    "code",
+    "id_token",
+    "token id_token"
+  ],
+  "scopes_supported": [
+    "openid",
+    "email",
+    "profile",
+    "ibm",
+    "roles",
+    "containers-kubernetes",
+    "containers-openshift"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://identity-1.us-south.iam.cloud.ibm.com/identity/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://identity-1.us-south.iam.cloud.ibm.com/identity/userinfo"
+}

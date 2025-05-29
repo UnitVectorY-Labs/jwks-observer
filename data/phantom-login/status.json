@@ -1,0 +1,9 @@
+{
+  "jwks": {
+    "status_code": 404,
+    "error": "HTTP 404"
+  },
+  "oidc": {
+    "status_code": 200
+  }
+}

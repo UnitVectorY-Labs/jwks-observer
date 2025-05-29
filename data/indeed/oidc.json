@@ -1,0 +1,27 @@
+{
+  "authorization_endpoint": "https://secure.indeed.com/oauth/v2/authorize",
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "grant_types_supported": [
+    "authorization_code"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://secure.indeed.com",
+  "jwks_uri": "https://secure.indeed.com/.well-known/keys",
+  "response_types_supported": [
+    "code"
+  ],
+  "service_documentation": "https://opensource.indeedeng.io/api-documentation/docs/oauth/",
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://apis.indeed.com/oauth/v2/tokens",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://secure.indeed.com/v2/api/userinfo"
+}

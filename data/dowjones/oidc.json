@@ -1,0 +1,44 @@
+{
+  "authorization_endpoint": "https://sso.accounts.dowjones.com/authorize",
+  "claims_supported": [
+    "aud",
+    "email",
+    "email_verified",
+    "family_name",
+    "given_name",
+    "iat",
+    "exp",
+    "iss",
+    "sub"
+  ],
+  "grant_types_supported": [
+    "authorization_code",
+    "implicit",
+    "refresh_token",
+    "password",
+    "client_credentials",
+    "urn:ietf:params:oauth:grant-type:jwt-bearer"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "HS256",
+    "RS256"
+  ],
+  "issuer": "https://sso.accounts.dowjones.com/",
+  "jwks_uri": "https://sso.accounts.dowjones.com/.well-known/jwks.json",
+  "response_types_supported": [
+    "code",
+    "token",
+    "id_token"
+  ],
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "offline_access",
+    "given_name",
+    "family_name",
+    "email",
+    "email_verified"
+  ],
+  "token_endpoint": "https://sso.accounts.dowjones.com/oauth/token",
+  "userinfo_endpoint": "https://sso.accounts.dowjones.com/userinfo"
+}

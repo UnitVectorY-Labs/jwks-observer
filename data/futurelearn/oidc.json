@@ -1,0 +1,61 @@
+{
+  "authorization_endpoint": "https://www.futurelearn.com/oauth/authorize",
+  "claim_types_supported": [
+    "normal"
+  ],
+  "claims_supported": [
+    "iss",
+    "sub",
+    "aud",
+    "exp",
+    "iat",
+    "name",
+    "family_name",
+    "given_name",
+    "profile",
+    "picture",
+    "zoneinfo",
+    "updated_at",
+    "email",
+    "email_verified"
+  ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "end_session_endpoint": "https://www.futurelearn.com/sign-out",
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "refresh_token"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://www.futurelearn.com/oauth/introspect",
+  "issuer": "https://www.futurelearn.com",
+  "jwks_uri": "https://www.futurelearn.com/oauth/discovery/keys",
+  "response_modes_supported": [
+    "query",
+    "fragment",
+    "form_post"
+  ],
+  "response_types_supported": [
+    "code"
+  ],
+  "revocation_endpoint": "https://www.futurelearn.com/oauth/revoke",
+  "scopes_supported": [
+    "email",
+    "openid",
+    "profile"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://www.futurelearn.com/oauth/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://www.futurelearn.com/oauth/userinfo"
+}

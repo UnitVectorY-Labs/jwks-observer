@@ -1,0 +1,9 @@
+{
+  "jwks": {
+    "status_code": 200,
+    "error": "missing required field \"keys\""
+  },
+  "oidc": {
+    "status_code": 200
+  }
+}

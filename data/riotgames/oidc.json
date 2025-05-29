@@ -1,0 +1,301 @@
+{
+  "acr_values_supported": [
+    "0",
+    "urn:riot:bronze",
+    "urn:riot:silver",
+    "urn:riot:gold",
+    "urn:riot:parents"
+  ],
+  "authorization_encryption_alg_values_supported": [
+    "RSA-OAEP-256",
+    "ECDH-ES",
+    "ECDH-ES+A128KW",
+    "ECDH-ES+A192KW",
+    "ECDH-ES+A256KW",
+    "dir"
+  ],
+  "authorization_encryption_enc_values_supported": [
+    "A128CBC-HS256",
+    "A192CBC-HS384",
+    "A256CBC-HS512",
+    "A128GCM",
+    "A192GCM",
+    "A256GCM"
+  ],
+  "authorization_endpoint": "https://auth.riotgames.com/authorize",
+  "authorization_response_iss_parameter_supported": true,
+  "authorization_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "ES256",
+    "ES384",
+    "ES512"
+  ],
+  "backchannel_logout_session_supported": true,
+  "backchannel_logout_supported": true,
+  "check_session_iframe": "https://auth.riotgames.com/check-session-iframe",
+  "claim_types_supported": [
+    "normal"
+  ],
+  "claims_parameter_supported": true,
+  "claims_supported": [
+    "sub",
+    "iss",
+    "auth_time",
+    "acr",
+    "name"
+  ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "display_values_supported": [
+    "page",
+    "touch"
+  ],
+  "dpop_signing_alg_values_supported": [
+    "ES256K",
+    "PS384",
+    "ES384",
+    "RS384",
+    "ES256",
+    "RS256",
+    "ES512",
+    "PS256",
+    "PS512",
+    "RS512"
+  ],
+  "end_session_endpoint": "https://auth.riotgames.com/logout",
+  "frontchannel_logout_session_supported": true,
+  "frontchannel_logout_supported": true,
+  "grant_types_supported": [
+    "implicit",
+    "authorization_code",
+    "refresh_token",
+    "password",
+    "client_credentials"
+  ],
+  "id_token_encryption_alg_values_supported": [
+    "RSA-OAEP",
+    "RSA-OAEP-256",
+    "dir",
+    "ECDH-ES",
+    "ECDH-ES+A128KW",
+    "ECDH-ES+A192KW",
+    "ECDH-ES+A256KW"
+  ],
+  "id_token_encryption_enc_values_supported": [
+    "A128CBC-HS256",
+    "A256GCM"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "ES256",
+    "ES384",
+    "ES512"
+  ],
+  "introspection_endpoint": "https://auth.riotgames.com/token/introspect",
+  "issuer": "https://auth.riotgames.com",
+  "jwks_uri": "https://auth.riotgames.com/jwks.json",
+  "prompt_values_supported": [
+    "login",
+    "consent",
+    "create",
+    "select_account",
+    "none"
+  ],
+  "pushed_authorization_request_endpoint": "https://auth.riotgames.com/par",
+  "registration_endpoint": "https://auth.riotgames.com/clients",
+  "request_object_encryption_alg_values_supported": [
+    "RSA1_5",
+    "RSA-OAEP",
+    "RSA-OAEP-256",
+    "RSA-OAEP-384",
+    "RSA-OAEP-512",
+    "ECDH-ES",
+    "ECDH-ES+A128KW",
+    "ECDH-ES+A192KW",
+    "ECDH-ES+A256KW",
+    "dir"
+  ],
+  "request_object_encryption_enc_values_supported": [
+    "A128GCM",
+    "A192GCM",
+    "A256GCM",
+    "A128CBC-HS256",
+    "A192CBC-HS384",
+    "A256CBC-HS512",
+    "XC20P"
+  ],
+  "request_object_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "ES256",
+    "ES384",
+    "ES512"
+  ],
+  "request_parameter_supported": true,
+  "request_uri_parameter_supported": true,
+  "request_uri_quota": 10,
+  "require_request_uri_registration": true,
+  "response_modes_supported": [
+    "query",
+    "fragment"
+  ],
+  "response_types_supported": [
+    "code",
+    "token",
+    "id_token",
+    "id_token token",
+    "code id_token",
+    "code id_token token"
+  ],
+  "revocation_endpoint": "https://auth.riotgames.com/token/revoke",
+  "riot_amr_values_supported": [
+    "cookie",
+    "password",
+    "captcha",
+    "mfa",
+    "game_center",
+    "google_auth",
+    "facebook",
+    "apple",
+    "xbox"
+  ],
+  "riot_lol_regions_disabled": [],
+  "riot_lol_regions_supported": [
+    "BR1",
+    "EUN1",
+    "EUW1",
+    "JP1",
+    "KR",
+    "LA1",
+    "LA2",
+    "NA1",
+    "OC1",
+    "PBE1",
+    "RU",
+    "TR1",
+    "TW2",
+    "SG2",
+    "VN2",
+    "ME1"
+  ],
+  "riot_lol_userinfo_regions_enabled": [
+    "PBE1",
+    "OC1",
+    "JP1",
+    "KR",
+    "BR1",
+    "LA1",
+    "LA2",
+    "NA1",
+    "EUN1",
+    "EUW1",
+    "RU",
+    "TR1",
+    "TW2",
+    "SG2",
+    "VN2",
+    "ME1"
+  ],
+  "riot_partner_auth_config": {
+    "facebook": {
+      "permissions": [
+        "public_profile",
+        "email"
+      ]
+    },
+    "google_auth": {
+      "clientId": "187685766663-ct6bdnthcq6jlllecpg1guhthoc7i8vv.apps.googleusercontent.com"
+    }
+  },
+  "riot_recaptcha_public_key": "6LcGEv8SAAAAAPUTwLPaiMfnJNfedmGj4oww8ITT",
+  "riot_theme_values_supported": [
+    "lol",
+    "lor",
+    "valorant"
+  ],
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email",
+    "lol",
+    "summoner"
+  ],
+  "subject_types_supported": [
+    "public",
+    "pairwise"
+  ],
+  "tls_client_certificate_bound_access_tokens": true,
+  "token_endpoint": "https://auth.riotgames.com/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post",
+    "client_secret_jwt",
+    "private_key_jwt",
+    "none"
+  ],
+  "token_endpoint_auth_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "HS256",
+    "HS384",
+    "HS512",
+    "ES256",
+    "ES384",
+    "ES512"
+  ],
+  "ui_locales_supported": [
+    "en",
+    "cs",
+    "de",
+    "el",
+    "es",
+    "es-419",
+    "fr",
+    "hu",
+    "it",
+    "ms",
+    "pl",
+    "pt-BR",
+    "ro",
+    "ru",
+    "tr",
+    "ja",
+    "ko",
+    "id",
+    "th",
+    "vi",
+    "zh-Hans",
+    "zh-Hant",
+    "ar"
+  ],
+  "userinfo_encryption_alg_values_supported": [
+    "RSA-OAEP",
+    "RSA-OAEP-256",
+    "dir",
+    "ECDH-ES",
+    "ECDH-ES+A128KW",
+    "ECDH-ES+A192KW",
+    "ECDH-ES+A256KW"
+  ],
+  "userinfo_encryption_enc_values_supported": [
+    "A128CBC-HS256",
+    "A256GCM"
+  ],
+  "userinfo_endpoint": "https://auth.riotgames.com/userinfo",
+  "userinfo_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "ES256",
+    "ES384",
+    "ES512"
+  ]
+}

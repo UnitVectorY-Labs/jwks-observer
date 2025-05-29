@@ -1,0 +1,33 @@
+{
+  "authorization_endpoint": "https://www.pandora.com/oauth/v1/authorize",
+  "claims_supported": [
+    "aud",
+    "email",
+    "name",
+    "sub",
+    "gender",
+    "preferred_username"
+  ],
+  "grant_types_supported": [
+    "authorization_code",
+    "password",
+    "urn:ietf:params:oauth:grant-type:device_code",
+    "client_credentials"
+  ],
+  "issuer": "https://www.pandora.com",
+  "jwks_uri": "https://www.pandora.com/oauth/v1/jwks",
+  "response_types_supported": [
+    "code"
+  ],
+  "revocation_endpoint": "https://www.pandora.com/oauth/v1/revoke",
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email"
+  ],
+  "token_endpoint": "https://www.pandora.com/oauth/v1/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic"
+  ],
+  "userinfo_endpoint": "https://www.pandora.com/oauth/v1/userinfo"
+}

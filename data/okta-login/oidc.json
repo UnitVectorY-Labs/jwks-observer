@@ -1,0 +1,68 @@
+{
+  "authorization_endpoint": "https://login.okta.com/oauth2/v1/authorize",
+  "claims_supported": [
+    "iss",
+    "ver",
+    "sub",
+    "aud",
+    "iat",
+    "exp",
+    "jti",
+    "auth_time",
+    "amr",
+    "idp",
+    "nonce",
+    "name",
+    "nickname",
+    "preferred_username",
+    "given_name",
+    "middle_name",
+    "family_name",
+    "email",
+    "email_verified",
+    "profile",
+    "zoneinfo",
+    "locale",
+    "address",
+    "phone_number",
+    "picture",
+    "website",
+    "gender",
+    "birthdate",
+    "updated_at",
+    "at_hash",
+    "c_hash"
+  ],
+  "grant_types_supported": [
+    "implicit"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://login.okta.com",
+  "jwks_uri": "https://login.okta.com/oauth2/v1/keys",
+  "request_object_signing_alg_values_supported": [
+    "HS256",
+    "HS384",
+    "HS512"
+  ],
+  "request_parameter_supported": true,
+  "response_modes_supported": [
+    "fragment",
+    "form_post"
+  ],
+  "response_types_supported": [
+    "id_token"
+  ],
+  "scopes_supported": [
+    "openid",
+    "email",
+    "profile",
+    "address",
+    "phone",
+    "offline_access"
+  ],
+  "subject_types_supported": [
+    "public"
+  ]
+}

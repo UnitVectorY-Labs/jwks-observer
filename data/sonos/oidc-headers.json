@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "max-age=86400, must-revalidate",
+  "Content-Security-Policy": "frame-ancestors 'self'",
+  "Content-Type": "application/json",
+  "Server": "nginx"
+}

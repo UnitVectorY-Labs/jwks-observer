@@ -1,0 +1,54 @@
+{
+  "authorization_endpoint": "https://accounts.salesloft.com/oidc/authorize",
+  "claim_types_supported": [
+    "normal"
+  ],
+  "claims_supported": [
+    "iss",
+    "sub",
+    "aud",
+    "exp",
+    "iat",
+    "account_id",
+    "team_admin",
+    "username",
+    "region",
+    "team_id",
+    "given_name",
+    "family_name",
+    "updated_at",
+    "email",
+    "user_guid",
+    "name",
+    "email_verified"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://accounts.salesloft.com",
+  "jwks_uri": "https://accounts.salesloft.com/oidc/discovery/keys",
+  "response_modes_supported": [
+    "query",
+    "fragment"
+  ],
+  "response_types_supported": [
+    "code",
+    "token",
+    "id_token",
+    "id_token token"
+  ],
+  "scopes_supported": [
+    "system:all",
+    "external_emails:create",
+    "openid"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://accounts.salesloft.com/oidc/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://accounts.salesloft.com/oidc/userinfo"
+}

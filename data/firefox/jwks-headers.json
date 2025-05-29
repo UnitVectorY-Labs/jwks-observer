@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "max-age=10, must-revalidate, public",
+  "Content-Type": "application/json; charset=utf-8",
+  "Server": "nginx",
+  "Via": "1.1 google"
+}

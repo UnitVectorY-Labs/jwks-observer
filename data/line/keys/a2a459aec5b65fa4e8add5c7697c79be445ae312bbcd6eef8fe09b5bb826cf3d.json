@@ -1,0 +1,12 @@
+{
+  "alg": "ES256",
+  "crv": "P-256",
+  "first_observed": "2025-05-29T00:35:23Z",
+  "kid": "a2a459aec5b65fa4e8add5c7697c79be445ae312bbcd6eef8fe09b5bb826cf3d",
+  "kty": "EC",
+  "use": "sig",
+  "x": "jjZwXh2JwJfijLa6JVPgyo44uQvubKa1gsGNEl54OLQ",
+  "xvalue": "jjZwXh2JwJfijLa6JVPgyo44uQvubKa1gsGNEl54OLQ",
+  "y": "VEKaDMTi5IfeGSsjKzQm-USL-8Pj0q65_ns5sYkyU4A",
+  "yvalue": "VEKaDMTi5IfeGSsjKzQm-USL-8Pj0q65_ns5sYkyU4A"
+}

@@ -1,0 +1,5 @@
+{
+  "Content-Security-Policy": "script-src 'self' 'unsafe-hashes' 'sha256-FRuPMoCm2v334i+3oP3jLBT4RnmwV1pycDQaxVXK4MY=' 'sha256-4SZ0A6igARbStQhEwA9bnUV/PEWGXAVFbuUDUr6unx4=' 'sha256-JScmyo/guvdnDm2qH9UpulcO/Hmsv6ueuzicPcbywEs='; object-src 'none'; base-uri 'none'; img-src 'self' https://badlands.spacex.corp data:",
+  "Content-Type": "application/json",
+  "Server": "nginx"
+}

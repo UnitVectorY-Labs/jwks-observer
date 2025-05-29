@@ -1,0 +1,25 @@
+{
+  "authorization_endpoint": "https://access.line.me/oauth2/v2.1/authorize",
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "ES256"
+  ],
+  "issuer": "https://access.line.me",
+  "jwks_uri": "https://api.line.me/oauth2/v2.1/certs",
+  "response_types_supported": [
+    "code"
+  ],
+  "revocation_endpoint": "https://api.line.me/oauth2/v2.1/revoke",
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email"
+  ],
+  "subject_types_supported": [
+    "pairwise"
+  ],
+  "token_endpoint": "https://api.line.me/oauth2/v2.1/token",
+  "userinfo_endpoint": "https://api.line.me/oauth2/v2.1/userinfo"
+}

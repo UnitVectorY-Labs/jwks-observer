@@ -1,0 +1,41 @@
+{
+  "authorization_endpoint": "https://auth.myopenpass.com/v1/api/authorize",
+  "claims_supported": [
+    "jti",
+    "sub",
+    "aud",
+    "iss",
+    "exp",
+    "iat",
+    "email",
+    "email_verified",
+    "given_name",
+    "family_name"
+  ],
+  "end_session_endpoint": "https://auth.myopenpass.com/v1/api/logout",
+  "grant_types_supported": [
+    "authorization_code"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://auth.myopenpass.com/v1/api/tokeninfo",
+  "issuer": "https://auth.myopenpass.com",
+  "jwks_uri": "https://auth.myopenpass.com/.well-known/jwks",
+  "response_types_supported": [
+    "code"
+  ],
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://auth.myopenpass.com/v1/api/token",
+  "token_endpoint_auth_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "userinfo_endpoint": "https://auth.myopenpass.com/v1/api/userinfo"
+}

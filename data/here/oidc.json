@@ -1,0 +1,31 @@
+{
+  "authorization_endpoint": "https://account.here.com/authorize",
+  "claims_supported": [
+    "iss",
+    "aud",
+    "sub"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://account.here.com",
+  "jwks_uri": "https://account.here.com/openid/jwk",
+  "request_uri_parameter_supported": false,
+  "response_types_supported": [
+    "code",
+    "token",
+    "id_token"
+  ],
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email",
+    "phone",
+    "readwrite:ha"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://account.here.com/token",
+  "userinfo_endpoint": "https://account.here.com/openid/userinfo"
+}

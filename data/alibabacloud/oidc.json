@@ -1,0 +1,27 @@
+{
+  "authorization_endpoint": "https://signin.alibabacloud.com/oauth2/v1/auth",
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://oauth.alibabacloud.com",
+  "jwks_uri": "https://oauth.alibabacloud.com/v1/keys",
+  "requestid": "2b903cc3-7379-4732-81d8-d8ffc26e6767",
+  "response_types_supported": [
+    "code"
+  ],
+  "revocation_endpoint": "https://oauth.alibabacloud.com/v1/revoke",
+  "scopes_supported": [
+    "openid",
+    "aliuid",
+    "profile"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://oauth.alibabacloud.com/v1/token",
+  "userinfo_endpoint": "https://oauth.alibabacloud.com/v1/userinfo"
+}

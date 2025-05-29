@@ -1,0 +1,86 @@
+{
+  "authorization_endpoint": "https://accounts.nike.com/authorize/v1",
+  "check_session_iframe": "https://accounts.nike.com/checksessioniframe",
+  "claims_parameter_supported": false,
+  "claims_supported": [
+    "sub",
+    "iss",
+    "auth_time",
+    "given_name",
+    "family_name",
+    "email",
+    "email_verified",
+    "phone_number",
+    "phone_number_verified"
+  ],
+  "end_session_endpoint": "https://accounts.nike.com/rp_logout/v1",
+  "grant_types_supported": [
+    "authorization_code",
+    "refresh_token",
+    "urn:ietf:params:oauth:grant-type:token-exchange"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://accounts.nike.com",
+  "jwks_uri": "https://accounts.nike.com/discovery/keys",
+  "response_types_supported": [
+    "code"
+  ],
+  "revoke_endpoint": "https://accounts.nike.com/revoke/v1",
+  "revoke_token_endpoint": "https://accounts.nike.com/revoke/token/v1",
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email",
+    "phone",
+    "offline_access"
+  ],
+  "subject_types_supported": [
+    "public",
+    "pairwise"
+  ],
+  "token_endpoint": "https://accounts.nike.com/token/v1",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "ui_locales_supported": [
+    "ar",
+    "ca",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "en",
+    "en-GB",
+    "en-US",
+    "en-XA",
+    "es-419",
+    "es-AR",
+    "es-ES",
+    "es-MX",
+    "fr",
+    "fr-CA",
+    "hi",
+    "hr",
+    "hu",
+    "id",
+    "it",
+    "ja",
+    "ko",
+    "ms-MY",
+    "nb",
+    "nl",
+    "pl",
+    "pt-BR",
+    "pt-PT",
+    "ru",
+    "sv",
+    "th",
+    "tr",
+    "zh-Hans",
+    "zh-Hant"
+  ],
+  "userinfo_endpoint": "https://accounts.nike.com/user_info/v1"
+}

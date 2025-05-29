@@ -1,0 +1,87 @@
+{
+  "authorization_endpoint": "https://auth.spacex.com/authorize",
+  "claims_supported": [
+    "sub",
+    "aud",
+    "exp",
+    "iat",
+    "iss",
+    "auth_time",
+    "nonce",
+    "acr",
+    "amr",
+    "c_hash",
+    "at_hash",
+    "act",
+    "scopes",
+    "client_id",
+    "azp",
+    "preferred_username",
+    "name",
+    "family_name",
+    "given_name",
+    "locale",
+    "email",
+    "email_verified",
+    "phone_number",
+    "phone_number_verified"
+  ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "device_authorization_endpoint": "https://auth.spacex.com/device_authorization",
+  "end_session_endpoint": "https://auth.spacex.com/end_session",
+  "grant_types_supported": [
+    "authorization_code",
+    "implicit",
+    "urn:ietf:params:oauth:grant-type:token-exchange",
+    "urn:ietf:params:oauth:grant-type:jwt-bearer"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://auth.spacex.com/oauth/introspect",
+  "introspection_endpoint_auth_methods_supported": [
+    "client_secret_basic"
+  ],
+  "introspection_endpoint_auth_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://auth.spacex.com/",
+  "jwks_uri": "https://auth.spacex.com/keys",
+  "request_uri_parameter_supported": false,
+  "response_types_supported": [
+    "code",
+    "id_token",
+    "id_token token"
+  ],
+  "revocation_endpoint": "https://auth.spacex.com/revoke",
+  "revocation_endpoint_auth_methods_supported": [
+    "none",
+    "client_secret_basic"
+  ],
+  "revocation_endpoint_auth_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email",
+    "phone",
+    "address",
+    "offline_access"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://auth.spacex.com/oauth/token",
+  "token_endpoint_auth_methods_supported": [
+    "none",
+    "client_secret_basic"
+  ],
+  "ui_locales_supported": [
+    "en",
+    "es"
+  ],
+  "userinfo_endpoint": "https://auth.spacex.com/userinfo"
+}

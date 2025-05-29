@@ -1,0 +1,12 @@
+{
+  "claims_supported": [
+    "app",
+    "iss",
+    "sub",
+    "exp",
+    "ici",
+    "metadata"
+  ],
+  "issuer": "https://vimeo.com/",
+  "jwks_uri": "https://vimeo.com/.well-known/jwks.json"
+}

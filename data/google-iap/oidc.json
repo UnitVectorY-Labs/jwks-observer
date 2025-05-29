@@ -1,0 +1,23 @@
+{
+  "claims_supported": [
+    "aud",
+    "azp",
+    "email",
+    "exp",
+    "google",
+    "hd",
+    "iat",
+    "identity_source",
+    "iss",
+    "sub",
+    "workforce_identity"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "ES256"
+  ],
+  "issuer": "https://cloud.google.com/iap",
+  "jwks_uri": "https://www.gstatic.com/iap/verify/public_key-jwk",
+  "subject_types_supported": [
+    "public"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "public, max-age=3000",
+  "Content-Security-Policy": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/cloud-gatekeeper-team",
+  "Content-Type": "application/json",
+  "Server": "sffe"
+}

@@ -1,0 +1,61 @@
+{
+  "acr_values_supported": [
+    "urn:samsungaccount:acr:default",
+    "urn:samsungaccount:acr:basic1",
+    "urn:samsungaccount:acr:basic2",
+    "urn:samsungaccount:acr:basic3",
+    "urn:samsungaccount:acr:aal1"
+  ],
+  "authorization_endpoint": "https://account.samsung.com/v1/oidc/authorize",
+  "claims_supported": [
+    "aud",
+    "birthdate",
+    "email",
+    "email_verified",
+    "exp",
+    "family_name",
+    "given_name",
+    "iat",
+    "iss",
+    "name",
+    "nbf",
+    "preferred_username",
+    "preferred_username_type_code",
+    "sub"
+  ],
+  "end_session_endpoint": "https://account.samsung.com/v1/oidc/logout",
+  "grant_types_supported": [
+    "authorization_code"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://account.samsung.com",
+  "jwks_uri": "https://api.account.samsung.com/v1/oidc/certs",
+  "response_modes_supported": [
+    "query",
+    "form_post"
+  ],
+  "response_types_supported": [
+    "code",
+    "id_token",
+    "code id_token"
+  ],
+  "scopes_supported": [
+    "openid",
+    "email",
+    "profile",
+    "birthday",
+    "offline_access"
+  ],
+  "subject_types_supported": [
+    "public",
+    "pairwise"
+  ],
+  "token_endpoint": "https://api.account.samsung.com/v1/oidc/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://api.account.samsung.com/v1/oidc/userinfo"
+}

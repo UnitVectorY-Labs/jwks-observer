@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "max-age=86400, must-revalidate",
+  "Content-Security-Policy": "frame-ancestors 'self' https://amdsales--levittr2.sandbox.lightning.force.com https://amd.everyonesocial.app https://auth.everyonesocial-prod.com",
+  "Content-Type": "application/json",
+  "Server": "nginx"
+}

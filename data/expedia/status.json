@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "status_code": 0,
+    "error": "Get \"https://auth.expedia.com/oauth2/v1/keys\": tls: failed to verify certificate: x509: certificate is valid for *.kerberos.okta.com, kerberos.okta.com, not auth.expedia.com"
+  },
+  "oidc": {
+    "status_code": 0,
+    "error": "Get \"https://auth.expedia.com/.well-known/openid-configuration\": tls: failed to verify certificate: x509: certificate is valid for *.kerberos.okta.com, kerberos.okta.com, not auth.expedia.com"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2025-05-29T00:35:22Z",
+  "kid": "ims_na1-key-rt-1",
+  "kty": "RSA",
+  "n": "1bV8m-OdIhwXsdPWzBR_y1ntOIFLji7ewrul7Z3nLaXUMfZXOcNq89GAiSBdQaQRw1V3iw48Z8t-JUPclHD6__w0dH16OtP3-NwcdiM_334SvsZSYhpizlg7mleanpuNSx6tR4c9BB5Vc6VDaRJ5goMiPV_3zkDLdan7XweH8S7LmS_LXUsgIuCMmlhFOTmazvUb_DZOkaZ0nydGS61uSdOnDS0AiBwampi4aPYlCb-c5woNjiGjXNhxnzimUfV2kDP8-Q23hUfwC-09TvaJrT60TGhh3JRZ-D9yGKzZTfqCx4i6ZvdUrlJnVSvBi8k8Yx1lvJgMTongpik6JnBy2w",
+  "use": "sig"
+}

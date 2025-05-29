@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "public, max-age=0",
+  "Content-Security-Policy": "default-src 'none'; font-src 'self' https://*.ikea.com https://fonts.googleapis.com https://fonts.gstatic.com data:; style-src 'self' https://*.ikea.com  https://fonts.googleapis.com https://www.gstatic.com https://cdn.auth0.com 'unsafe-inline'; img-src https://*.ikea.com https://www.gstatic.com data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.gstatic.com https://maps.googleapis.com blob:; connect-src https://*.ikea.com https://api.addressy.com https://*.ingka.com https://maps.googleapis.com; manifest-src 'self'; frame-src 'self'; frame-ancestors 'self';",
+  "Content-Type": "application/json; charset=utf-8",
+  "Server": "IKEA Server"
+}
