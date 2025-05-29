@@ -43,7 +43,6 @@
       "y": "ASKsgoF9VqCq1mjg9QkaBI-Ixm1mk-or18PCpav33SQh5tCp3M7EemzTpvCDJChTz9wavmn7XLe-WeqySXpjd37x"
     },
     {
-      "alg": "ES384",
       "crv": "P-384",
       "kid": "7L_uUWVum5umnX63QF04t9qxNr0",
       "kty": "EC",
@@ -67,7 +66,6 @@
       "use": "sig"
     },
     {
-      "alg": "ES512",
       "crv": "P-521",
       "kid": "JcrPhYLr3N7JO-QffOKCQ1U_F_s",
       "kty": "EC",
@@ -76,7 +74,6 @@
       "y": "AQkWze7JlI1wB0xB_cNmKF1GDYenIGOCuilMuxUrVgzgnr9gRi53HCxgSwW08xNhkhR6uOnq2WGfLOKvLxQGgjsJ"
     },
     {
-      "alg": "ES256",
       "crv": "P-256",
       "kid": "tPs4pkE73qY3I6XN6BNkPDKW59o",
       "kty": "EC",
@@ -85,7 +82,6 @@
       "y": "fnsyFkqLN8O5muwKiKjWYszn0kwfB_QLfpp6USUKVJ8"
     },
     {
-      "alg": "ES256",
       "crv": "P-256",
       "kid": "0C9DFOFAGcKLONgiu6MyOwh0hiM",
       "kty": "EC",
@@ -94,7 +90,6 @@
       "y": "F5vuqaypY9hGsALsk4g81zfxux6pQYBe0UQMLgfSlbE"
     },
     {
-      "alg": "ES384",
       "crv": "P-384",
       "kid": "AIw5ZSzz1A4Nmaq3kAbJJs4ri30",
       "kty": "EC",
@@ -103,7 +98,6 @@
       "y": "-u259RVVfFkZEMuulJYwJvHbfgUE738hsedCRPM_KeauV65gOmrlPiaqZ-iBotgM"
     },
     {
-      "alg": "ES512",
       "crv": "P-521",
       "kid": "EhSoiMX3lx9OhM4JVArD_36xv_c",
       "kty": "EC",
