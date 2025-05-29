@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://auth.freshbooks.com/service/auth/oauth/discovery/keys",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://auth.freshbooks.com/.well-known/openid-configuration",
     "status_code": 200
   }
 }

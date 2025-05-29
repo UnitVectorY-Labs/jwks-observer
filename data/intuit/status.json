@@ -1,5 +1,6 @@
 {
   "jwks": {
+    "uri": "https://oauth.platform.intuit.com/op/v1/jwks",
     "status_code": 200
   }
 }

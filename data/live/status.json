@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://nexus.passport.com/public/partner/discovery/key",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://login.live.com/.well-known/openid-configuration",
     "status_code": 200
   }
 }

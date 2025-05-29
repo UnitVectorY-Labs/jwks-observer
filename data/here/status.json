@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://account.here.com/openid/jwk",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://account.here.com/.well-known/openid-configuration",
     "status_code": 200
   }
 }

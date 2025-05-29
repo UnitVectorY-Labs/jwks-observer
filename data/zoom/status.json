@@ -1,5 +1,6 @@
 {
   "jwks": {
+    "uri": "https://zoom.us/.well-known/jwks.json",
     "status_code": 200
   }
 }

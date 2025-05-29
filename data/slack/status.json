@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://slack.com/openid/connect/keys",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://slack.com/.well-known/openid-configuration",
     "status_code": 200
   }
 }

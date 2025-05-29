@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://accounts.shop.app/auth/jwks",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://accounts.shop.app/.well-known/openid-configuration",
     "status_code": 200
   }
 }

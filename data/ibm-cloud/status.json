@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://identity-1.us-south.iam.cloud.ibm.com/identity/keys",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://iam.cloud.ibm.com/identity/.well-known/openid-configuration",
     "status_code": 200
   }
 }

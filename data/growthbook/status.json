@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://auth.growthbook.io/.well-known/jwks.json",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://auth.growthbook.io/.well-known/openid-configuration",
     "status_code": 200
   }
 }

@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://api.login.yahoo.com/openid/v1/certs",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://api.login.yahoo.com/.well-known/openid-configuration",
     "status_code": 200
   }
 }

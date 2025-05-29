@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://secure.login.gov/api/openid_connect/certs",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://secure.login.gov/.well-known/openid-configuration",
     "status_code": 200
   }
 }

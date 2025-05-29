@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://login.ntppool.org/.well-known/jwks.json",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://login.ntppool.org/.well-known/openid-configuration",
     "status_code": 200
   }
 }

@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://account.aldi.us/id/keys",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://account.aldi.us/.well-known/openid-configuration",
     "status_code": 200
   }
 }

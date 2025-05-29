@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://login.progressive.com/pf/JWKS",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://login.progressive.com/.well-known/openid-configuration",
     "status_code": 200
   }
 }

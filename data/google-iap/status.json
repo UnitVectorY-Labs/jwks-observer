@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://www.gstatic.com/iap/verify/public_key-jwk",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://cloud.google.com/iap/.well-known/openid-configuration",
     "status_code": 200
   }
 }

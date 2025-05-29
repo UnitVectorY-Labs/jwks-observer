@@ -1,9 +1,11 @@
 {
   "jwks": {
+    "uri": "https://auth.vrbo.com/oauth2/v1/keys",
     "status_code": 0,
     "error": "Get \"https://auth.vrbo.com/oauth2/v1/keys\": tls: failed to verify certificate: x509: certificate is valid for *.kerberos.okta.com, kerberos.okta.com, not auth.vrbo.com"
   },
   "oidc": {
+    "uri": "https://auth.vrbo.com/.well-known/openid-configuration",
     "status_code": 0,
     "error": "Get \"https://auth.vrbo.com/.well-known/openid-configuration\": tls: failed to verify certificate: x509: certificate is valid for *.kerberos.okta.com, kerberos.okta.com, not auth.vrbo.com"
   }

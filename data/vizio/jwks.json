@@ -85,6 +85,7 @@
       "y": "fnsyFkqLN8O5muwKiKjWYszn0kwfB_QLfpp6USUKVJ8"
     },
     {
+      "alg": "ES256",
       "crv": "P-256",
       "kid": "0C9DFOFAGcKLONgiu6MyOwh0hiM",
       "kty": "EC",
@@ -93,6 +94,7 @@
       "y": "F5vuqaypY9hGsALsk4g81zfxux6pQYBe0UQMLgfSlbE"
     },
     {
+      "alg": "ES384",
       "crv": "P-384",
       "kid": "AIw5ZSzz1A4Nmaq3kAbJJs4ri30",
       "kty": "EC",
@@ -101,6 +103,7 @@
       "y": "-u259RVVfFkZEMuulJYwJvHbfgUE738hsedCRPM_KeauV65gOmrlPiaqZ-iBotgM"
     },
     {
+      "alg": "ES512",
       "crv": "P-521",
       "kid": "EhSoiMX3lx9OhM4JVArD_36xv_c",
       "kty": "EC",

@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://www.linkedin.com/oauth/openid/jwks",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://www.linkedin.com/oauth/.well-known/openid-configuration",
     "status_code": 200
   }
 }

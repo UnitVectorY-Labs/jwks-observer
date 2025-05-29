@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://www.tumblr.com/openid/v1/certs",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://tumblr.com/.well-known/openid-configuration",
     "status_code": 200
   }
 }

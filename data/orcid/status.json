@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://orcid.org/oauth/jwks",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://orcid.org/.well-known/openid-configuration",
     "status_code": 200
   }
 }

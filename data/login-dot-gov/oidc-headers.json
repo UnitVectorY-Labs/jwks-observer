@@ -2,5 +2,5 @@
   "Cache-Control": "max-age=604800, public",
   "Content-Security-Policy": "default-src 'self'; child-src 'self'; form-action 'self'; block-all-mixed-content; connect-src 'self'; font-src 'self' data: https://secure.login.gov; img-src 'self' data: login.gov https://secure.login.gov https://s3.us-west-2.amazonaws.com; media-src 'self'; object-src 'none'; script-src 'self' https://secure.login.gov 'nonce-'; style-src 'self' https://secure.login.gov 'nonce-'; base-uri 'self'",
   "Content-Type": "application/json; charset=utf-8",
-  "Via": "1.1 495082db97d209f49efad4679b8a6f28.cloudfront.net (CloudFront)"
+  "Via": "1.1 b8593ba23d897308f2aec684c5bd55f0.cloudfront.net (CloudFront)"
 }

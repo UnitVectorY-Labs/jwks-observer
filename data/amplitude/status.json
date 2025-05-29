@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://auth.amplitude.com/.well-known/jwks.json",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://auth.amplitude.com/.well-known/openid-configuration",
     "status_code": 200
   }
 }

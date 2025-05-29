@@ -1,9 +1,11 @@
 {
   "jwks": {
+    "uri": "https://auth.crateandbarrel.com/oauth2/v1/keys",
     "status_code": 403,
     "error": "HTTP 403"
   },
   "oidc": {
+    "uri": "https://auth.crateandbarrel.com/.well-known/openid-configuration",
     "status_code": 403,
     "error": "HTTP 403"
   }

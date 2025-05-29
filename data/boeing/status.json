@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://auth.boeing.com/pf/JWKS",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://auth.boeing.com/.well-known/openid-configuration",
     "status_code": 200
   }
 }

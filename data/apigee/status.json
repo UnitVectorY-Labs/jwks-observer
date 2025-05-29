@@ -1,9 +1,11 @@
 {
   "jwks": {
+    "uri": "https://login.apigee.com/token_key",
     "status_code": 200,
     "error": "missing required field \"keys\""
   },
   "oidc": {
+    "uri": "https://login.apigee.com/.well-known/openid-configuration",
     "status_code": 200
   }
 }

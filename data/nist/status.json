@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://login.nist.gov/oauth2/v1/keys",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://login.nist.gov/.well-known/openid-configuration",
     "status_code": 200
   }
 }

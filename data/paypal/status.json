@@ -1,8 +1,10 @@
 {
   "jwks": {
+    "uri": "https://api.paypal.com/v1/oauth2/certs",
     "status_code": 200
   },
   "oidc": {
+    "uri": "https://www.paypal.com/.well-known/openid-configuration",
     "status_code": 200
   }
 }

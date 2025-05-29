@@ -1,5 +1,6 @@
 {
   "jwks": {
+    "uri": "https://gitlab.com/oauth/discovery/keys",
     "status_code": 200
   }
 }
