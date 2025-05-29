@@ -20,10 +20,10 @@ const defaultCatalogURL = "https://raw.githubusercontent.com/UnitVectorY-Labs/jw
 
 // Service represents an entry in the JWKS catalog.
 type Service struct {
-	ID                  string `yaml:"id"`
-	Name                string `yaml:"name"`
-	OpenIDConfiguration string `yaml:"openid-configuration"`
-	JWKSURI             string `yaml:"jwks_uri"`
+	ID      string `yaml:"id"`
+	Name    string `yaml:"name"`
+	OIDCURI string `yaml:"openid-configuration"`
+	JWKSURI string `yaml:"jwks_uri"`
 }
 
 // Catalog holds the list of services.
@@ -33,6 +33,7 @@ type Catalog struct {
 
 // statusEntry captures the last HTTP status for a fetch.
 type statusEntry struct {
+	URI        string `json:"uri,omitempty"`
 	StatusCode int    `json:"status_code"`
 	Error      string `json:"error,omitempty"`
 }
@@ -84,14 +85,14 @@ func main() {
 			statuses := map[string]statusEntry{}
 
 			// 1) Fetch OIDC config
-			if svc.OpenIDConfiguration != "" {
+			if svc.OIDCURI != "" {
 				_, prettyOIDC, hdrsOIDC, codeOIDC, errOIDC :=
-					fetchAndValidateJSON(svc.OpenIDConfiguration, []string{"issuer", "jwks_uri"})
+					fetchAndValidateJSON(svc.OIDCURI, []string{"issuer", "jwks_uri"})
 				if errOIDC != nil {
-					statuses["oidc"] = statusEntry{StatusCode: codeOIDC, Error: errOIDC.Error()}
+					statuses["oidc"] = statusEntry{URI: svc.OIDCURI, StatusCode: codeOIDC, Error: errOIDC.Error()}
 					fmt.Fprintf(os.Stderr, "[%s] OIDC crawl failed: %v\n", svc.ID, errOIDC)
 				} else {
-					statuses["oidc"] = statusEntry{StatusCode: codeOIDC}
+					statuses["oidc"] = statusEntry{URI: svc.OIDCURI, StatusCode: codeOIDC}
 					writeFile(filepath.Join(dir, "oidc.json"), prettyOIDC)
 					writeHeaders(filepath.Join(dir, "oidc-headers.json"), hdrsOIDC)
 				}
@@ -104,10 +105,10 @@ func main() {
 				parsedJWKS, prettyJWKS, hdrsJWKS, codeJWKS, errJWKS :=
 					fetchAndValidateJSON(svc.JWKSURI, []string{"keys"})
 				if errJWKS != nil {
-					statuses["jwks"] = statusEntry{StatusCode: codeJWKS, Error: errJWKS.Error()}
+					statuses["jwks"] = statusEntry{URI: svc.JWKSURI, StatusCode: codeJWKS, Error: errJWKS.Error()}
 					fmt.Fprintf(os.Stderr, "[%s] JWKS crawl failed: %v\n", svc.ID, errJWKS)
 				} else {
-					statuses["jwks"] = statusEntry{StatusCode: codeJWKS}
+					statuses["jwks"] = statusEntry{URI: svc.JWKSURI, StatusCode: codeJWKS}
 					writeFile(filepath.Join(dir, "jwks.json"), prettyJWKS)
 					writeHeaders(filepath.Join(dir, "jwks-headers.json"), hdrsJWKS)
 
