@@ -9,7 +9,7 @@ The **jwks-observer** reads the list of services from the jwks-catalog (either f
 1.	Fetches the OIDC configuration URL and validates that it contains the required top-level fields (issuer, jwks_uri).
 2.	Fetches the JWKS URL and validates that it contains the keys array.
 3.	Records response metadata (stable HTTP headers, status codes, and any error messages).
-4.	Tracks each individual JWK by KID, stamping when it was first observed and when it was last observed.
+4.	Tracks each individual JWK by KID, stamping when it was first observed and when it was last observed. Individual keys are stored in the `keys/` directory.
 5.	Outputs all of the above into a structured directory under data/, committing diffs into Git so that you can see how keys and configurations evolve over time.
 
 This is scheduled to run once a day with the updated results automatically committed to this repository.
@@ -19,9 +19,8 @@ This is scheduled to run once a day with the updated results automatically commi
 ```
 data/
 └── <service-id>/
-    ├── jwks.json               # pretty-printed JWKS response
     ├── jwks-headers.json       # selected HTTP headers from the JWKS response
-    ├── jwks-observed.json      # timestamps of when JWKS keys were first and last observed 
+    ├── jwks-observed.json      # alphabetically sorted array of active JWKS key IDs (KIDs)
     └── keys/
         ├── <kid1>.json         # JWKS keys including historical keys
         ├── <kid2>.json
@@ -50,25 +49,7 @@ data/
 }
 ```
 
-### `jwks.json`
-
-- Contents: the raw JWKS object as returned by the server (must include a top-level keys array).
-- Formatting: pretty-printed, two-space indent, keys sorted. This does not directly represent the payloadexact payload returned by the server, rather the content that was observed at the time of the fetch.
-
-```json
-{
-  "keys": [
-    {
-      "e": "AQAB",
-      "kty": "RSA",
-      "kid": "ABC123",
-      "n": "0vx7agoebGcQSuuPiL..."
-    }
-  ]
-}
-```
-
-### `oidc-headers.json` & `jwks-headers.json`
+### `jwks-headers.json`
 
 - Contents: subset of “stable” response headers mapped as Header-Name: value.
   - Content-Type
@@ -104,21 +85,16 @@ data/
 }
 ```
 
-
 ### `jwks-observed.json`
-- Contents: map of all seen KIDs → first_observed (RFC3339 UTC) and optional last_observed when a key disappears.
-- Purpose: This file tracks the history of each key by its KID, allowing you to see when keys were first observed and when they were last observed (if they are no longer present in the current JWKS).
+- Contents: an alphabetically sorted JSON array of active KIDs (Key IDs) from the JWKS endpoint.
+- Purpose: This file lists the KIDs that are currently present in the JWKS, allowing for a quick overview of active keys. Timestamps for when keys are first/last observed are tracked within individual key files in the `keys/` directory.
 
 ```json
-{
-  "ABC123": {
-    "first_observed": "2025-05-01T08:00:00Z"
-  },
-  "XYZ789": {
-    "first_observed": "2025-05-10T12:30:00Z",
-    "last_observed":  "2025-05-20T15:45:00Z"
-  }
-}
+[
+  "ABC123",
+  "DEF456",
+  "XYZ789"
+]
 ```
 
 ### `keys/<kid>.json`

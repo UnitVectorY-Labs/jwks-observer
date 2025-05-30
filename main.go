@@ -10,6 +10,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"sort"
 	"sync"
 	"time"
 
@@ -39,6 +40,7 @@ type statusEntry struct {
 }
 
 // KeyObservation tracks when a JWK was first and last seen.
+// This struct is now primarily for the individual key files.
 type KeyObservation struct {
 	FirstObserved string `json:"first_observed"`
 	LastObserved  string `json:"last_observed,omitempty"`
@@ -102,14 +104,13 @@ func main() {
 
 			// 2) Fetch JWKS
 			if svc.JWKSURI != "" {
-				parsedJWKS, prettyJWKS, hdrsJWKS, codeJWKS, errJWKS :=
+				parsedJWKS, _, hdrsJWKS, codeJWKS, errJWKS :=
 					fetchAndValidateJSON(svc.JWKSURI, []string{"keys"})
 				if errJWKS != nil {
 					statuses["jwks"] = statusEntry{URI: svc.JWKSURI, StatusCode: codeJWKS, Error: errJWKS.Error()}
 					fmt.Fprintf(os.Stderr, "[%s] JWKS crawl failed: %v\n", svc.ID, errJWKS)
 				} else {
 					statuses["jwks"] = statusEntry{URI: svc.JWKSURI, StatusCode: codeJWKS}
-					writeFile(filepath.Join(dir, "jwks.json"), prettyJWKS)
 					writeHeaders(filepath.Join(dir, "jwks-headers.json"), hdrsJWKS)
 
 					// 3) Update observed keys
@@ -223,13 +224,24 @@ func writeHeaders(path string, hdrs http.Header) {
 
 // updateObservedKeys reads (or creates) jwks-observed.json, updates first/last observed times,
 // writes per-key files, and writes back jwks-observed.json.
+// jwks-observed.json will now be an array of active KIDs.
 func updateObservedKeys(keysDir, serviceDir string, parsedJWKS interface{}) {
 	obsPath := filepath.Join(serviceDir, "jwks-observed.json")
 
-	// load existing observations
-	obs := map[string]KeyObservation{}
-	if data, err := os.ReadFile(obsPath); err == nil {
-		json.Unmarshal(data, &obs)
+	// load existing observations from individual key files to preserve first_observed dates
+	existingKeyFiles, _ := filepath.Glob(filepath.Join(keysDir, "*.json"))
+	obsData := make(map[string]KeyObservation)
+	for _, keyFile := range existingKeyFiles {
+		kid := filepath.Base(keyFile[:len(keyFile)-len(filepath.Ext(keyFile))])
+		if data, err := os.ReadFile(keyFile); err == nil {
+			var keyData struct {
+				FirstObserved string `json:"first_observed"`
+				LastObserved  string `json:"last_observed,omitempty"`
+			}
+			if json.Unmarshal(data, &keyData) == nil {
+				obsData[kid] = KeyObservation{FirstObserved: keyData.FirstObserved, LastObserved: keyData.LastObserved}
+			}
+		}
 	}
 
 	// extract current keys
@@ -237,55 +249,64 @@ func updateObservedKeys(keysDir, serviceDir string, parsedJWKS interface{}) {
 	rawKeys := obj["keys"].([]interface{})
 	now := time.Now().UTC().Format(time.RFC3339)
 
-	currentKids := map[string]struct{}{}
+	currentKidsMap := make(map[string]struct{})
+	activeKidsList := []string{}
+
 	for _, raw := range rawKeys {
 		keyObj := raw.(map[string]interface{})
 		kid, _ := keyObj["kid"].(string)
-		currentKids[kid] = struct{}{}
+		currentKidsMap[kid] = struct{}{}
+		activeKidsList = append(activeKidsList, kid)
 
-		entry, seen := obs[kid]
-		if !seen {
+		entry, seen := obsData[kid]
+		if !seen || entry.FirstObserved == "" { // If new or first_observed was missing
 			entry.FirstObserved = now
 		}
-		// clear any previous “last observed” if it reappeared
+		// Clear any previous "last_observed" if it reappeared
 		entry.LastObserved = ""
-
-		obs[kid] = entry
+		obsData[kid] = entry
 
 		// write the individual key file
-		keyObj["first_observed"] = entry.FirstObserved
-		if entry.LastObserved != "" {
-			keyObj["last_observed"] = entry.LastObserved
+		// Ensure first_observed is part of the key object before marshalling
+		keyWithTimestamps := make(map[string]interface{})
+		for k, v := range keyObj {
+			keyWithTimestamps[k] = v
 		}
-		if kb, err := json.MarshalIndent(keyObj, "", "  "); err != nil {
+		keyWithTimestamps["first_observed"] = entry.FirstObserved
+		// Do not write last_observed if it's empty
+
+		if kb, err := json.MarshalIndent(keyWithTimestamps, "", "  "); err != nil {
 			fmt.Fprintf(os.Stderr, "key marshal error %s/%s.json: %v\n", keysDir, kid, err)
 		} else {
 			os.WriteFile(filepath.Join(keysDir, kid+".json"), kb, 0o644)
 		}
 	}
 
-	// mark any keys that disappeared
-	for kid, entry := range obs {
-		if _, ok := currentKids[kid]; !ok && entry.LastObserved == "" {
+	// mark any keys that disappeared by adding last_observed to their individual files
+	for kid, entry := range obsData {
+		if _, ok := currentKidsMap[kid]; !ok && entry.LastObserved == "" {
 			entry.LastObserved = now
-			obs[kid] = entry
+			obsData[kid] = entry // Update obsData for consistency, though it's not directly saved anymore
 
-			// update the key file as well
-			path := filepath.Join(keysDir, kid+".json")
-			if data, err := os.ReadFile(path); err == nil {
-				var m map[string]interface{}
-				if err := json.Unmarshal(data, &m); err == nil {
-					m["last_observed"] = now
-					if ub, err := json.MarshalIndent(m, "", "  "); err == nil {
-						os.WriteFile(path, ub, 0o644)
+			// update the individual key file with last_observed
+			keyFilePath := filepath.Join(keysDir, kid+".json")
+			if data, err := os.ReadFile(keyFilePath); err == nil {
+				var keyMap map[string]interface{}
+				if json.Unmarshal(data, &keyMap) == nil {
+					keyMap["last_observed"] = now
+					if kb, err := json.MarshalIndent(keyMap, "", "  "); err == nil {
+						os.WriteFile(keyFilePath, kb, 0o644)
 					}
 				}
 			}
 		}
 	}
 
-	// write back the observed map
-	if b, err := json.MarshalIndent(obs, "", "  "); err != nil {
+	// Sort the active KIDs alphabetically
+	sort.Strings(activeKidsList)
+
+	// write back the jwks-observed.json as a sorted array of active KIDs
+	if b, err := json.MarshalIndent(activeKidsList, "", "  "); err != nil {
 		fmt.Fprintf(os.Stderr, "observed marshal error %s: %v\n", obsPath, err)
 	} else if err := os.WriteFile(obsPath, b, 0o644); err != nil {
 		fmt.Fprintf(os.Stderr, "observed write error %s: %v\n", obsPath, err)
