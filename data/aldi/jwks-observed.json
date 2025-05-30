@@ -1,20 +1,8 @@
-{
-  "252": {
-    "first_observed": "2025-05-29T00:35:23Z"
-  },
-  "254": {
-    "first_observed": "2025-05-29T00:35:23Z"
-  },
-  "256": {
-    "first_observed": "2025-05-29T00:35:23Z"
-  },
-  "CORE_ATJWT.00D5Y000001dqCf.1741665792780": {
-    "first_observed": "2025-05-29T00:35:23Z"
-  },
-  "CORE_ATJWT.00D5Y000001dqCf.1744258808639": {
-    "first_observed": "2025-05-29T00:35:23Z"
-  },
-  "CORE_ATJWT.00D5Y000001dqCf.1746851834856": {
-    "first_observed": "2025-05-29T00:35:23Z"
-  }
-}
+[
+  "252",
+  "254",
+  "256",
+  "CORE_ATJWT.00D5Y000001dqCf.1741665792780",
+  "CORE_ATJWT.00D5Y000001dqCf.1744258808639",
+  "CORE_ATJWT.00D5Y000001dqCf.1746851834856"
+]
