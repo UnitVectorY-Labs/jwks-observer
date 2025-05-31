@@ -1,5 +1,5 @@
 {
-  "Cache-Control": "max-age=6908111, must-revalidate",
+  "Cache-Control": "max-age=6821755, must-revalidate",
   "Content-Security-Policy": "default-src 'self' peetniks.okta.com login.peets.com *.oktacdn.com; connect-src 'self' peetniks.okta.com peetniks-admin.okta.com login.peets.com *.oktacdn.com *.mixpanel.com *.mapbox.com peetniks.kerberos.okta.com peetniks.mtls.okta.com https://oinmanager.okta.com data: *.ingest.sentry.io data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com; script-src 'unsafe-inline' 'unsafe-eval' 'self' 'report-sample' peetniks.okta.com login.peets.com *.oktacdn.com; style-src 'unsafe-inline' 'self' 'report-sample' peetniks.okta.com login.peets.com *.oktacdn.com; frame-src 'self' peetniks.okta.com peetniks-admin.okta.com login.peets.com login.okta.com *.vidyard.com; img-src 'self' peetniks.okta.com login.peets.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com *.vidyard.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com blob:; font-src 'self' peetniks.okta.com login.peets.com data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'",
   "Content-Type": "application/json",
   "Server": "nginx"

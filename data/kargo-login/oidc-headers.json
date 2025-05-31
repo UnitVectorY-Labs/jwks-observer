@@ -1,6 +1,6 @@
 {
   "Cache-Control": "max-age=86400, must-revalidate",
-  "Content-Security-Policy": "frame-ancestors 'self'",
+  "Content-Security-Policy": "frame-ancestors 'self' https://looker.kargo.com",
   "Content-Type": "application/json",
   "Server": "nginx"
 }
