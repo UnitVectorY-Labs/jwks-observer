@@ -1,7 +1,11 @@
 {
   "authorization_endpoint": "https://id.ups.com/authorize",
+  "backchannel_authentication_endpoint": "https://id.ups.com/bc-authorize",
   "backchannel_logout_session_supported": true,
   "backchannel_logout_supported": true,
+  "backchannel_token_delivery_modes_supported": [
+    "poll"
+  ],
   "claims_supported": [
     "aud",
     "auth_time",
