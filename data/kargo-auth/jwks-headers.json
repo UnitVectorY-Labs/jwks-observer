@@ -1,5 +1,5 @@
 {
-  "Cache-Control": "max-age=7261344, must-revalidate",
+  "Cache-Control": "max-age=7174961, must-revalidate",
   "Content-Security-Policy": "default-src 'self' kargo-external.okta.com auth.kargo.com *.oktacdn.com; connect-src 'self' kargo-external.okta.com kargo-external-admin.okta.com auth.kargo.com *.oktacdn.com *.mixpanel.com *.mapbox.com kargo-external.kerberos.okta.com https://oinmanager.okta.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com; script-src 'unsafe-inline' 'unsafe-eval' 'self' 'report-sample' kargo-external.okta.com auth.kargo.com *.oktacdn.com; style-src 'unsafe-inline' 'self' 'report-sample' kargo-external.okta.com auth.kargo.com *.oktacdn.com; frame-src 'self' kargo-external.okta.com kargo-external-admin.okta.com auth.kargo.com login.okta.com *.vidyard.com; img-src 'self' kargo-external.okta.com auth.kargo.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com *.vidyard.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com blob:; font-src 'self' kargo-external.okta.com auth.kargo.com data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'",
   "Content-Type": "application/json",
   "Server": "nginx"
