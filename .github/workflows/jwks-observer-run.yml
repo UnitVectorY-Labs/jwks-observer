@@ -32,7 +32,7 @@ jobs:
             ${{ runner.os }}-go-
 
       - name: Install dependencies
-        run: go mod tidy
+        run: go mod download
 
       - name: Run the application
         run: go run .
