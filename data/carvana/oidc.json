@@ -951,6 +951,8 @@
     "trinity-readwrite",
     "ccai_agent_read",
     "ccai_agent_write",
+    "fmt-read",
+    "fmt-write",
     "offline_access"
   ],
   "subject_types_supported": [

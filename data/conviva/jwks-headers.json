@@ -1,5 +1,5 @@
 {
-  "Cache-Control": "max-age=5262724, must-revalidate",
+  "Cache-Control": "max-age=5176375, must-revalidate",
   "Content-Security-Policy": "default-src 'self' conviva.okta-emea.com auth.conviva.com *.oktacdn.com; connect-src 'self' conviva.okta-emea.com conviva-admin.okta-emea.com auth.conviva.com *.oktacdn.com *.mixpanel.com *.mapbox.com conviva.kerberos.okta-emea.com conviva.mtls.okta-emea.com https://oinmanager.okta.com data: *.ingest.sentry.io data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com; script-src 'unsafe-inline' 'unsafe-eval' 'self' 'report-sample' conviva.okta-emea.com auth.conviva.com *.oktacdn.com; style-src 'unsafe-inline' 'self' 'report-sample' conviva.okta-emea.com auth.conviva.com *.oktacdn.com; frame-src 'self' conviva.okta-emea.com conviva-admin.okta-emea.com auth.conviva.com login.okta.com; img-src 'self' conviva.okta-emea.com auth.conviva.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com blob:; font-src 'self' conviva.okta-emea.com auth.conviva.com data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'",
   "Content-Type": "application/json",
   "Server": "nginx"

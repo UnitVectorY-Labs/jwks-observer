@@ -223,6 +223,7 @@
   "scopes_supported": [
     "jct.flightops.das/api",
     "https://staging.accounts.boeing.com/update",
+    "kzr.crew-modules.boeing",
     "https://prod.FlightChat/staff",
     "https://umt.boeing.com/update",
     "https://staging.umt.boeing.com/read",
