@@ -1,5 +1,5 @@
 {
-  "authorization_endpoint": "https://account.apple.com/auth/authorize",
+  "authorization_endpoint": "https://appleid.apple.com/auth/authorize",
   "claims_supported": [
     "aud",
     "email",
@@ -17,8 +17,8 @@
   "id_token_signing_alg_values_supported": [
     "RS256"
   ],
-  "issuer": "https://account.apple.com",
-  "jwks_uri": "https://account.apple.com/auth/keys",
+  "issuer": "https://appleid.apple.com",
+  "jwks_uri": "https://appleid.apple.com/auth/keys",
   "response_modes_supported": [
     "query",
     "fragment",
@@ -27,7 +27,7 @@
   "response_types_supported": [
     "code"
   ],
-  "revocation_endpoint": "https://account.apple.com/auth/revoke",
+  "revocation_endpoint": "https://appleid.apple.com/auth/revoke",
   "scopes_supported": [
     "openid",
     "email",
@@ -36,7 +36,7 @@
   "subject_types_supported": [
     "pairwise"
   ],
-  "token_endpoint": "https://account.apple.com/auth/token",
+  "token_endpoint": "https://appleid.apple.com/auth/token",
   "token_endpoint_auth_methods_supported": [
     "client_secret_post"
   ]

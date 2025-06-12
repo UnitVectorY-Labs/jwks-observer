@@ -953,6 +953,7 @@
     "ccai_agent_write",
     "fmt-read",
     "fmt-write",
+    "zstress",
     "offline_access"
   ],
   "subject_types_supported": [
