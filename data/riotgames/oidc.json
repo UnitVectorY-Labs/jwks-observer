@@ -101,10 +101,10 @@
   "issuer": "https://auth.riotgames.com",
   "jwks_uri": "https://auth.riotgames.com/jwks.json",
   "prompt_values_supported": [
+    "none",
     "login",
     "consent",
     "create",
-    "none",
     "select_account"
   ],
   "pushed_authorization_request_endpoint": "https://auth.riotgames.com/par",
@@ -164,7 +164,8 @@
     "google_auth",
     "facebook",
     "apple",
-    "xbox"
+    "xbox",
+    "keypair"
   ],
   "riot_lol_regions_disabled": [],
   "riot_lol_regions_supported": [
