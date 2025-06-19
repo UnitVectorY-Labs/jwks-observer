@@ -2,5 +2,5 @@
   "Cache-Control": "public, max-age=15, stale-while-revalidate=15, stale-if-error=86400",
   "Content-Type": "application/json; charset=utf-8",
   "Server": "cloudflare",
-  "Via": "1.1 f444e8123b31546eb9c1642c90d68142.cloudfront.net (CloudFront)"
+  "Via": "1.1 35f709102d463fb846b7d66f9b96dcce.cloudfront.net (CloudFront)"
 }
