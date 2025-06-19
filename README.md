@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT) [![Work In Progress](https://img.shields.io/badge/Status-Work%20In%20Progress-yellow)](https://guide.unitvectorylabs.com/bestpractices/status/#work-in-progress)
+
 # jwks-observer
 
 Observes and records changes to public OIDC metadata and JWKS for services listed in the jwks-catalog.
