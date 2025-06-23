@@ -3,5 +3,5 @@
   "Content-Security-Policy": "default-src 'none'; frame-src https://challenges.cloudflare.com/; connect-src *.siemens.com www.cloudflarestatus.com; font-src *.siemens.com; img-src 'self' data: *.siemens.com *.auth0.com *.siemens-sfs.auth0app.com; script-src 'unsafe-eval' 'unsafe-inline' *.siemens.com  cdn.eu.auth0.com cdn.us.auth0.com code.jquery.com challenges.cloudflare.com; style-src 'unsafe-inline' *.auth0.com *.siemens.com *.siemens-sfs.auth0app.com; object-src 'none'",
   "Content-Type": "application/json; charset=utf-8",
   "Server": "cloudflare",
-  "Via": "1.1 18d8a69a30308aa071168e8aed30be36.cloudfront.net (CloudFront)"
+  "Via": "1.1 145bb9cba9e12350510f02ee9ab6ca22.cloudfront.net (CloudFront)"
 }

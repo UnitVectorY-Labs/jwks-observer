@@ -102,10 +102,10 @@
   "jwks_uri": "https://auth.riotgames.com/jwks.json",
   "prompt_values_supported": [
     "create",
-    "none",
-    "consent",
+    "login",
     "select_account",
-    "login"
+    "none",
+    "consent"
   ],
   "pushed_authorization_request_endpoint": "https://auth.riotgames.com/par",
   "registration_endpoint": "https://auth.riotgames.com/clients",

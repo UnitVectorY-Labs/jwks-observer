@@ -2,5 +2,5 @@
   "Cache-Control": "public, max-age=15, stale-while-revalidate=15, stale-if-error=86400",
   "Content-Type": "application/json",
   "Server": "istio-envoy",
-  "Via": "1.1 9112f917b5d446937bb37b520eab286c.cloudfront.net (CloudFront)"
+  "Via": "1.1 55b6418a8a2f714a67d8e4d292154ef2.cloudfront.net (CloudFront)"
 }
