@@ -954,6 +954,8 @@
     "fmt-read",
     "fmt-write",
     "zstress",
+    "customer-insights-read",
+    "verifs-insights-read",
     "offline_access"
   ],
   "subject_types_supported": [

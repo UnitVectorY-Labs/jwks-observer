@@ -2,7 +2,8 @@
   "authorization_endpoint": "https://login.nvidia.com/authorize",
   "end_session_endpoint": "https://login.nvidia.com/logout",
   "id_token_signing_alg_values_supported": [
-    "ES256"
+    "ES256",
+    "RS256"
   ],
   "issuer": "https://login.nvidia.com",
   "jwks_uri": "https://login.nvidia.com/.well-known/jwks.json",
