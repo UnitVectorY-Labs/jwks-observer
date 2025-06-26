@@ -1,5 +1,5 @@
 {
-  "Cache-Control": "max-age=5608304, must-revalidate",
+  "Cache-Control": "max-age=5521946, must-revalidate",
   "Content-Security-Policy": "default-src 'self' emirates.okta-emea.com auth.emirates.com *.oktacdn.com; connect-src 'self' emirates.okta-emea.com emirates-admin.okta-emea.com auth.emirates.com *.oktacdn.com *.mixpanel.com *.mapbox.com emirates.kerberos.okta-emea.com emirates.mtls.okta-emea.com https://oinmanager.okta.com data: *.ingest.sentry.io; script-src 'unsafe-inline' 'unsafe-eval' 'self' 'report-sample' emirates.okta-emea.com auth.emirates.com *.oktacdn.com; style-src 'unsafe-inline' 'self' 'report-sample' emirates.okta-emea.com auth.emirates.com *.oktacdn.com; frame-src 'self' emirates.okta-emea.com emirates-admin.okta-emea.com auth.emirates.com login.okta.com; img-src 'self' emirates.okta-emea.com auth.emirates.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com data: blob:; font-src 'self' emirates.okta-emea.com auth.emirates.com data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'",
   "Content-Type": "application/json",
   "Server": "nginx"
