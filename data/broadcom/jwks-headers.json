@@ -1,5 +1,5 @@
 {
-  "Cache-Control": "max-age=5263932, must-revalidate",
+  "Cache-Control": "max-age=5177594, must-revalidate",
   "Content-Security-Policy": "default-src 'self' avagoext.okta.com login.broadcom.com *.oktacdn.com; connect-src 'self' avagoext.okta.com avagoext-admin.okta.com login.broadcom.com *.oktacdn.com *.mixpanel.com *.mapbox.com avagoext.kerberos.okta.com avagoext.mtls.okta.com https://oinmanager.okta.com data: *.ingest.sentry.io; script-src 'unsafe-inline' 'unsafe-eval' 'self' 'report-sample' avagoext.okta.com login.broadcom.com *.oktacdn.com; style-src 'unsafe-inline' 'self' 'report-sample' avagoext.okta.com login.broadcom.com *.oktacdn.com; frame-src 'self' avagoext.okta.com avagoext-admin.okta.com login.broadcom.com login.okta.com *.vidyard.com; img-src 'self' avagoext.okta.com login.broadcom.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com *.vidyard.com data: blob:; font-src 'self' avagoext.okta.com login.broadcom.com data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'",
   "Content-Type": "application/json",
   "Server": "nginx"
