@@ -2,5 +2,5 @@
   "Cache-Control": "max-age=[placeholder]",
   "Content-Type": "application/json; charset=utf-8",
   "Server": "nginx",
-  "Via": "1.1 3bb2b699cd244bf37141ea08a6a61732.cloudfront.net (CloudFront)"
+  "Via": "1.1 [placeholder].cloudfront.net (CloudFront)"
 }
