@@ -56,7 +56,7 @@ var stableHeaderKeys = []string{
 	"Content-Security-Policy",
 }
 var cacheControlRegex = regexp.MustCompile(`(max-age=)(\d+)`)
-var viaRegex = regexp.MustCompile(`(1\.1 )([a-zA-Z0-9-_\.]+)(\.cloudfront\.net \(CloudFront\))`) 
+var viaRegex = regexp.MustCompile(`(1\.1 )([a-zA-Z0-9_\.-]+)(\.cloudfront\.net \(CloudFront\))`) 
 var cspNonceRegex = regexp.MustCompile(`('nonce-)([a-zA-Z0-9-_=]+)(')`) 
 
 func main() {
