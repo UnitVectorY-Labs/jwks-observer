@@ -1,5 +1,5 @@
 {
-  "Cache-Control": "max-age=0, private, must-revalidate",
+  "Cache-Control": "max-age=[placeholder], private, must-revalidate",
   "Content-Security-Policy": "default-src 'self' blob: https://*.futurelearn.com; object-src https://*.vzaar.com https://vzaar-video.ccindex.cn https://vjs.zencdn.net; base-uri 'self' https://*.futurelearn.com; frame-ancestors 'self' https://*.futurelearn.com; frame-src 'self' *; connect-src 'self' *; form-action 'self' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: about: *; style-src 'self' 'unsafe-inline' blob: *; img-src 'self' data: *; media-src 'self' * blob:; font-src 'self' about: data: *;report-uri /csp-violation",
   "Content-Type": "application/json; charset=utf-8",
   "Server": "cloudflare"

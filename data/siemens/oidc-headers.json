@@ -1,7 +1,7 @@
 {
-  "Cache-Control": "public, max-age=15, stale-while-revalidate=15, stale-if-error=86400",
+  "Cache-Control": "public, max-age=[placeholder], stale-while-revalidate=15, stale-if-error=86400",
   "Content-Security-Policy": "default-src 'none'; frame-src https://challenges.cloudflare.com/; connect-src *.siemens.com www.cloudflarestatus.com; font-src *.siemens.com; img-src 'self' data: *.siemens.com *.auth0.com *.siemens-sfs.auth0app.com; script-src 'unsafe-eval' 'unsafe-inline' *.siemens.com  cdn.eu.auth0.com cdn.us.auth0.com code.jquery.com challenges.cloudflare.com; style-src 'unsafe-inline' *.auth0.com *.siemens.com *.siemens-sfs.auth0app.com; object-src 'none'",
   "Content-Type": "application/json; charset=utf-8",
   "Server": "cloudflare",
-  "Via": "1.1 10f9d068e2789de9374fd26fe83f3f48.cloudfront.net (CloudFront)"
+  "Via": "1.1 8cc47fe33c12d1102a71bf6258f71b9c.cloudfront.net (CloudFront)"
 }

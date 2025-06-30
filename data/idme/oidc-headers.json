@@ -1,5 +1,5 @@
 {
-  "Cache-Control": "max-age=0, private, must-revalidate",
+  "Cache-Control": "max-age=[placeholder], private, must-revalidate",
   "Content-Security-Policy": "frame-ancestors https://nextgenid-mbetenantworkflow.azurewebsites.net",
   "Content-Type": "application/json; charset=utf-8",
   "Server": "cloudflare",

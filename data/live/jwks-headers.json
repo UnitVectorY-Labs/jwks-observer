@@ -1,4 +1,4 @@
 {
-  "Cache-Control": "must-revalidate, max-age=3600, private",
+  "Cache-Control": "must-revalidate, max-age=[placeholder], private",
   "Content-Type": "text/json; charset=utf-8"
 }

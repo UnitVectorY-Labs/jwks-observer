@@ -1,5 +1,5 @@
 {
-  "Content-Security-Policy": "script-src 'strict-dynamic' 'nonce-MjAyNS0wNi0yOVQwNTowOTo0M1p0dVk3MDZ0RnhSMmZFQQ' 'unsafe-inline' http: https:; object-src 'none'; base-uri 'none'",
+  "Content-Security-Policy": "script-src 'strict-dynamic' 'nonce-MjAyNS0wNi0zMFQwMTo1ODo0OVp1RTBWSE83bnNRM0MyUQ' 'unsafe-inline' http: https:; object-src 'none'; base-uri 'none'",
   "Content-Type": "application/json",
   "Server": "Apache"
 }

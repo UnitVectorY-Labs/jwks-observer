@@ -1,6 +1,6 @@
 {
-  "Cache-Control": "max-age=0, private, must-revalidate",
+  "Cache-Control": "max-age=[placeholder], private, must-revalidate",
   "Content-Type": "application/json; charset=utf-8",
   "Server": "Server",
-  "Via": "1.1 8988ac4ba052e2403132359fee301d5e.cloudfront.net (CloudFront)"
+  "Via": "1.1 aca99b28083d8a34e20c40dbd89ecfce.cloudfront.net (CloudFront)"
 }

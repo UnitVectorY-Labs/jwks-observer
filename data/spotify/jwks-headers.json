@@ -1,5 +1,5 @@
 {
-  "Cache-Control": "max-age=1800",
+  "Cache-Control": "max-age=[placeholder]",
   "Content-Type": "application/json",
   "Server": "envoy",
   "Via": "HTTP/2 edgeproxy, 1.1 google"

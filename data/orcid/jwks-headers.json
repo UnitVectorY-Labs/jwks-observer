@@ -1,5 +1,5 @@
 {
-  "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate, no-cache=\"set-cookie\"",
+  "Cache-Control": "no-cache, no-store, max-age=[placeholder], must-revalidate, no-cache=\"set-cookie\"",
   "Content-Type": "application/json;charset=UTF-8",
   "Server": "cloudflare"
 }
