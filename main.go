@@ -57,7 +57,7 @@ var stableHeaderKeys = []string{
 }
 var cacheControlRegex = regexp.MustCompile(`(max-age=)(\d+)`)
 var viaRegex = regexp.MustCompile(`(1\.1 )([a-zA-Z0-9_\.-]+)(\.cloudfront\.net \(CloudFront\))`) 
-var cspNonceRegex = regexp.MustCompile(`('nonce-)([a-zA-Z0-9-_=]+)(')`) 
+var cspNonceRegex = regexp.MustCompile(`('nonce-)([a-zA-Z0-9_=\\-]+)(')`) 
 
 func main() {
 	outDir := flag.String("out", "data", "output directory for JSON, headers, status, and observed keys")
