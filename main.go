@@ -10,6 +10,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"regexp"
 	"sort"
 	"sync"
 	"time"
@@ -54,6 +55,7 @@ var stableHeaderKeys = []string{
 	"Via",
 	"Content-Security-Policy",
 }
+var cacheControlRegex = regexp.MustCompile(`(max-age=)(\d+)`)
 
 func main() {
 	outDir := flag.String("out", "data", "output directory for JSON, headers, status, and observed keys")
@@ -212,6 +214,9 @@ func writeHeaders(path string, hdrs http.Header) {
 	meta := make(map[string]string, len(stableHeaderKeys))
 	for _, k := range stableHeaderKeys {
 		if v := hdrs.Get(k); v != "" {
+			if k == "Cache-Control" {
+				v = cacheControlRegex.ReplaceAllString(v, "${1}[placeholder]")
+			}
 			meta[k] = v
 		}
 	}
