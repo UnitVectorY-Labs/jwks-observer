@@ -56,6 +56,8 @@ var stableHeaderKeys = []string{
 	"Content-Security-Policy",
 }
 var cacheControlRegex = regexp.MustCompile(`(max-age=)(\d+)`)
+var viaRegex = regexp.MustCompile(`(1\.1 )([a-zA-Z0-9_\.-]+)(\.cloudfront\.net \(CloudFront\))`) 
+var cspNonceRegex = regexp.MustCompile(`('nonce-)([a-zA-Z0-9_=\\-]+)(')`) 
 
 func main() {
 	outDir := flag.String("out", "data", "output directory for JSON, headers, status, and observed keys")
@@ -214,8 +216,13 @@ func writeHeaders(path string, hdrs http.Header) {
 	meta := make(map[string]string, len(stableHeaderKeys))
 	for _, k := range stableHeaderKeys {
 		if v := hdrs.Get(k); v != "" {
-			if k == "Cache-Control" {
+			switch k {
+			case "Cache-Control":
 				v = cacheControlRegex.ReplaceAllString(v, "${1}[placeholder]")
+			case "Via":
+				v = viaRegex.ReplaceAllString(v, "${1}[placeholder]${3}")
+			case "Content-Security-Policy":
+				v = cspNonceRegex.ReplaceAllString(v, "${1}[placeholder]${3}")
 			}
 			meta[k] = v
 		}
