@@ -1,0 +1,15 @@
+{
+  "acr": [
+    "idp",
+    "server",
+    "native",
+    "user"
+  ],
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2025-07-01T05:10:25Z",
+  "kid": "27bd679743b64d66ac4afb16fe3b2239",
+  "kty": "RSA",
+  "n": "ANeIR4JrIF8XMgyl_AdGvN6kpy8TSlIGho3mDnLyFQ6L_86BSnThfzw1CuxKneX5Xuvqba0pkCeYwvTRF5W4MwZsziUMbY43Ne1HBAOqvIbaugkgnZfc6BmiYvaqDwtTEG1W8LuPvH_GuiBqb3jTVpJh5LIsv9IT2H4EDV4dduvMa-mHbganSjLlc4EenHIv9EZqq5D4o9Kv5NE1jZ3V_5FmG1LWHLPyHHiwhAQSahT0z_Ll034SjQDfXUf4JKdSnkWwWhg7uAUjCzuYREWnk9D4eKLg2SRmQhMiTYor50UONzkRZ7e0KQHm6MhANFd24-wGyOgdYe1iy5KRg7i13F8",
+  "use": "sig"
+}

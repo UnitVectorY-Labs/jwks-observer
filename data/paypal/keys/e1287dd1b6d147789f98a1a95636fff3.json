@@ -1,0 +1,14 @@
+{
+  "acr": [
+    "idp",
+    "server",
+    "native",
+    "user"
+  ],
+  "crv": "P-256",
+  "first_observed": "2025-07-01T05:10:25Z",
+  "kid": "e1287dd1b6d147789f98a1a95636fff3",
+  "kty": "EC",
+  "x": "AdN2tf4u-P5DVVg1NQ1WPldSYeRdbRJ7DvopEqHG-FU",
+  "y": "3fYnaLqE1yeMtrnM_wsNu-fLHlQUWexQrhP4jK26zc0"
+}

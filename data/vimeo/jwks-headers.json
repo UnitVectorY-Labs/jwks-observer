@@ -2,5 +2,5 @@
   "Cache-Control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
   "Content-Type": "application/json; charset=UTF-8",
   "Server": "cloudflare",
-  "Via": "1.1 varnish (Varnish/6.0), 1.1 varnish"
+  "Via": "1.1 varnish (Varnish/6.0), 1.1 varnish, 1.1 varnish"
 }
