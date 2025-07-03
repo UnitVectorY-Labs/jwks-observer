@@ -1,6 +1,6 @@
 {
   "Cache-Control": "no-cache, must-revalidate",
-  "Content-Security-Policy": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-[placeholder]' 'unsafe-eval'; frame-ancestors 'self' https://developers.google.com/_d/analytics-iframe; report-uri https://csp.withgoogle.com/csp/devsite/v2",
+  "Content-Security-Policy": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-9xk6Qs5ZAkWwOjf0X8FBZFEi+4YZ7y' 'unsafe-eval'; frame-ancestors 'self' https://developers.google.com/_d/analytics-iframe; report-uri https://csp.withgoogle.com/csp/devsite/v2",
   "Content-Type": "None",
   "Server": "Google Frontend"
 }
