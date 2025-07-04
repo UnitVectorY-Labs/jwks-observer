@@ -959,6 +959,8 @@
     "customercare_tools",
     "dttv",
     "carvana-stockid-bulk-delete",
+    "dayoneemailservice_read",
+    "dayoneemailservice_write",
     "offline_access"
   ],
   "subject_types_supported": [
