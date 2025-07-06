@@ -1,8 +1,7 @@
 {
   "jwks": {
     "uri": "https://auth.meethue.com/.well-known/jwks.json",
-    "status_code": 502,
-    "error": "HTTP 502"
+    "status_code": 200
   },
   "oidc": {
     "uri": "https://auth.meethue.com/.well-known/openid-configuration",
