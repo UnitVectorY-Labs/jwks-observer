@@ -961,6 +961,7 @@
     "carvana-stockid-bulk-delete",
     "dayoneemailservice_read",
     "dayoneemailservice_write",
+    "connect_control_panel",
     "offline_access"
   ],
   "subject_types_supported": [
