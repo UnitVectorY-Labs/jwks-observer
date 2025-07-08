@@ -962,6 +962,8 @@
     "dayoneemailservice_read",
     "dayoneemailservice_write",
     "connect_control_panel",
+    "vas-actionitem-read",
+    "vas-actionitem-write",
     "offline_access"
   ],
   "subject_types_supported": [
