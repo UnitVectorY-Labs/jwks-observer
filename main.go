@@ -59,6 +59,12 @@ var cacheControlRegex = regexp.MustCompile(`(max-age=)(\d+)`)
 var viaRegex = regexp.MustCompile(`(1\.1 )([a-zA-Z0-9_\.-]+)(\.cloudfront\.net \(CloudFront\))`) 
 var cspNonceRegex = regexp.MustCompile(`('nonce-)([a-zA-Z0-9_=\\-]+)(')`) 
 
+// jwksMismatches stores services with mismatched JWKS URIs
+var jwksMismatches = struct {
+	sync.Mutex
+	Services []string
+}{}
+
 func main() {
 	outDir := flag.String("out", "data", "output directory for JSON, headers, status, and observed keys")
 	catalogURL := flag.String("catalog", "", "URL of services.yaml (defaults to upstream)")
@@ -92,7 +98,7 @@ func main() {
 
 			// 1) Fetch OIDC config
 			if svc.OIDCURI != "" {
-				_, prettyOIDC, hdrsOIDC, codeOIDC, errOIDC :=
+				oidcObj, prettyOIDC, hdrsOIDC, codeOIDC, errOIDC :=
 					fetchAndValidateJSON(svc.OIDCURI, []string{"issuer", "jwks_uri"})
 				if errOIDC != nil {
 					statuses["oidc"] = statusEntry{URI: svc.OIDCURI, StatusCode: codeOIDC, Error: errOIDC.Error()}
@@ -101,6 +107,21 @@ func main() {
 					statuses["oidc"] = statusEntry{URI: svc.OIDCURI, StatusCode: codeOIDC}
 					writeFile(filepath.Join(dir, "oidc.json"), prettyOIDC)
 					writeHeaders(filepath.Join(dir, "oidc-headers.json"), hdrsOIDC)
+					
+					// Check if the JWKS URI in OIDC matches the configured one
+					if oidcMap, ok := oidcObj.(map[string]interface{}); ok {
+						if discoveredJWKSURI, ok := oidcMap["jwks_uri"].(string); ok && discoveredJWKSURI != "" {
+							if svc.JWKSURI != "" && svc.JWKSURI != discoveredJWKSURI {
+								// Add to mismatches list
+								jwksMismatches.Lock()
+								jwksMismatches.Services = append(jwksMismatches.Services, svc.ID)
+								jwksMismatches.Unlock()
+								
+								fmt.Fprintf(os.Stdout, "[%s] JWKS URI mismatch - Configured: %s, Discovered: %s\n", 
+									svc.ID, svc.JWKSURI, discoveredJWKSURI)
+							}
+						}
+					}
 				}
 			} else {
 				fmt.Fprintf(os.Stdout, "[%s] Skipping OIDC fetch: URL not set\n", svc.ID)
@@ -133,6 +154,10 @@ func main() {
 		}()
 	}
 	wg.Wait()
+	
+	// Write the JWKS mismatches to a file
+	fmt.Println("Processing JWKS URI mismatches...")
+	writeJWKSMismatches(*outDir)
 	fmt.Println("Crawl complete.")
 }
 
@@ -231,6 +256,27 @@ func writeHeaders(path string, hdrs http.Header) {
 		fmt.Fprintf(os.Stderr, "headers marshal error %s: %v\n", path, err)
 	} else if err := os.WriteFile(path, b, 0o644); err != nil {
 		fmt.Fprintf(os.Stderr, "headers write error %s: %v\n", path, err)
+	}
+}
+
+// writeJWKSMismatches writes the list of services with mismatched JWKS URIs to a JSON file.
+func writeJWKSMismatches(outDir string) {
+	jwksMismatches.Lock()
+	defer jwksMismatches.Unlock()
+	
+	// Sort the service names alphabetically
+	sort.Strings(jwksMismatches.Services)
+	
+	// Create the JSON file
+	mismatchesPath := filepath.Join(outDir, "jwks_mismatch.json")
+	
+	// Write the sorted list to the file
+	if b, err := json.MarshalIndent(jwksMismatches.Services, "", "  "); err != nil {
+		fmt.Fprintf(os.Stderr, "jwks_mismatch.json marshal error: %v\n", err)
+	} else if err := os.WriteFile(mismatchesPath, b, 0o644); err != nil {
+		fmt.Fprintf(os.Stderr, "jwks_mismatch.json write error: %v\n", err)
+	} else {
+		fmt.Printf("JWKS URI mismatches found: %d\n", len(jwksMismatches.Services))
 	}
 }
 
