@@ -1,6 +1,6 @@
 {
   "jwks": {
-    "uri": "https://auth.mozilla.com/.well-known/jwks.json",
+    "uri": "https://auth.mozilla.auth0.com/.well-known/jwks.json",
     "status_code": 200
   },
   "oidc": {

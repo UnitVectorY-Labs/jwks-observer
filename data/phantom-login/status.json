@@ -1,8 +1,7 @@
 {
   "jwks": {
-    "uri": "https://login.phantom.app/.well-known/jwks.json",
-    "status_code": 404,
-    "error": "HTTP 404"
+    "uri": "https://login.phantom.app/oauth2/v1/keys",
+    "status_code": 200
   },
   "oidc": {
     "uri": "https://login.phantom.app/.well-known/openid-configuration",

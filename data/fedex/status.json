@@ -1,6 +1,6 @@
 {
   "jwks": {
-    "uri": "https://auth.fedex.com/am/oauth2/connect/jwk_uri",
+    "uri": "https://auth.fedex.com:443/am/oauth2/connect/jwk_uri",
     "status_code": 200
   },
   "oidc": {
