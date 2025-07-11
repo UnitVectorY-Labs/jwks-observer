@@ -964,6 +964,8 @@
     "connect_control_panel",
     "vas-actionitem-read",
     "vas-actionitem-write",
+    "candidate-write",
+    "candidate-read",
     "offline_access"
   ],
   "subject_types_supported": [
