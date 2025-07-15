@@ -1,5 +1,6 @@
 {
   "Cache-Control": "no-store",
   "Content-Type": "application/json;charset=UTF-8",
-  "Server": "cloudflare"
+  "Server": "cloudflare",
+  "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload"
 }

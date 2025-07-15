@@ -1,5 +1,6 @@
 {
   "Content-Security-Policy": "upgrade-insecure-requests; frame-ancestors https://indeed.com https://*.indeed.com",
   "Content-Type": "application/json",
-  "Server": "cloudflare"
+  "Server": "cloudflare",
+  "Strict-Transport-Security": "max-age=86400"
 }

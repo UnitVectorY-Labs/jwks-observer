@@ -2,5 +2,6 @@
   "Cache-Control": "max-age=[placeholder], must-revalidate",
   "Content-Security-Policy": "frame-ancestors 'self' https://inet.nist.gov https://nistsafety.nist.gov",
   "Content-Type": "application/json",
-  "Server": "nginx"
+  "Server": "nginx",
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
 }

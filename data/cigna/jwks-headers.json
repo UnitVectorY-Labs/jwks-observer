@@ -1,5 +1,6 @@
 {
   "Cache-Control": "max-age=[placeholder], must-revalidate",
   "Content-Type": "application/json",
-  "Server": "nginx"
+  "Server": "nginx",
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
 }

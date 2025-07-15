@@ -2,5 +2,6 @@
   "Cache-Control": "max-age=[placeholder], must-revalidate, private",
   "Content-Security-Policy": "frame-ancestors 'self' portal.dattobackup.com resale.dattobackup.co.uk control.itsupport247.net sca.datto.com store.datto.com",
   "Content-Type": "application/json",
-  "Server": "cloudflare"
+  "Server": "cloudflare",
+  "Strict-Transport-Security": "max-age=31536000"
 }

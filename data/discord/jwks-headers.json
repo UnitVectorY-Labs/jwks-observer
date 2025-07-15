@@ -3,5 +3,6 @@
   "Content-Security-Policy": "frame-ancestors 'none'; default-src https://o64374.ingest.sentry.io; report-to csp-sentry; report-uri https://o64374.ingest.sentry.io/api/5441894/security/?sentry_key=8fbbce30bf5244ec9429546beef21870\u0026sentry_environment=stable",
   "Content-Type": "application/json",
   "Server": "cloudflare",
+  "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
   "Via": "1.1 google"
 }

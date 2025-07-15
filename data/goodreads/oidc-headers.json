@@ -1,5 +1,6 @@
 {
   "Cache-Control": "max-age=[placeholder], private, must-revalidate",
   "Content-Type": "application/json; charset=utf-8",
-  "Server": "Server"
+  "Server": "Server",
+  "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
 }

@@ -2,5 +2,6 @@
   "Cache-Control": "max-age=[placeholder], must-revalidate",
   "Content-Security-Policy": "frame-ancestors 'self' https://opal.optimizely.com https://manager.usea01.idio.episerver.net https://manager.caea01.idio.episerver.net https://accounts.cmp.optimizely.com https://manager.emea01.idio.episerver.net https://accounts.welcomesoftware.com https://manager.apac01.idio.episerver.net https://usermgmt-api.optimizely.com https://episerver.zendesk.com https://inte.yuverta.nl https://teams.optimizely.com https://app.welcomesoftware.com https://manager.idio.co",
   "Content-Type": "application/json",
-  "Server": "cloudflare"
+  "Server": "cloudflare",
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
 }

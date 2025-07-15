@@ -1,5 +1,6 @@
 {
   "Cache-Control": "no-cache, no-store, max-age=[placeholder], must-revalidate",
   "Content-Type": "application/json",
-  "Server": "envoy"
+  "Server": "envoy",
+  "Strict-Transport-Security": "max-age=31536000"
 }

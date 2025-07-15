@@ -3,5 +3,6 @@
   "Content-Security-Policy": "frame-ancestors 'self'",
   "Content-Type": "application/json",
   "Server": "nginx",
+  "Strict-Transport-Security": "max-age=300",
   "Via": "1.1 varnish, 1.1 varnish"
 }

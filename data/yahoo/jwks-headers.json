@@ -1,4 +1,5 @@
 {
   "Content-Type": "application/json",
-  "Server": "ATS"
+  "Server": "ATS",
+  "Strict-Transport-Security": "max-age=15552000"
 }

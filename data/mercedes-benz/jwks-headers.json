@@ -1,5 +1,6 @@
 {
   "Cache-Control": "no-cache, no-store",
   "Content-Security-Policy": "script-src 'unsafe-inline' 'unsafe-eval' 'self'; img-src 'self'; style-src 'self'; base-uri 'self'; object-src 'self'; frame-ancestors 'self' https://*.mercedes-benz.com https://*.mercedes-benz.com.cn https://*.smart.com https://*.daimler.com https://*.azurewebsites.net ;",
-  "Content-Type": "application/json;charset=utf-8"
+  "Content-Type": "application/json;charset=utf-8",
+  "Strict-Transport-Security": "max-age=15724800; includeSubDomains"
 }

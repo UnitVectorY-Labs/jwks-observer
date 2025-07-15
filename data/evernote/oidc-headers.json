@@ -1,5 +1,6 @@
 {
   "Cache-Control": "max-age=[placeholder]",
   "Content-Security-Policy": "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://hcaptcha.com https://*.hcaptcha.com https://apis.google.com;img-src 'self' https: data: http://localhost:*;frame-src 'self' https://hcaptcha.com https://*.hcaptcha.com https://apis.google.com https://docs.google.com https://accounts.google.com;style-src 'self' 'unsafe-inline' https://hcaptcha.com https://*.hcaptcha.com;connect-src 'self' https://*.hcaptcha.com https://*.sentry.io https://accounts.google.com https://appleid.apple.com https://hcaptcha.com https://www.googleapis.com https://www.evernote.com https://api.pico.bendingspoonsapps.com https://public.evernote.com https://api.evernote.com;form-action 'self' https://evernotesupport.zendesk.com https://help.evernote.com;frame-ancestors https://docs.google.com https://www.evernote.com;default-src 'self';base-uri 'self';font-src 'self' https: data:;object-src 'none';script-src-attr 'none';upgrade-insecure-requests",
-  "Content-Type": "application/json; charset=utf-8"
+  "Content-Type": "application/json; charset=utf-8",
+  "Strict-Transport-Security": "max-age=31557600"
 }

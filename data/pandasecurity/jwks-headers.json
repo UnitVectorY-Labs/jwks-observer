@@ -1,3 +1,4 @@
 {
-  "Content-Type": "application/json;charset=UTF-8"
+  "Content-Type": "application/json;charset=UTF-8",
+  "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
 }
