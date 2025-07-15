@@ -53,6 +53,7 @@ var stableHeaderKeys = []string{
 	"Cache-Control",
 	"Server",
 	"Via",
+	"Strict-Transport-Security",
 	"Content-Security-Policy",
 }
 var cacheControlRegex = regexp.MustCompile(`(max-age=)(\d+)`)
