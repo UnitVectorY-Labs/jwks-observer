@@ -38,6 +38,10 @@
     "RS256",
     "RS512"
   ],
+  "introspection_endpoint": "https://api.capitalone.com/oauth2/token/introspect",
+  "introspection_endpoint_auth_methods_supported": [
+    "client_secret_post"
+  ],
   "issuer": "https://api.capitalone.com",
   "jwks_uri": "https://api.capitalone.com/oidc/key-management/certificates/keys/",
   "request_object_signing_alg_values_supported": [

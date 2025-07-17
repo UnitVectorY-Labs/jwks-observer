@@ -1,3 +1,4 @@
 {
-  "Content-Type": "application/json"
+  "Content-Type": "application/json",
+  "Strict-Transport-Security": "max-age=31536000"
 }
