@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "max-age=[placeholder], must-revalidate",
+  "Content-Security-Policy": "default-src 'self' autodesk-prod.okta.com authn.autodesk.com *.oktacdn.com; connect-src 'self' autodesk-prod.okta.com autodesk-prod-admin.okta.com authn.autodesk.com *.oktacdn.com *.mixpanel.com *.mapbox.com autodesk-prod.kerberos.okta.com autodesk-prod.mtls.okta.com https://oinmanager.okta.com data:; script-src 'unsafe-inline' 'unsafe-eval' 'self' 'report-sample' autodesk-prod.okta.com authn.autodesk.com *.oktacdn.com; style-src 'unsafe-inline' 'self' 'report-sample' autodesk-prod.okta.com authn.autodesk.com *.oktacdn.com; frame-src 'self' autodesk-prod.okta.com autodesk-prod-admin.okta.com authn.autodesk.com login.okta.com; img-src 'self' autodesk-prod.okta.com authn.autodesk.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com data: blob:; font-src 'self' autodesk-prod.okta.com authn.autodesk.com data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'",
+  "Content-Type": "application/json",
+  "Server": "nginx",
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
+}

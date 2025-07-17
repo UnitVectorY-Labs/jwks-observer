@@ -1,0 +1,80 @@
+{
+  "authorization_endpoint": "https://oauth.shuzilm.cn/login/oauth/authorize",
+  "claims_supported": [
+    "iss",
+    "ver",
+    "sub",
+    "aud",
+    "iat",
+    "exp",
+    "id",
+    "type",
+    "displayName",
+    "avatar",
+    "permanentAvatar",
+    "email",
+    "phone",
+    "location",
+    "affiliation",
+    "title",
+    "homepage",
+    "bio",
+    "tag",
+    "region",
+    "language",
+    "score",
+    "ranking",
+    "isOnline",
+    "isAdmin",
+    "isForbidden",
+    "signupApplication",
+    "ldap"
+  ],
+  "end_session_endpoint": "https://oauth.shuzilm.cn/api/logout",
+  "grant_types_supported": [
+    "password",
+    "authorization_code"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://oauth.shuzilm.cn/api/login/oauth/introspect",
+  "issuer": "https://oauth.shuzilm.cn",
+  "jwks_uri": "https://oauth.shuzilm.cn/.well-known/jwks",
+  "request_object_signing_alg_values_supported": [
+    "HS256",
+    "HS384",
+    "HS512"
+  ],
+  "request_parameter_supported": true,
+  "response_modes_supported": [
+    "query",
+    "fragment",
+    "login",
+    "code",
+    "link"
+  ],
+  "response_types_supported": [
+    "code",
+    "token",
+    "id_token",
+    "code token",
+    "code id_token",
+    "token id_token",
+    "code token id_token",
+    "none"
+  ],
+  "scopes_supported": [
+    "openid",
+    "email",
+    "profile",
+    "address",
+    "phone",
+    "offline_access"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://oauth.shuzilm.cn/api/login/oauth/access_token",
+  "userinfo_endpoint": "https://oauth.shuzilm.cn/api/userinfo"
+}

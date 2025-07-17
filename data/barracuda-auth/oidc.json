@@ -1,0 +1,35 @@
+{
+  "authorization_endpoint": "https://auth.barracudanetworks.com/oauth2/authorize",
+  "claims_supported": [
+    "session_secret",
+    "email",
+    "email_verified",
+    "locale"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://auth.barracudanetworks.com",
+  "jwks_uri": "https://auth.barracudanetworks.com/.well-known/jwks",
+  "response_types_supported": [
+    "code",
+    "token"
+  ],
+  "scopes_supported": [
+    "openid",
+    "session",
+    "profile",
+    "email",
+    "guest",
+    "impersonated",
+    "offline_access"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://auth.barracudanetworks.com/oauth2/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic"
+  ],
+  "userinfo_endpoint": "https://auth.barracudanetworks.com/oauth2/userinfo"
+}

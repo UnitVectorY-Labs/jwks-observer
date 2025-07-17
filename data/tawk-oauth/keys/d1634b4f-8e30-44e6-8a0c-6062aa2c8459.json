@@ -1,0 +1,9 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2025-07-17T00:26:30Z",
+  "kid": "d1634b4f-8e30-44e6-8a0c-6062aa2c8459",
+  "kty": "RSA",
+  "n": "6tRIrDXnwlXMvD-kDuprrR61fq21go0BzkL0RJ_IBW4k7b0r1aki6u2M1Jpdo5ynP8NiCzB6j5JC4nXQrv4QY9CqKl72imAweUqHT3o8cy-0yktAq8R-KI-5_OgsNYlPNAz-9zSBg7yj04cvJ0CNxbhXhmG0rp7XwqBw2DUdx3ld_fiOoSeBAAySZXWdjtOJoHDshekpGjo5ozdpixUaTjbnNiU-BhgaiWc4aSlMVuc6yevrPJYYsiCLErVBO-fFM4WCx2EzOycgYeF4sqceWNIZFfFk6DlSWtxKU1T3uyXyUbVfocaiQlRWdZsujQJvXvFEctNp7nPKBlO6VOB8Sab_1fgge7nvIKMuCCbrUY5YHNQ4RcvPiBk22cOtYrrXp-pr0BXBPWcMhaMKizUR6T3Hdn_4PmySBWVan8MVizlSBkr2KdrupmbXwgDeR8dcaMOP97Ta1kEQiIRC85mnbru8FbHFQCI3D0ByCUvMJKrQgbRFozyCUaQOpcGbOjAWkbvXIOoK-xXb1vyUm4__My56xtKPHnM0KVLnXk9vJ_wxQbz9Qwktp8D0Ca5BBvsNyWZabiuP1veIsoC9mj7DmlWbUCV4TAaR2_Bpq1sJROxecPefWq3DtOe_hz_oJrLfwVlfTbM9GBbTmR9Fq74xLq8DB8wvAErbI-7UEpW2R-k",
+  "use": "sig"
+}

@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://huggingface.co/oauth/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://huggingface.co/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "max-age=[placeholder], must-revalidate",
+  "Content-Security-Policy": "frame-ancestors 'self' https://apps.mypurecloud.com https://citrite.lightning.force.com https://login.mypurecloud.com",
+  "Content-Type": "application/json",
+  "Server": "nginx",
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
+}

@@ -1,0 +1,6 @@
+{
+  "Content-Security-Policy": "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;",
+  "Content-Type": "application/json;charset=utf-8",
+  "Server": "ZGS",
+  "Strict-Transport-Security": "max-age=64072000; includeSubDomains; preload"
+}

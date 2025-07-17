@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "no-cache, no-store",
+  "Content-Security-Policy": "default-src 'unsafe-inline' 'unsafe-eval' ; frame-ancestors 'self' https://supportcases.paloaltonetworks.com ;",
+  "Content-Type": "application/json;charset=utf-8",
+  "Via": "1.1 google"
+}

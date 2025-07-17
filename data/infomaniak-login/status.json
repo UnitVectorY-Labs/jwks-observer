@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://login.infomaniak.com/oauth2/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://login.infomaniak.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

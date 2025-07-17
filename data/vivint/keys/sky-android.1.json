@@ -1,0 +1,9 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2025-07-17T00:26:28Z",
+  "kid": "sky-android.1",
+  "kty": "RSA",
+  "n": "tjMu4JrvydDLboahjKsvXwU5Hku83gJmuN9V1GjsYvEdOblREJSTlcHq9nkfKzI8xC_FJTTh3q7XiVsuWhT3CoW7Ugt_-uB5sSR1L-HizJDldLVcd0bEpUswetRrS5MEMpnP1prb-nxr74OqFL8HgDaAkfypVoZTWjBYgy0L6SbM__KIe-h-B1-wLUU9yw3XzK8kMFWiMjQXCyM8UTproGeRFFNpGvKKZYXpJhqSPBwcHwaGt7n7G_20Cl3rjbjcOc1WgYl4HkTcvkwhqUEqqlhZOeHYd6ttVlVWBikLwGGTrim8Ra0chxJ2tV4NzSV1kt-q1sJsnj3YcRmDwrftBQ",
+  "use": "sig"
+}

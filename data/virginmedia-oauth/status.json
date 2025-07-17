@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://oauth.virginmedia.com/pf/JWKS",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://oauth.virginmedia.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

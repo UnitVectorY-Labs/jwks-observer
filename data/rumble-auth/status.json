@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://auth190181.rumble.com/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://auth.rumble.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

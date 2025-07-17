@@ -1,0 +1,4 @@
+{
+  "issuer": "https://keycloak.cloudflareaccess.com",
+  "jwks_uri": "https://keycloak.cloudflareaccess.com/cdn-cgi/access/certs"
+}

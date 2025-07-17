@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://oauth.mts.by/.well-known/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://oauth.mts.by/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "no-store, max-age=[placeholder]",
+  "Content-Type": "application/json; charset=utf-8",
+  "Server": "istio-envoy",
+  "Via": "1.1 varnish"
+}

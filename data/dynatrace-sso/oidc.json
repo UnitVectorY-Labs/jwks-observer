@@ -1,0 +1,54 @@
+{
+  "authorization_endpoint": "https://sso.dynatrace.com:443/oauth2/authorize",
+  "claims_supported": [
+    "family_name",
+    "given_name",
+    "groups",
+    "groupsHash",
+    "inetuserstatus",
+    "mail",
+    "name",
+    "preferred_username",
+    "roles",
+    "sub",
+    "uid",
+    "uid2",
+    "userAccountPermissions",
+    "userClusterPermissions",
+    "userDCSPermissions",
+    "userGeneralPermissions",
+    "userSubenvironmentPermissions",
+    "userTenantPermissions"
+  ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "end_session_endpoint": "https://sso.dynatrace.com:443/oauth2/end_session",
+  "grant_types_supported": [
+    "authorization_code",
+    "refresh_token",
+    "client_credentials",
+    "urn:ietf:params:oauth:grant-type:token-exchange"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "ES256",
+    "RS256"
+  ],
+  "introspection_endpoint": "https://sso.dynatrace.com:443/sso/oauth2/tokeninfo",
+  "issuer": "https://sso.dynatrace.com:443",
+  "jwks_uri": "https://sso.dynatrace.com:443/.well-known/jwks.json",
+  "response_types_supported": [
+    "code"
+  ],
+  "scopes_supported": [
+    "email",
+    "offline_access",
+    "openid",
+    "profile"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://sso.dynatrace.com:443/sso/oauth2/token",
+  "userinfo_endpoint": "https://sso.dynatrace.com:443/sso/oauth2/userinfo"
+}

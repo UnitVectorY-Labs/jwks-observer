@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://sso.dynatrace.com:443/.well-known/jwks.json",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://sso.dynatrace.com:443/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

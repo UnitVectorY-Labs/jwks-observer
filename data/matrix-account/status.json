@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://account.matrix.org/oauth2/keys.json",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://account.matrix.org/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

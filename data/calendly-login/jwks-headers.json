@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "max-age=[placeholder], must-revalidate",
+  "Content-Security-Policy": "default-src 'self' calendlyext.okta.com login.calendly.com *.oktacdn.com; connect-src 'self' calendlyext.okta.com calendlyext-admin.okta.com login.calendly.com *.oktacdn.com *.mixpanel.com *.mapbox.com calendlyext.kerberos.okta.com https://oinmanager.okta.com data: *.ingest.sentry.io; script-src 'unsafe-inline' 'unsafe-eval' 'self' 'report-sample' calendlyext.okta.com login.calendly.com *.oktacdn.com; style-src 'unsafe-inline' 'self' 'report-sample' calendlyext.okta.com login.calendly.com *.oktacdn.com; frame-src 'self' calendlyext.okta.com calendlyext-admin.okta.com login.calendly.com login.okta.com *.vidyard.com; img-src 'self' calendlyext.okta.com login.calendly.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com *.vidyard.com data: blob:; font-src 'self' calendlyext.okta.com login.calendly.com data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'",
+  "Content-Type": "application/json",
+  "Server": "nginx",
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
+}

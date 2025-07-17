@@ -1,0 +1,4 @@
+{
+  "issuer": "https://api.crowdsec.net",
+  "jwks_uri": "https://api.crowdsec.net/.well-known/jwks.json"
+}

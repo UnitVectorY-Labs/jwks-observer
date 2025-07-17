@@ -1,0 +1,8 @@
+{
+  "alg": "HS384",
+  "first_observed": "2025-07-17T00:26:30Z",
+  "k": "lbsq_wa-si14iJl2xXqTK3HgRLAKO1AbcUMrl7xmd4sht95xSNwa6g7rVKGxAHE-",
+  "kid": "b5gddq4brTFyUpQsy7fZjY1iQJCDo6W5nqjspq4vAbA",
+  "kty": "oct",
+  "use": "sig"
+}

@@ -1,0 +1,8 @@
+{
+  "Cache-Control": "Cache-Control: public, max-age=[placeholder], stale-while-revalidate=3600, stale-if-error=3600",
+  "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' *.googleapis.com *.google.com www.gstatic.com; style-src 'self' 'unsafe-inline' *.googleapis.com *.gstatic.com; font-src  'self' *.googleapis.com *.gstatic.com; frame-src  'self' *.google.com; img-src 'self' data:;",
+  "Content-Type": "application/json",
+  "Server": "nginx",
+  "Strict-Transport-Security": "max-age=315360000",
+  "Via": "1.1 [placeholder].cloudfront.net (CloudFront)"
+}

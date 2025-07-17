@@ -1,0 +1,50 @@
+{
+  "authorization_endpoint": "https://xiuserd.prod.nextgen.digitalturbine.com/api/auth/authorize",
+  "claims_supported": [
+    "iss",
+    "aud",
+    "sub",
+    "jti",
+    "first_name",
+    "last_name",
+    "metadata",
+    "created_at",
+    "updated_at",
+    "email",
+    "roles"
+  ],
+  "end_session_endpoint": "https://xiuserd.prod.nextgen.digitalturbine.com/api/auth/logout",
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "refresh_token"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS512"
+  ],
+  "issuer": "https://xiuserd.prod.nextgen.digitalturbine.com",
+  "jwks_uri": "https://xiuserd.prod.nextgen.digitalturbine.com/api/auth/keys",
+  "response_modes_supported": [
+    "query",
+    "fragment",
+    "form_post"
+  ],
+  "response_types_supported": [
+    "code",
+    "token",
+    "id_token",
+    "id_token token"
+  ],
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email",
+    "offline_access",
+    "roles"
+  ],
+  "subject_types_supported": [
+    "pairwise"
+  ],
+  "token_endpoint": "https://xiuserd.prod.nextgen.digitalturbine.com/api/auth/token",
+  "userinfo_endpoint": "https://xiuserd.prod.nextgen.digitalturbine.com/api/auth/userinfo"
+}

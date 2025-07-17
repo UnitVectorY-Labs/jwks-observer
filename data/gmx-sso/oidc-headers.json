@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "no-cache, no-store, max-age=[placeholder], must-revalidate",
+  "Content-Security-Policy": "script-src 'self' https://image.netid.de; style-src 'self' 'unsafe-inline' https://image.netid.de; img-src 'self' https://image.netid.de; connect-src 'none'; font-src 'self' https://image.netid.de; child-src 'none'; manifest-src 'self' https://image.netid.de; media-src 'none'; object-src 'none'; frame-src 'self' https://einwilligen.netid.de;",
+  "Content-Type": "application/json;charset=UTF-8",
+  "Server": "nginx",
+  "Strict-Transport-Security": "max-age=31536000 ; includeSubDomains"
+}

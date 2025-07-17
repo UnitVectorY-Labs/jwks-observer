@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://sso.byteoversea.com/oidc/v1/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://sso.byteoversea.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

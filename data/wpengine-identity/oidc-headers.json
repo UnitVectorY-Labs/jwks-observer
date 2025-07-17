@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "max-age=[placeholder], must-revalidate",
+  "Content-Security-Policy": "frame-ancestors 'self' https://my.wpengine.com;",
+  "Content-Type": "application/json",
+  "Server": "cloudflare",
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
+}

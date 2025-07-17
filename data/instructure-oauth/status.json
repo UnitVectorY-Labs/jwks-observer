@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://oauth.instructure.com/login/oauth2/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://oauth.instructure.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

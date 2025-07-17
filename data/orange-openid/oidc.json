@@ -1,0 +1,25 @@
+{
+  "authorization_endpoint": "https://openid.orange.fr/oidc/authorize",
+  "id_token_signing_alg_values_supported": [
+    "RS256",
+    "HS256"
+  ],
+  "introspection_endpoint": "https://paprica-admin.itn.intraorange/organizations/OFR/oauth/v1/introspect",
+  "introspection_endpoint_auth_methods_supported": [
+    "client_secret_basic"
+  ],
+  "issuer": "https://openid.orange.fr",
+  "jwks_uri": "https://openid.orange.fr/oidc/jwks",
+  "response_types_supported": [
+    "code"
+  ],
+  "subject_types_supported": [
+    "public",
+    "pairwise"
+  ],
+  "token_endpoint": "https://openid.orange.fr/oidc/token",
+  "ui_locales_supported": [
+    "fr",
+    "en"
+  ]
+}

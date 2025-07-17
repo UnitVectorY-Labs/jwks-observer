@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://site.com/id/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://site.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

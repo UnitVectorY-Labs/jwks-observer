@@ -1,0 +1,81 @@
+{
+  "authorization_endpoint": "https://shopify.com/authentication/58004504738/oauth/authorize",
+  "claims_supported": [
+    "iss",
+    "sub",
+    "aud",
+    "exp",
+    "iat",
+    "nonce",
+    "sid",
+    "email",
+    "email_verified"
+  ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "end_session_endpoint": "https://shopify.com/authentication/58004504738/logout",
+  "grant_types_supported": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://shopify.com/authentication/58004504738",
+  "jwks_uri": "https://shopify.com/authentication/58004504738/.well-known/jwks.json",
+  "op_policy_uri": "https://www.shopify.com/legal/privacy",
+  "op_tos_uri": "https://www.shopify.com/legal/terms",
+  "response_types_supported": [
+    "code"
+  ],
+  "scopes_supported": [
+    "openid",
+    "email",
+    "customer-account-api:full",
+    "customer-account-mcp-api:full"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://shopify.com/authentication/58004504738/oauth/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic"
+  ],
+  "ui_locales_supported": [
+    "ar",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "en",
+    "es",
+    "fi",
+    "fr",
+    "hi",
+    "he",
+    "hr-HR",
+    "hu",
+    "id",
+    "it",
+    "ja",
+    "ko",
+    "lt-LT",
+    "ms",
+    "nl",
+    "no",
+    "pl",
+    "pt-BR",
+    "pt-PT",
+    "ro-RO",
+    "ru",
+    "sk-SK",
+    "sl-SI",
+    "sv",
+    "th",
+    "tr",
+    "vi",
+    "zh-CN",
+    "zh-TW"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://oauth.battle.net/jwks/certs",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://oauth.battle.net/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

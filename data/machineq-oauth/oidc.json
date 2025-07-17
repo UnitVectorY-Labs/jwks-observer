@@ -1,0 +1,33 @@
+{
+  "authorization_endpoint": "https://oauth.machineq.net/oauth2/auth",
+  "claims_supported": [
+    "sub"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://oauth.machineq.net",
+  "jwks_uri": "https://oauth.machineq.net/.well-known/jwks.json",
+  "response_types_supported": [
+    "code",
+    "code id_token",
+    "id_token",
+    "token id_token",
+    "token",
+    "token id_token code"
+  ],
+  "scopes_supported": [
+    "offline",
+    "openid"
+  ],
+  "subject_types_supported": [
+    "pairwise",
+    "public"
+  ],
+  "token_endpoint": "https://oauth.machineq.net/oauth2/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_post",
+    "client_secret_basic"
+  ],
+  "userinfo_endpoint": "https://oauth.machineq.net/userinfo"
+}

@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "max-age=[placeholder], must-revalidate",
+  "Content-Security-Policy": "default-src 'self' typeform.okta.com auth.typeform.com *.oktacdn.com; connect-src 'self' typeform.okta.com typeform-admin.okta.com auth.typeform.com *.oktacdn.com *.mixpanel.com *.mapbox.com typeform.kerberos.okta.com typeform.mtls.okta.com https://oinmanager.okta.com data: *.ingest.sentry.io; script-src 'unsafe-inline' 'unsafe-eval' 'self' 'report-sample' typeform.okta.com auth.typeform.com *.oktacdn.com; style-src 'unsafe-inline' 'self' 'report-sample' typeform.okta.com auth.typeform.com *.oktacdn.com; frame-src 'self' typeform.okta.com typeform-admin.okta.com auth.typeform.com login.okta.com *.vidyard.com; img-src 'self' typeform.okta.com auth.typeform.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com *.vidyard.com data: blob:; font-src 'self' typeform.okta.com auth.typeform.com data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'",
+  "Content-Type": "application/json",
+  "Server": "nginx",
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
+}

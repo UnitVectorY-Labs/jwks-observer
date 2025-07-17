@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://auth.ionos.com/1.0/oauth/.well-known/jwks.json",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://auth.ionos.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

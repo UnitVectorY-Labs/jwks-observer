@@ -1,0 +1,8 @@
+{
+  "Cache-Control": "max-age=[placeholder], must-revalidate",
+  "Content-Security-Policy": "frame-ancestors 'self' https://*.hpe.com https://*.hpecorp.net https://hpe.sharepoint.com",
+  "Content-Type": "application/json",
+  "Server": "nginx",
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains",
+  "Via": "1.1 [placeholder].cloudfront.net (CloudFront)"
+}

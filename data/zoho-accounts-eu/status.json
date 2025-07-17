@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://accounts.zoho.eu/oauth/v2/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://accounts.zoho.eu/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "authorization_endpoint": "https://login.axs.com/connect/authorize",
+  "authorization_response_iss_parameter_supported": true,
+  "backchannel_authentication_endpoint": "https://login.axs.com/connect/ciba",
+  "backchannel_logout_session_supported": true,
+  "backchannel_logout_supported": true,
+  "backchannel_token_delivery_modes_supported": [
+    "poll"
+  ],
+  "backchannel_user_code_parameter_supported": true,
+  "check_session_iframe": "https://login.axs.com/connect/checksession",
+  "claims_supported": [
+    "sub",
+    "updated_at",
+    "locale",
+    "zoneinfo",
+    "birthdate",
+    "gender",
+    "website",
+    "picture",
+    "preferred_username",
+    "nickname",
+    "middle_name",
+    "given_name",
+    "family_name",
+    "name",
+    "profile",
+    "email",
+    "email_verified"
+  ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "device_authorization_endpoint": "https://login.axs.com/connect/deviceauthorization",
+  "dpop_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "PS256",
+    "PS384",
+    "PS512",
+    "ES256",
+    "ES384",
+    "ES512"
+  ],
+  "end_session_endpoint": "https://login.axs.com/connect/endsession",
+  "frontchannel_logout_session_supported": true,
+  "frontchannel_logout_supported": true,
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "refresh_token",
+    "implicit",
+    "password",
+    "urn:ietf:params:oauth:grant-type:device_code",
+    "urn:openid:params:grant-type:ciba",
+    "social"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://login.axs.com/connect/introspect",
+  "issuer": "https://login.axs.com",
+  "jwks_uri": "https://login.axs.com/.well-known/openid-configuration/jwks",
+  "prompt_values_supported": [
+    "none",
+    "login",
+    "consent",
+    "select_account"
+  ],
+  "pushed_authorization_request_endpoint": "https://login.axs.com/connect/par",
+  "request_object_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "PS256",
+    "PS384",
+    "PS512",
+    "ES256",
+    "ES384",
+    "ES512",
+    "HS256",
+    "HS384",
+    "HS512"
+  ],
+  "request_parameter_supported": true,
+  "require_pushed_authorization_requests": false,
+  "response_modes_supported": [
+    "form_post",
+    "query",
+    "fragment"
+  ],
+  "response_types_supported": [
+    "code",
+    "token",
+    "id_token",
+    "id_token token",
+    "code id_token",
+    "code token",
+    "code id_token token"
+  ],
+  "revocation_endpoint": "https://login.axs.com/connect/revocation",
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email",
+    "mapping.manage",
+    "email.send",
+    "identity.flashUsersLinking",
+    "mfa",
+    "notifications",
+    "marketing",
+    "push",
+    "mobile",
+    "portal",
+    "addCreditCardForCustomer",
+    "permissions.GetUsers",
+    "uapiresale",
+    "unifiedapisearch.ExecuteQuery",
+    "FanAccount",
+    "uapiIdentity",
+    "unifiedapidiscovery",
+    "dotcom_mfa_testing",
+    "mobile_mfa",
+    "unifiedapiresources.CreateApexAssignmentAsync",
+    "unifiedapiresources.UpdateApexAssignmentAsync",
+    "unifiedapiresources.entitlement_rules",
+    "19F72CC9-C3DD-4BEE-95B1-591CDE0B0865",
+    "mfa_uat",
+    "A2F3FC13-CF1E-48FE-930A-9B1AD1039A69",
+    "779F39FF-789E-41A8-9D6C-8D894AAD4E71",
+    "75C22515-2224-42DF-A1F1-06FEAFFD8A3B",
+    "identity.tokenVerify",
+    "unifiedapisockets.cache_access",
+    "identity.userPreferences",
+    "identity.customerLinking",
+    "offline_access"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://login.axs.com/connect/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://login.axs.com/connect/userinfo"
+}

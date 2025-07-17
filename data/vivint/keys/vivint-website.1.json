@@ -1,0 +1,9 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2025-07-17T00:26:28Z",
+  "kid": "vivint-website.1",
+  "kty": "RSA",
+  "n": "xfb8R1tn0KM1EGlb8tEAHScCPFxwNClaDNrazyfGqtMA6tkdp_hocSi0wH1zfpvdsbQYUYlSUQaI083-yIck3R1CbQXLlrI6gl0c_FwV4hRwjmd7rF3u277eE2PE3Kpy8--usxMBY54Kfyf2_XE4d-rtbaQrfF9wFjA6Ow64I1olApaN1jFv-AlAZJn0slfgDuVoXrTM2PEeK4kZXY03-JMf8roJ11pGqW_Mw_s6GrUDZwJR2mdtX2-o3tvL77brqKOxK9L1S4NuJjYZxwO3ediDX7NDJXhmxUyoo9rmoMCJ9Hg95Js44ZRkzKne452wt7WAOJFivqoDTLN-_CxBtw",
+  "use": "sig"
+}

@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "max-age=[placeholder], no-cache, no-store",
+  "Content-Security-Policy": "frame-ancestors 'self' https://*.meraki.com https://*.meraki.ca",
+  "Content-Type": "application/json",
+  "Server": "nginx",
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
+}

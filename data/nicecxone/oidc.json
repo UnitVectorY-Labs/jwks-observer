@@ -1,0 +1,40 @@
+{
+  "authorization_endpoint": "https://cxone.niceincontact.com/auth/authorize",
+  "claim_types_supported": [
+    "normal"
+  ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "display_values_supported": [
+    "page",
+    "popup"
+  ],
+  "end_session_endpoint": "https://cxone.niceincontact.com/auth/authorize/logout",
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://cxone.niceincontact.com",
+  "jwks_uri": "https://cxone.niceincontact.com/auth/jwks",
+  "request_object_signing_alg_values_supported": [
+    "none"
+  ],
+  "response_types_supported": [
+    "code"
+  ],
+  "scopes_supported": [
+    "openid"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://cxone.niceincontact.com/auth/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "token_endpoint_auth_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "userinfo_endpoint": "https://cxone.niceincontact.com/auth/userinfo"
+}

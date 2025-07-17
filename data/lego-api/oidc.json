@@ -1,0 +1,4 @@
+{
+  "issuer": "https://api.lego.com/",
+  "jwks_uri": "https://api.lego.com/discovery/keys"
+}

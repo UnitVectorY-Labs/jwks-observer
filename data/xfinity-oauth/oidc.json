@@ -1,0 +1,59 @@
+{
+  "authorization_endpoint": "https://oauth.xfinity.com/oauth/authorize",
+  "claim_types_supported": [
+    "normal"
+  ],
+  "grant_types_supported": [
+    "authorization_code",
+    "device_code",
+    "refresh_token",
+    "password",
+    "urn:comcast:oauth:x1-session-token",
+    "urn:comcast:oauth:grant-type:xsct+sat",
+    "urn:comcast:oauth:account-to-user",
+    "urn:comcast:oauth:internal-account-id",
+    "urn:comcast:oauth:grant-type:ip-address",
+    "urn:ietf:params:oauth:grant-type:jwt-bearer",
+    "client_credentials",
+    "implicit",
+    "urn:comcast:oauth:grant-type:delegation",
+    "urn:comcast:oauth:grant-type:user-to-account",
+    "urn:comcast:oauth:grant-type:account-token",
+    "urn:comcast:oauth:grant-type:user-to-user-with-account",
+    "urn:ietf:params:oauth:grant-type:websec-id-token",
+    "urn:ietf:params:oauth:grant-type:websec-access-token",
+    "urn:ietf:params:oauth:grant-type:okta-business-access-token",
+    "urn:ietf:params:oauth:grant-type:azuread-access-token",
+    "urn:comcast:oauth:grant-type:syndicated-id-token"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://oauth.xfinity.com",
+  "jwks_uri": "https://oauth.xfinity.com/oauth/keys/jwks",
+  "response_modes_supported": [
+    "query",
+    "fragment"
+  ],
+  "response_types_supported": [
+    "code",
+    "token"
+  ],
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email",
+    "address",
+    "phone",
+    "offline_access"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://oauth.xfinity.com/oauth/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://oauth.xfinity.com/oauth/userinfo"
+}

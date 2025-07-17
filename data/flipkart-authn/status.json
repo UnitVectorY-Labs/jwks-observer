@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://authn.flipkart.net/v3/jwk",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://authn.flipkart.net/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

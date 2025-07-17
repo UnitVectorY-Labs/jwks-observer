@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://www.openstreetmap.org/oauth2/discovery/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://www.openstreetmap.org/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

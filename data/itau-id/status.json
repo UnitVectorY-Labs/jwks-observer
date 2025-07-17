@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://id.itau.com.br/JWKS",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://id.itau.com.br/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://xiuserd.prod.nextgen.digitalturbine.com/api/auth/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://xiuserd.prod.nextgen.digitalturbine.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

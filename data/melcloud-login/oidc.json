@@ -1,0 +1,81 @@
+{
+  "authorization_endpoint": "https://login.melcloud.com/connect/authorize",
+  "backchannel_logout_session_supported": true,
+  "backchannel_logout_supported": true,
+  "check_session_iframe": "https://login.melcloud.com/connect/checksession",
+  "claims_supported": [
+    "sub",
+    "name",
+    "family_name",
+    "given_name",
+    "middle_name",
+    "nickname",
+    "preferred_username",
+    "profile",
+    "picture",
+    "website",
+    "gender",
+    "birthdate",
+    "zoneinfo",
+    "locale",
+    "updated_at",
+    "email",
+    "email_verified"
+  ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "device_authorization_endpoint": "https://login.melcloud.com/connect/deviceauthorization",
+  "end_session_endpoint": "https://login.melcloud.com/connect/endsession",
+  "frontchannel_logout_session_supported": true,
+  "frontchannel_logout_supported": true,
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "refresh_token",
+    "implicit",
+    "urn:ietf:params:oauth:grant-type:device_code"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://login.melcloud.com/connect/introspect",
+  "issuer": "https://login.melcloud.com",
+  "jwks_uri": "https://login.melcloud.com/.well-known/openid-configuration/jwks",
+  "request_parameter_supported": true,
+  "response_modes_supported": [
+    "form_post",
+    "query",
+    "fragment"
+  ],
+  "response_types_supported": [
+    "code",
+    "token",
+    "id_token",
+    "id_token token",
+    "code id_token",
+    "code token",
+    "code id_token token"
+  ],
+  "revocation_endpoint": "https://login.melcloud.com/connect/revocation",
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email",
+    "AlexaApi",
+    "GoogleHomeApi",
+    "MelcloudApi",
+    "MelCloudHomeApi",
+    "offline_access"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://login.melcloud.com/connect/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://login.melcloud.com/connect/userinfo"
+}

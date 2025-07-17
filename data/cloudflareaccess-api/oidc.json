@@ -1,0 +1,4 @@
+{
+  "issuer": "https://api.cloudflareaccess.com",
+  "jwks_uri": "https://api.cloudflareaccess.com/cdn-cgi/access/certs"
+}

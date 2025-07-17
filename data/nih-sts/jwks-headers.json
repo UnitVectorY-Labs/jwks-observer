@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "no-store",
+  "Content-Security-Policy": "default-src 'self'; script-src *.googleapis.com *.nih.gov 'unsafe-inline'; img-src * data:; style-src *.nih.gov 'unsafe-inline'; font-src * data:;",
+  "Content-Type": "application/json;charset=UTF-8",
+  "Server": "Layer7-API-Gateway",
+  "Strict-Transport-Security": "max-age=31557600; includeSubDomains; preload"
+}

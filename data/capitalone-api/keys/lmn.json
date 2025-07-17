@@ -1,0 +1,10 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2025-07-17T00:26:28Z",
+  "kid": "lmn",
+  "kty": "RSA",
+  "n": "rko6qYIErtukA1TP-qGvfofXKWW09BNW2G_hJwytAjWb7f63xYrCAaUtIIw9oF9NJN07INn2Bw7HuuCQpqUHwRHjumreWZStNPnN8c9-cFmkAcMHDGvSSv_Ee1GwyBfGxibL3ETNHdAoXmq8bloYtd0xEDKtJKHUPRmKizY_4mRVCGJbEqHITd9ECtolmE_a17epOATBy5vO1BmnuSp78aYEjv2LXQQiu_b_nIryTy2JKj2hyq2NNPaCrhisDALYKwxRAEo5pOjS2VfUj2lSyxKKyPS3J9gNjYWWikfOjkpOchI5MytdkU9dTXILDb_yqxrXgaWq383wxy_O8DNeBQ",
+  "productId": "dx-gw",
+  "use": "sig"
+}

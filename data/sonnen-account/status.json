@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://account.sonnen.de/oauth/discovery/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://account.sonnen.de/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

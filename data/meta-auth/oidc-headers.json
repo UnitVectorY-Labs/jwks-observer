@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "must-revalidate, max-age=[placeholder]",
+  "Content-Security-Policy": "default-src blob: *;script-src auth.meta.com *.auth.meta.com *.facebook.com *.fbcdn.net *.facebook.net 'nonce-[placeholder]' blob: 'self';style-src data: blob: 'unsafe-inline' *.meta.com *.facebook.com auth.meta.com *.auth.meta.com *;connect-src 'self' auth.meta.com *.auth.meta.com *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* attachment.fbsbx.com blob: *.cdninstagram.com *.graph.meta.com;font-src data: *.fbcdn.net *.facebook.com;img-src auth.meta.com *.auth.meta.com *.fbcdn.net *.facebook.com *.facebook.net *.fbsbx.com *.cdninstagram.com *.oculuscdn.com data: blob:;media-src data: blob: *;child-src data: blob: *;frame-src auth.meta.com *.auth.meta.com *.fbsbx.com *.facebook.com *.quest.meta.com api.yoti.com;manifest-src data: blob: *;object-src data: blob: *;worker-src data: blob: *;upgrade-insecure-requests;report-uri https://www.facebook.com/csp/reporting/?minimize=0;require-trusted-types-for 'script';",
+  "Content-Type": "application/json; charset=utf-8",
+  "Strict-Transport-Security": "max-age=31536000; preload; includeSubDomains"
+}

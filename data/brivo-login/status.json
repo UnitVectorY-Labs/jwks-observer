@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://login.brivo.com/.well-known/jwks.json",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://login.brivo.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

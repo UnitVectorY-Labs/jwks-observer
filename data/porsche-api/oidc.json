@@ -1,0 +1,15 @@
+{
+  "claims_supported": [
+    "aud",
+    "exp",
+    "iat",
+    "iss",
+    "sub",
+    "ciamId"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "api.porsche.com",
+  "jwks_uri": "https://api.porsche.com/jwt/jwks.json"
+}

@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://id.cpanel.net/oauth2/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://id.cpanel.net/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

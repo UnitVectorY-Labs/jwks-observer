@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://auth.wyze.com/.well-known/jwks.json",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://auth.wyze.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

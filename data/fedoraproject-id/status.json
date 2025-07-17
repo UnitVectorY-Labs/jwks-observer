@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://id.fedoraproject.org/openidc/Jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://id.fedoraproject.org/openidc/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

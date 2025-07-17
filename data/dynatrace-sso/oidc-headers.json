@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "private, no-store, must-revalidate",
+  "Content-Security-Policy": "default-src 'self' https://static.sso.dynatrace.com https://dt-cdn.net; base-uri 'self'; script-src 'self' https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://static.sso.dynatrace.com; object-src 'self' https://static.sso.dynatrace.com https://dt-cdn.net; frame-ancestors 'none'; frame-src 'self' https://www.google.com/recaptcha/; report-uri https://report-csp.internal.dynatracelabs.com/sso2.0",
+  "Content-Type": "application/json",
+  "Strict-Transport-Security": "max-age=31536000; preload"
+}

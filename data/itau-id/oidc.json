@@ -1,0 +1,211 @@
+{
+  "acr_values_supported": [
+    "urn:brasil:openbanking:loa2",
+    "urn:brasil:openbanking:loa3"
+  ],
+  "authorization_encryption_alg_values_supported": [
+    "RSA-OAEP"
+  ],
+  "authorization_encryption_enc_values_supported": [
+    "A256GCM"
+  ],
+  "authorization_endpoint": "https://id.itau.com.br/authorize",
+  "claims_parameter_supported": true,
+  "claims_supported": [
+    "acr",
+    "consentId",
+    "iss",
+    "pi.sri",
+    "sub"
+  ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "grant_types_supported": [
+    "implicit",
+    "authorization_code",
+    "refresh_token",
+    "client_credentials",
+    "urn:ietf:params:oauth:grant-type:jwt-bearer",
+    "urn:ietf:params:oauth:grant-type:token-exchange"
+  ],
+  "id_token_encryption_alg_values_supported": [
+    "dir",
+    "A128KW",
+    "A192KW",
+    "A256KW",
+    "A128GCMKW",
+    "A192GCMKW",
+    "A256GCMKW",
+    "ECDH-ES",
+    "ECDH-ES+A128KW",
+    "ECDH-ES+A192KW",
+    "ECDH-ES+A256KW",
+    "RSA-OAEP",
+    "RSA-OAEP-256"
+  ],
+  "id_token_encryption_enc_values_supported": [
+    "A128CBC-HS256",
+    "A192CBC-HS384",
+    "A256CBC-HS512",
+    "A128GCM",
+    "A192GCM",
+    "A256GCM"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "PS256",
+    "PS384",
+    "PS512"
+  ],
+  "introspection_endpoint": "https://id.itau.com.br/introspect",
+  "introspection_endpoint_auth_methods_supported": [
+    "private_key_jwt"
+  ],
+  "introspection_endpoint_auth_signing_alg_values_supported": [
+    "ES256",
+    "ES384",
+    "ES512",
+    "PS256",
+    "PS384",
+    "PS512"
+  ],
+  "issuer": "https://id.itau.com.br",
+  "jwks_uri": "https://id.itau.com.br/JWKS",
+  "mtls_endpoint_aliases": {
+    "introspection_endpoint": "https://oauth2.itau.com.br/introspect",
+    "pushed_authorization_request_endpoint": "https://oauth2.itau.com.br/as/par.oauth2",
+    "registration_endpoint": "https://oauth2.itau.com.br/register",
+    "revocation_endpoint": "https://oauth2.itau.com.br/revoke",
+    "token_endpoint": "https://oauth2.itau.com.br/as/token.oauth2",
+    "userinfo_endpoint": "https://oauth2.itau.com.br/userinfo"
+  },
+  "pushed_authorization_request_endpoint": "https://id.itau.com.br/as/par.oauth2",
+  "registration_endpoint": "https://id.itau.com.br/register",
+  "request_object_encryption_alg_values_supported": [
+    "RSA-OAEP"
+  ],
+  "request_object_encryption_enc_values_supported": [
+    "A256GCM"
+  ],
+  "request_object_signing_alg_values_supported": [
+    "ES256",
+    "ES384",
+    "ES512",
+    "PS256",
+    "PS384",
+    "PS512"
+  ],
+  "request_parameter_supported": true,
+  "request_uri_parameter_supported": true,
+  "require_pushed_authorization_requests": true,
+  "response_modes_supported": [
+    "fragment",
+    "query",
+    "form_post"
+  ],
+  "response_types_supported": [
+    "code id_token",
+    "id_token"
+  ],
+  "revocation_endpoint": "https://id.itau.com.br/revoke",
+  "revocation_endpoint_auth_methods_supported": [
+    "private_key_jwt"
+  ],
+  "revocation_endpoint_auth_signing_alg_values_supported": [
+    "ES256",
+    "ES384",
+    "ES512",
+    "PS256",
+    "PS384",
+    "PS512"
+  ],
+  "scopes_supported": [
+    "cards-manageaccounts-cancels.write",
+    "cards-onboarding_proposals.read",
+    "insurance-responsibility",
+    "credit_cards-unlock.read",
+    "insurance-acceptance-and-branches-abroad",
+    "financings",
+    "invoice-financings",
+    "insurance-nuclear",
+    "gestao_parcerias-gestao_acessos-companies.write",
+    "write",
+    "login_unificado_migrar.read",
+    "gestao_parcerias-gestao_acessos-companies_users.write",
+    "read",
+    "benefitprogram-offercatalog-validate.read",
+    "credit_cards-unlock.write",
+    "credit-cards-accounts",
+    "loans",
+    "openid",
+    "profile",
+    "cards-invoice_settings-invoicesettings.read",
+    "insurance-patrimonial",
+    "gestao_parcerias-gestao_acessos-companies_users.read",
+    "cards-onboarding_proposals.write",
+    "phone",
+    "gestao_parcerias-gestao_acessos-companies.read",
+    "cards-timeline_events.read",
+    "consents",
+    "name",
+    "cartoes-statements-transactions.read",
+    "cards-person-profile.write",
+    "cards-virtual-cards.read",
+    "gestao_parcerias-gestao_acessos-healths.read",
+    "credit-cards-accounts_bankslips.read",
+    "login_unificado_logar",
+    "cards-card_accounts-bankslips.read",
+    "insurance-auto",
+    "payments",
+    "unarranged-accounts-overdraft",
+    "admin",
+    "insurance-aviation",
+    "credit_cards-limits.read",
+    "cards-setup_proposals.write",
+    "gestao_parcerias-gestao_acessos-users_companies.read",
+    "credit-cards-accounts_statements_transactions.read",
+    "insurance-financial-risk",
+    "cartoes-statements-statements.read",
+    "customers",
+    "gestao_parcerias-gestao_acessos-users_forgot_password.write",
+    "credit-cards-accounts_cards.read",
+    "login_unificado_migrar.write",
+    "email",
+    "insurance-nautical",
+    "address",
+    "login_unificado_resetar.write",
+    "insurance-petroleum",
+    "benefitprogram-offercatalog-redeem.write",
+    "cards-issuecards_physical_cards_replacements.write",
+    "cards-card_accounts-bankslips.write",
+    "credit-cards-accounts_limits.read",
+    "resources",
+    "pg6-autenticacao-ciam-login.read",
+    "credit-cards-accounts_statements.read",
+    "accounts",
+    "cards-cards_virtual-cards.write",
+    "cards-physical-cards.read",
+    "credit_cards-list.read",
+    "intent:*",
+    "consent:*"
+  ],
+  "subject_types_supported": [
+    "public",
+    "pairwise"
+  ],
+  "tls_client_certificate_bound_access_tokens": true,
+  "token_endpoint": "https://id.itau.com.br/as/token.oauth2",
+  "token_endpoint_auth_methods_supported": [
+    "private_key_jwt",
+    "client_secret_basic"
+  ],
+  "token_endpoint_auth_signing_alg_values_supported": [
+    "ES256",
+    "ES384",
+    "ES512",
+    "PS256",
+    "PS384",
+    "PS512"
+  ],
+  "userinfo_endpoint": "https://id.itau.com.br/userinfo"
+}

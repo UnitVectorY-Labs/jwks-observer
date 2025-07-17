@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://www.xumo.com/oauth/keys/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://www.xumo.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://auth.walkme.com/oauth2/default/v1/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://auth.walkme.com/oauth2/default/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://auth.nit.ro/.well-known/jwks.json",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://auth.nit.ro/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

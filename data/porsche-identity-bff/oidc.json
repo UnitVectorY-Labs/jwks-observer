@@ -1,0 +1,15 @@
+{
+  "authorization_endpoint": "https://identity.porsche.com/authorize",
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://bff.identity.porsche.com",
+  "jwks_uri": "https://bff.identity.porsche.com/.well-known/jwks.json",
+  "response_types_supported": [
+    "id_token"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://bff.identity.porsche.com/api/v2/token"
+}

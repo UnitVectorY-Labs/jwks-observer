@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://sts.nih.gov/openid/connect/jwks.json",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://sts.nih.gov/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

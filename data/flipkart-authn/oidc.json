@@ -1,0 +1,36 @@
+{
+  "authorization_endpoint": "https://authn.flipkart.net/oauth/authorize",
+  "claims_parameter_supported": false,
+  "claims_supported": [
+    "sub",
+    "name",
+    "email"
+  ],
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://authn.flipkart.net/introspect",
+  "issuer": "https://authn.flipkart.net/",
+  "jwks_uri": "https://authn.flipkart.net/v3/jwk",
+  "registration_endpoint": "https://authn.flipkart.net/api/v1/client",
+  "request_parameter_supported": true,
+  "response_types_supported": [
+    "code"
+  ],
+  "scopes_supported": [],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://authn.flipkart.net/oauth/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_post"
+  ],
+  "token_endpoint_auth_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "userinfo_endpoint": "https://authn.flipkart.net/oauth/r/api/v1/user/details"
+}

@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://auth.cloudflareaccess.com/cdn-cgi/access/certs",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://auth.cloudflareaccess.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

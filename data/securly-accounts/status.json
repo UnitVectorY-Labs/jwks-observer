@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://accounts.securly.com/login/oidc/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://accounts.securly.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

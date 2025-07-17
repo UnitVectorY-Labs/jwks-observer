@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://secure.telenet.be/oauth2/v1/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://secure.telenet.be/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

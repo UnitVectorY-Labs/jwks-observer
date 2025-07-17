@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://auth.adnami.io/.well-known/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://auth.adnami.io/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

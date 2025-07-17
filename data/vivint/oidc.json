@@ -1,0 +1,38 @@
+{
+  "authorization_endpoint": "https://vivintsky.com/oauth2/auth",
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "device_authorization_endpoint": "https://vivintsky.com/oauth2/device/authorization",
+  "end_session_endpoint": "https://vivintsky.com/oauth2/session/logout",
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "urn:ietf:params:oauth:grant-type:device_code",
+    "impliciate",
+    "password"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://vivintsky.com/",
+  "jwks_uri": "https://vivintsky.com/.well-known/jwks.json",
+  "ping_end_session_endpoint": "https://vivintsky.com/oauth2/session/logout",
+  "prompt_values_supported": [
+    "create",
+    "none"
+  ],
+  "response_types_supported": [
+    "code",
+    "id_token",
+    "id_token token",
+    "token"
+  ],
+  "revocation_endpoint": "https://vivintsky.com/oauth2/revocation",
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_delegate_endpoint": "https://vivintsky.com/oauth2/token-delegate",
+  "token_endpoint": "https://vivintsky.com/oauth2/token",
+  "userinfo_endpoint": "https://vivintsky.com/oauth2/userinfo"
+}

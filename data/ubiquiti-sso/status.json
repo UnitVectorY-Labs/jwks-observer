@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://sso.ui.com/.well-known/jwks.json",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://sso.ui.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://platform.ringcentral.com/restapi/oauth/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://platform.ringcentral.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

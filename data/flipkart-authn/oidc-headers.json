@@ -1,0 +1,6 @@
+{
+  "Content-Security-Policy": "frame-ancestors 'self' https://flipkarthealthplus-help.freshdesk.com https://d3h0owdjgzys62.cloudfront.net",
+  "Content-Type": "application/json;charset=UTF-8",
+  "Server": "istio-envoy",
+  "Strict-Transport-Security": "max-age=31536000 ; includeSubDomains"
+}

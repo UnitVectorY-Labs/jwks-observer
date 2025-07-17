@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://account.line.biz/oauth2/certs",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://account.line.biz/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

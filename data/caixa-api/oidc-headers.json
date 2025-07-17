@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "no-store",
+  "Content-Security-Policy": "default-src 'self'; script-src *.googleapis.com 'unsafe-inline'; img-src * data:; style-src 'unsafe-inline'; font-src * data:;",
+  "Content-Type": "application/json;charset=UTF-8",
+  "Server": "API Gateway"
+}

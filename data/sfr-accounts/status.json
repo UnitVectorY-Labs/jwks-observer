@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://accounts.sd-sfr.fr/publickey/jwks.json",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://accounts.sd-sfr.fr/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

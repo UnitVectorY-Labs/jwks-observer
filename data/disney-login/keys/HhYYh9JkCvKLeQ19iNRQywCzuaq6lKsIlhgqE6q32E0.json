@@ -1,0 +1,10 @@
+{
+  "alg": "EdDSA",
+  "crv": "Ed25519",
+  "first_observed": "2025-07-17T00:26:28Z",
+  "iat": 1711467551,
+  "kid": "HhYYh9JkCvKLeQ19iNRQywCzuaq6lKsIlhgqE6q32E0",
+  "kty": "OKP",
+  "use": "sig",
+  "x": "ciVpi890xpij1w1Y0HrQUzbZWZMmHnHTQVegq5UsnYU"
+}

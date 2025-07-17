@@ -1,0 +1,9 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2025-07-17T00:26:29Z",
+  "kid": "public:hydra.openid.id-token",
+  "kty": "RSA",
+  "n": "yNQprxyvqRKvgZbHv-Oq59Gy-fKJhVooI_UeAqe04kc9S_0gkbMFJVoKsk1ne63pwVBFI82Uy39LCG9mmdN5B1YQNhp54BH9BG0xIqftpvl2K_lIRVht4G9NilpqJ82MebMN9B1kizP5LRAHdHJuh464Mdguz5SZrjidKeV2U8uj8StYzM5fYijkCOdOlcCewEicGUZVVbAEVVkBVWH4SVnKVj7g4ohSIhTww42rVvNGPSdnAzAUj_QBZnz1if-3C5ZTPXbFBMlr2RX9N26iITd1Kgr16aLksWs0cnPNsJ24Pt11AJu42ljrk5NphfZAcs7Qpbq1e-kFqKt7JwAJm8NfYRze-H2yVSCmIvoQKjDCNrAOVthAFIJr9oFduytyNzolrqKafSMG6rlmxjY9LT_gDxn93PW9cVC2W5ybaJ13gIdqPIrcKApeEsbVrFCroE9EzyEnWLBdrUN-zA6wdUiSAlq3QF-nrDaQzZ9-mkrkwppfSvIlZZoyKplaVDEr9CAVZkCGoophpwI1lVS0nycpD43aTBQ9I1oByDl90OBxDGUClLNN2I0hGCLPyrFrV9tDvIep8N_qhG-VEE7fuYc87enz7I7Zji582orAKLBlfzLO-AjGrf6jDpWgldV78T7UW-UsvcN7G29xYJlZxu-a6UBFR1cl8eiRi8VyTK8",
+  "use": "sig"
+}

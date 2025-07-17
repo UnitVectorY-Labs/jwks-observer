@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "no-store",
+  "Content-Security-Policy": "frame-ancestors 'self' id.instructure.com id.staging.instructure.com id.beta.instructure.com id.test.instructure.com;",
+  "Content-Type": "application/json; charset=utf-8",
+  "Server": "Apache",
+  "Strict-Transport-Security": "max-age=63072000"
+}

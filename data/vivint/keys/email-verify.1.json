@@ -1,0 +1,9 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2025-07-17T00:26:28Z",
+  "kid": "email-verify.1",
+  "kty": "RSA",
+  "n": "wc71y9lG57dQV4cAZF5ArqBF0K_ozIdOE-J8R0FyDHsSNU_uPIeGCQQz9jc4iLATZc-gWQWAeo9dps-fupjkRrWteKxuK-P-VO4B8g6Ci3dL3AFgSNjpqG5djjVTXl-SUa2sLllk0VaiaXOS4SDKy_ywRT_ep0-acpWE_lKzxDSeNGsJCIXJjnMgTfWlgHx4sEEUnvz4f4amFxJ_4FyzUFmbI0FZ4kJltm9BWZMqZYpBaW-opWpRfCltxFQ8SRl_6C2AwWD8sFVtaIeTcrbNvrxH7ZtTELXY5fE0oMXPwpXTied9g5yvA8Ue9yh2tfTcw7xVtZ47Qp1pYTQQKr3L6w",
+  "use": "sig"
+}

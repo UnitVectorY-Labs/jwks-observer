@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://api.lego.com/discovery/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://api.lego.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

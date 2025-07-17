@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://cxone.niceincontact.com/auth/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://cxone.niceincontact.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

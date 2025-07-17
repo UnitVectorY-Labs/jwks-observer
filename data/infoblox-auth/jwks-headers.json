@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "max-age=[placeholder], must-revalidate",
+  "Content-Security-Policy": "default-src 'self' infoblox-external.okta.com auth.infoblox.com *.oktacdn.com; connect-src 'self' infoblox-external.okta.com infoblox-external-admin.okta.com auth.infoblox.com *.oktacdn.com *.mixpanel.com *.mapbox.com infoblox-external.kerberos.okta.com infoblox-external.mtls.okta.com https://oinmanager.okta.com data: *.ingest.sentry.io; script-src 'unsafe-inline' 'unsafe-eval' 'self' 'report-sample' infoblox-external.okta.com auth.infoblox.com *.oktacdn.com; style-src 'unsafe-inline' 'self' 'report-sample' infoblox-external.okta.com auth.infoblox.com *.oktacdn.com; frame-src 'self' infoblox-external.okta.com infoblox-external-admin.okta.com auth.infoblox.com login.okta.com *.vidyard.com; img-src 'self' infoblox-external.okta.com auth.infoblox.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com *.vidyard.com data: blob:; font-src 'self' infoblox-external.okta.com auth.infoblox.com data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'",
+  "Content-Type": "application/json",
+  "Server": "nginx",
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
+}

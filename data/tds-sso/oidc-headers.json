@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "no-cache, no-store",
+  "Content-Security-Policy": "base-uri 'self'; default-src 'self'; connect-src 'self'; font-src 'self' maxcdn.bootstrapcdn.com; img-src 'self'; media-src 'self'; report-uri /bin/tds-common/write/csp-violation-report-endpoint; report-to csp-endpoint; script-src 'self' 'unsafe-inline' 'unsafe-eval' requirejs.org code.jquery.com; worker-src 'self'; upgrade-insecure-requests; frame-ancestors 'self' play.hbogo.com; object-src 'self'; style-src 'self' 'unsafe-inline' maxcdn.bootstrapcdn.com fast.fonts.net;",
+  "Content-Type": "application/json;charset=utf-8",
+  "Strict-Transport-Security": "max-age=15768000"
+}

@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://id.siriusxm.com/oauth2/v1/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://id.siriusxm.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

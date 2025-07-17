@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://www.king.com/.well-known/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://www.king.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

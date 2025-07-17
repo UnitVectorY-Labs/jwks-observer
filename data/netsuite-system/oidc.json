@@ -1,0 +1,45 @@
+{
+  "authorization_endpoint": "https://system.netsuite.com/app/login/oauth2/authorize.nl",
+  "claims_supported": [
+    "iss",
+    "sub",
+    "aud",
+    "exp",
+    "iat",
+    "nonce",
+    "at_hash",
+    "email",
+    "email_verified"
+  ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "end_session_endpoint": "https://system.netsuite.com/services/rest/auth/oauth2/v1/logout",
+  "grant_types_supported": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://system.netsuite.com/services/rest/auth/oauth2/v1/introspect",
+  "issuer": "https://system.netsuite.com",
+  "jwks_uri": "https://system.netsuite.com/services/rest/auth/oauth2/v1/keys",
+  "response_types_supported": [
+    "code"
+  ],
+  "revocation_endpoint": "https://system.netsuite.com/services/rest/auth/oauth2/v1/revoke",
+  "scopes_supported": [
+    "email",
+    "openid"
+  ],
+  "service_documentation": "https://system.netsuite.com/app/help/helpcenter.nl?fid=chapter_160077062690.html",
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://system.netsuite.com/services/rest/auth/oauth2/v1/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic"
+  ],
+  "userinfo_endpoint": "https://system.netsuite.com/services/rest/auth/oauth2/v1/userinfo"
+}

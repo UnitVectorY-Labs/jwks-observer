@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://auth.catonetworks.com/jwk",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://auth.catonetworks.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

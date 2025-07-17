@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://keycloak.auth0.com/.well-known/jwks.json",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://keycloak.auth0.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

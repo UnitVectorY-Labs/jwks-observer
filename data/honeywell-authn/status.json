@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://authn.honeywell.com/pf/JWKS",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://authn.honeywell.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

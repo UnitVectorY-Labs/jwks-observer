@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://api.avid.com/auth/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://api.avid.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

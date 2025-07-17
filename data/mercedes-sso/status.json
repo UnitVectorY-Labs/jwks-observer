@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://sso.mercedes-benz.com/pf/JWKS",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://sso.mercedes-benz.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "oidc": {
+    "uri": "https://accounts.coursera.org/.well-known/openid-configuration",
+    "status_code": 200,
+    "error": "missing required field \"jwks_uri\""
+  }
+}

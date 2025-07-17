@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://sso.paloaltonetworks.com/oauth2/v1/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://sso.paloaltonetworks.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

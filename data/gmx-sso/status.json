@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://sso.gmx.net/jwk",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://sso.gmx.net/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

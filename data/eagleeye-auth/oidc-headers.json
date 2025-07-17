@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "no-cache, no-store, max-age=[placeholder], must-revalidate",
+  "Content-Security-Policy": "frame-ancestors https://developer.eagleeyenetworks.com",
+  "Content-Type": "application/json",
+  "Server": "istio-envoy",
+  "Strict-Transport-Security": "max-age=31536000 ; includeSubDomains"
+}

@@ -1,0 +1,23 @@
+{
+  "authorization_endpoint": "https://auth.meta.com/dialog/consent/",
+  "claims_supported": [
+    "iss",
+    "aud",
+    "sub",
+    "iat",
+    "exp",
+    "jti",
+    "nonce"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://auth.meta.com",
+  "jwks_uri": "https://auth.meta.com/.well-known/oauth/openid/jwks/",
+  "response_types_supported": [
+    "id_token"
+  ],
+  "subject_types_supported": [
+    "pairwise"
+  ]
+}

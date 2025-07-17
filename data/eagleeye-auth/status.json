@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://auth.eagleeyenetworks.com/oauth2/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://auth.eagleeyenetworks.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://accounts.huya.com/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://accounts.huya.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

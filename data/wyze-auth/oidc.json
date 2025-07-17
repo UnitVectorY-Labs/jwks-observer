@@ -1,0 +1,64 @@
+{
+  "authorization_endpoint": "https://auth.wyze.com/oauth/authorize",
+  "claim_types_supported": [
+    "normal"
+  ],
+  "claims_parameter_supported": false,
+  "claims_supported": [
+    "user_id",
+    "user_name",
+    "scope",
+    "iss",
+    "exp",
+    "authorities",
+    "jti",
+    "client_id",
+    "aud",
+    "iat"
+  ],
+  "id_token_encryption_alg_values_supported": [
+    "none"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://auth.wyze.com",
+  "jwks_uri": "https://auth.wyze.com/.well-known/jwks.json",
+  "response_types_supported": [
+    "code",
+    "code id_token",
+    "id_token",
+    "token id_token"
+  ],
+  "scopes_supported": [
+    "readonly",
+    "native",
+    "third-party",
+    "openid",
+    "email",
+    "client-create",
+    "avatar-profile",
+    "profile",
+    "camera",
+    "ifttt",
+    "internal",
+    "magic-link",
+    "*-read",
+    "*-write",
+    "*-execute"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://auth.wyze.com/oauth/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_post"
+  ],
+  "token_endpoint_auth_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "ui_locales_supported": [
+    "en-US"
+  ],
+  "userinfo_endpoint": "https://auth.wyze.com/userinfo"
+}

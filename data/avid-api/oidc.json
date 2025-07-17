@@ -1,0 +1,15 @@
+{
+  "authorization_endpoint": "https://api.avid.com/auth/authorize",
+  "grant_types_supported": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "HS256",
+    "RS256"
+  ],
+  "issuer": "https://api.avid.com",
+  "jwks_uri": "https://api.avid.com/auth/jwks",
+  "token_endpoint": "https://api.avid.com/auth/token",
+  "userinfo_endpoint": "https://api.avid.com/auth/userinfo"
+}

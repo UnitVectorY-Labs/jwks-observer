@@ -1,0 +1,11 @@
+{
+  "jwks": {
+    "uri": "https://login.netsuite.com/services/rest/auth/oauth2/v1/keys",
+    "status_code": 200,
+    "error": "JSON is not an object"
+  },
+  "oidc": {
+    "uri": "https://login.netsuite.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

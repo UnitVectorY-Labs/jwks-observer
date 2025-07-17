@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://sso.tripledotapi.com/oauth/discovery/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://sso.tripledotapi.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

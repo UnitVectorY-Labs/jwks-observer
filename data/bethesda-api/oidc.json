@@ -1,0 +1,22 @@
+{
+  "authorization_endpoint": "https://api.bethesda.net/oauth/authorize",
+  "grant_types_supported": [
+    "authorization_code",
+    "implicit",
+    "password"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "ES256",
+    "RS256"
+  ],
+  "issuer": "https://api.bethesda.net/",
+  "jwks_uri": "https://api.bethesda.net/.well-known/jwks.json",
+  "response_types_supported": [
+    "code",
+    "token"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://api.bethesda.net/oauth/token"
+}
