@@ -967,6 +967,8 @@
     "candidate-write",
     "candidate-read",
     "tcpa-api",
+    "knox_read",
+    "knox_write",
     "offline_access"
   ],
   "subject_types_supported": [
