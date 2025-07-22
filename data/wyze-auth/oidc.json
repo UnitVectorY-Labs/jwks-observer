@@ -16,6 +16,7 @@
     "aud",
     "iat"
   ],
+  "end_session_endpoint": "https://auth.wyze.com/logout",
   "id_token_encryption_alg_values_supported": [
     "none"
   ],
