@@ -120,6 +120,7 @@
     "staff.vpn_connections",
     "productPlatform.accountBalance.read",
     "ncssl.automation",
+    "ncssl.automation.cdn",
     "offline_access"
   ],
   "subject_types_supported": [
