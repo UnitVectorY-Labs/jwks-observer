@@ -969,6 +969,9 @@
     "tcpa-api",
     "knox_read",
     "knox_write",
+    "rrc_read",
+    "rrc_write",
+    "carvana-vdi-condition",
     "offline_access"
   ],
   "subject_types_supported": [

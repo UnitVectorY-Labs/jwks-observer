@@ -1,10 +1,12 @@
 {
   "jwks": {
     "uri": "https://openid.orange.fr/oidc/jwks",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://openid.orange.fr/oidc/jwks\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
   },
   "oidc": {
     "uri": "https://openid.orange.fr/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://openid.orange.fr/.well-known/openid-configuration\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
   }
 }
