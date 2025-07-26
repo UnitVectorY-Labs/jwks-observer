@@ -5,7 +5,6 @@
   },
   "oidc": {
     "uri": "https://sso.acesso.gov.br/.well-known/openid-configuration",
-    "status_code": 500,
-    "error": "HTTP 500"
+    "status_code": 200
   }
 }
