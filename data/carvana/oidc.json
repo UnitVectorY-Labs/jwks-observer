@@ -972,6 +972,8 @@
     "rrc_read",
     "rrc_write",
     "carvana-vdi-condition",
+    "nurture_read",
+    "nurture_write",
     "offline_access"
   ],
   "subject_types_supported": [
