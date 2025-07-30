@@ -1,5 +1,6 @@
 {
   "authorization_endpoint": "https://oauth.instructure.com/login/oauth2/auth",
+  "backchannel_logout_uri": "https://oauth.instructure.com/login/openid_connect/logout",
   "claims_supported": [
     "sub"
   ],
