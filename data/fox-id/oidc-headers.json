@@ -1,4 +1,6 @@
 {
-  "Cache-Control": "max-age=[placeholder], no-cache, no-store",
-  "Content-Type": "application/json; charset=utf-8"
+  "Cache-Control": "private, no-cache, no-store, must-revalidate",
+  "Content-Type": "application/json; charset=utf-8",
+  "Strict-Transport-Security": "max-age=300",
+  "Via": "1.1 varnish, 1.1 varnish, 1.1 varnish"
 }

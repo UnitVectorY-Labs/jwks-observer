@@ -974,6 +974,8 @@
     "carvana-vdi-condition",
     "nurture_read",
     "nurture_write",
+    "cargobff-read",
+    "cargobff-write",
     "offline_access"
   ],
   "subject_types_supported": [

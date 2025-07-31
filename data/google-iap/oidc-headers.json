@@ -1,6 +1,6 @@
 {
   "Cache-Control": "no-cache, must-revalidate",
-  "Content-Security-Policy": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-omhO6X91JUAo1k6hME0iSyN/RDj31q' 'unsafe-eval'; frame-ancestors 'self' https://developers.google.com/_d/analytics-iframe; report-uri https://csp.withgoogle.com/csp/devsite/v2",
+  "Content-Security-Policy": "base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-W9F2o22oF7LcJqBoJqA/pkBTaF5WeB' 'unsafe-eval'; frame-ancestors 'self' https://developers.google.com/_d/analytics-iframe; report-uri https://csp.withgoogle.com/csp/devsite/v2",
   "Content-Type": "None",
   "Server": "Google Frontend",
   "Strict-Transport-Security": "max-age=63072000; includeSubdomains; preload"
