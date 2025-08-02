@@ -976,6 +976,8 @@
     "nurture_write",
     "cargobff-read",
     "cargobff-write",
+    "ngcp-amnesia-read",
+    "ngcp-amnesia-write",
     "offline_access"
   ],
   "subject_types_supported": [
