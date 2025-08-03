@@ -1,0 +1,10 @@
+{
+  "alg": "ES384",
+  "crv": "P-384",
+  "first_observed": "2025-08-03T05:13:50Z",
+  "kid": "KhazfXcpCiAfpfetN5Q-tegsbSA",
+  "kty": "EC",
+  "use": "sig",
+  "x": "WbtWY45Gc8MfSNSXPcpT7WGG_6aPWjLBWHnuW4wMbiEqpKU0smKNEOH6DUAanU7I",
+  "y": "sCP49w9n5o0gbGNuRCmB8jlNceqFf53PjIOYAEApZ8XM3WIq_71QvDWwh_Zl-ZnJ"
+}
