@@ -74,7 +74,8 @@
     "authorization_code",
     "refresh_token",
     "password",
-    "client_credentials"
+    "client_credentials",
+    "urn:ietf:params:oauth:grant-type:token-exchange"
   ],
   "id_token_encryption_alg_values_supported": [
     "RSA-OAEP",
@@ -101,11 +102,11 @@
   "issuer": "https://auth.riotgames.com",
   "jwks_uri": "https://auth.riotgames.com/jwks.json",
   "prompt_values_supported": [
-    "create",
     "login",
-    "select_account",
     "consent",
-    "none"
+    "select_account",
+    "none",
+    "create"
   ],
   "pushed_authorization_request_endpoint": "https://auth.riotgames.com/par",
   "registration_endpoint": "https://auth.riotgames.com/clients",
