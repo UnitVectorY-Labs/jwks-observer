@@ -17,7 +17,15 @@
     "zoneinfo",
     "updated_at",
     "email",
-    "email_verified"
+    "email_verified",
+    "https://purl.imsglobal.org/spec/lti/claim/deployment_id",
+    "https://purl.imsglobal.org/spec/lti/claim/message_type",
+    "https://purl.imsglobal.org/spec/lti/claim/version",
+    "https://purl.imsglobal.org/spec/lti/claim/target_link_uri",
+    "https://purl.imsglobal.org/spec/lti/claim/roles",
+    "https://purl.imsglobal.org/spec/lti/claim/resource_link",
+    "https://purl.imsglobal.org/spec/lti/claim/launch_presentation",
+    "https://purl.imsglobal.org/spec/lti/claim/context"
   ],
   "code_challenge_methods_supported": [
     "plain",
@@ -26,6 +34,7 @@
   "end_session_endpoint": "https://www.futurelearn.com/sign-out",
   "grant_types_supported": [
     "authorization_code",
+    "implicit_oidc",
     "client_credentials",
     "refresh_token"
   ],
@@ -41,7 +50,10 @@
     "form_post"
   ],
   "response_types_supported": [
-    "code"
+    "code",
+    "token",
+    "id_token",
+    "id_token token"
   ],
   "revocation_endpoint": "https://www.futurelearn.com/oauth/revoke",
   "scopes_supported": [
