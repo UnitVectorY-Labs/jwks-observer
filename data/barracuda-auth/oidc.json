@@ -6,6 +6,7 @@
     "email_verified",
     "locale"
   ],
+  "end_session_endpoint": "https://auth.barracudanetworks.com/logout",
   "id_token_signing_alg_values_supported": [
     "RS256"
   ],

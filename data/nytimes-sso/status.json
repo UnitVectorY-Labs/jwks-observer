@@ -1,7 +1,8 @@
 {
   "jwks": {
     "uri": "https://sso.nytimes.com/.well-known/jwks.json",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://sso.nytimes.com/.well-known/jwks.json\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
   },
   "oidc": {
     "uri": "https://sso.nytimes.com/.well-known/openid-configuration",
