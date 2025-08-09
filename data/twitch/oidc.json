@@ -3,15 +3,15 @@
   "claims_parameter_supported": true,
   "claims_supported": [
     "azp",
-    "preferred_username",
-    "sub",
+    "updated_at",
     "exp",
     "iat",
     "iss",
+    "sub",
     "email",
     "email_verified",
     "picture",
-    "updated_at",
+    "preferred_username",
     "aud"
   ],
   "id_token_signing_alg_values_supported": [

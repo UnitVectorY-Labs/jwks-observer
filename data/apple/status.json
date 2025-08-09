@@ -1,7 +1,8 @@
 {
   "jwks": {
     "uri": "https://appleid.apple.com/auth/keys",
-    "status_code": 200
+    "status_code": 501,
+    "error": "HTTP 501"
   },
   "oidc": {
     "uri": "https://appleid.apple.com/.well-known/openid-configuration",
