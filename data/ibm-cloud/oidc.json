@@ -1,5 +1,5 @@
 {
-  "authorization_endpoint": "https://identity-3.us-south.iam.cloud.ibm.com/identity/authorize",
+  "authorization_endpoint": "https://identity-2.us-south.iam.cloud.ibm.com/identity/authorize",
   "claims_supported": [
     "iam_id",
     "sub",
@@ -23,8 +23,8 @@
     "RS256"
   ],
   "issuer": "https://iam.cloud.ibm.com/identity",
-  "jwks_uri": "https://identity-3.us-south.iam.cloud.ibm.com/identity/keys",
-  "passcode_endpoint": "https://identity-3.us-south.iam.cloud.ibm.com/identity/passcode",
+  "jwks_uri": "https://identity-2.us-south.iam.cloud.ibm.com/identity/keys",
+  "passcode_endpoint": "https://identity-2.us-south.iam.cloud.ibm.com/identity/passcode",
   "public_hosts": [
     "https://identity-1.us-south.iam.cloud.ibm.com",
     "https://identity-2.us-south.iam.cloud.ibm.com",
@@ -58,10 +58,10 @@
   "subject_types_supported": [
     "public"
   ],
-  "token_endpoint": "https://identity-3.us-south.iam.cloud.ibm.com/identity/token",
+  "token_endpoint": "https://identity-2.us-south.iam.cloud.ibm.com/identity/token",
   "token_endpoint_auth_methods_supported": [
     "client_secret_basic",
     "client_secret_post"
   ],
-  "userinfo_endpoint": "https://identity-3.us-south.iam.cloud.ibm.com/identity/userinfo"
+  "userinfo_endpoint": "https://identity-2.us-south.iam.cloud.ibm.com/identity/userinfo"
 }
