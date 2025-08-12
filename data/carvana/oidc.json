@@ -980,6 +980,11 @@
     "ngcp-amnesia-write",
     "carvana-vdi-windowstickerapi",
     "Marketplace:Tekion:UpdatePricing",
+    "enzo_read",
+    "enzo_write",
+    "NewCar:DocumentProcessor:ProcessInvoice",
+    "nurture_qa_read",
+    "nurture_qa_write",
     "offline_access"
   ],
   "subject_types_supported": [

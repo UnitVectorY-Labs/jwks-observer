@@ -97,7 +97,22 @@
     "domain:read",
     "domain:write",
     "dns:read",
-    "dns:write"
+    "dns:write",
+    "invoicing:order:read",
+    "invoicing:invoice:read",
+    "invoicing:payment:read",
+    "invoicing:prepaid:read",
+    "invoicing:prepaid:write",
+    "invoicing:deal:read",
+    "invoicing:payment_profile:read",
+    "invoicing:payment_profile:write",
+    "invoicing:students:read",
+    "invoicing:students:write",
+    "invoicing:address:read",
+    "invoicing:address:write",
+    "invoicing:config:read",
+    "invoicing:config:write",
+    "invoicing:discount:read"
   ],
   "subject_types_supported": [
     "public"
