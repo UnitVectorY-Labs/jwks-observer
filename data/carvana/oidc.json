@@ -52,7 +52,8 @@
     "facebook_token_exchange",
     "delegation",
     "magic_link",
-    "wli_trusted"
+    "wli_trusted",
+    "aux_as_token_exchange"
   ],
   "id_token_signing_alg_values_supported": [
     "RS256"
