@@ -122,6 +122,7 @@
     "account_direct_db_write",
     "me_profile",
     "authz_read",
+    "provision_namevalue_delete",
     "clm_ai_batch_write",
     "provision_asset_group_read",
     "ais_doc_assistant_write",
