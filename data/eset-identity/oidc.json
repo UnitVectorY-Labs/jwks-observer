@@ -161,6 +161,7 @@
     "hub_api",
     "epc_incident_creator",
     "cwp_cloud_vm",
+    "edr_connector_config_updater",
     "offline_access"
   ],
   "subject_types_supported": [
