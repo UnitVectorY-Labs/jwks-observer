@@ -988,6 +988,11 @@
     "nurture_qa_write",
     "Marketplace:Tekion:Query",
     "stc-payment",
+    "obd_rw",
+    "Marketplace:Tekion:Query:Customers",
+    "Marketplace:Tekion:Query:Deals",
+    "Marketplace:Tekion:Query:Inventory",
+    "Marketplace:Tekion:UpdateCustomFields",
     "offline_access"
   ],
   "subject_types_supported": [

@@ -4,15 +4,15 @@
   "claims_supported": [
     "preferred_username",
     "updated_at",
-    "exp",
-    "email",
-    "email_verified",
-    "picture",
-    "azp",
-    "aud",
     "iat",
     "iss",
-    "sub"
+    "azp",
+    "email",
+    "picture",
+    "aud",
+    "exp",
+    "sub",
+    "email_verified"
   ],
   "id_token_signing_alg_values_supported": [
     "RS256"
