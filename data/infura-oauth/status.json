@@ -1,7 +1,8 @@
 {
   "jwks": {
     "uri": "https://oauth.infura.io/.well-known/jwks.json",
-    "status_code": 200
+    "status_code": 500,
+    "error": "HTTP 500"
   },
   "oidc": {
     "uri": "https://oauth.infura.io/.well-known/openid-configuration",
