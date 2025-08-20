@@ -135,6 +135,7 @@
     "unifiedapisockets.cache_access",
     "identity.userPreferences",
     "identity.customerLinking",
+    "idsvr.revokePersistedGrants",
     "offline_access"
   ],
   "subject_types_supported": [

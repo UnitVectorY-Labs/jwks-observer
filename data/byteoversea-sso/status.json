@@ -5,6 +5,7 @@
   },
   "oidc": {
     "uri": "https://sso.byteoversea.com/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 200,
+    "error": "invalid JSON: invalid character '\u003c' looking for beginning of value"
   }
 }

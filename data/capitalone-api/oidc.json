@@ -7,7 +7,9 @@
     "urn:cof:ci:cust:loa:Level3.1",
     "urn:cof:ci:ncust:loa:Level0.2",
     "urn:cof:ci:ncust:loa:Level0.25",
-    "urn:cof:ci:ncust:loa:Level0.3"
+    "urn:cof:ci:ncust:loa:Level0.3",
+    "urn:cof:auto:dlr:loa:1fa:any",
+    "urn:cof:auto:dlr:loa:2fa:any"
   ],
   "authorization_endpoint": "https://api.capitalone.com/oauth2/authorize",
   "claim_types_supported": [
