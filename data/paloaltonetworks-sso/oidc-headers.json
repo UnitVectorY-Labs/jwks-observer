@@ -1,6 +1,6 @@
 {
   "Cache-Control": "max-age=[placeholder], must-revalidate",
-  "Content-Security-Policy": "frame-ancestors 'self' https://supportcases.paloaltonetworks.com https://panwprod.cloud.varicent.com",
+  "Content-Security-Policy": "frame-ancestors 'self' https://supportcases.paloaltonetworks.com https://docs.paloaltonetworks.com https://panwprod.cloud.varicent.com",
   "Content-Type": "application/json",
   "Server": "nginx",
   "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
