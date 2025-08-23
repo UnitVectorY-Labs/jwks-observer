@@ -93,7 +93,10 @@
     "PS512",
     "ES256",
     "ES384",
-    "ES512"
+    "ES512",
+    "HS256",
+    "HS384",
+    "HS512"
   ],
   "request_parameter_supported": true,
   "require_pushed_authorization_requests": false,

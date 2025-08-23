@@ -1,12 +1,10 @@
 {
   "jwks": {
     "uri": "https://auth.carvana.com/.well-known/openid-configuration/jwks",
-    "status_code": 403,
-    "error": "HTTP 403"
+    "status_code": 200
   },
   "oidc": {
     "uri": "https://auth.carvana.com/.well-known/openid-configuration",
-    "status_code": 403,
-    "error": "HTTP 403"
+    "status_code": 200
   }
 }
