@@ -104,9 +104,9 @@
   "prompt_values_supported": [
     "consent",
     "none",
+    "login",
     "select_account",
-    "create",
-    "login"
+    "create"
   ],
   "pushed_authorization_request_endpoint": "https://auth.riotgames.com/par",
   "registration_endpoint": "https://auth.riotgames.com/clients",
