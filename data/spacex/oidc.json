@@ -34,6 +34,7 @@
   "grant_types_supported": [
     "authorization_code",
     "implicit",
+    "client_credentials",
     "urn:ietf:params:oauth:grant-type:token-exchange",
     "urn:ietf:params:oauth:grant-type:jwt-bearer"
   ],

@@ -1,12 +1,10 @@
 {
   "jwks": {
     "uri": "https://sso.arubanetworks.com/pf/JWKS",
-    "status_code": 503,
-    "error": "HTTP 503"
+    "status_code": 200
   },
   "oidc": {
     "uri": "https://sso.arubanetworks.com/.well-known/openid-configuration",
-    "status_code": 503,
-    "error": "HTTP 503"
+    "status_code": 200
   }
 }
