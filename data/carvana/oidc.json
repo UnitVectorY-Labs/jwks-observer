@@ -998,6 +998,10 @@
     "heads-up-read",
     "fleetscan",
     "carvana-vdi-answersheet",
+    "dps_agent_read",
+    "dps_agent_write",
+    "carmaflow_write",
+    "carmaflow_read",
     "offline_access"
   ],
   "subject_types_supported": [
