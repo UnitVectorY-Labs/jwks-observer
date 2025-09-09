@@ -1002,6 +1002,8 @@
     "dps_agent_write",
     "carmaflow_write",
     "carmaflow_read",
+    "resume_parser_write",
+    "resume_parser_read",
     "offline_access"
   ],
   "subject_types_supported": [

@@ -5,6 +5,7 @@
   },
   "oidc": {
     "uri": "https://auth.spacex.com/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://auth.spacex.com/.well-known/openid-configuration\": read tcp 10.42.0.246:54338-\u003e192.31.242.224:443: read: connection reset by peer"
   }
 }
