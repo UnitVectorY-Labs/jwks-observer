@@ -1,5 +1,6 @@
 {
   "Cache-Control": "private, no-cache, no-store, must-revalidate",
+  "Content-Security-Policy": "frame-ancestors 'none'",
   "Content-Type": "application/json",
   "Strict-Transport-Security": "max-age=15552000; preload"
 }

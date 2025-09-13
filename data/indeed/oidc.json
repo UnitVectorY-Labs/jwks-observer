@@ -18,7 +18,8 @@
     "code"
   ],
   "scopes_supported": [
-    "job_seeker.jobs.search"
+    "job_seeker.jobs.search",
+    "offline_access"
   ],
   "service_documentation": "https://docs.indeed.com/authorization/",
   "subject_types_supported": [
