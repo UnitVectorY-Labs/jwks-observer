@@ -16,7 +16,8 @@
     "implicit",
     "delegation",
     "oauth1_migration",
-    "embedded_app"
+    "embedded_app",
+    "client_credentials_extn"
   ],
   "id_token_signing_alg_values_supported": [
     "RS256"
