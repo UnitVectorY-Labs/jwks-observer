@@ -5,6 +5,7 @@
   },
   "oidc": {
     "uri": "https://sso.mixpanel.com/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://sso.mixpanel.com/.well-known/openid-configuration\": net/http: TLS handshake timeout"
   }
 }
