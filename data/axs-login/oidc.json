@@ -136,6 +136,16 @@
     "identity.userPreferences",
     "identity.customerLinking",
     "idsvr.revokePersistedGrants",
+    "identity.userPreferences.any",
+    "resale.listpro.listings.create",
+    "resale.listpro.listings.edit",
+    "resale.listpro.listings.retract",
+    "resale.listpro.listings.read",
+    "resale.listpro.accounts.authorize",
+    "resale.listpro.accounts.read",
+    "resale.listpro.tickets.read",
+    "resale.listpro.events.read",
+    "resale.listpro.sales.read",
     "offline_access"
   ],
   "subject_types_supported": [

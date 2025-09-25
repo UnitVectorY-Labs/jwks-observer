@@ -33,6 +33,7 @@
     "openid",
     "email",
     "customer-account-api:full",
+    "customer-account-apps-api:full",
     "customer-account-mcp-api:full"
   ],
   "subject_types_supported": [
