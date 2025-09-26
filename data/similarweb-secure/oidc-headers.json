@@ -1,6 +1,6 @@
 {
-  "Cache-Control": "max-age=[placeholder]",
   "Content-Security-Policy": "frame-ancestors https://*.salesforce.com https://*.force.com https://*.similarweb.com",
   "Content-Type": "application/json;charset=UTF-8",
-  "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload"
+  "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+  "Via": "1.1 [placeholder].cloudfront.net (CloudFront)"
 }
