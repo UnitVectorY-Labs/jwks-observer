@@ -31,6 +31,7 @@
     "client_secret_post"
   ],
   "scopes_supported": [
+    "3p.ai.support",
     "3p.coalesced",
     "3p.communications",
     "3p.demand.analytics",
@@ -80,6 +81,7 @@
     "applepay.merchanttoken.lifecycle.events",
     "arcwise",
     "attribution.postback",
+    "avcloud.cloudapi",
     "avcloud.createdownloadurls",
     "avcloud.searchdata",
     "avcloud.searchdata_auth_code",
