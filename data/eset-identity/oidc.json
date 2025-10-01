@@ -163,6 +163,7 @@
     "epc_incident_creator",
     "cwp_cloud_vm",
     "edr_connector_config_updater",
+    "epc_jira_incidents",
     "offline_access"
   ],
   "subject_types_supported": [

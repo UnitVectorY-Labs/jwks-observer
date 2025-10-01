@@ -5,6 +5,7 @@
   },
   "oidc": {
     "uri": "https://oauth.shuzilm.cn/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://oauth.shuzilm.cn/.well-known/openid-configuration\": read tcp 10.42.0.197:36794-\u003e8.219.75.218:443: read: connection reset by peer"
   }
 }
