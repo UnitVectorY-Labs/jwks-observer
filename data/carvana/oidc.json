@@ -1010,6 +1010,8 @@
     "/web-scraper/read",
     "scheduling-planning-read",
     "scheduling-planning-write",
+    "trimble-read",
+    "trimble-write",
     "offline_access"
   ],
   "subject_types_supported": [
