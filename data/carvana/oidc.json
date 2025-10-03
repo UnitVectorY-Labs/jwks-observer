@@ -1012,6 +1012,11 @@
     "scheduling-planning-write",
     "trimble-read",
     "trimble-write",
+    "logistics-locationassignment-read",
+    "/titleregistrationverification/read",
+    "/titleregistrationverification/write",
+    "shipper_read",
+    "shipper_write",
     "offline_access"
   ],
   "subject_types_supported": [
