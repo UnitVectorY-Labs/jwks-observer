@@ -1017,6 +1017,8 @@
     "/titleregistrationverification/write",
     "shipper_read",
     "shipper_write",
+    "candidateresumesummary_read",
+    "candidateresumesummary_write",
     "offline_access"
   ],
   "subject_types_supported": [
