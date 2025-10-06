@@ -1019,6 +1019,8 @@
     "shipper_write",
     "candidateresumesummary_read",
     "candidateresumesummary_write",
+    "driverslicenseverification/read",
+    "driverslicenseverification/write",
     "offline_access"
   ],
   "subject_types_supported": [
