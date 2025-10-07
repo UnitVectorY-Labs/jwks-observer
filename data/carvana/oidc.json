@@ -1021,6 +1021,8 @@
     "candidateresumesummary_write",
     "driverslicenseverification/read",
     "driverslicenseverification/write",
+    "/flashapptesttwo/read",
+    "/flashapptesttwo/write",
     "offline_access"
   ],
   "subject_types_supported": [
