@@ -7,12 +7,12 @@
   "claims_supported": [
     "email",
     "email_verified",
+    "gender",
+    "given_name",
     "family_name",
     "address",
-    "given_name",
-    "shipping_address",
     "sub",
-    "gender",
+    "shipping_address",
     "birthdate"
   ],
   "grant_types_supported": [

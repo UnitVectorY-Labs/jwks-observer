@@ -149,6 +149,7 @@
     "eset_psa",
     "eset_online_help",
     "esac",
+    "automation.events.write",
     "ecp3",
     "ema2_api",
     "epc_api",
@@ -164,6 +165,11 @@
     "cwp_cloud_vm",
     "edr_connector_config_updater",
     "epc_jira_incidents",
+    "integration_management.integrations.read",
+    "integration_management.integrations.write",
+    "asset_management.assets.write",
+    "automation.tasks.read",
+    "automation.tasks.write",
     "offline_access"
   ],
   "subject_types_supported": [

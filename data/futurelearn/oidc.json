@@ -46,6 +46,7 @@
   "introspection_endpoint": "https://www.futurelearn.com/oauth/introspect",
   "issuer": "https://www.futurelearn.com",
   "jwks_uri": "https://www.futurelearn.com/oauth/discovery/keys",
+  "registration_endpoint": "https://www.futurelearn.com/admin/lti_dynamic_registrations/register",
   "response_modes_supported": [
     "query",
     "fragment",
