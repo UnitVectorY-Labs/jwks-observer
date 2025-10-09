@@ -1023,6 +1023,7 @@
     "driverslicenseverification/write",
     "/flashapptesttwo/read",
     "/flashapptesttwo/write",
+    "/flashapptesttwo/access",
     "offline_access"
   ],
   "subject_types_supported": [
