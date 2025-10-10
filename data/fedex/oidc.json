@@ -249,13 +249,13 @@
   "require_pushed_authorization_requests": false,
   "require_request_uri_registration": true,
   "response_modes_supported": [
-    "query",
-    "fragment.jwt",
     "form_post",
     "form_post.jwt",
     "jwt",
     "fragment",
-    "query.jwt"
+    "query.jwt",
+    "query",
+    "fragment.jwt"
   ],
   "response_types_supported": [
     "code token id_token",

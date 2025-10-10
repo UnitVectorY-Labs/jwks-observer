@@ -1,0 +1,8 @@
+{
+  "alg": "HS256",
+  "first_observed": "2025-10-10T05:08:14Z",
+  "k": "Pke3eRzMMfDXUwZNyOXyFs0-RT-E0EXE1FDCYFdmB6c",
+  "kid": "VkpiUyphKFeCfHelNNBINWev5hr8Q-qXrvmu_4nKsgk",
+  "kty": "oct",
+  "use": "sig"
+}
