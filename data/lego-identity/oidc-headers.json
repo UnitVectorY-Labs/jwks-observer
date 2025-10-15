@@ -2,6 +2,7 @@
   "Cache-Control": "max-age=[placeholder]",
   "Content-Security-Policy": "default-src 'self'; object-src 'none'; frame-ancestors 'none'; sandbox allow-forms allow-same-origin allow-scripts; base-uri 'none'; form-action 'self';",
   "Content-Type": "application/json; charset=UTF-8",
-  "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+  "Server": "cloudflare",
+  "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
   "Via": "1.1 [placeholder].cloudfront.net (CloudFront)"
 }

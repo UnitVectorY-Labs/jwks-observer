@@ -223,6 +223,7 @@
   "scopes_supported": [
     "https://staging.accounts.boeing.com/update",
     "b2bi-order.write",
+    "cks-jeff-test.das/read",
     "https://prod.FlightChat/staff",
     "cks-jct-test.das/all",
     "lft.jct-wif.das/jct/write",
@@ -237,6 +238,7 @@
     "profile",
     "https://perftest.digitalaviationservices.com",
     "https://prd.eiamsapi.com/updateAccounts",
+    "cks-jeff-test.das/write",
     "cks-joc-staging.das/navblue/all",
     "https://jp.flightchat-dev.com/chat",
     "cks-joc-test.das/navblue/all",
@@ -263,6 +265,7 @@
     "filetransfer.jct.das/plansync",
     "https://prod.FlightChat/internal",
     "b2bi-shipping.read",
+    "cks-jeff-test.das/api",
     "cks-jct-test.das/jct/read",
     "https://umt.boeing.com/read",
     "jfs.cks-joc-test.das/test",
