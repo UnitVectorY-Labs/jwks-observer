@@ -1,5 +1,5 @@
 {
   "Cache-Control": "max-age=[placeholder], must-revalidate, no-transform, public",
-  "Content-Type": "application/json;charset=UTF-8",
+  "Content-Type": "application/json",
   "Via": "1.1 [placeholder].cloudfront.net (CloudFront)"
 }

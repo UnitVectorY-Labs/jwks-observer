@@ -169,7 +169,9 @@
     "sw:pr:EditSiteAudit",
     "sw:pr:RefundLastPayment",
     "sw:pr:CanManageAssets",
-    "sw:pr:AccessSwagger"
+    "sw:pr:AccessSwagger",
+    "sw:pr:ViewAccountUsers",
+    "sw:pr:ManageAccountUsers"
   ],
   "subject_types_supported": [
     "public"

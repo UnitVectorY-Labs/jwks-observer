@@ -168,6 +168,7 @@
     "integration_management.integrations.read",
     "integration_management.integrations.write",
     "asset_management.assets.write",
+    "asset_management.assets.read",
     "automation.tasks.read",
     "automation.tasks.write",
     "offline_access"

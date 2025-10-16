@@ -84,6 +84,9 @@
     "PS384",
     "PS512"
   ],
+  "end_session_endpoint": "https://authn.honeywell.com/idp/init_logout.openid",
+  "frontchannel_logout_session_supported": true,
+  "frontchannel_logout_supported": true,
   "grant_types_supported": [
     "implicit",
     "authorization_code",
@@ -179,6 +182,12 @@
   "ping_revoked_sris_endpoint": "https://authn.honeywell.com/pf-ws/rest/sessionMgmt/revokedSris",
   "ping_session_management_sris_endpoint": "https://authn.honeywell.com/pf-ws/rest/sessionMgmt/sessions",
   "ping_session_management_users_endpoint": "https://authn.honeywell.com/pf-ws/rest/sessionMgmt/users",
+  "prompt_values_supported": [
+    "none",
+    "login",
+    "consent",
+    "create"
+  ],
   "registration_endpoint": "https://authn.honeywell.com/as/clients.oauth2",
   "request_object_encryption_alg_values_supported": [
     "dir",
@@ -250,7 +259,8 @@
     "client_secret_post",
     "client_secret_jwt",
     "private_key_jwt",
-    "tls_client_auth"
+    "tls_client_auth",
+    "none"
   ],
   "token_endpoint_auth_signing_alg_values_supported": [
     "RS256",
