@@ -5,13 +5,13 @@
     "aud",
     "iss",
     "sub",
-    "email_verified",
+    "azp",
     "preferred_username",
     "updated_at",
     "exp",
     "iat",
-    "azp",
     "email",
+    "email_verified",
     "picture"
   ],
   "id_token_signing_alg_values_supported": [
