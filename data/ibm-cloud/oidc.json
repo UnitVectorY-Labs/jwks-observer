@@ -39,7 +39,18 @@
     "https://identity-2.ap-south.iam.cloud.ibm.com",
     "https://identity-3.ap-south.iam.cloud.ibm.com",
     "https://identity-1.ap-north.iam.cloud.ibm.com",
-    "https://identity-2.ap-north.iam.cloud.ibm.com"
+    "https://identity-2.ap-north.iam.cloud.ibm.com",
+    "https://au-syd.iam.cloud.ibm.com",
+    "https://br-sao.iam.cloud.ibm.com",
+    "https://ca-mon.iam.cloud.ibm.com",
+    "https://ca-tor.iam.cloud.ibm.com",
+    "https://eu-de.iam.cloud.ibm.com",
+    "https://eu-gb.iam.cloud.ibm.com",
+    "https://eu-es.iam.cloud.ibm.com",
+    "https://jp-tok.iam.cloud.ibm.com",
+    "https://jp-osa.iam.cloud.ibm.com",
+    "https://us-east.iam.cloud.ibm.com",
+    "https://us-south.iam.cloud.ibm.com"
   ],
   "response_types_supported": [
     "code",
