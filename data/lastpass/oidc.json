@@ -110,6 +110,7 @@
     "commerce/copas",
     "commerce/eventhandler",
     "commerce/full_access",
+    "commerce/zuora",
     "offline_access"
   ],
   "subject_types_supported": [

@@ -1,10 +1,12 @@
 {
   "jwks": {
     "uri": "https://auth.adnami.io/.well-known/jwks",
-    "status_code": 200
+    "status_code": 500,
+    "error": "HTTP 500"
   },
   "oidc": {
     "uri": "https://auth.adnami.io/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 500,
+    "error": "HTTP 500"
   }
 }
