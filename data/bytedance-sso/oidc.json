@@ -33,6 +33,7 @@
     "code"
   ],
   "scopes_supported": [
+    "ciam.u.enforce_reset_password",
     "ciam.u.group.manage",
     "ciam.u.session.manage",
     "ciam.u.app.access.manage",

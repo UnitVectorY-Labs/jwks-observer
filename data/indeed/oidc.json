@@ -19,7 +19,9 @@
   ],
   "scopes_supported": [
     "job_seeker.jobs.search",
-    "offline_access"
+    "offline_access",
+    "job_seeker.profile.read",
+    "job_seeker.company.details.read"
   ],
   "service_documentation": "https://docs.indeed.com/authorization/",
   "subject_types_supported": [
