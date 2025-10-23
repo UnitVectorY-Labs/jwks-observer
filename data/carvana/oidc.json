@@ -1026,6 +1026,8 @@
     "/flashapptesttwo/access",
     "shipping_write",
     "shipping_read",
+    "customtemplateregistry/read",
+    "customtemplateregistry/write",
     "offline_access"
   ],
   "subject_types_supported": [
