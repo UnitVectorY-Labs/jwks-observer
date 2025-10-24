@@ -5,6 +5,7 @@
   },
   "oidc": {
     "uri": "https://accounts.jetblue.com/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://accounts.jetblue.com/.well-known/openid-configuration\": net/http: TLS handshake timeout"
   }
 }

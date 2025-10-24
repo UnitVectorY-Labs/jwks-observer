@@ -1,5 +1,6 @@
 {
   "Cache-Control": "no-cache, no-store, private, must-revalidate, max-age=[placeholder]",
+  "Content-Security-Policy": "script-src https: http: blob: 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval'",
   "Content-Type": "application/json; charset=utf-8",
   "Server": "cloudflare",
   "Strict-Transport-Security": "max-age=15552000; includeSubDomains; preload"

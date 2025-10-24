@@ -1028,6 +1028,10 @@
     "shipping_read",
     "customtemplateregistry/read",
     "customtemplateregistry/write",
+    "resumereview_read",
+    "resumereview_write",
+    "vehicle-survey-read",
+    "vehicle-survey-write",
     "offline_access"
   ],
   "subject_types_supported": [
