@@ -1032,6 +1032,7 @@
     "resumereview_write",
     "vehicle-survey-read",
     "vehicle-survey-write",
+    "regproc_bff",
     "offline_access"
   ],
   "subject_types_supported": [
