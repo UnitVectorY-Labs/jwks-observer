@@ -6,14 +6,14 @@
   "claims_parameter_supported": true,
   "claims_supported": [
     "email",
+    "email_verified",
     "family_name",
-    "shipping_address",
-    "sub",
-    "birthdate",
     "address",
     "given_name",
+    "shipping_address",
+    "sub",
     "gender",
-    "email_verified"
+    "birthdate"
   ],
   "grant_types_supported": [
     "authorization_code"
