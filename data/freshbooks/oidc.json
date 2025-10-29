@@ -116,7 +116,9 @@
     "user:fundbox:read",
     "user:fundbox:write",
     "user:partners:read",
-    "user:partners:write"
+    "user:partners:write",
+    "user:riskhub:read",
+    "user:riskhub:write"
   ],
   "subject_types_supported": [
     "public"

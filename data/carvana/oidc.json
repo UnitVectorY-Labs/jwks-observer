@@ -1033,6 +1033,8 @@
     "vehicle-survey-read",
     "vehicle-survey-write",
     "regproc_bff",
+    "peopletech_rules_read",
+    "peopletech_rules_write",
     "offline_access"
   ],
   "subject_types_supported": [

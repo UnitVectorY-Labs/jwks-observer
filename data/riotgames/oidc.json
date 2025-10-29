@@ -102,10 +102,10 @@
   "issuer": "https://auth.riotgames.com",
   "jwks_uri": "https://auth.riotgames.com/jwks.json",
   "prompt_values_supported": [
-    "select_account",
-    "consent",
-    "none",
     "login",
+    "none",
+    "consent",
+    "select_account",
     "create"
   ],
   "pushed_authorization_request_endpoint": "https://auth.riotgames.com/par",
@@ -235,7 +235,8 @@
   ],
   "supported_permissions": [
     "alias:change",
-    "game:play"
+    "game:play",
+    "riot:interact"
   ],
   "tls_client_certificate_bound_access_tokens": true,
   "token_endpoint": "https://auth.riotgames.com/token",

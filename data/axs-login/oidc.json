@@ -146,6 +146,7 @@
     "resale.listpro.tickets.read",
     "resale.listpro.events.read",
     "resale.listpro.sales.read",
+    "resalesearchapi",
     "offline_access"
   ],
   "subject_types_supported": [
