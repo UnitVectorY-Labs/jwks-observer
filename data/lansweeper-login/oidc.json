@@ -1,8 +1,6 @@
 {
   "authorization_endpoint": "https://login.lansweeper.com/authorize",
   "backchannel_authentication_endpoint": "https://login.lansweeper.com/bc-authorize",
-  "backchannel_logout_session_supported": true,
-  "backchannel_logout_supported": true,
   "backchannel_token_delivery_modes_supported": [
     "poll"
   ],

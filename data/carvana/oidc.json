@@ -1035,6 +1035,8 @@
     "regproc_bff",
     "peopletech_rules_read",
     "peopletech_rules_write",
+    "dss-stcmigration",
+    "ContractTransfers",
     "offline_access"
   ],
   "subject_types_supported": [
