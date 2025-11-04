@@ -7,6 +7,7 @@
     "iss",
     "exp",
     "iat",
+    "auth_time",
     "email",
     "email_verified",
     "given_name",
