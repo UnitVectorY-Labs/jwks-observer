@@ -1,0 +1,8 @@
+{
+  "alg": "HS512",
+  "first_observed": "2025-11-05T05:08:31Z",
+  "k": "bcxCgalA0oMt4FlzJQ5BC6HhhTIZnDTP9Z1OL2Ko-uikXtYkqcIkb8Da6XzlnMw-OwcRlW_LP6kLY0bP1twdXQ",
+  "kid": "yLJ_oymBdw9pDipbWaZRH1HVd22vesu3I5hZc2XoQzg",
+  "kty": "oct",
+  "use": "sig"
+}
