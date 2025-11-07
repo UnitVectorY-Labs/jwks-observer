@@ -171,6 +171,7 @@
     "asset_management.assets.read",
     "automation.tasks.read",
     "automation.tasks.write",
+    "ai_advisor",
     "offline_access"
   ],
   "subject_types_supported": [

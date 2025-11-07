@@ -1,5 +1,6 @@
 {
   "authorization_endpoint": "https://huggingface.co/oauth/authorize",
+  "client_id_metadata_supported": true,
   "code_challenge_methods_supported": [
     "S256"
   ],
