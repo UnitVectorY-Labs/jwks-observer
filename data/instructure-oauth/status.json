@@ -1,7 +1,8 @@
 {
   "jwks": {
     "uri": "https://oauth.instructure.com/login/oauth2/jwks",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://oauth.instructure.com/login/oauth2/jwks\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
   },
   "oidc": {
     "uri": "https://oauth.instructure.com/.well-known/openid-configuration",

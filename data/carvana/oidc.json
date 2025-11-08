@@ -1039,6 +1039,8 @@
     "ContractTransfers",
     "stc-vehicle-description",
     "wholesale_disclosures_write",
+    "Marketplace:DealerConnect:Get:Incentives",
+    "Marketplace:DealerConnect:Get:Inventory",
     "offline_access"
   ],
   "subject_types_supported": [
