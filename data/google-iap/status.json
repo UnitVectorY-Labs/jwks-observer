@@ -5,6 +5,7 @@
   },
   "oidc": {
     "uri": "https://cloud.google.com/iap/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 404,
+    "error": "HTTP 404"
   }
 }
