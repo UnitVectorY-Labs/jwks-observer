@@ -1,6 +1,5 @@
 {
-  "Cache-Control": "no-cache,must-revalidate,max-age=[placeholder],no-store,private",
+  "Cache-Control": "max-age=[placeholder], no-cache, no-store",
   "Content-Type": "application/json;charset=UTF-8",
-  "Server": "sfdcedge",
-  "Strict-Transport-Security": "max-age=63072000; includeSubDomains"
+  "Strict-Transport-Security": "max-age=15768000 ; includeSubDomains ; preload"
 }

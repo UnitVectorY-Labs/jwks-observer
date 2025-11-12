@@ -1,4 +1,19 @@
 {
+  "claims_supported": [
+    "aud",
+    "iat",
+    "iss"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
   "issuer": "https://api.lego.com/",
-  "jwks_uri": "https://api.lego.com/discovery/keys"
+  "jwks_uri": "https://api.lego.com/discovery/keys",
+  "response_types_supported": [
+    "id_token",
+    "token"
+  ],
+  "subject_types_supported": [
+    "public"
+  ]
 }
