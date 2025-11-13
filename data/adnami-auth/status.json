@@ -1,12 +1,10 @@
 {
   "jwks": {
     "uri": "https://auth.adnami.io/.well-known/jwks",
-    "status_code": 0,
-    "error": "Get \"https://auth.adnami.io/.well-known/jwks\": net/http: TLS handshake timeout"
+    "status_code": 200
   },
   "oidc": {
     "uri": "https://auth.adnami.io/.well-known/openid-configuration",
-    "status_code": 0,
-    "error": "Get \"https://auth.adnami.io/.well-known/openid-configuration\": net/http: TLS handshake timeout"
+    "status_code": 200
   }
 }
