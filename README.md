@@ -2,7 +2,7 @@
 
 # jwks-observer
 
-Observes and records changes to public OIDC metadata and JWKS for services listed in the jwks-catalog.
+Observes and records changes to public OIDC metadata and JWKS for services listed in the [jwks-catalog](https://github.com/UnitVectorY-Labs/jwks-catalog).
 
 ## Overview
 
