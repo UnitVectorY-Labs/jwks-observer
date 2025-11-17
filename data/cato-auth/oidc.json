@@ -38,7 +38,8 @@
     "urn:ietf:params:oauth:grant-type:jwt-bearer",
     "client_credentials",
     "urn:ietf:params:oauth:grant_type:redelegate",
-    "urn:ietf:params:oauth:grant-type:device_code"
+    "urn:ietf:params:oauth:grant-type:device_code",
+    "refresh_token"
   ],
   "id_token_encryption_alg_values_supported": [
     "RSA-OAEP",
