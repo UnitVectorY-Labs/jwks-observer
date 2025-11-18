@@ -11,6 +11,10 @@
     "iss",
     "sub"
   ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
   "grant_types_supported": [
     "authorization_code",
     "implicit",
@@ -25,6 +29,7 @@
   ],
   "issuer": "https://sso.accounts.dowjones.com/",
   "jwks_uri": "https://sso.accounts.dowjones.com/.well-known/jwks.json",
+  "registration_endpoint": "https://sso.accounts.dowjones.com/register",
   "response_types_supported": [
     "code",
     "token",
@@ -40,5 +45,12 @@
     "email_verified"
   ],
   "token_endpoint": "https://sso.accounts.dowjones.com/oauth/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post",
+    "client_secret_jwt",
+    "private_key_jwt",
+    "none"
+  ],
   "userinfo_endpoint": "https://sso.accounts.dowjones.com/userinfo"
 }
