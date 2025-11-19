@@ -1044,6 +1044,9 @@
     "carfind_rw",
     "/flash/pes/read",
     "carmastatustrackingbff",
+    "Liencron",
+    "signmeup-read",
+    "signmeup-write",
     "offline_access"
   ],
   "subject_types_supported": [
