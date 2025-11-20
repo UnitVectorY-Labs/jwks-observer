@@ -172,6 +172,7 @@
     "automation.tasks.read",
     "automation.tasks.write",
     "ai_advisor",
+    "epc_ai_advisor_api",
     "offline_access"
   ],
   "subject_types_supported": [

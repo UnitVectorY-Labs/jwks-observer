@@ -94,7 +94,8 @@
     "dpv:FraudPreventionAndDetection%23sim-swap:retrieve-date",
     "dpv:FraudPreventionAndDetection%23number-verification:verify",
     "dpv:FraudPreventionAndDetection%23kyc-match:match",
-    "ap2014"
+    "ap2014",
+    "softotp"
   ],
   "token_endpoint": "https://oauth.sd-sfr.fr/api/token",
   "token_endpoint_auth_signing_alg_values_supported": [

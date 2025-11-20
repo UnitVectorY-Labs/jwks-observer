@@ -1047,6 +1047,8 @@
     "Liencron",
     "signmeup-read",
     "signmeup-write",
+    "rsdl_write",
+    "rsdl_read",
     "offline_access"
   ],
   "subject_types_supported": [

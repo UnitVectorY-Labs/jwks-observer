@@ -1,12 +1,10 @@
 {
   "jwks": {
     "uri": "https://oauth.shuzilm.cn/.well-known/jwks",
-    "status_code": 0,
-    "error": "Get \"https://oauth.shuzilm.cn/.well-known/jwks\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "status_code": 200
   },
   "oidc": {
     "uri": "https://oauth.shuzilm.cn/.well-known/openid-configuration",
-    "status_code": 0,
-    "error": "Get \"https://oauth.shuzilm.cn/.well-known/openid-configuration\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "status_code": 200
   }
 }
