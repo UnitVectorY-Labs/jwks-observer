@@ -1,5 +1,6 @@
 {
   "Cache-Control": "max-age=[placeholder], public",
+  "Content-Security-Policy": "default-src 'self' www.google.com s.lolstatic.com lolstatic-a.akamaihd.net login.leagueoflegends.com login.lolesports.com login.riotgames.com prod02.kaxsdc.com signup-api.riotgames.com authenticate.riotgames.com https://hcaptcha.com https://*.hcaptcha.com www.google-analytics.com *.sentry.io *.osano.com blob:; font-src https://lolstatic-a.akamaihd.net s.lolstatic.com; img-src 'self' www.google-analytics.com www.google.com s.lolstatic.com lolstatic-a.akamaihd.net https://images.contentstack.io data: *.osano.com https://*.googletagmanager.com *.rgpub.io cdn.sanity.io; script-src 'self' fast.fonts.net www.google-analytics.com www.google.com www.gstatic.com 'unsafe-inline' s.lolstatic.com lolstatic-a.akamaihd.net prod02.kaxsdc.com https://hcaptcha.com https://*.hcaptcha.com *.osano.com blob: https://*.googletagmanager.com https://tagmanager.google.com 'nonce-[placeholder]'; style-src 'self' fast.fonts.net 'unsafe-inline' s.lolstatic.com lolstatic-a.akamaihd.net https://hcaptcha.com https://*.hcaptcha.com",
   "Content-Type": "application/json;charset=UTF-8",
   "Server": "cloudflare"
 }
