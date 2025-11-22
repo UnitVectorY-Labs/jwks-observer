@@ -1049,6 +1049,7 @@
     "signmeup-write",
     "rsdl_write",
     "rsdl_read",
+    "emp_svc_rw",
     "offline_access"
   ],
   "subject_types_supported": [

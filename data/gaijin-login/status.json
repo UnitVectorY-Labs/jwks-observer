@@ -5,7 +5,6 @@
   },
   "oidc": {
     "uri": "https://login.gaijin.net/.well-known/openid-configuration",
-    "status_code": 403,
-    "error": "HTTP 403"
+    "status_code": 200
   }
 }
