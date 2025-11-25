@@ -1,9 +1,5 @@
 {
   "authorization_endpoint": "https://auth.connectad.io/authorize",
-  "backchannel_authentication_endpoint": "https://auth.connectad.io/bc-authorize",
-  "backchannel_token_delivery_modes_supported": [
-    "poll"
-  ],
   "claims_supported": [
     "aud",
     "auth_time",
