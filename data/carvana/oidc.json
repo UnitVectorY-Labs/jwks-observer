@@ -1050,6 +1050,8 @@
     "rsdl_write",
     "rsdl_read",
     "emp_svc_rw",
+    "repairportal_rw",
+    "vex-tiktok",
     "offline_access"
   ],
   "subject_types_supported": [

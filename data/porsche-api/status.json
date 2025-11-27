@@ -1,12 +1,12 @@
 {
   "jwks": {
     "uri": "https://api.porsche.com/jwt/jwks.json",
-    "status_code": 0,
-    "error": "Get \"https://api.porsche.com/jwt/jwks.json\": tls: failed to verify certificate: x509: certificate is valid for *.github.io, *.github.com, *.githubusercontent.com, github.com, github.io, githubusercontent.com, www.github.com, not api.porsche.com"
+    "status_code": 404,
+    "error": "HTTP 404"
   },
   "oidc": {
     "uri": "https://api.porsche.com/.well-known/openid-configuration",
-    "status_code": 0,
-    "error": "Get \"https://api.porsche.com/.well-known/openid-configuration\": tls: failed to verify certificate: x509: certificate is valid for *.github.io, *.github.com, *.githubusercontent.com, github.com, github.io, githubusercontent.com, www.github.com, not api.porsche.com"
+    "status_code": 404,
+    "error": "HTTP 404"
   }
 }
