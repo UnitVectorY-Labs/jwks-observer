@@ -250,12 +250,12 @@
   "require_request_uri_registration": true,
   "response_modes_supported": [
     "fragment",
-    "query.jwt",
-    "query",
-    "fragment.jwt",
-    "form_post",
+    "jwt",
     "form_post.jwt",
-    "jwt"
+    "form_post",
+    "fragment.jwt",
+    "query",
+    "query.jwt"
   ],
   "response_types_supported": [
     "code token id_token",

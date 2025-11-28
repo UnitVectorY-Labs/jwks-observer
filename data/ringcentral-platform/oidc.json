@@ -17,6 +17,10 @@
     "family_name",
     "brand_id"
   ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
   "display_values_supported": [
     "page",
     "popup",
