@@ -42,7 +42,8 @@
     "SupportSiteMspRole",
     "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier",
     "http://schemas.microsoft.com/ws/2008/06/identity/claims/role",
-    "company_id"
+    "company_id",
+    "admin_console_mfa_timeout_minutes"
   ],
   "code_challenge_methods_supported": [
     "plain",
