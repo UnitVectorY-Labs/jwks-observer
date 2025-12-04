@@ -1,5 +1,5 @@
 {
-  "authorization_endpoint": "https://identity-3.us-south.iam.cloud.ibm.com/identity/authorize",
+  "authorization_endpoint": "https://identity-1.us-south.iam.cloud.ibm.com/identity/authorize",
   "claims_supported": [
     "iam_id",
     "sub",
@@ -23,12 +23,15 @@
     "RS256"
   ],
   "issuer": "https://iam.cloud.ibm.com/identity",
-  "jwks_uri": "https://identity-3.us-south.iam.cloud.ibm.com/identity/keys",
-  "passcode_endpoint": "https://identity-3.us-south.iam.cloud.ibm.com/identity/passcode",
+  "jwks_uri": "https://identity-1.us-south.iam.cloud.ibm.com/identity/keys",
+  "passcode_endpoint": "https://identity-1.us-south.iam.cloud.ibm.com/identity/passcode",
   "public_hosts": [
     "https://identity-1.us-south.iam.cloud.ibm.com",
     "https://identity-2.us-south.iam.cloud.ibm.com",
     "https://identity-3.us-south.iam.cloud.ibm.com",
+    "https://identity-1.us-east.iam.cloud.ibm.com",
+    "https://identity-2.us-east.iam.cloud.ibm.com",
+    "https://identity-3.us-east.iam.cloud.ibm.com",
     "https://identity-1.uk-south.iam.cloud.ibm.com",
     "https://identity-2.uk-south.iam.cloud.ibm.com",
     "https://identity-3.uk-south.iam.cloud.ibm.com",
@@ -40,17 +43,19 @@
     "https://identity-3.ap-south.iam.cloud.ibm.com",
     "https://identity-1.ap-north.iam.cloud.ibm.com",
     "https://identity-2.ap-north.iam.cloud.ibm.com",
-    "https://au-syd.iam.cloud.ibm.com",
-    "https://br-sao.iam.cloud.ibm.com",
-    "https://ca-mon.iam.cloud.ibm.com",
-    "https://ca-tor.iam.cloud.ibm.com",
-    "https://eu-de.iam.cloud.ibm.com",
-    "https://eu-gb.iam.cloud.ibm.com",
-    "https://eu-es.iam.cloud.ibm.com",
-    "https://jp-tok.iam.cloud.ibm.com",
-    "https://jp-osa.iam.cloud.ibm.com",
-    "https://us-east.iam.cloud.ibm.com",
-    "https://us-south.iam.cloud.ibm.com"
+    "https://au-syd-ha.iam.cloud.ibm.com",
+    "https://br-sao-ha.iam.cloud.ibm.com",
+    "https://ca-mon-ha.iam.cloud.ibm.com",
+    "https://ca-tor-ha.iam.cloud.ibm.com",
+    "https://eu-de-ha.iam.cloud.ibm.com",
+    "https://eu-es-ha.iam.cloud.ibm.com",
+    "https://eu-gb-ha.iam.cloud.ibm.com",
+    "https://in-che-ha.iam.cloud.ibm.com",
+    "https://in-mum-ha.iam.cloud.ibm.com",
+    "https://jp-osa-ha.iam.cloud.ibm.com",
+    "https://jp-tok-ha.iam.cloud.ibm.com",
+    "https://us-east-ha.iam.cloud.ibm.com",
+    "https://us-south-ha.iam.cloud.ibm.com"
   ],
   "response_types_supported": [
     "code",
@@ -69,10 +74,10 @@
   "subject_types_supported": [
     "public"
   ],
-  "token_endpoint": "https://identity-3.us-south.iam.cloud.ibm.com/identity/token",
+  "token_endpoint": "https://identity-1.us-south.iam.cloud.ibm.com/identity/token",
   "token_endpoint_auth_methods_supported": [
     "client_secret_basic",
     "client_secret_post"
   ],
-  "userinfo_endpoint": "https://identity-3.us-south.iam.cloud.ibm.com/identity/userinfo"
+  "userinfo_endpoint": "https://identity-1.us-south.iam.cloud.ibm.com/identity/userinfo"
 }
