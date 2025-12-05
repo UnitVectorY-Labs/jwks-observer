@@ -1058,6 +1058,7 @@
     "rollcall_rw",
     "inventoryservice_rw",
     "vex-tiktok-system",
+    "/src/map",
     "offline_access"
   ],
   "subject_types_supported": [

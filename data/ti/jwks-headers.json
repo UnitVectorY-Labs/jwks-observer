@@ -1,6 +1,6 @@
 {
   "Cache-Control": "no-cache, no-store",
   "Content-Security-Policy": "img-src 'self' data: http://*:* https://*:*",
-  "Content-Type": "application/json;charset=utf-8",
+  "Content-Type": "application/json",
   "Server": "Apache"
 }
