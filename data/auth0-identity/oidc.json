@@ -1,9 +1,5 @@
 {
   "authorization_endpoint": "https://identity.auth0.com/authorize",
-  "backchannel_authentication_endpoint": "https://identity.auth0.com/bc-authorize",
-  "backchannel_token_delivery_modes_supported": [
-    "poll"
-  ],
   "claims_supported": [
     "aud",
     "auth_time",
