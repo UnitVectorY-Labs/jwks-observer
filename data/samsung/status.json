@@ -5,7 +5,7 @@
   },
   "oidc": {
     "uri": "https://account.samsung.com/.well-known/openid-configuration",
-    "status_code": 500,
-    "error": "HTTP 500"
+    "status_code": 404,
+    "error": "HTTP 404"
   }
 }

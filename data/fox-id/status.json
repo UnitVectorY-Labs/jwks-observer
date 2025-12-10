@@ -5,6 +5,7 @@
   },
   "oidc": {
     "uri": "https://id.fox.com/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 404,
+    "error": "HTTP 404"
   }
 }
