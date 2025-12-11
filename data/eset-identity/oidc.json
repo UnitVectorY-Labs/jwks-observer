@@ -90,7 +90,8 @@
     "implicit",
     "password",
     "urn:ietf:params:oauth:grant-type:device_code",
-    "urn:openid:params:grant-type:ciba"
+    "urn:openid:params:grant-type:ciba",
+    "urn:ietf:params:oauth:grant-type:token-exchange"
   ],
   "id_token_signing_alg_values_supported": [
     "RS256"
