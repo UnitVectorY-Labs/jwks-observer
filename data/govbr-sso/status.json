@@ -1,12 +1,10 @@
 {
   "jwks": {
     "uri": "https://sso.acesso.gov.br/jwk",
-    "status_code": 0,
-    "error": "Get \"https://sso.acesso.gov.br/jwk\": dial tcp: lookup sso.acesso.gov.br on 10.43.0.10:53: server misbehaving"
+    "status_code": 200
   },
   "oidc": {
     "uri": "https://sso.acesso.gov.br/.well-known/openid-configuration",
-    "status_code": 0,
-    "error": "Get \"https://sso.acesso.gov.br/.well-known/openid-configuration\": dial tcp: lookup sso.acesso.gov.br on 10.43.0.10:53: server misbehaving"
+    "status_code": 200
   }
 }
