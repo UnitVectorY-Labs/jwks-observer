@@ -1,10 +1,12 @@
 {
   "jwks": {
     "uri": "https://accounts.huya.com/keys",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://accounts.huya.com/keys\": net/http: TLS handshake timeout"
   },
   "oidc": {
     "uri": "https://accounts.huya.com/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://accounts.huya.com/.well-known/openid-configuration\": net/http: TLS handshake timeout"
   }
 }
