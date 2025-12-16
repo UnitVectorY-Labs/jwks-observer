@@ -15,7 +15,6 @@
     "refresh_token",
     "implicit",
     "delegation",
-    "embedded_app",
     "client_credentials_extn"
   ],
   "id_token_signing_alg_values_supported": [
