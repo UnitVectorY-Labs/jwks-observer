@@ -1,10 +1,12 @@
 {
   "jwks": {
     "uri": "https://id.gamma.app/.well-known/jwks.json",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://id.gamma.app/.well-known/jwks.json\": dial tcp: lookup id.gamma.app on 10.43.0.10:53: no such host"
   },
   "oidc": {
     "uri": "https://id.gamma.app/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://id.gamma.app/.well-known/openid-configuration\": dial tcp: lookup id.gamma.app on 10.43.0.10:53: no such host"
   }
 }
