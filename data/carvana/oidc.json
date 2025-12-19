@@ -1060,6 +1060,7 @@
     "vex-tiktok-system",
     "/src/map",
     "repairservice_rw",
+    "factvalidator_readwrite",
     "offline_access"
   ],
   "subject_types_supported": [
