@@ -1,0 +1,10 @@
+{
+  "alg": "ES512",
+  "crv": "P-521",
+  "first_observed": "2025-12-21T05:09:17Z",
+  "kid": "GCOvjiI8HTsDwkWEdprDVD4CF6g",
+  "kty": "EC",
+  "use": "sig",
+  "x": "AXkSOHGJ2dKMJSwdEP6-c6bB1H7NALjv5wwkGgJZDvIzLOaaVWJSGV1ewI7bDZ0B9Wrr5A9CTrG8Z51ZSR5cdKmK",
+  "y": "AJfKXbPKa180e0ga7fV1mPi1-Mm_UzM-IMM9qgwCEsE78bWhaiudRyvNuOVWwj1LpLFFMQYeRtnmlq7-CVBelgaj"
+}
