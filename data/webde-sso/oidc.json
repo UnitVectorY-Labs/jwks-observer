@@ -5,12 +5,12 @@
   ],
   "claims_parameter_supported": true,
   "claims_supported": [
-    "family_name",
     "given_name",
     "email_verified",
-    "gender",
-    "email",
     "birthdate",
+    "family_name",
+    "email",
+    "gender",
     "sub",
     "address",
     "shipping_address"
