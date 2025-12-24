@@ -1061,6 +1061,7 @@
     "/src/map",
     "repairservice_rw",
     "factvalidator_readwrite",
+    "session:role-any",
     "offline_access"
   ],
   "subject_types_supported": [
