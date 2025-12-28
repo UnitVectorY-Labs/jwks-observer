@@ -5,7 +5,6 @@
   },
   "oidc": {
     "uri": "https://shopify.com/authentication/58004504738/.well-known/openid-configuration",
-    "status_code": 0,
-    "error": "Get \"https://shopify.com/authentication/58004504738/.well-known/openid-configuration\": net/http: TLS handshake timeout"
+    "status_code": 200
   }
 }
