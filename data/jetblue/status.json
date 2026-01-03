@@ -1,10 +1,12 @@
 {
   "jwks": {
     "uri": "https://accounts.jetblue.com/oauth2/v1/keys",
-    "status_code": 200
+    "status_code": 406,
+    "error": "HTTP 406"
   },
   "oidc": {
     "uri": "https://accounts.jetblue.com/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 406,
+    "error": "HTTP 406"
   }
 }
