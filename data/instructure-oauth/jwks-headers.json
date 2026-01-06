@@ -1,6 +1,6 @@
 {
   "Cache-Control": "no-store",
-  "Content-Security-Policy": "frame-ancestors 'self' oauth.instructure.com canvas.instructure.com canvas.staging.instructure.com canvas.beta.instructure.com canvas.test.instructure.com oauth.staging.instructure.com oauth.beta.instructure.com oauth.test.instructure.com localhost stats.instructure.com stats.staging.instructure.com stats.beta.instructure.com stats.test.instructure.com cluster7.instructure.com cluster7.staging.instructure.com cluster7.beta.instructure.com cluster7.test.instructure.com cluster7.iad.canvas-user-content.com cluster7.iad.staging.canvas-user-content.com cluster7.iad.beta.canvas-user-content.com cluster7.iad.test.canvas-user-content.com;",
+  "Content-Security-Policy": "frame-ancestors 'self' oauth.instructure.com canvas.instructure.com canvas.beta.instructure.com canvas.test.instructure.com oauth.beta.instructure.com oauth.test.instructure.com localhost stats.instructure.com stats.beta.instructure.com stats.test.instructure.com;",
   "Content-Type": "application/json; charset=utf-8",
   "Server": "Apache",
   "Strict-Transport-Security": "max-age=63072000"

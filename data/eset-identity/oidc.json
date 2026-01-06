@@ -174,6 +174,7 @@
     "automation.tasks.write",
     "ai_advisor",
     "epc_ai_advisor_api",
+    "epc_xdr_actions",
     "offline_access"
   ],
   "subject_types_supported": [
