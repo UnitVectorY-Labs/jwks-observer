@@ -1,6 +1,6 @@
 {
   "Cache-Control": "max-age=[placeholder], must-revalidate",
-  "Content-Security-Policy": "frame-ancestors 'self' https://prod-pub2.docs.paloaltonetworks.com:5445 https://supportcases.paloaltonetworks.com https://learn.paloaltonetworks.com https://prod.docs.paloaltonetworks.com:5444 https://panwprod.cloud.varicent.com https://docs.paloaltonetworks.com https://support.paloaltonetworks.com https://prod-pub1.docs.paloaltonetworks.com:5445",
+  "Content-Security-Policy": "frame-ancestors 'self' https://supportcases.paloaltonetworks.com https://prod-pub2.docs.paloaltonetworks.com:5445 https://learn.paloaltonetworks.com https://prod.docs.paloaltonetworks.com:5444 https://panwprod.cloud.varicent.com https://docs.paloaltonetworks.com https://support.paloaltonetworks.com https://prod-pub1.docs.paloaltonetworks.com:5445",
   "Content-Type": "application/json",
   "Server": "nginx",
   "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
