@@ -1062,6 +1062,10 @@
     "repairservice_rw",
     "factvalidator_readwrite",
     "session:role-any",
+    "vds",
+    "fin-smart-focus",
+    "/fraudanalysis/read",
+    "/fraudanalysis/write",
     "offline_access"
   ],
   "subject_types_supported": [
