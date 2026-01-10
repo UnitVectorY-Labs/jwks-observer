@@ -1067,6 +1067,7 @@
     "/fraudanalysis/read",
     "/fraudanalysis/write",
     "rrc_hub",
+    "identity-verification-maintenance",
     "offline_access"
   ],
   "subject_types_supported": [
