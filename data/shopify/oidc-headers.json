@@ -1,6 +1,6 @@
 {
   "Cache-Control": "no-cache, no-store, private, must-revalidate, max-age=[placeholder]",
-  "Content-Security-Policy": "report-to csp-reports; script-src 'self' https://cdn.shopify.com/shopifycloud/identity/ 'unsafe-inline' 'unsafe-eval' https://cdn.shopify.com/shopifycloud/dux/ https://shopify-assets.shopifycdn.com/shopifycloud/identity/ https://shopify-assets.shopifycdn.com/s/javascripts/tricorder/trekkie.identity.min.js https://shopify-assets.shopifycdn.net/s/javascripts/tricorder/trekkie.identity.min.js https://www.googletagmanager.com/gtm.js https://hcaptcha.com/1/api.js https://www.recaptcha.net/recaptcha/api.js 'nonce-q/mfbCmcR2T8mfxoq7FKLQ=='",
+  "Content-Security-Policy": "report-to csp-reports; script-src 'self' https://cdn.shopify.com/shopifycloud/identity/ 'unsafe-inline' 'unsafe-eval' https://cdn.shopify.com/shopifycloud/dux/ https://shopify-assets.shopifycdn.com/shopifycloud/identity/ https://shopify-assets.shopifycdn.com/s/javascripts/tricorder/trekkie.identity.min.js https://shopify-assets.shopifycdn.net/s/javascripts/tricorder/trekkie.identity.min.js https://www.googletagmanager.com/gtm.js https://hcaptcha.com/1/api.js https://www.recaptcha.net/recaptcha/api.js 'nonce-9x+UJ4+tdy1L/LKBrUGNGg=='",
   "Content-Type": "application/json; charset=utf-8",
   "Server": "cloudflare",
   "Strict-Transport-Security": "max-age=15552000; includeSubDomains; preload"
