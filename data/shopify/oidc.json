@@ -105,5 +105,6 @@
     "zh-CN",
     "zh-TW"
   ],
+  "unified_session_jwks_uri": "https://accounts.shopify.com/session-service/.well-known/jwks.json",
   "userinfo_endpoint": "https://accounts.shopify.com/oauth/userinfo"
 }

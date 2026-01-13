@@ -5,7 +5,6 @@
   },
   "oidc": {
     "uri": "https://api.crowdsec.net/.well-known/openid-configuration",
-    "status_code": 0,
-    "error": "Get \"https://api.crowdsec.net/.well-known/openid-configuration\": net/http: TLS handshake timeout"
+    "status_code": 200
   }
 }
