@@ -5,7 +5,6 @@
   },
   "oidc": {
     "uri": "https://accounts.spotify.com/.well-known/openid-configuration",
-    "status_code": 503,
-    "error": "HTTP 503"
+    "status_code": 200
   }
 }
