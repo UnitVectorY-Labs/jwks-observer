@@ -1070,6 +1070,7 @@
     "identity-verification-maintenance",
     "stcfraudpoc_api",
     "tmh-read",
+    "irc_fulfillmentstaging_rw",
     "offline_access"
   ],
   "subject_types_supported": [

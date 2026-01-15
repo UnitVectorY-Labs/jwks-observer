@@ -1,10 +1,13 @@
 {
   "account_management_actions_supported": [
     "org.matrix.profile",
+    "org.matrix.devices_list",
+    "org.matrix.device_view",
+    "org.matrix.device_delete",
+    "org.matrix.cross_signing_reset",
     "org.matrix.sessions_list",
     "org.matrix.session_view",
-    "org.matrix.session_end",
-    "org.matrix.cross_signing_reset"
+    "org.matrix.session_end"
   ],
   "account_management_uri": "https://account.matrix.org/account/",
   "authorization_endpoint": "https://account.matrix.org/authorize",
