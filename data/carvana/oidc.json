@@ -1071,6 +1071,7 @@
     "stcfraudpoc_api",
     "tmh-read",
     "irc_fulfillmentstaging_rw",
+    "claims",
     "offline_access"
   ],
   "subject_types_supported": [
