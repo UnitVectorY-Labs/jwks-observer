@@ -1072,6 +1072,12 @@
     "tmh-read",
     "irc_fulfillmentstaging_rw",
     "claims",
+    "NewCar:Incentives:ReadRules",
+    "NewCar:Incentives:WriteRules",
+    "NewCar:Incentives:EvaluateRules",
+    "customercare_carmaflowapi_write",
+    "customercare_carmaflowapi_read",
+    "tmh-write",
     "offline_access"
   ],
   "subject_types_supported": [
