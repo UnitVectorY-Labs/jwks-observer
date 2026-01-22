@@ -1,7 +1,7 @@
 {
   "Cache-Control": "max-age=[placeholder], must-revalidate",
   "Content-Security-Policy": "frame-ancestors 'self'",
-  "Content-Type": "application/json",
+  "Content-Type": "application/jwk-set+json",
   "Server": "nginx",
   "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
 }
