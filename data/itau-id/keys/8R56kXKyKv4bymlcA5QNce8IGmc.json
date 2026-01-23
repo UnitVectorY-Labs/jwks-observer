@@ -1,0 +1,10 @@
+{
+  "alg": "ES512",
+  "crv": "P-521",
+  "first_observed": "2026-01-23T05:13:10Z",
+  "kid": "8R56kXKyKv4bymlcA5QNce8IGmc",
+  "kty": "EC",
+  "use": "sig",
+  "x": "AGOo5ux00sROH2q_TsOq6zTDLadYySlsagDLgnVKulB4118sHu9nl9XAhn6e6z9q2DMHy_Rk2c_mPHgEB8uUOqA4",
+  "y": "AOMI-x5gdrqlRU_ORfSQ4GGhEiFcteeRvFfZ3obQ-2QPhnL8iY-cIU7yv0Z72yUqqFYfJuDFv5Xiq-O-K9k2pnv8"
+}

@@ -74,6 +74,13 @@
     "RS256"
   ],
   "introspection_endpoint": "https://identity.lego.com/connect/introspect",
+  "introspection_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "introspection_signing_alg_values_supported": [
+    "RS256"
+  ],
   "issuer": "https://identity.lego.com",
   "jwks_uri": "https://identity.lego.com/.well-known/openid-configuration/jwks",
   "one_time_token_endpoint": "https://identity.lego.com/api/v1/OneTimeToken/issue",
@@ -112,6 +119,10 @@
     "code id_token token"
   ],
   "revocation_endpoint": "https://identity.lego.com/connect/revocation",
+  "revocation_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
   "scopes_supported": [
     "openid",
     "profile",
@@ -182,5 +193,8 @@
     "zh-TW",
     "en-IE"
   ],
-  "userinfo_endpoint": "https://identity.lego.com/connect/userinfo"
+  "userinfo_endpoint": "https://identity.lego.com/connect/userinfo",
+  "userinfo_signing_alg_values_supported": [
+    "RS256"
+  ]
 }

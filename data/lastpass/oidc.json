@@ -112,6 +112,7 @@
     "commerce/eventhandler",
     "commerce/full_access",
     "commerce/zuora",
+    "commerce/avs",
     "offline_access"
   ],
   "subject_types_supported": [

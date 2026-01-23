@@ -1,4 +1,5 @@
 {
+  "Cache-Control": "public, max-age=[placeholder]",
   "Content-Security-Policy": "img-src 'self' *.axs.com *.axsdevops.io",
   "Content-Type": "application/json; charset=UTF-8",
   "Server": "cloudflare",
