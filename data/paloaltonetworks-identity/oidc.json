@@ -119,6 +119,7 @@
     "scope-dlp",
     "logging-service:write",
     "directory-sync-service:read",
+    "scope-ea-quote",
     "asset_management",
     "scope-salesforce",
     "asset-management",
