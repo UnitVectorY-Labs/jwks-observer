@@ -1079,6 +1079,8 @@
     "customercare_carmaflowapi_read",
     "tmh-write",
     "titlestatusmanager",
+    "auction-ingestion-read",
+    "auction-ingestion-write",
     "offline_access"
   ],
   "subject_types_supported": [
