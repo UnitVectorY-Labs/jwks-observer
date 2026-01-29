@@ -1,0 +1,10 @@
+{
+  "alg": "ES256",
+  "crv": "P-256",
+  "first_observed": "2026-01-29T05:23:59Z",
+  "kid": "3LAz8l2XRkY5Xu9ld_mvKRFTAbk",
+  "kty": "EC",
+  "use": "sig",
+  "x": "SpGOfmY_OePd9gtVRq0d0QL97sigXCbeLuvARmQWw9k",
+  "y": "LGkasn1aOXj-uBp_lNi1KyN3DAB9_Gowg_1gtdwIqFE"
+}

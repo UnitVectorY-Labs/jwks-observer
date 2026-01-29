@@ -5,6 +5,7 @@
   },
   "oidc": {
     "uri": "https://sso.acesso.gov.br/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://sso.acesso.gov.br/.well-known/openid-configuration\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
   }
 }
