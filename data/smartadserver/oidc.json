@@ -1,90 +1,25 @@
 {
-  "authorization_endpoint": "https://login.smartadserver.com/oauth2/authorize",
-  "backchannel_logout_supported": false,
-  "claims_supported": [
-    "applicationId",
-    "at_hash",
-    "aud",
-    "authenticationType",
-    "birthdate",
-    "c_hash",
-    "email",
-    "email_verified",
-    "exp",
-    "family_name",
-    "given_name",
-    "iat",
-    "iss",
-    "jti",
-    "middle_name",
-    "name",
-    "nbf",
-    "nonce",
-    "phone_number",
-    "picture",
-    "preferred_username",
-    "roles",
-    "sub"
-  ],
-  "device_authorization_endpoint": "https://login.smartadserver.com/oauth2/device_authorize",
-  "end_session_endpoint": "https://login.smartadserver.com/oauth2/logout",
-  "frontchannel_logout_supported": true,
-  "grant_types_supported": [
-    "authorization_code",
-    "password",
-    "implicit",
-    "refresh_token",
-    "urn:ietf:params:oauth:grant-type:device_code"
+  "authorization_endpoint": "https://login.smartadserver.com/login",
+  "code_challenge_methods_supported": [
+    "S256"
   ],
   "id_token_signing_alg_values_supported": [
-    "ES256",
-    "ES384",
-    "ES512",
-    "HS256",
-    "HS384",
-    "HS512",
-    "RS256",
-    "RS384",
-    "RS512"
+    "RS256"
   ],
-  "issuer": "smartadserver.com",
+  "issuer": "https://auth.equativ.com/",
   "jwks_uri": "https://login.smartadserver.com/.well-known/jwks.json",
-  "response_modes_supported": [
-    "form_post",
-    "fragment",
-    "query"
-  ],
   "response_types_supported": [
     "code",
+    "token",
     "id_token",
-    "token id_token"
-  ],
-  "scopes_supported": [
-    "openid",
-    "offline_access",
-    "email",
-    "phone",
-    "profile"
+    "code token",
+    "code id_token",
+    "token id_token",
+    "code token id_token"
   ],
   "subject_types_supported": [
     "public"
   ],
-  "token_endpoint": "https://login.smartadserver.com/oauth2/token",
-  "token_endpoint_auth_methods_supported": [
-    "client_secret_basic",
-    "client_secret_post",
-    "none"
-  ],
-  "userinfo_endpoint": "https://login.smartadserver.com/oauth2/userinfo",
-  "userinfo_signing_alg_values_supported": [
-    "ES256",
-    "ES384",
-    "ES512",
-    "RS256",
-    "RS384",
-    "RS512",
-    "HS256",
-    "HS384",
-    "HS512"
-  ]
+  "token_endpoint": "https://login.smartadserver.com/token",
+  "userinfo_endpoint": "https://login.smartadserver.com/userinfo"
 }
