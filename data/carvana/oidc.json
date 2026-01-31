@@ -1081,6 +1081,7 @@
     "titlestatusmanager",
     "auction-ingestion-read",
     "auction-ingestion-write",
+    "ngcp",
     "offline_access"
   ],
   "subject_types_supported": [

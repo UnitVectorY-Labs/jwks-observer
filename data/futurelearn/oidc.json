@@ -27,7 +27,8 @@
     "https://purl.imsglobal.org/spec/lti/claim/launch_presentation",
     "https://purl.imsglobal.org/spec/lti/claim/context",
     "https://purl.imsglobal.org/spec/lti-dl/claim/deep_linking_settings",
-    "https://purl.imsglobal.org/spec/lti-dl/claim/content_item_return_url"
+    "https://purl.imsglobal.org/spec/lti-dl/claim/content_item_return_url",
+    "https://purl.imsglobal.org/spec/lti-ags/claim/endpoint"
   ],
   "code_challenge_methods_supported": [
     "plain",
@@ -62,7 +63,11 @@
   "scopes_supported": [
     "email",
     "openid",
-    "profile"
+    "profile",
+    "https://purl.imsglobal.org/spec/lti-ags/scope/lineitem.readonly",
+    "https://purl.imsglobal.org/spec/lti-ags/scope/lineitem",
+    "https://purl.imsglobal.org/spec/lti-ags/scope/result.readonly",
+    "https://purl.imsglobal.org/spec/lti-ags/scope/score"
   ],
   "subject_types_supported": [
     "public"
