@@ -51,7 +51,7 @@
     "private_key_jwt",
     "none"
   ],
-  "userinfo_endpoint": "https://dash.cloudflare.com/userinfo",
+  "userinfo_endpoint": "https://dash.cloudflare.com/oauth2/userinfo",
   "userinfo_signing_alg_values_supported": [
     "none",
     "RS256"
