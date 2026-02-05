@@ -1,9 +1,16 @@
 {
   "authorization_endpoint": "https://auth.eagleeyenetworks.com/oauth2/authorize",
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "device_authorization_endpoint": "https://auth.eagleeyenetworks.com/oauth2/device_authorization",
+  "end_session_endpoint": "https://auth.eagleeyenetworks.com/connect/logout",
   "grant_types_supported": [
     "authorization_code",
     "client_credentials",
     "refresh_token",
+    "urn:ietf:params:oauth:grant-type:device_code",
+    "urn:ietf:params:oauth:grant-type:token-exchange",
     "password",
     "cookie",
     "application_grant_code"
@@ -16,7 +23,9 @@
     "client_secret_basic",
     "client_secret_post",
     "client_secret_jwt",
-    "private_key_jwt"
+    "private_key_jwt",
+    "tls_client_auth",
+    "self_signed_tls_client_auth"
   ],
   "issuer": "https://auth.eagleeyenetworks.com",
   "jwks_uri": "https://auth.eagleeyenetworks.com/oauth2/jwks",
@@ -28,7 +37,9 @@
     "client_secret_basic",
     "client_secret_post",
     "client_secret_jwt",
-    "private_key_jwt"
+    "private_key_jwt",
+    "tls_client_auth",
+    "self_signed_tls_client_auth"
   ],
   "scopes_supported": [
     "openid",
@@ -38,12 +49,15 @@
   "subject_types_supported": [
     "public"
   ],
+  "tls_client_certificate_bound_access_tokens": true,
   "token_endpoint": "https://auth.eagleeyenetworks.com/oauth2/token",
   "token_endpoint_auth_methods_supported": [
     "client_secret_basic",
     "client_secret_post",
     "client_secret_jwt",
-    "private_key_jwt"
+    "private_key_jwt",
+    "tls_client_auth",
+    "self_signed_tls_client_auth"
   ],
   "userinfo_endpoint": "https://auth.eagleeyenetworks.com/oauth2/userinfo"
 }
