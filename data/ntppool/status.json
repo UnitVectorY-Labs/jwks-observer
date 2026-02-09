@@ -5,6 +5,7 @@
   },
   "oidc": {
     "uri": "https://login.ntppool.org/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://login.ntppool.org/.well-known/openid-configuration\": net/http: TLS handshake timeout"
   }
 }

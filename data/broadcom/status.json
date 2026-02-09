@@ -2,11 +2,11 @@
   "jwks": {
     "uri": "https://login.broadcom.com/oauth2/v1/keys",
     "status_code": 0,
-    "error": "Get \"https://login.broadcom.com/oauth2/v1/keys\": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-02-08T05:34:43Z is after 2026-02-07T23:59:59Z"
+    "error": "Get \"https://login.broadcom.com/oauth2/v1/keys\": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-02-09T05:36:42Z is after 2026-02-07T23:59:59Z"
   },
   "oidc": {
     "uri": "https://login.broadcom.com/.well-known/openid-configuration",
     "status_code": 0,
-    "error": "Get \"https://login.broadcom.com/.well-known/openid-configuration\": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-02-08T05:34:42Z is after 2026-02-07T23:59:59Z"
+    "error": "Get \"https://login.broadcom.com/.well-known/openid-configuration\": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-02-09T05:36:42Z is after 2026-02-07T23:59:59Z"
   }
 }
