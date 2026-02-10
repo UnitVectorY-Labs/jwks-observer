@@ -4,10 +4,12 @@
   "code_challenge_methods_supported": [
     "S256"
   ],
+  "device_authorization_endpoint": "https://huggingface.co/oauth/device",
   "grant_types_supported": [
+    "urn:ietf:params:oauth:grant-type:token-exchange",
+    "urn:ietf:params:oauth:grant-type:device_code",
     "authorization_code",
-    "refresh_token",
-    "urn:ietf:params:oauth:grant-type:token-exchange"
+    "refresh_token"
   ],
   "id_token_signing_alg_values_supported": [
     "RS256"
