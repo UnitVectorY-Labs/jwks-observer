@@ -1,0 +1,9 @@
+{
+  "alg": "EdDSA",
+  "crv": "Ed448",
+  "first_observed": "2026-02-11T05:35:56Z",
+  "kid": "2V2roFzN0PJwVdeBznbPHWEl7_yl_qgE69DYuSqZORM",
+  "kty": "OKP",
+  "use": "sig",
+  "x": "ZtA2nXFyGB_vCFKIGOBjWNfDjDUeBGzsvGOEhoz4aXiQ2NQFY9SPJnjCpMtgeC6JOhqzpkMqDmuA"
+}
