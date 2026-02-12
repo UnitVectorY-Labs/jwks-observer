@@ -26,7 +26,8 @@
     "azp",
     "app_tid",
     "ias_apis",
-    "at_hash"
+    "at_hash",
+    "sap_id_type"
   ],
   "code_challenge_methods_supported": [
     "plain",
