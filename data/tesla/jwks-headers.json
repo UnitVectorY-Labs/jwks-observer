@@ -1,6 +1,5 @@
 {
   "Cache-Control": "max-age=[placeholder]",
-  "Content-Type": "application/json",
-  "Server": "envoy",
-  "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+  "Content-Type": "application/json; charset=utf-8",
+  "Strict-Transport-Security": "max-age=15552000; includeSubDomains"
 }

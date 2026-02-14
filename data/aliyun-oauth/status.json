@@ -1,10 +1,12 @@
 {
   "jwks": {
     "uri": "https://oauth.aliyun.com/v1/keys",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://oauth.aliyun.com/v1/keys\": net/http: TLS handshake timeout"
   },
   "oidc": {
     "uri": "https://oauth.aliyun.com/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://oauth.aliyun.com/.well-known/openid-configuration\": read tcp 10.244.0.92:56064-\u003e120.55.35.2:443: read: connection reset by peer"
   }
 }

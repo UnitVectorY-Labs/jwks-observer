@@ -4,6 +4,7 @@
     "flow:registerchild",
     "flow:upgrade",
     "flow:autoregister",
+    "flow:parentledchild",
     "ott:\u003cpuid\u003e:\u003ctoken\u003e"
   ],
   "authorization_endpoint": "https://identity.lego.com/connect/authorize",
