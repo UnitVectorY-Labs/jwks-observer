@@ -1088,6 +1088,8 @@
     "cardiac_rw",
     "novapocaadtwo/read",
     "tuneup_rw",
+    "regtasks_read",
+    "regtasks_write",
     "offline_access"
   ],
   "subject_types_supported": [
