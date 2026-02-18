@@ -172,8 +172,7 @@
     "sw:pr:AccessSwagger",
     "sw:pr:ViewAccountUsers",
     "sw:pr:ManageAccountUsers",
-    "sw:pr:ViewSiExportManagement",
-    "sw:pr:ViewSiContactsManagement"
+    "sw:pr:ViewSiCreditsManagement"
   ],
   "subject_types_supported": [
     "public"

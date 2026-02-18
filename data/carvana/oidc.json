@@ -1090,6 +1090,11 @@
     "tuneup_rw",
     "regtasks_read",
     "regtasks_write",
+    "vtram_read",
+    "print_label",
+    "hatapi_rw",
+    "NewCar:Incentives:ReadCustomerDetails",
+    "heads-up-admin",
     "offline_access"
   ],
   "subject_types_supported": [
