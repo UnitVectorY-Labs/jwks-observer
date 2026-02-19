@@ -135,7 +135,7 @@
     "unifiedapisockets.cache_access",
     "identity.userPreferences",
     "identity.customerLinking",
-    "idsvr.revokePersistedGrants",
+    "idsvr.revokeSessionData",
     "identity.userPreferences.any",
     "resale.listpro.listings.create",
     "resale.listpro.listings.edit",
@@ -147,6 +147,7 @@
     "resale.listpro.events.read",
     "resale.listpro.sales.read",
     "resalesearchapi",
+    "unifiedapisearch.GetFilteredTickets",
     "offline_access"
   ],
   "subject_types_supported": [
