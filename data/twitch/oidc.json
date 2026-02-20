@@ -5,14 +5,14 @@
     "preferred_username",
     "updated_at",
     "aud",
-    "exp",
     "iss",
     "sub",
+    "azp",
+    "exp",
+    "iat",
     "email",
     "email_verified",
-    "picture",
-    "iat",
-    "azp"
+    "picture"
   ],
   "id_token_signing_alg_values_supported": [
     "RS256"

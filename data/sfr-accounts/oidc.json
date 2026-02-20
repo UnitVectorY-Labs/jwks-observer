@@ -95,7 +95,10 @@
     "dpv:FraudPreventionAndDetection%23number-verification:verify",
     "dpv:FraudPreventionAndDetection%23kyc-match:match",
     "ap2014",
-    "softotp"
+    "softotp",
+    "dpv:FraudPreventionAndDetection%23number-verification:device-phone-number:read",
+    "dpv:FraudPreventionAndDetection%23kyc-tenure:check-tenure",
+    "dpv:FraudPreventionAndDetection%23kyc-tenure"
   ],
   "token_endpoint": "https://oauth.sd-sfr.fr/api/token",
   "token_endpoint_auth_signing_alg_values_supported": [

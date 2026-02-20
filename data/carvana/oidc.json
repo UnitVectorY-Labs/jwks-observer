@@ -1096,6 +1096,8 @@
     "NewCar:Incentives:ReadCustomerDetails",
     "heads-up-admin",
     "heads-up-evaluation-read",
+    "ride-vaultapi",
+    "ride-vaultapi-system",
     "offline_access"
   ],
   "subject_types_supported": [
