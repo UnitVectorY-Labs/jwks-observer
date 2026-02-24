@@ -1,4 +1,8 @@
 {
+  "acr_values_supported": [
+    "urn:zillow:assurance:aal:1",
+    "urn:zillow:assurance:aal:2"
+  ],
   "authorization_endpoint": "https://auth.zillow.com/oauth2/authorize",
   "display_values_supported": [
     "page",

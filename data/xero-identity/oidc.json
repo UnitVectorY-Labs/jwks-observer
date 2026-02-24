@@ -13,8 +13,8 @@
     "authorization_code",
     "client_credentials",
     "refresh_token",
-    "delegation",
-    "client_credentials_extn"
+    "client_credentials_extn",
+    "delegation"
   ],
   "id_token_signing_alg_values_supported": [
     "RS256"
