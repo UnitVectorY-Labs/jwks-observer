@@ -1098,6 +1098,10 @@
     "heads-up-evaluation-read",
     "ride-vaultapi",
     "ride-vaultapi-system",
+    "greenhouseapiservice_read",
+    "greenhouseapiservice_write",
+    "novapocidwlitwo/read",
+    "novapocidwlione/read",
     "offline_access"
   ],
   "subject_types_supported": [

@@ -1,6 +1,6 @@
 {
   "Cache-Control": "max-age=[placeholder], must-revalidate",
-  "Content-Security-Policy": "frame-ancestors 'self'",
+  "Content-Security-Policy": "frame-ancestors 'self' https://replay-anywhere.mlbinfra.net",
   "Content-Type": "application/json",
   "Server": "nginx",
   "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
