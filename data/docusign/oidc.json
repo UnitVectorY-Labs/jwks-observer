@@ -320,6 +320,7 @@
     "des_task_write",
     "provision_asset_group_account_clone_write",
     "cds_write",
+    "account_data_residency_override",
     "rest_internal_recipientpreview_api",
     "internal_api_dms",
     "service_protection_report_abuse_url_service_api",
