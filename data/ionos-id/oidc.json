@@ -1,5 +1,7 @@
 {
   "authorization_endpoint": "https://id.ionos.com/authorize",
+  "backchannel_logout_session_supported": true,
+  "backchannel_logout_supported": true,
   "code_challenge_methods_supported": [
     "S256"
   ],

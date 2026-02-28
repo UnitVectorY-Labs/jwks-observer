@@ -5,6 +5,7 @@
   },
   "oidc": {
     "uri": "https://platform.8x8.com/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 429,
+    "error": "HTTP 429"
   }
 }

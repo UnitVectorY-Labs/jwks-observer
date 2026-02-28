@@ -1102,6 +1102,8 @@
     "greenhouseapiservice_write",
     "novapocidwlitwo/read",
     "novapocidwlione/read",
+    "cxpdata_read",
+    "cxpdata_write",
     "offline_access"
   ],
   "subject_types_supported": [
