@@ -3,6 +3,7 @@
   "code_challenge_methods_supported": [
     "S256"
   ],
+  "end_session_endpoint": "https://login.smartadserver.com/logout",
   "id_token_signing_alg_values_supported": [
     "RS256"
   ],
