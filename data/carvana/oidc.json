@@ -1105,6 +1105,8 @@
     "cxpdata_read",
     "cxpdata_write",
     "/merch/toolsapi/access/elevated",
+    "generalcheckin",
+    "/merch/stores/access/elevated",
     "offline_access"
   ],
   "subject_types_supported": [
