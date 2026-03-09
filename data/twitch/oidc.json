@@ -3,12 +3,12 @@
   "claims_parameter_supported": true,
   "claims_supported": [
     "iss",
+    "azp",
     "email_verified",
     "preferred_username",
     "aud",
     "exp",
     "sub",
-    "azp",
     "email",
     "picture",
     "updated_at",
