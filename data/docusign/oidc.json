@@ -201,6 +201,7 @@
     "user_direct_db_write",
     "account_assets_info",
     "ie_sf_read",
+    "user_signatures_api",
     "msf_change_feed_write",
     "msf_doc2pdf",
     "pas_subscription_write",

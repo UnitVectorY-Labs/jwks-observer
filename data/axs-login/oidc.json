@@ -148,6 +148,7 @@
     "resale.listpro.sales.read",
     "resalesearchapi",
     "unifiedapisearch.GetFilteredTickets",
+    "identity.AXSID.Users.Create",
     "offline_access"
   ],
   "subject_types_supported": [

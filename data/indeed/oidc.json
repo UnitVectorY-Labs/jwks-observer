@@ -1,5 +1,6 @@
 {
   "authorization_endpoint": "https://secure.indeed.com/oauth/v2/authorize",
+  "client_id_metadata_document_supported": true,
   "code_challenge_methods_supported": [
     "S256"
   ],

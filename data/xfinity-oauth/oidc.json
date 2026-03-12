@@ -17,6 +17,7 @@
     "client_credentials",
     "implicit",
     "urn:comcast:oauth:grant-type:delegation",
+    "urn:ietf:params:oauth:grant-type:token-exchange",
     "urn:comcast:oauth:grant-type:user-to-account",
     "urn:comcast:oauth:grant-type:account-token",
     "urn:comcast:oauth:grant-type:user-to-user-with-account",
