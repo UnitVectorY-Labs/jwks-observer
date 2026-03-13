@@ -1107,6 +1107,8 @@
     "/merch/toolsapi/access/elevated",
     "generalcheckin",
     "/merch/stores/access/elevated",
+    "missDemo",
+    "fin_payres",
     "offline_access"
   ],
   "subject_types_supported": [
