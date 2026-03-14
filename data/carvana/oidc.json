@@ -1109,6 +1109,10 @@
     "/merch/stores/access/elevated",
     "missDemo",
     "fin_payres",
+    "mktops-tasks-read",
+    "mktops-tasks-write",
+    "advocate-hours-api-read",
+    "advocate-hours-api-write",
     "offline_access"
   ],
   "subject_types_supported": [
