@@ -1,8 +1,7 @@
 {
   "jwks": {
     "uri": "https://login.gaijin.net/proxy/oauth/keys",
-    "status_code": 502,
-    "error": "HTTP 502"
+    "status_code": 200
   },
   "oidc": {
     "uri": "https://login.gaijin.net/.well-known/openid-configuration",
