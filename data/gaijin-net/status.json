@@ -1,10 +1,12 @@
 {
   "jwks": {
     "uri": "https://gaijin.net/proxy/oauth/keys",
-    "status_code": 200
+    "status_code": 502,
+    "error": "HTTP 502"
   },
   "oidc": {
     "uri": "https://gaijin.net/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 502,
+    "error": "HTTP 502"
   }
 }
