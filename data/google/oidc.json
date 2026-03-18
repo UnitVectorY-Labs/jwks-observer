@@ -1,5 +1,6 @@
 {
   "authorization_endpoint": "https://accounts.google.com/o/oauth2/v2/auth",
+  "authorization_response_iss_parameter_supported": true,
   "claims_supported": [
     "aud",
     "email",
