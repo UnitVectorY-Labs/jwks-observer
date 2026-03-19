@@ -1113,6 +1113,8 @@
     "mktops-tasks-write",
     "advocate-hours-api-read",
     "advocate-hours-api-write",
+    "des_write",
+    "des_read",
     "offline_access"
   ],
   "subject_types_supported": [
