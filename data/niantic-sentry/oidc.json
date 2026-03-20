@@ -1,7 +1,7 @@
 {
   "id_token_signing_alg_values_supported": [
-    "ES256",
     "EdDSA",
+    "ES256",
     "RS256"
   ],
   "issuer": "https://sentry.nianticlabs.com",
