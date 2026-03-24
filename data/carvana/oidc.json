@@ -1117,6 +1117,8 @@
     "des_read",
     "vehicle-protection-mcp",
     "generalcheckin-api",
+    "customercare_promptplatform_read",
+    "customercare_promptplatform_write",
     "offline_access"
   ],
   "subject_types_supported": [
