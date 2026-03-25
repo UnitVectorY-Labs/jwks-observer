@@ -3,16 +3,16 @@
   "claims_parameter_supported": true,
   "claims_supported": [
     "email",
-    "email_verified",
     "picture",
+    "preferred_username",
     "updated_at",
     "aud",
     "iat",
+    "sub",
     "azp",
-    "preferred_username",
+    "email_verified",
     "exp",
-    "iss",
-    "sub"
+    "iss"
   ],
   "id_token_signing_alg_values_supported": [
     "RS256"

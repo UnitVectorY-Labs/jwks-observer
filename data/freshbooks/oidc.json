@@ -118,7 +118,8 @@
     "user:partners:read",
     "user:partners:write",
     "user:riskhub:read",
-    "user:riskhub:write"
+    "user:riskhub:write",
+    "anonymize"
   ],
   "subject_types_supported": [
     "public"
