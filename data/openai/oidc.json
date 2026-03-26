@@ -39,7 +39,7 @@
     "PS256"
   ],
   "issuer": "https://auth0.openai.com/",
-  "jwks_uri": "https://auth0.openai.com/.well-known/jwks.json",
+  "jwks_uri": "https://auth.openai.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth0.openai.com/mfa/challenge",
   "registration_endpoint": "https://auth0.openai.com/oidc/register",
   "request_object_signing_alg_values_supported": [

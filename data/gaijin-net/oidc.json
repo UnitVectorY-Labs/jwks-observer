@@ -10,13 +10,15 @@
     "kid",
     "nickname",
     "nonce",
-    "sub"
+    "sub",
+    "typ"
   ],
   "code_challenge_methods_supported": [
     "plain"
   ],
   "grant_types_supported": [
-    "authorization_code"
+    "authorization_code",
+    "refresh_token"
   ],
   "id_token_signing_alg_values_supported": [
     "RS256"
@@ -26,10 +28,12 @@
   "response_types_supported": [
     "code"
   ],
+  "revocation_endpoint": "https://gaijin.net/proxy/oauth/token/revoke",
   "scopes_supported": [
     "openid",
     "email",
-    "profile"
+    "profile",
+    "offline_access"
   ],
   "subject_types_supported": [
     "public"
