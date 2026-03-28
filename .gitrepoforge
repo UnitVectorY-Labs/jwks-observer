@@ -1,0 +1,16 @@
+name: jwks-observer
+default_branch: main
+config:
+  description: "Observes and records changes to public OIDC metadata and JWKS for services listed in the jwks-catalog."
+  license: MIT
+  language: go
+  release: release-go
+  justfile: true
+  codecov: false
+  clip4llm:
+    exclude:
+      - data
+  repver:
+    goversion:
+      paths:
+        - .github/workflows/jwks-observer-run.yml
