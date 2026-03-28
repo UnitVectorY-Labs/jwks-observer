@@ -1119,6 +1119,8 @@
     "generalcheckin-api",
     "customercare_promptplatform_read",
     "customercare_promptplatform_write",
+    "checkout.discounts.read",
+    "checkout.discounts.write",
     "offline_access"
   ],
   "subject_types_supported": [

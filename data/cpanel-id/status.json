@@ -1,10 +1,12 @@
 {
   "jwks": {
     "uri": "https://id.cpanel.net/oauth2/jwks",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://id.cpanel.net/oauth2/jwks\": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-03-28T05:32:38Z is after 2026-03-28T02:44:23Z"
   },
   "oidc": {
     "uri": "https://id.cpanel.net/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://id.cpanel.net/.well-known/openid-configuration\": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-03-28T05:32:38Z is after 2026-03-28T02:44:23Z"
   }
 }
