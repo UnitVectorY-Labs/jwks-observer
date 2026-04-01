@@ -1121,6 +1121,7 @@
     "customercare_promptplatform_write",
     "checkout.discounts.read",
     "checkout.discounts.write",
+    "carlitv_rw",
     "offline_access"
   ],
   "subject_types_supported": [
