@@ -1122,6 +1122,7 @@
     "checkout.discounts.read",
     "checkout.discounts.write",
     "carlitv_rw",
+    "/contextgatekeeper/api/read",
     "offline_access"
   ],
   "subject_types_supported": [
