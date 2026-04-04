@@ -1123,6 +1123,8 @@
     "checkout.discounts.write",
     "carlitv_rw",
     "/contextgatekeeper/api/read",
+    "llm-agents/chat",
+    "mcpbridge/read",
     "offline_access"
   ],
   "subject_types_supported": [
