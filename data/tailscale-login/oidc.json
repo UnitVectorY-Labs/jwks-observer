@@ -1,4 +1,5 @@
 {
+  "authorization_endpoint": "https://login.tailscale.com/a/oauth_authorize",
   "claims_supported": [
     "sub",
     "aud",
@@ -29,5 +30,6 @@
   ],
   "subject_types_supported": [
     "public"
-  ]
+  ],
+  "token_endpoint": "https://login.tailscale.com/api/v2/oauth/token"
 }

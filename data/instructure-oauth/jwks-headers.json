@@ -3,5 +3,6 @@
   "Content-Security-Policy": "frame-ancestors 'self' oauth.instructure.com canvas.instructure.com canvas.beta.instructure.com canvas.test.instructure.com oauth.beta.instructure.com oauth.test.instructure.com localhost stats.instructure.com stats.beta.instructure.com stats.test.instructure.com;",
   "Content-Type": "application/json; charset=utf-8",
   "Server": "Apache",
-  "Strict-Transport-Security": "max-age=63072000"
+  "Strict-Transport-Security": "max-age=63072000",
+  "Via": "1.1 [placeholder].cloudfront.net (CloudFront)"
 }
