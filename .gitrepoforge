@@ -1,7 +1,7 @@
 name: jwks-observer
 default_branch: main
 config:
-  description: "Observes and records changes to public OIDC metadata and JWKS for services listed in the [jwks-catalog](https://github.com/UnitVectorY-Labs/jwks-catalog)."
+  description: "Observes and records changes to public OIDC metadata and JWKS for services listed in the jwks-catalog."
   license: MIT
   language: go
   release: release-go
