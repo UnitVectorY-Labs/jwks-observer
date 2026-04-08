@@ -1125,6 +1125,7 @@
     "/contextgatekeeper/api/read",
     "llm-agents/chat",
     "mcpbridge/read",
+    "advocate-customer-communication-read",
     "offline_access"
   ],
   "subject_types_supported": [
