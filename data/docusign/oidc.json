@@ -145,6 +145,7 @@
     "spring_read",
     "domain_write",
     "organization_monitor_config_read",
+    "trust_records_read",
     "access_management_write",
     "clause_write",
     "participant_read",
