@@ -27,7 +27,8 @@
     "app_tid",
     "ias_apis",
     "at_hash",
-    "sap_id_type"
+    "sap_id_type",
+    "sap_gtid"
   ],
   "code_challenge_methods_supported": [
     "plain",
