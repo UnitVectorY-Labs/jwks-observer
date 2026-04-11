@@ -5,14 +5,14 @@
   ],
   "claims_parameter_supported": true,
   "claims_supported": [
-    "email",
-    "birthdate",
-    "family_name",
-    "sub",
-    "address",
-    "shipping_address",
     "given_name",
+    "birthdate",
+    "shipping_address",
+    "email",
+    "address",
+    "family_name",
     "email_verified",
+    "sub",
     "gender"
   ],
   "grant_types_supported": [
