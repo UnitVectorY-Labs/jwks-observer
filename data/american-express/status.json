@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://openid.americanexpress.com/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://openid.americanexpress.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

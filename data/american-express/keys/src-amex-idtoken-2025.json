@@ -1,0 +1,9 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2026-04-14T05:46:15Z",
+  "kid": "src-amex-idtoken-2025",
+  "kty": "RSA",
+  "n": "kBXt-Bb_LYsXvEwQe-QqjYDhhenCQtuHytKz2xD7y-r01qzmCDGtq1e_jTNZjm0uJ-s_fLcPOZGvwjiSZ4cgNbk6YP9v4SpuQFTZm3lp_s8sq4wYZDPghIDlpihJj1dhKMCO4lTxa9ZIT5nDWJQnx7hsXKKCuH-XEOM9sBWQuun65KHD1Tzh1PDvh9pjGpZ0oFblZTQz-uA8GhxprpyxAPoLzTBN_Vmn39OZygCnS1dsYTMmRa0bMRX_63cvUeLbK1KI3eHgqeyqtRdnGzFFxfp1Pz3k1BWePS3oyOJRWtH-pbm7PoD33HfaZCtaeU1HzzdxnTCp-rFMq1EKEyoVyW8Z-VJfcIioDwdxGQzuQw6oaQ1xG6SPdtX35HbB6-mDkFLr4TRodMqUEyEhamFH8-UMbbu9AIKvNcm5v7L0c3F-ssehekF7EGu7EGJn8sCpVFrEMZmd-2Gn0tqQN1iV_Jn-Rj3jGf8N7zFEYpjeA-7vL79zxmrYhswu0OQIWYYR",
+  "use": "sig"
+}

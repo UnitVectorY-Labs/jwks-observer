@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://login.amagi.tv/.well-known/jwks.json",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://login.amagi.tv/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

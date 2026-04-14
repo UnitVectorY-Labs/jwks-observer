@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://zservice.zscalertwo.net/_zsjwks/.well-known/jwks.json",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://login.zscalertwo.net/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

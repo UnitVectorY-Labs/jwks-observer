@@ -1,0 +1,9 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2026-04-14T05:46:15Z",
+  "kid": "src-amex-payload-sign-2026",
+  "kty": "RSA",
+  "n": "tz6VuTGsP6686w3NI040GXdCwS-UccxjelYnPNGSVL_zH3Av6qbM0d0vODtnoEgpqVzN8o22QFTdwwJjNwlUD_UaTS13lH15AYCC37r0hOkN-pmHIyxA-yUhQZuqlRHlcOEE4yInAmXRjSjKwb0W3d-UuBKQAeHoJ-1XeLDrDYxLDvHJV8fN6Fo-v61xDbV9H1LhdJNaPsjqp1jakVOZkasIStxWi7Teb7gtcsX35GRyjaGGCnBAkeqsQdruuLIr3Nm_ZLi5gen3I-TDoXSs07uqRs-LDz5a4zPETWzk4SBgQpWPfmaf0xs5N4gP7aHr5cG88SbZ8b-6eUK-p_uubJ_N79GAlkIT9ljTXsSrIno38Eu2MlgAoav0gebbdg6XWaj06BbQuxXVNkxGt8Xn8zhQRkSVdtXdeTI7EjR07Dtol6lS9FqgMNJmrINxsN3HlG4IhblfLH2pb_CxShQ4Sznam77bLZnI4RtMYiHn9qibF4Oa_wCpHX3FwdrI86IH",
+  "use": "sig"
+}

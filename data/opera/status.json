@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://oauth2.opera-api.com/oauth2/v1/certs",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://accounts.opera.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "jwks": {
+    "uri": "https://stackoverflow.com/.well-known/jwks.json",
+    "status_code": 403,
+    "error": "HTTP 403"
+  },
+  "oidc": {
+    "uri": "https://stackoverflow.com/.well-known/openid-configuration",
+    "status_code": 403,
+    "error": "HTTP 403"
+  }
+}

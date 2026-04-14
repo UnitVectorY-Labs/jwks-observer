@@ -1127,6 +1127,10 @@
     "mcpbridge/read",
     "advocate-customer-communication-read",
     "halocontentintelligence_read",
+    "voiceagentcore/read",
+    "voiceagentcore/write",
+    "voiceagentrunner/read",
+    "voiceagentrunner/write",
     "offline_access"
   ],
   "subject_types_supported": [

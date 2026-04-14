@@ -1,0 +1,9 @@
+{
+  "alg": "RSA-OAEP-256",
+  "e": "AQAB",
+  "first_observed": "2026-04-14T05:46:15Z",
+  "kid": "src-amex-card-enc-2025",
+  "kty": "RSA",
+  "n": "gqcqqVmrxqdBnOQtv7jv3UVnAEl-mIr3-ou5vw65UrmssFkjG8WWgPqyuUndeJlL8lj9hhE0cCvnxL6FxHIcKrHh4DWVc9gkVBEGX-xy-x9b7O84pDPdIb6HRTOnSIYXm4kYcsTzIb2zk-ySIQVzFX0wNn6Bibxxhg5IUpiRQWJFBcMNVweQDvKBGmKkJgMtvR9g2swSM2zzFQ0RmdwGGhraXpee0qA34PcyV5kcUi-lGajB9LNmAxnzWRQKi4zgyekKr6a7WokAa8-aqZ9YaRKva01VLkAxe5xhXhDS-E3bYVoJCjjbtEJYzUKa0wZdyu7UzIyoiZn_B_0oQsW9omaYIykOgeXgIHufMd8JOHgldCnmXYrjr8Lt3HX-jvQ7p4KR_Y_Tg2CczunHO1OCCnD717Xg4m2KfvL88PqmjOmsRQE9cTwMznnh39tmBtjezg_K6Db1q9jlUPB3ODLT39aaz4rZiI3wqPFXCQqvkZn0ka0PLWFrffpmkAKwXnWD",
+  "use": "enc"
+}

@@ -149,6 +149,7 @@
     "client_secret_post"
   ],
   "ui_locales_supported": [
+    "en-IE",
     "cs-CZ",
     "da-DK",
     "de-DE",
@@ -160,7 +161,6 @@
     "en-NZ",
     "en-SG",
     "en-US",
-    "pt-PT",
     "en-CA",
     "es-AR",
     "es-ES",
@@ -183,6 +183,7 @@
     "nl-NL",
     "pl-PL",
     "pt-BR",
+    "pt-PT",
     "ro-RO",
     "ru-RU",
     "sk-SK",
@@ -192,8 +193,7 @@
     "uk-UA",
     "zh-CN",
     "zh-HK",
-    "zh-TW",
-    "en-IE"
+    "zh-TW"
   ],
   "userinfo_endpoint": "https://identity.lego.com/connect/userinfo",
   "userinfo_signing_alg_values_supported": [
