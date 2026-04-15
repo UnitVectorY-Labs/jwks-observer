@@ -57,6 +57,9 @@
     "RS256"
   ],
   "introspection_endpoint": "https://sso.bitwarden.com/connect/introspect",
+  "introspection_signing_alg_values_supported": [
+    "RS256"
+  ],
   "issuer": "https://sso.bitwarden.com",
   "jwks_uri": "https://sso.bitwarden.com/.well-known/openid-configuration/jwks",
   "prompt_values_supported": [
@@ -75,10 +78,7 @@
     "PS512",
     "ES256",
     "ES384",
-    "ES512",
-    "HS256",
-    "HS384",
-    "HS512"
+    "ES512"
   ],
   "request_parameter_supported": true,
   "require_pushed_authorization_requests": false,
@@ -110,5 +110,8 @@
     "client_secret_basic",
     "client_secret_post"
   ],
-  "userinfo_endpoint": "https://sso.bitwarden.com/connect/userinfo"
+  "userinfo_endpoint": "https://sso.bitwarden.com/connect/userinfo",
+  "userinfo_signing_alg_values_supported": [
+    "RS256"
+  ]
 }
