@@ -2,11 +2,11 @@
   "jwks": {
     "uri": "https://login.broadcom.com/oauth2/v1/keys",
     "status_code": 0,
-    "error": "Get \"https://login.broadcom.com/oauth2/v1/keys\": tls: failed to verify certificate: x509: certificate is valid for *.kerberos.okta.com, kerberos.okta.com, not login.broadcom.com"
+    "error": "Get \"https://login.broadcom.com/oauth2/v1/keys\": dial tcp: lookup login.broadcom.com on 10.96.0.10:53: no such host"
   },
   "oidc": {
     "uri": "https://login.broadcom.com/.well-known/openid-configuration",
     "status_code": 0,
-    "error": "Get \"https://login.broadcom.com/.well-known/openid-configuration\": tls: failed to verify certificate: x509: certificate is valid for *.kerberos.okta.com, kerberos.okta.com, not login.broadcom.com"
+    "error": "Get \"https://login.broadcom.com/.well-known/openid-configuration\": dial tcp: lookup login.broadcom.com on 10.96.0.10:53: no such host"
   }
 }

@@ -4,7 +4,7 @@
     "status_code": 200
   },
   "oidc": {
-    "uri": "https://dropbox.com/.well-known/openid-configuration",
+    "uri": "https://www.dropbox.com/.well-known/openid-configuration",
     "status_code": 200
   }
 }

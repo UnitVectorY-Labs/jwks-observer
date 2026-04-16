@@ -4,7 +4,7 @@
     "status_code": 200
   },
   "oidc": {
-    "uri": "https://accounts.opera.com/.well-known/openid-configuration",
+    "uri": "https://oauth2.opera-api.com/.well-known/openid-configuration",
     "status_code": 200
   }
 }

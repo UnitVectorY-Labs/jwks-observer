@@ -4,7 +4,8 @@
     "status_code": 200
   },
   "oidc": {
-    "uri": "https://auth.freshbooks.com/.well-known/openid-configuration",
-    "status_code": 200
+    "uri": "https://my.freshbooks.com/.well-known/openid-configuration",
+    "status_code": 404,
+    "error": "HTTP 404"
   }
 }
