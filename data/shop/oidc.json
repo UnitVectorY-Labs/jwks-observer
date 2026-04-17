@@ -27,10 +27,14 @@
   "grant_types_supported": [
     "authorization_code",
     "refresh_token",
-    "urn:openid:params:grant-type:ciba"
+    "urn:openid:params:grant-type:ciba",
+    "urn:ietf:params:oauth:grant-type:token-exchange"
   ],
   "id_token_signing_alg_values_supported": [
     "RS256"
+  ],
+  "identity_chaining_requested_token_types_supported": [
+    "urn:ietf:params:oauth:token-type:jwt"
   ],
   "issuer": "https://accounts.shop.app",
   "jwks_uri": "https://accounts.shop.app/auth/jwks",

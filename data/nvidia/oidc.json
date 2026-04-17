@@ -44,7 +44,8 @@
     "usr_admin",
     "usr_block",
     "grp_admin",
-    "nca"
+    "nca",
+    "group_management"
   ],
   "subject_types_supported": [
     "public"
