@@ -1133,6 +1133,8 @@
     "voiceagentrunner/write",
     "prompt_lab_read",
     "prompt_lab_write",
+    "approvalworkbench_rw",
+    "serv_asrqueue",
     "offline_access"
   ],
   "subject_types_supported": [

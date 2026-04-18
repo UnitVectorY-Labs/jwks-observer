@@ -23,6 +23,7 @@
   ],
   "issuer": "https://ims-na1.adobelogin.com",
   "jwks_uri": "https://ims-na1.adobelogin.com/ims/keys",
+  "registration_endpoint": "https://ims-na1.adobelogin.com/ims/register",
   "response_modes_supported": [
     "query",
     "fragment"
