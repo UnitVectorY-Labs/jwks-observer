@@ -62,7 +62,8 @@
     "eti_licenses",
     "psa_user_permissions",
     "online_help_user_roles",
-    "esac_region"
+    "esac_region",
+    "eset/product_navigator"
   ],
   "code_challenge_methods_supported": [
     "plain",
@@ -150,6 +151,7 @@
     "eset_psa",
     "eset_online_help",
     "esac",
+    "product_navigator",
     "automation.events.write",
     "ecp3",
     "ema2_api",
