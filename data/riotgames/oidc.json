@@ -102,11 +102,11 @@
   "issuer": "https://auth.riotgames.com",
   "jwks_uri": "https://auth.riotgames.com/jwks.json",
   "prompt_values_supported": [
-    "login",
-    "none",
     "select_account",
-    "consent",
-    "create"
+    "create",
+    "none",
+    "login",
+    "consent"
   ],
   "pushed_authorization_request_endpoint": "https://auth.riotgames.com/par",
   "registration_endpoint": "https://auth.riotgames.com/clients",
@@ -243,7 +243,8 @@
     "chat:voice",
     "friend:add",
     "purchase:personalize",
-    "content:personalize"
+    "content:personalize",
+    "chat:text:send"
   ],
   "tls_client_certificate_bound_access_tokens": true,
   "token_endpoint": "https://auth.riotgames.com/token",

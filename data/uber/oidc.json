@@ -496,6 +496,9 @@
     "wav.trips"
   ],
   "service_documentation": "https://developer.uber.com/docs/consumer-identity/introduction",
+  "subject_types_supported": [
+    "pairwise"
+  ],
   "token_endpoint": "https://auth.uber.com/oauth/v2/token",
   "token_endpoint_auth_methods_supported": [
     "client_secret_basic",

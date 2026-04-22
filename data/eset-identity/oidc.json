@@ -183,6 +183,8 @@
     "syslog.configurations.read",
     "syslog.configurations.write",
     "edr_rule_action_dispatcher",
+    "traffic-metrics.read",
+    "traffic_metrics.write",
     "offline_access"
   ],
   "subject_types_supported": [
