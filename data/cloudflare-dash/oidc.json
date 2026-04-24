@@ -6,6 +6,10 @@
   "claims_supported": [
     "sub"
   ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
   "end_session_endpoint": "https://dash.cloudflare.com/oauth2/sessions/logout",
   "frontchannel_logout_session_supported": true,
   "frontchannel_logout_supported": true,
@@ -20,6 +24,10 @@
   ],
   "issuer": "https://dash.cloudflare.com/",
   "jwks_uri": "https://dash.cloudflare.com/.well-known/jwks.json",
+  "request_object_signing_alg_values_supported": [
+    "RS256",
+    "none"
+  ],
   "request_parameter_supported": true,
   "request_uri_parameter_supported": true,
   "require_request_uri_registration": true,
