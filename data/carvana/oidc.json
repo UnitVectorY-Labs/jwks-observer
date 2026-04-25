@@ -1135,6 +1135,10 @@
     "prompt_lab_write",
     "approvalworkbench_rw",
     "serv_asrqueue",
+    "user-context-api/read",
+    "twillio-service/streaming",
+    "titlesservicegraphapi:read",
+    "titlesservicegraphapi:write",
     "offline_access"
   ],
   "subject_types_supported": [

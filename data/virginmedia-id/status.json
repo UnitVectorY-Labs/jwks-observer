@@ -1,10 +1,12 @@
 {
   "jwks": {
     "uri": "https://id.virginmedia.com/oidc/jwk",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://id.virginmedia.com/oidc/jwk\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
   },
   "oidc": {
     "uri": "https://id.virginmedia.com/oidc/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://id.virginmedia.com/oidc/.well-known/openid-configuration\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
   }
 }
