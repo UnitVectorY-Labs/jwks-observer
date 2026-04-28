@@ -1,4 +1,5 @@
 {
+  "Cache-Control": "public, max-age=[placeholder]",
   "Content-Security-Policy": "upgrade-insecure-requests; frame-ancestors https://indeed.com https://*.indeed.com",
   "Content-Type": "application/json",
   "Server": "cloudflare",
