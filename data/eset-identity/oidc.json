@@ -185,6 +185,7 @@
     "edr_rule_action_dispatcher",
     "traffic-metrics.read",
     "traffic_metrics.write",
+    "edr_legacy",
     "offline_access"
   ],
   "subject_types_supported": [
