@@ -1139,6 +1139,7 @@
     "twillio-service/streaming",
     "titlesservicegraphapi:read",
     "titlesservicegraphapi:write",
+    "core_vipr",
     "offline_access"
   ],
   "subject_types_supported": [
