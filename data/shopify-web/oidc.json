@@ -17,7 +17,8 @@
   "end_session_endpoint": "https://shopify.com/authentication/58004504738/logout",
   "grant_types_supported": [
     "authorization_code",
-    "refresh_token"
+    "refresh_token",
+    "urn:ietf:params:oauth:grant-type:jwt-bearer"
   ],
   "id_token_signing_alg_values_supported": [
     "RS256"

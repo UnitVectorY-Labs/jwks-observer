@@ -34,6 +34,20 @@
   "global_token_revocation_endpoint_auth_methods_supported": [
     "global-token-revocation+jwt"
   ],
+  "grant_types_supported": [
+    "client_credentials",
+    "authorization_code",
+    "refresh_token",
+    "password",
+    "implicit",
+    "urn:ietf:params:oauth:grant-type:device_code",
+    "urn:ietf:params:oauth:grant-type:token-exchange",
+    "http://auth0.com/oauth/grant-type/password-realm",
+    "http://auth0.com/oauth/grant-type/passwordless/otp",
+    "http://auth0.com/oauth/grant-type/mfa-oob",
+    "http://auth0.com/oauth/grant-type/mfa-otp",
+    "http://auth0.com/oauth/grant-type/mfa-recovery-code"
+  ],
   "id_token_signing_alg_values_supported": [
     "HS256",
     "RS256",

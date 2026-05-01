@@ -1140,6 +1140,7 @@
     "titlesservicegraphapi:read",
     "titlesservicegraphapi:write",
     "core_vipr",
+    "hydration-api",
     "offline_access"
   ],
   "subject_types_supported": [
