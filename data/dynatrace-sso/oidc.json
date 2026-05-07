@@ -41,10 +41,20 @@
     "code"
   ],
   "scopes_supported": [
+    "davis-copilot:conversations:execute",
+    "davis-copilot:dql2nl:execute",
+    "davis-copilot:nl2dql:execute",
     "email",
+    "mcp-gateway:servers:invoke",
+    "mcp-gateway:servers:read",
     "offline_access",
     "openid",
-    "profile"
+    "profile",
+    "storage:buckets:read",
+    "storage:events:read",
+    "storage:logs:read",
+    "storage:metrics:read",
+    "storage:security.events:read"
   ],
   "subject_types_supported": [
     "public"

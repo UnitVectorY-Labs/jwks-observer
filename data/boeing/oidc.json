@@ -279,6 +279,7 @@
     "jcr.flightops.das/upload-plan-zip",
     "cks-test-jeff.das",
     "b2bi-shelflife.read",
+    "b2bi-savedlist.write",
     "https://test.myaccount.digitalaviationservices.com/update",
     "cks-joc-test.das/catalog/all",
     "b2bi-safetydatasheet.write",
@@ -322,11 +323,13 @@
     "jct.das/dev/rosterstateoutput",
     "cks-joc-staging.das/all",
     "cks-jeff-test.das/jct/read",
+    "b2bi-stockinquiry.read",
     "jct.das/test/crewdataoutput",
     "lft.joc-amx.das/read",
     "jct.das/dev",
     "https://www.eiamsapi.eiams.digitalaviationservices.com/eiam/apps",
-    "lft.joc-amx.das/write"
+    "lft.joc-amx.das/write",
+    "b2bi-savedlist.read"
   ],
   "subject_types_supported": [
     "public",
