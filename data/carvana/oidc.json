@@ -1143,6 +1143,7 @@
     "hydration-api",
     "adi_read",
     "adi_write",
+    "llm-agents/admin",
     "offline_access"
   ],
   "subject_types_supported": [
