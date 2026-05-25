@@ -20,6 +20,11 @@
     "phone_number",
     "phone_number_verified"
   ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "dc_info": "https://accounts.zoho.com/oauth/serverinfo",
   "device_authorization_endpoint": "https://accounts.zoho.com/oauth/v3/device/code",
   "grant_types_supported": [
     "authorization_code",

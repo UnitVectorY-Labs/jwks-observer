@@ -5,7 +5,7 @@
   },
   "oidc": {
     "uri": "https://my.freshbooks.com/.well-known/openid-configuration",
-    "status_code": 404,
-    "error": "HTTP 404"
+    "status_code": 200,
+    "error": "invalid JSON: invalid character '\u003c' looking for beginning of value"
   }
 }

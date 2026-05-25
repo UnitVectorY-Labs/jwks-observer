@@ -1,10 +1,12 @@
 {
   "jwks": {
     "uri": "https://login.zeotap.com/oauth2/v1/keys",
-    "status_code": 200
+    "status_code": 200,
+    "error": "invalid JSON: invalid character '\u003c' looking for beginning of value"
   },
   "oidc": {
     "uri": "https://login.zeotap.com/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 200,
+    "error": "invalid JSON: invalid character '\u003c' looking for beginning of value"
   }
 }
