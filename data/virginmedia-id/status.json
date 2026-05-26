@@ -2,11 +2,11 @@
   "jwks": {
     "uri": "https://id.virginmedia.com/oidc/jwk",
     "status_code": 0,
-    "error": "Get \"https://id.virginmedia.com/oidc/jwk\": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-05-25T06:35:03Z is after 2026-05-24T09:48:42Z"
+    "error": "Get \"https://id.virginmedia.com/oidc/jwk\": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-05-26T06:27:12Z is after 2026-05-24T09:48:42Z"
   },
   "oidc": {
     "uri": "https://id.virginmedia.com/oidc/.well-known/openid-configuration",
     "status_code": 0,
-    "error": "Get \"https://id.virginmedia.com/oidc/.well-known/openid-configuration\": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-05-25T06:35:02Z is after 2026-05-24T09:48:42Z"
+    "error": "Get \"https://id.virginmedia.com/oidc/.well-known/openid-configuration\": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-05-26T06:27:12Z is after 2026-05-24T09:48:42Z"
   }
 }

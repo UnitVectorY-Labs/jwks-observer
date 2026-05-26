@@ -1,0 +1,9 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2026-05-26T06:27:13Z",
+  "kid": "crisis-edge-v1",
+  "kty": "RSA",
+  "n": "nkTja30EK2Hmr43USDX8-jPqXH9Ik9HJGOkVTOhgGeR_AMRxwfZGf9Yucl0cMLPiwyUTf7nYoB1SjewxqIEHl8nAPn9Fz4kziSxxeQLnSLvmgfibgBK59v6mgQCfwAphxZUYX0CfA5FdrtgnmAUReBj5rRC4f5-YPkF3hg7w-rQl5qGpevpYMtGkKTykGXUFdfNy9_-2N68sgXrJOGX2S8MM3a5rkzceRVo0Ce2zOUG4cKrr8Sb_JtUxLACdMYRGuGpaijgLVPTS-mm_NN0DVVIpwaj2RqReZ4B8g05FWF1LayBQA9XhHLwB9YA9CjyRyAk4tslVyuRxHLkw1cfjfw",
+  "use": "sig"
+}
