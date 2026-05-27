@@ -1,12 +1,12 @@
 {
   "jwks": {
     "uri": "https://sso.arubanetworks.com/pf/JWKS",
-    "status_code": 404,
-    "error": "HTTP 404"
+    "status_code": 502,
+    "error": "HTTP 502"
   },
   "oidc": {
     "uri": "https://sso.arubanetworks.com/.well-known/openid-configuration",
-    "status_code": 404,
-    "error": "HTTP 404"
+    "status_code": 502,
+    "error": "HTTP 502"
   }
 }
