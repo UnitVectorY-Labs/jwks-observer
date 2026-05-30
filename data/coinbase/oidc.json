@@ -6,11 +6,13 @@
   "claims_supported": [
     "sub"
   ],
+  "client_id_metadata_document_supported": false,
   "code_challenge_methods_supported": [
     "plain",
     "S256"
   ],
   "end_session_endpoint": "https://login.coinbase.com/oauth2/sessions/logout",
+  "error_uri": "https://docs.cdp.coinbase.com/coinbase-app/oauth2-integration/overview",
   "frontchannel_logout_session_supported": true,
   "frontchannel_logout_supported": true,
   "grant_types_supported": [
