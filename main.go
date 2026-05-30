@@ -7,6 +7,7 @@ import (
 	"flag"
 	"fmt"
 	"io"
+	"maps"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -57,8 +58,8 @@ var stableHeaderKeys = []string{
 	"Content-Security-Policy",
 }
 var cacheControlRegex = regexp.MustCompile(`(max-age=)(\d+)`)
-var viaRegex = regexp.MustCompile(`(1\.1 )([a-zA-Z0-9_\.-]+)(\.cloudfront\.net \(CloudFront\))`) 
-var cspNonceRegex = regexp.MustCompile(`('nonce-)([a-zA-Z0-9_=\\-]+)(')`) 
+var viaRegex = regexp.MustCompile(`(1\.1 )([a-zA-Z0-9_\.-]+)(\.cloudfront\.net \(CloudFront\))`)
+var cspNonceRegex = regexp.MustCompile(`('nonce-)([a-zA-Z0-9_=\\-]+)(')`)
 
 // jwksMismatches stores services with mismatched JWKS URIs
 var jwksMismatches = struct {
@@ -85,10 +86,7 @@ func main() {
 
 	var wg sync.WaitGroup
 	for _, svc := range catalog.Services {
-		svc := svc
-		wg.Add(1)
-		go func() {
-			defer wg.Done()
+		wg.Go(func() {
 
 			dir := filepath.Join(*outDir, svc.ID)
 			keysDir := filepath.Join(dir, "keys")
@@ -108,17 +106,17 @@ func main() {
 					statuses["oidc"] = statusEntry{URI: svc.OIDCURI, StatusCode: codeOIDC}
 					writeFile(filepath.Join(dir, "oidc.json"), prettyOIDC)
 					writeHeaders(filepath.Join(dir, "oidc-headers.json"), hdrsOIDC)
-					
+
 					// Check if the JWKS URI in OIDC matches the configured one
-					if oidcMap, ok := oidcObj.(map[string]interface{}); ok {
+					if oidcMap, ok := oidcObj.(map[string]any); ok {
 						if discoveredJWKSURI, ok := oidcMap["jwks_uri"].(string); ok && discoveredJWKSURI != "" {
 							if svc.JWKSURI != "" && svc.JWKSURI != discoveredJWKSURI {
 								// Add to mismatches list
 								jwksMismatches.Lock()
 								jwksMismatches.Services = append(jwksMismatches.Services, svc.ID)
 								jwksMismatches.Unlock()
-								
-								fmt.Fprintf(os.Stdout, "[%s] JWKS URI mismatch - Configured: %s, Discovered: %s\n", 
+
+								fmt.Fprintf(os.Stdout, "[%s] JWKS URI mismatch - Configured: %s, Discovered: %s\n",
 									svc.ID, svc.JWKSURI, discoveredJWKSURI)
 							}
 						}
@@ -152,10 +150,10 @@ func main() {
 			} else if err := os.WriteFile(filepath.Join(dir, "status.json"), b, 0o644); err != nil {
 				fmt.Fprintf(os.Stderr, "[%s] status.json write error: %v\n", svc.ID, err)
 			}
-		}()
+		})
 	}
 	wg.Wait()
-	
+
 	// Write the JWKS mismatches to a file
 	fmt.Println("Processing JWKS URI mismatches...")
 	writeJWKSMismatches(*outDir)
@@ -194,7 +192,7 @@ func fetchCatalog(ctx context.Context, url string) (*Catalog, error) {
 // Returns the parsed JSON (as interface{}), a pretty-printed []byte,
 // the response headers, the HTTP status code, and an error if any.
 func fetchAndValidateJSON(url string, requiredFields []string) (
-	parsed interface{}, pretty []byte, hdrs http.Header, statusCode int, err error,
+	parsed any, pretty []byte, hdrs http.Header, statusCode int, err error,
 ) {
 	resp, err := httpClient.Get(url)
 	if err != nil {
@@ -216,7 +214,7 @@ func fetchAndValidateJSON(url string, requiredFields []string) (
 		return nil, nil, resp.Header, statusCode, fmt.Errorf("invalid JSON: %w", err)
 	}
 
-	obj, ok := parsed.(map[string]interface{})
+	obj, ok := parsed.(map[string]any)
 	if !ok {
 		return nil, nil, resp.Header, statusCode, fmt.Errorf("JSON is not an object")
 	}
@@ -264,13 +262,13 @@ func writeHeaders(path string, hdrs http.Header) {
 func writeJWKSMismatches(outDir string) {
 	jwksMismatches.Lock()
 	defer jwksMismatches.Unlock()
-	
+
 	// Sort the service names alphabetically
 	sort.Strings(jwksMismatches.Services)
-	
+
 	// Create the JSON file
 	mismatchesPath := filepath.Join(outDir, "jwks_mismatch.json")
-	
+
 	// Write the sorted list to the file
 	if b, err := json.MarshalIndent(jwksMismatches.Services, "", "  "); err != nil {
 		fmt.Fprintf(os.Stderr, "jwks_mismatch.json marshal error: %v\n", err)
@@ -284,7 +282,7 @@ func writeJWKSMismatches(outDir string) {
 // updateObservedKeys reads (or creates) jwks-observed.json, updates first/last observed times,
 // writes per-key files, and writes back jwks-observed.json.
 // jwks-observed.json will now be an array of active KIDs.
-func updateObservedKeys(keysDir, serviceDir string, parsedJWKS interface{}) {
+func updateObservedKeys(keysDir, serviceDir string, parsedJWKS any) {
 	obsPath := filepath.Join(serviceDir, "jwks-observed.json")
 
 	// load existing observations from individual key files to preserve first_observed dates
@@ -304,15 +302,15 @@ func updateObservedKeys(keysDir, serviceDir string, parsedJWKS interface{}) {
 	}
 
 	// extract current keys
-	obj := parsedJWKS.(map[string]interface{})
-	rawKeys := obj["keys"].([]interface{})
+	obj := parsedJWKS.(map[string]any)
+	rawKeys := obj["keys"].([]any)
 	now := time.Now().UTC().Format(time.RFC3339)
 
 	currentKidsMap := make(map[string]struct{})
 	activeKidsList := []string{}
 
 	for _, raw := range rawKeys {
-		keyObj := raw.(map[string]interface{})
+		keyObj := raw.(map[string]any)
 		kid, _ := keyObj["kid"].(string)
 		currentKidsMap[kid] = struct{}{}
 		activeKidsList = append(activeKidsList, kid)
@@ -327,10 +325,8 @@ func updateObservedKeys(keysDir, serviceDir string, parsedJWKS interface{}) {
 
 		// write the individual key file
 		// Ensure first_observed is part of the key object before marshalling
-		keyWithTimestamps := make(map[string]interface{})
-		for k, v := range keyObj {
-			keyWithTimestamps[k] = v
-		}
+		keyWithTimestamps := make(map[string]any)
+		maps.Copy(keyWithTimestamps, keyObj)
 		keyWithTimestamps["first_observed"] = entry.FirstObserved
 		// Do not write last_observed if it's empty
 
@@ -350,7 +346,7 @@ func updateObservedKeys(keysDir, serviceDir string, parsedJWKS interface{}) {
 			// update the individual key file with last_observed
 			keyFilePath := filepath.Join(keysDir, kid+".json")
 			if data, err := os.ReadFile(keyFilePath); err == nil {
-				var keyMap map[string]interface{}
+				var keyMap map[string]any
 				if json.Unmarshal(data, &keyMap) == nil {
 					keyMap["last_observed"] = now
 					if kb, err := json.MarshalIndent(keyMap, "", "  "); err == nil {
