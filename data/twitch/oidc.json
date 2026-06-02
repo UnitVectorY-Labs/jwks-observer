@@ -4,13 +4,13 @@
   "claims_supported": [
     "aud",
     "exp",
-    "iat",
-    "sub",
-    "email",
     "iss",
     "azp",
     "email_verified",
     "picture",
+    "iat",
+    "sub",
+    "email",
     "preferred_username",
     "updated_at"
   ],
