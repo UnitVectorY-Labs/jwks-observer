@@ -186,6 +186,7 @@
     "traffic-metrics.read",
     "traffic_metrics.write",
     "edr_legacy",
+    "epc_audit_publisher",
     "offline_access"
   ],
   "subject_types_supported": [

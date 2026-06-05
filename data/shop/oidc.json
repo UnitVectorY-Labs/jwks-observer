@@ -49,9 +49,10 @@
   ],
   "scopes_supported": [
     "openid",
-    "oauth",
     "email",
-    "phone"
+    "phone",
+    "dev.ucp.shopping.catalog.search:read",
+    "dev.ucp.shopping.checkout:manage"
   ],
   "subject_types_supported": [
     "public"
