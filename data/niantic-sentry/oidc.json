@@ -1,8 +1,8 @@
 {
   "id_token_signing_alg_values_supported": [
+    "ES256",
     "EdDSA",
-    "RS256",
-    "ES256"
+    "RS256"
   ],
   "issuer": "https://sentry.nianticlabs.com",
   "jwks_uri": "https://sentry.nianticlabs.com/.well-known/jwks.json"
