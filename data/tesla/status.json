@@ -1,7 +1,8 @@
 {
   "jwks": {
     "uri": "https://auth.tesla.com/oauth2/v3/discovery/keys",
-    "status_code": 200
+    "status_code": 503,
+    "error": "HTTP 503"
   },
   "oidc": {
     "uri": "https://auth.tesla.com/oauth2/v3/.well-known/openid-configuration",
