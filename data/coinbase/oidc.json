@@ -6,7 +6,7 @@
   "claims_supported": [
     "sub"
   ],
-  "client_id_metadata_document_supported": false,
+  "client_id_metadata_document_supported": true,
   "code_challenge_methods_supported": [
     "plain",
     "S256"
