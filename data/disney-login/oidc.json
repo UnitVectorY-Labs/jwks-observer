@@ -20,7 +20,8 @@
   "scopes_supported": [
     "openid",
     "profile",
-    "email"
+    "email",
+    "phone"
   ],
   "subject_types_supported": [
     "public",
