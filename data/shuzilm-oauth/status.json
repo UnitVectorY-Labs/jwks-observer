@@ -1,10 +1,12 @@
 {
   "jwks": {
     "uri": "https://oauth.shuzilm.cn/.well-known/jwks",
-    "status_code": 200
+    "status_code": 200,
+    "error": "invalid JSON: invalid character '\u003c' looking for beginning of value"
   },
   "oidc": {
     "uri": "https://oauth.shuzilm.cn/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 200,
+    "error": "invalid JSON: invalid character '\u003c' looking for beginning of value"
   }
 }
