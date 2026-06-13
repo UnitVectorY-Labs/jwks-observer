@@ -1,6 +1,6 @@
 {
   "Cache-Control": "public, max-age=[placeholder]",
   "Content-Type": "application/json",
-  "Server": "cloudflare",
-  "Strict-Transport-Security": "max-age=15552000; includeSubDomains; preload"
+  "Server": "UploadServer",
+  "Via": "1.1 google"
 }
