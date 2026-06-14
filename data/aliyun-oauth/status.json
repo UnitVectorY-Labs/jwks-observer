@@ -5,7 +5,6 @@
   },
   "oidc": {
     "uri": "https://oauth.aliyun.com/.well-known/openid-configuration",
-    "status_code": 0,
-    "error": "Get \"https://oauth.aliyun.com/.well-known/openid-configuration\": read tcp 10.244.0.39:36052-\u003e116.62.99.1:443: read: connection reset by peer"
+    "status_code": 200
   }
 }
