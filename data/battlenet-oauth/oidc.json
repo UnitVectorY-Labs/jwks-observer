@@ -12,7 +12,9 @@
     "device_code",
     "refresh_token",
     "urn:ietf:params:oauth:grant-type:device_code",
-    "urn:ietf:params:oauth:grant-type:token-exchange"
+    "urn:ietf:params:oauth:grant-type:token-exchange",
+    "urn:blizzard:params:oauth:grant-type:implicit-exchange",
+    "urn:blizzard:params:oauth:grant-type:implicit-extension"
   ],
   "id_token_signing_alg_values_supported": [
     "RS256"
