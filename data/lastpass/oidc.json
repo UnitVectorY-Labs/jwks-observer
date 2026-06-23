@@ -114,8 +114,13 @@
     "commerce/eventhandler",
     "commerce/full_access",
     "commerce/zuora",
+    "commerce/adyen",
     "commerce/avs",
     "api_key_management",
+    "safebrowsing",
+    "vpn/connect",
+    "vpn/provisioning",
+    "vpn/entitlement",
     "offline_access"
   ],
   "subject_types_supported": [
