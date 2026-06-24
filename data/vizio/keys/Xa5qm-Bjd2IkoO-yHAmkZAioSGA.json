@@ -1,0 +1,10 @@
+{
+  "alg": "ES384",
+  "crv": "P-384",
+  "first_observed": "2026-06-24T06:25:28Z",
+  "kid": "Xa5qm-Bjd2IkoO-yHAmkZAioSGA",
+  "kty": "EC",
+  "use": "sig",
+  "x": "OWe79CudHmqcgcQZrU-GN7CUXTX31LTrF3eehIDHvSx86EGGmFEcYHnDrCEC1DxZ",
+  "y": "KLPXAz8sHQTHHuAzMBhCS-VDAwTXL0AKfJw7pXHDVs0XjzwERyzyHzff5SiSCk1Y"
+}
