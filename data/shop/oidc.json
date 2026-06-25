@@ -1,5 +1,6 @@
 {
   "authorization_endpoint": "https://accounts.shop.app/oauth/authorize",
+  "authorization_response_iss_parameter_supported": true,
   "backchannel_logout_session_supported": false,
   "backchannel_logout_supported": true,
   "claim_types_supported": [
