@@ -41,20 +41,33 @@
     "code"
   ],
   "scopes_supported": [
+    "ai:operator:execute",
     "davis-copilot:conversations:execute",
+    "davis-copilot:document-search:execute",
     "davis-copilot:dql2nl:execute",
     "davis-copilot:nl2dql:execute",
+    "davis:analyzers:execute",
+    "davis:analyzers:read",
     "email",
     "mcp-gateway:servers:invoke",
     "mcp-gateway:servers:read",
     "offline_access",
     "openid",
     "profile",
+    "storage:bizevents:read",
     "storage:buckets:read",
+    "storage:entities:read",
     "storage:events:read",
+    "storage:files:read",
     "storage:logs:read",
     "storage:metrics:read",
-    "storage:security.events:read"
+    "storage:security.events:read",
+    "storage:smartscape:read",
+    "storage:spans:read",
+    "storage:system:read",
+    "storage:user.events:read",
+    "storage:user.replays:read",
+    "storage:user.sessions:read"
   ],
   "subject_types_supported": [
     "public"
