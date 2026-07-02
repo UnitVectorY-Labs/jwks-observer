@@ -1,10 +1,12 @@
 {
   "jwks": {
     "uri": "https://secure.indeed.com/.well-known/keys",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://secure.indeed.com/.well-known/keys\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
   },
   "oidc": {
     "uri": "https://secure.indeed.com/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://secure.indeed.com/.well-known/openid-configuration\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
   }
 }

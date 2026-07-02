@@ -1,10 +1,12 @@
 {
   "jwks": {
     "uri": "https://shopify.com/authentication/58004504738/.well-known/jwks.json",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://shopify.com/authentication/58004504738/.well-known/jwks.json\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
   },
   "oidc": {
     "uri": "https://shopify.com/authentication/58004504738/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://shopify.com/authentication/58004504738/.well-known/openid-configuration\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
   }
 }

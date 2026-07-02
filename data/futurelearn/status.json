@@ -1,10 +1,12 @@
 {
   "jwks": {
     "uri": "https://www.futurelearn.com/oauth/discovery/keys",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://www.futurelearn.com/oauth/discovery/keys\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
   },
   "oidc": {
     "uri": "https://www.futurelearn.com/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://www.futurelearn.com/.well-known/openid-configuration\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
   }
 }

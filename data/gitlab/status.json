@@ -1,6 +1,7 @@
 {
   "jwks": {
     "uri": "https://gitlab.com/oauth/discovery/keys",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://gitlab.com/oauth/discovery/keys\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
   }
 }
