@@ -24,7 +24,6 @@
     "picture",
     "sub"
   ],
-  "client_id_metadata_document_supported": false,
   "code_challenge_methods_supported": [
     "S256",
     "plain"

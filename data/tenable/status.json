@@ -1,12 +1,10 @@
 {
   "jwks": {
     "uri": "https://login.tenable.com/.well-known/jwks.json",
-    "status_code": 0,
-    "error": "Get \"https://login.tenable.com/.well-known/jwks.json\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "status_code": 200
   },
   "oidc": {
     "uri": "https://login.tenable.com/.well-known/openid-configuration",
-    "status_code": 0,
-    "error": "Get \"https://login.tenable.com/.well-known/openid-configuration\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "status_code": 200
   }
 }

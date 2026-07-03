@@ -1,12 +1,10 @@
 {
   "jwks": {
     "uri": "https://account.cloudflareaccess.com/cdn-cgi/access/certs",
-    "status_code": 0,
-    "error": "Get \"https://account.cloudflareaccess.com/cdn-cgi/access/certs\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "status_code": 200
   },
   "oidc": {
     "uri": "https://account.cloudflareaccess.com/.well-known/openid-configuration",
-    "status_code": 0,
-    "error": "Get \"https://account.cloudflareaccess.com/.well-known/openid-configuration\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "status_code": 200
   }
 }

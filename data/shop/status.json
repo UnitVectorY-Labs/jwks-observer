@@ -1,12 +1,10 @@
 {
   "jwks": {
     "uri": "https://accounts.shop.app/auth/jwks",
-    "status_code": 0,
-    "error": "Get \"https://accounts.shop.app/auth/jwks\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "status_code": 200
   },
   "oidc": {
     "uri": "https://accounts.shop.app/.well-known/openid-configuration",
-    "status_code": 0,
-    "error": "Get \"https://accounts.shop.app/.well-known/openid-configuration\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "status_code": 200
   }
 }
