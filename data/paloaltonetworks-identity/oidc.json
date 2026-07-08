@@ -241,6 +241,7 @@
   "revocation_endpoint": "https://identity.paloaltonetworks.com/as/revoke_token.oauth2",
   "scopes_supported": [
     "device-management-units",
+    "scope-trr-recommendation-service",
     "scope-dlp",
     "logging-service:write",
     "directory-sync-service:read",

@@ -121,6 +121,7 @@
     "vpn/connect",
     "vpn/provisioning",
     "vpn/entitlement",
+    "visibility/report",
     "offline_access"
   ],
   "subject_types_supported": [

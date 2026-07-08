@@ -130,6 +130,7 @@
     "none"
   ],
   "scopes_supported": [
+    "interclient_access",
     "openid",
     "profile",
     "email",
