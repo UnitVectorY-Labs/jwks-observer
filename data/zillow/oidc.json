@@ -21,7 +21,9 @@
   ],
   "issuer": "https://auth.zillow.com/",
   "jwks_uri": "https://auth.zillow.com/.well-known/jwks.json",
+  "pushed_authorization_request_endpoint": "https://auth.zillow.com/oauth2/par",
   "request_parameter_supported": false,
+  "request_uri_parameter_supported": true,
   "response_modes_supported": [
     "query"
   ],
