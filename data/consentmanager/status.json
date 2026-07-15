@@ -1,10 +1,12 @@
 {
   "jwks": {
     "uri": "https://login.consentmanager.net/oauth2/v1/keys",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://login.consentmanager.net/oauth2/v1/keys\": tls: failed to verify certificate: x509: certificate is valid for *.kerberos.okta.com, kerberos.okta.com, not login.consentmanager.net"
   },
   "oidc": {
     "uri": "https://login.consentmanager.net/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://login.consentmanager.net/.well-known/openid-configuration\": tls: failed to verify certificate: x509: certificate is valid for *.kerberos.okta.com, kerberos.okta.com, not login.consentmanager.net"
   }
 }

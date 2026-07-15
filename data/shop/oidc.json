@@ -65,7 +65,6 @@
     "phone:verified",
     "dev.ucp.shopping.catalog.search:read",
     "dev.ucp.shopping.checkout:manage",
-    "ucp:scopes:all",
     "user_settings:read",
     "shops:follows",
     "shops:follows:read",

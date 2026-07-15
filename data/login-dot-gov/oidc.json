@@ -21,6 +21,7 @@
   ],
   "authorization_endpoint": "https://secure.login.gov/openid_connect/authorize",
   "claims_supported": [
+    "auth_time",
     "iss",
     "sub",
     "email",
