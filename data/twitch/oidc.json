@@ -2,17 +2,17 @@
   "authorization_endpoint": "https://id.twitch.tv/oauth2/authorize",
   "claims_parameter_supported": true,
   "claims_supported": [
-    "aud",
-    "iat",
-    "iss",
-    "sub",
-    "azp",
-    "email",
-    "email_verified",
-    "exp",
     "picture",
     "preferred_username",
-    "updated_at"
+    "aud",
+    "iat",
+    "sub",
+    "azp",
+    "email_verified",
+    "updated_at",
+    "exp",
+    "iss",
+    "email"
   ],
   "id_token_signing_alg_values_supported": [
     "RS256"
