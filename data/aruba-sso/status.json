@@ -1,12 +1,12 @@
 {
   "jwks": {
     "uri": "https://sso.arubanetworks.com/pf/JWKS",
-    "status_code": 502,
-    "error": "HTTP 502"
+    "status_code": 0,
+    "error": "Get \"https://sso.arubanetworks.com/pf/JWKS\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
   },
   "oidc": {
     "uri": "https://sso.arubanetworks.com/.well-known/openid-configuration",
-    "status_code": 502,
-    "error": "HTTP 502"
+    "status_code": 0,
+    "error": "Get \"https://sso.arubanetworks.com/.well-known/openid-configuration\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
   }
 }

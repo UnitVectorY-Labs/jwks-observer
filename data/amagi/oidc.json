@@ -1,5 +1,8 @@
 {
   "authorization_endpoint": "https://login.amagi.tv/authorize",
+  "authorization_grant_profiles_supported": [
+    "urn:ietf:params:oauth:grant-profile:id-jag"
+  ],
   "backchannel_authentication_endpoint": "https://login.amagi.tv/bc-authorize",
   "backchannel_logout_session_supported": true,
   "backchannel_logout_supported": true,
@@ -48,7 +51,8 @@
     "http://auth0.com/oauth/grant-type/passwordless/otp",
     "http://auth0.com/oauth/grant-type/mfa-oob",
     "http://auth0.com/oauth/grant-type/mfa-otp",
-    "http://auth0.com/oauth/grant-type/mfa-recovery-code"
+    "http://auth0.com/oauth/grant-type/mfa-recovery-code",
+    "urn:ietf:params:oauth:grant-type:jwt-bearer"
   ],
   "id_token_signing_alg_values_supported": [
     "HS256",

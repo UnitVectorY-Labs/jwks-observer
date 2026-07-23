@@ -80,6 +80,7 @@
     "email",
     "phone",
     "address",
+    "/llmwiki/read",
     "offline_access"
   ],
   "subject_types_supported": [

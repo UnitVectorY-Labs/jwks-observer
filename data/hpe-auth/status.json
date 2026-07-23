@@ -5,6 +5,7 @@
   },
   "oidc": {
     "uri": "https://auth.hpe.com/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://auth.hpe.com/.well-known/openid-configuration\": read tcp 10.244.0.116:35540-\u003e52.84.150.52:443: read: connection reset by peer"
   }
 }
