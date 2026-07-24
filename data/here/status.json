@@ -1,8 +1,7 @@
 {
   "jwks": {
     "uri": "https://account.here.com/openid/jwk",
-    "status_code": 0,
-    "error": "Get \"https://account.here.com/openid/jwk\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "status_code": 200
   },
   "oidc": {
     "uri": "https://account.here.com/.well-known/openid-configuration",

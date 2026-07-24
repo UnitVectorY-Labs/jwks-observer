@@ -5,15 +5,17 @@
   ],
   "claims_parameter_supported": true,
   "claims_supported": [
-    "sub",
-    "given_name",
-    "email_verified",
     "birthdate",
-    "family_name",
-    "shipping_address",
+    "given_name",
+    "sub",
     "email",
+    "email_verified",
     "gender",
-    "address"
+    "shipping_address",
+    "family_name",
+    "address",
+    "phone_number",
+    "phone_number_verified"
   ],
   "grant_types_supported": [
     "authorization_code"
@@ -39,7 +41,8 @@
     "profile",
     "email",
     "address",
-    "shipping_address"
+    "shipping_address",
+    "phone"
   ],
   "service_documentation": "https://hilfe.gmx.net/account/netid/index.html",
   "subject_types_supported": [

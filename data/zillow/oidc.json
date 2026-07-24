@@ -4,6 +4,8 @@
     "urn:zillow:assurance:aal:2"
   ],
   "authorization_endpoint": "https://auth.zillow.com/oauth2/authorize",
+  "backchannel_logout_session_supported": true,
+  "backchannel_logout_supported": true,
   "client_id_metadata_document_supported": true,
   "display_values_supported": [
     "page",

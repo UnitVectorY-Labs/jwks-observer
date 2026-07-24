@@ -5,15 +5,17 @@
   ],
   "claims_parameter_supported": true,
   "claims_supported": [
-    "given_name",
     "birthdate",
     "shipping_address",
+    "family_name",
     "email_verified",
-    "sub",
-    "address",
-    "email",
     "gender",
-    "family_name"
+    "phone_number",
+    "sub",
+    "given_name",
+    "phone_number_verified",
+    "email",
+    "address"
   ],
   "grant_types_supported": [
     "authorization_code"
@@ -39,7 +41,8 @@
     "profile",
     "email",
     "address",
-    "shipping_address"
+    "shipping_address",
+    "phone"
   ],
   "service_documentation": "https://hilfe.web.de/account/netid/index.html",
   "subject_types_supported": [
