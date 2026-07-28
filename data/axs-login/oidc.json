@@ -169,6 +169,7 @@
     "unifiedapisearch.GetFilteredTickets",
     "identity.AXSID.Users.Create",
     "realtimeservice.subscribe",
+    "emailsservices.sendgrid.audit.webhook",
     "offline_access"
   ],
   "subject_types_supported": [
