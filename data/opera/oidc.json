@@ -31,8 +31,8 @@
   ],
   "revocation_endpoint": "https://oauth2.opera-api.com/oauth2/v1/revoketoken/",
   "scopes_supported": [
-    "openid",
     "profile",
+    "openid",
     "email"
   ],
   "subject_types_supported": [
