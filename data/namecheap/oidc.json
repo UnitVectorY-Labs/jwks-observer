@@ -47,6 +47,13 @@
     "RS256"
   ],
   "introspection_endpoint": "https://www.namecheap.com/connect/introspect",
+  "introspection_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "introspection_signing_alg_values_supported": [
+    "RS256"
+  ],
   "issuer": "https://www.namecheap.com",
   "jwks_uri": "https://www.namecheap.com/.well-known/openid-configuration/jwks",
   "prompt_values_supported": [
@@ -57,20 +64,6 @@
     "create"
   ],
   "pushed_authorization_request_endpoint": "https://www.namecheap.com/connect/par",
-  "request_object_signing_alg_values_supported": [
-    "RS256",
-    "RS384",
-    "RS512",
-    "PS256",
-    "PS384",
-    "PS512",
-    "ES256",
-    "ES384",
-    "ES512",
-    "HS256",
-    "HS384",
-    "HS512"
-  ],
   "request_parameter_supported": true,
   "require_pushed_authorization_requests": false,
   "response_modes_supported": [
@@ -88,6 +81,10 @@
     "code id_token token"
   ],
   "revocation_endpoint": "https://www.namecheap.com/connect/revocation",
+  "revocation_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
   "scopes_supported": [
     "openid",
     "profile",
@@ -137,5 +134,8 @@
     "client_secret_basic",
     "client_secret_post"
   ],
-  "userinfo_endpoint": "https://www.namecheap.com/connect/userinfo"
+  "userinfo_endpoint": "https://www.namecheap.com/connect/userinfo",
+  "userinfo_signing_alg_values_supported": [
+    "RS256"
+  ]
 }
