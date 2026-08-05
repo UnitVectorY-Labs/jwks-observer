@@ -92,7 +92,8 @@
     "password",
     "urn:ietf:params:oauth:grant-type:device_code",
     "urn:openid:params:grant-type:ciba",
-    "urn:ietf:params:oauth:grant-type:token-exchange"
+    "urn:ietf:params:oauth:grant-type:token-exchange",
+    "urn:eset:oauth:grant-type:api-key"
   ],
   "id_token_signing_alg_values_supported": [
     "RS256"
