@@ -82,6 +82,7 @@
     "ES512"
   ],
   "end_session_endpoint": "https://identity.eset.com/connect/endsession",
+  "export-config": "https://identity.eset.com/export-config",
   "frontchannel_logout_session_supported": true,
   "frontchannel_logout_supported": true,
   "grant_types_supported": [
