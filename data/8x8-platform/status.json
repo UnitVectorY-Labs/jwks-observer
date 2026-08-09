@@ -1,12 +1,11 @@
 {
   "jwks": {
     "uri": "https://platform.8x8.com/oauth2/v2/certs",
-    "status_code": 520,
-    "error": "HTTP 520"
+    "status_code": 200
   },
   "oidc": {
     "uri": "https://platform.8x8.com/.well-known/openid-configuration",
-    "status_code": 520,
-    "error": "HTTP 520"
+    "status_code": 429,
+    "error": "HTTP 429"
   }
 }
