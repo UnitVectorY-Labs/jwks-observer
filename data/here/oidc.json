@@ -5,6 +5,9 @@
     "aud",
     "sub"
   ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
   "id_token_signing_alg_values_supported": [
     "RS256"
   ],
@@ -27,5 +30,11 @@
     "public"
   ],
   "token_endpoint": "https://account.here.com/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post",
+    "client_secret_jwt",
+    "none"
+  ],
   "userinfo_endpoint": "https://account.here.com/openid/userinfo"
 }

@@ -4,5 +4,5 @@
   "Content-Type": "application/json; charset=utf-8",
   "Server": "cloudflare",
   "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
-  "Via": "1.1 google"
+  "Via": "1.1 google, 1.1 google"
 }

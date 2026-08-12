@@ -5,6 +5,7 @@
   },
   "oidc": {
     "uri": "https://oauth2.opera-api.com/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://oauth2.opera-api.com/.well-known/openid-configuration\": read tcp 10.244.0.71:41216-\u003e185.26.182.118:443: read: connection reset by peer"
   }
 }
