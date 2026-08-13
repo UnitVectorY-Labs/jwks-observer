@@ -37,6 +37,7 @@
     "implicit_oidc",
     "implicit",
     "password",
+    "client_credentials",
     "refresh_token"
   ],
   "id_token_signing_alg_values_supported": [
@@ -63,7 +64,8 @@
     "type",
     "profile",
     "email",
-    "partner_profile"
+    "partner_profile",
+    "remote:write"
   ],
   "subject_types_supported": [
     "public"

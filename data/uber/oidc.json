@@ -396,6 +396,7 @@
     "profile.email_verified_at",
     "profile.internal_uuid",
     "profile.mobile_number",
+    "profile.org_subject",
     "profile.phone_verified_at",
     "profile.updated_at",
     "provider.trips",
