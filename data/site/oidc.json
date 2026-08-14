@@ -31,6 +31,15 @@
     "popup",
     "touch"
   ],
+  "dpop_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "ES256",
+    "ES384",
+    "ES512",
+    "EdDSA"
+  ],
   "end_session_endpoint": "https://site.com/services/auth/idp/oidc/logout",
   "frontchannel_logout_session_supported": false,
   "frontchannel_logout_supported": true,

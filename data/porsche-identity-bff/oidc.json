@@ -3,13 +3,13 @@
   "id_token_signing_alg_values_supported": [
     "RS256"
   ],
-  "issuer": "https://bff.identity.porsche.com",
-  "jwks_uri": "https://bff.identity.porsche.com/.well-known/jwks.json",
+  "issuer": "https://bff.p-dub.ciamprod.aws.platform.porsche.cloud",
+  "jwks_uri": "https://bff.p-dub.ciamprod.aws.platform.porsche.cloud/.well-known/jwks.json",
   "response_types_supported": [
     "id_token"
   ],
   "subject_types_supported": [
     "public"
   ],
-  "token_endpoint": "https://bff.identity.porsche.com/api/v2/token"
+  "token_endpoint": "https://bff.p-dub.ciamprod.aws.platform.porsche.cloud/api/v2/token"
 }
