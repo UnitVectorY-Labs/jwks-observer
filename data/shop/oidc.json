@@ -52,6 +52,7 @@
     "openid",
     "discounts:read",
     "agent:access",
+    "pay:wallet:read",
     "personal_agent:orders",
     "email",
     "email:verified",

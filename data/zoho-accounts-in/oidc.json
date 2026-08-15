@@ -51,7 +51,10 @@
     "code",
     "token"
   ],
-  "revocation_endpoint": "https://accounts.zoho.in/oauth/v2/token/revoke",
+  "revocation_endpoint": "https://accounts.zoho.in/oauth/v2/revoke/token",
+  "revocation_endpoint_auth_methods_supported": [
+    "client_secret_basic"
+  ],
   "scopes_supported": [
     "email",
     "profile",
