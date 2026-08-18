@@ -41,7 +41,8 @@
   ],
   "token_endpoint": "https://shopify.com/authentication/58004504738/oauth/token",
   "token_endpoint_auth_methods_supported": [
-    "client_secret_basic"
+    "client_secret_basic",
+    "client_secret_post"
   ],
   "ui_locales_supported": [
     "bg",
