@@ -1,5 +1,8 @@
 {
   "authorization_endpoint": "https://auth.spacex.com/authorize",
+  "authorization_grant_profiles_supported": [
+    "urn:ietf:params:oauth:grant-profile:id-jag"
+  ],
   "claims_supported": [
     "sub",
     "aud",
