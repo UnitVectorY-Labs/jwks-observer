@@ -23,10 +23,11 @@ const defaultCatalogURL = "https://raw.githubusercontent.com/UnitVectorY-Labs/jw
 
 // Service represents an entry in the JWKS catalog.
 type Service struct {
-	ID      string `yaml:"id"`
-	Name    string `yaml:"name"`
-	OIDCURI string `yaml:"openid-configuration"`
-	JWKSURI string `yaml:"jwks_uri"`
+	ID                          string `yaml:"id"`
+	Name                        string `yaml:"name"`
+	OIDCURI                     string `yaml:"openid-configuration"`
+	OAuthAuthorizationServerURI string `yaml:"oauth-authorization-server"`
+	JWKSURI                     string `yaml:"jwks_uri"`
 }
 
 // Catalog holds the list of services.
@@ -126,7 +127,23 @@ func main() {
 				fmt.Fprintf(os.Stdout, "[%s] Skipping OIDC fetch: URL not set\n", svc.ID)
 			}
 
-			// 2) Fetch JWKS
+			// 2) Fetch OAuth 2.0 Authorization Server Metadata (RFC 8414).
+			if svc.OAuthAuthorizationServerURI != "" {
+				_, prettyOAuth, hdrsOAuth, codeOAuth, errOAuth :=
+					fetchAndValidateJSON(svc.OAuthAuthorizationServerURI, []string{"issuer"})
+				if errOAuth != nil {
+					statuses["oauth_authorization_server"] = statusEntry{URI: svc.OAuthAuthorizationServerURI, StatusCode: codeOAuth, Error: errOAuth.Error()}
+					fmt.Fprintf(os.Stderr, "[%s] OAuth authorization server metadata crawl failed: %v\n", svc.ID, errOAuth)
+				} else {
+					statuses["oauth_authorization_server"] = statusEntry{URI: svc.OAuthAuthorizationServerURI, StatusCode: codeOAuth}
+					writeFile(filepath.Join(dir, "oauth-authorization-server.json"), prettyOAuth)
+					writeHeaders(filepath.Join(dir, "oauth-authorization-server-headers.json"), hdrsOAuth)
+				}
+			} else {
+				fmt.Fprintf(os.Stdout, "[%s] Skipping OAuth authorization server metadata fetch: URL not set\n", svc.ID)
+			}
+
+			// 3) Fetch JWKS
 			if svc.JWKSURI != "" {
 				parsedJWKS, _, hdrsJWKS, codeJWKS, errJWKS :=
 					fetchAndValidateJSON(svc.JWKSURI, []string{"keys"})
@@ -137,14 +154,14 @@ func main() {
 					statuses["jwks"] = statusEntry{URI: svc.JWKSURI, StatusCode: codeJWKS}
 					writeHeaders(filepath.Join(dir, "jwks-headers.json"), hdrsJWKS)
 
-					// 3) Update observed keys
+					// 4) Update observed keys
 					updateObservedKeys(keysDir, dir, parsedJWKS)
 				}
 			} else {
 				fmt.Fprintf(os.Stdout, "[%s] Skipping JWKS fetch: URL not set\n", svc.ID)
 			}
 
-			// 4) Write status.json
+			// 5) Write status.json
 			if b, err := json.MarshalIndent(statuses, "", "  "); err != nil {
 				fmt.Fprintf(os.Stderr, "[%s] status.json marshal error: %v\n", svc.ID, err)
 			} else if err := os.WriteFile(filepath.Join(dir, "status.json"), b, 0o644); err != nil {

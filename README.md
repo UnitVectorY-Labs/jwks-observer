@@ -9,10 +9,11 @@ Observes and records changes to public OIDC metadata and JWKS for services liste
 The **jwks-observer** reads the list of services from the jwks-catalog (either from the default upstream URL or a user-supplied catalog), then for each service it:
 
 1.	Fetches the OIDC configuration URL and validates that it contains the required top-level fields (issuer, jwks_uri).
-2.	Fetches the JWKS URL and validates that it contains the keys array.
-3.	Records response metadata (stable HTTP headers, status codes, and any error messages).
-4.	Tracks each individual JWK by KID, stamping when it was first observed and when it was last observed. Individual keys are stored in the `keys/` directory.
-5.	Outputs all of the above into a structured directory under data/, committing diffs into Git so that you can see how keys and configurations evolve over time.
+2.	Fetches the OAuth 2.0 Authorization Server Metadata URL, when configured, and validates the RFC 8414-required `issuer` field.
+3.	Fetches the JWKS URL and validates that it contains the keys array.
+4.	Records response metadata (stable HTTP headers, status codes, and any error messages).
+5.	Tracks each individual JWK by KID, stamping when it was first observed and when it was last observed. Individual keys are stored in the `keys/` directory.
+6.	Outputs all of the above into a structured directory under data/, committing diffs into Git so that you can see how keys and configurations evolve over time.
 
 This is scheduled to run once a day with the updated results automatically committed to this repository.
 
@@ -21,15 +22,17 @@ This is scheduled to run once a day with the updated results automatically commi
 ```
 data/
 └── <service-id>/
-    ├── jwks-headers.json       # selected HTTP headers from the JWKS response
-    ├── jwks-observed.json      # alphabetically sorted array of active JWKS key IDs (KIDs)
-    └── keys/
-        ├── <kid1>.json         # JWKS keys including historical keys
-        ├── <kid2>.json
-        └── …      
-    ├── oidc.json               # pretty-printed OIDC config
-    ├── oidc-headers.json       # selected HTTP headers from the OIDC response
-    ├── status.json             # last HTTP status codes and errors for oidc/jwks          
+    ├── jwks-headers.json                         # selected HTTP headers from the JWKS response
+    ├── jwks-observed.json                        # alphabetically sorted array of active JWKS key IDs (KIDs)
+    ├── keys/
+    │   ├── <kid1>.json                       # JWKS keys including historical keys
+    │   ├── <kid2>.json
+    │   └── …
+    ├── oidc.json                                 # pretty-printed OIDC config
+    ├── oidc-headers.json                         # selected HTTP headers from the OIDC response
+    ├── oauth-authorization-server.json           # RFC 8414 metadata, when configured
+    ├── oauth-authorization-server-headers.json   # selected metadata response headers
+    └── status.json                               # last HTTP status codes and errors
 ```
 
 - Each <service-id> directory corresponds to the id field in your catalog.
