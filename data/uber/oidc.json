@@ -186,6 +186,7 @@
     "eats.nimble.user",
     "eats.order",
     "eats.order.merchant-receipt",
+    "eats.owner_1p_ordering",
     "eats.partner.account.data.report",
     "eats.partner.events",
     "eats.partner.mcp",
