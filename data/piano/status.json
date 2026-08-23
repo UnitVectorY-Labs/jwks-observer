@@ -3,6 +3,10 @@
     "uri": "https://auth.piano.io/.well-known/jwks.json",
     "status_code": 200
   },
+  "oauth_authorization_server": {
+    "uri": "https://auth.piano.io/.well-known/oauth-authorization-server",
+    "status_code": 200
+  },
   "oidc": {
     "uri": "https://auth.piano.io/.well-known/openid-configuration",
     "status_code": 200

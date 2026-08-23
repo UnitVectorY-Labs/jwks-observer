@@ -1,0 +1,66 @@
+{
+  "authorization_endpoint": "https://www.dropbox.com/oauth2/authorize",
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "refresh_token",
+    "device_code"
+  ],
+  "issuer": "https://www.dropbox.com",
+  "registration_endpoint": "https://www.dropbox.com/oauth2/register",
+  "response_types_supported": [
+    "code"
+  ],
+  "revocation_endpoint": "https://api.dropboxapi.com/2/auth/token/revoke",
+  "scopes_supported": [
+    "account_info.read",
+    "contacts.read",
+    "contacts.write",
+    "files.metadata.read",
+    "files.content.read",
+    "files.content.write",
+    "files.permanent_delete",
+    "files.metadata.write",
+    "sharing.read",
+    "sharing.write",
+    "file_requests.read",
+    "file_requests.write",
+    "openid",
+    "profile",
+    "email",
+    "account_info.write",
+    "backup.read",
+    "backup.write",
+    "dash/content.read",
+    "dash/content.write",
+    "team_info.read",
+    "team_info.write",
+    "sessions.list",
+    "sessions.modify",
+    "members.read",
+    "members.write",
+    "members.delete",
+    "groups.read",
+    "groups.write",
+    "events.read",
+    "team_data.governance.read",
+    "team_data.governance.write",
+    "team_data.member",
+    "team_data.content.read",
+    "team_data.content.write",
+    "team_data.team_space",
+    "files.team_metadata.write",
+    "events.write",
+    "files.team_metadata.read"
+  ],
+  "token_endpoint": "https://api.dropboxapi.com/oauth2/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_post",
+    "client_secret_basic",
+    "none"
+  ]
+}

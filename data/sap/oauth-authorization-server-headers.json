@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "private,no-cache,no-store",
+  "Content-Security-Policy": "script-src 'none';",
+  "Content-Type": "application/json;charset=UTF-8",
+  "Server": "SAP",
+  "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+}

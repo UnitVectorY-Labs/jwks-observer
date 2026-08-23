@@ -1,0 +1,6 @@
+{
+  "Content-Security-Policy": "img-src 'self' *.axs.com *.axsdevops.io",
+  "Content-Type": "application/json; charset=UTF-8",
+  "Server": "cloudflare",
+  "Strict-Transport-Security": "max-age=15552000; includeSubDomains; preload"
+}

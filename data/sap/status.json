@@ -3,6 +3,10 @@
     "uri": "https://accounts.sap.com/oauth2/certs",
     "status_code": 200
   },
+  "oauth_authorization_server": {
+    "uri": "https://accounts.sap.com/.well-known/oauth-authorization-server",
+    "status_code": 200
+  },
   "oidc": {
     "uri": "https://accounts.sap.com/.well-known/openid-configuration",
     "status_code": 200

@@ -3,6 +3,10 @@
     "uri": "https://sso.cloudflareaccess.com/cdn-cgi/access/certs",
     "status_code": 200
   },
+  "oauth_authorization_server": {
+    "uri": "https://sso.cloudflareaccess.com/.well-known/oauth-authorization-server",
+    "status_code": 200
+  },
   "oidc": {
     "uri": "https://sso.cloudflareaccess.com/.well-known/openid-configuration",
     "status_code": 200

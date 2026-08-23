@@ -3,6 +3,10 @@
     "uri": "https://secure.similarweb.com/.well-known/jwks",
     "status_code": 200
   },
+  "oauth_authorization_server": {
+    "uri": "https://secure.similarweb.com/.well-known/oauth-authorization-server",
+    "status_code": 200
+  },
   "oidc": {
     "uri": "https://secure.similarweb.com/.well-known/openid-configuration",
     "status_code": 200

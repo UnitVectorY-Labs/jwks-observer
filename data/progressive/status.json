@@ -3,6 +3,10 @@
     "uri": "https://login.progressive.com/pf/JWKS",
     "status_code": 200
   },
+  "oauth_authorization_server": {
+    "uri": "https://login.progressive.com/.well-known/oauth-authorization-server",
+    "status_code": 200
+  },
   "oidc": {
     "uri": "https://login.progressive.com/.well-known/openid-configuration",
     "status_code": 200

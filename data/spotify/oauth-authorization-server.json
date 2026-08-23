@@ -1,0 +1,98 @@
+{
+  "authorization_endpoint": "https://accounts.spotify.com/authorize",
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "device_authorization_endpoint": "https://accounts.spotify.com/oauth2/device/authorize",
+  "dpop_signing_alg_values_supported": [
+    "ES256"
+  ],
+  "grant_types_supported": [
+    "refresh_token",
+    "client_credentials",
+    "urn:ietf:params:oauth:grant-type:jwt-bearer",
+    "authorization_code"
+  ],
+  "issuer": "https://accounts.spotify.com",
+  "response_type_supported": [
+    "code"
+  ],
+  "response_types_supported": [
+    "code"
+  ],
+  "revocation_endpoint": "https://accounts.spotify.com/oauth2/revoke/v1",
+  "revocation_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "token_endpoint": "https://accounts.spotify.com/api/token",
+  "token_endpoint_auth_methods_supported": [
+    "none",
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "ui_locales_supported": [
+    "af-ZA",
+    "am-ET",
+    "ar",
+    "az-AZ",
+    "bg-BG",
+    "bn-IN",
+    "bp",
+    "cs",
+    "da-DK",
+    "de",
+    "el",
+    "en",
+    "es",
+    "es-ES",
+    "et-EE",
+    "fa-IR",
+    "fi",
+    "tl",
+    "fr",
+    "fr-CA",
+    "gu-IN",
+    "he-IL",
+    "hi-IN",
+    "hr-HR",
+    "hu",
+    "id",
+    "is-IS",
+    "it",
+    "ja",
+    "kn-IN",
+    "ko",
+    "lv-LV",
+    "lt-LT",
+    "ml-IN",
+    "mr-IN",
+    "ms",
+    "nb-NO",
+    "ne-NP",
+    "nl",
+    "or-IN",
+    "pa-IN",
+    "pa-PK",
+    "pl",
+    "pt-BR",
+    "pt-PT",
+    "ro-RO",
+    "ru",
+    "sk-SK",
+    "sl-SI",
+    "sr-RS",
+    "sv",
+    "sw",
+    "ta-IN",
+    "te-IN",
+    "th-TH",
+    "tr",
+    "uk-UA",
+    "ur",
+    "vi-VN",
+    "zh-CN",
+    "zh-TW",
+    "zu-ZA"
+  ]
+}

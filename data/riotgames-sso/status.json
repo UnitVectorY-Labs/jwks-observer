@@ -3,6 +3,10 @@
     "uri": "https://sso.riotgames.com/oauth2/v1/keys",
     "status_code": 200
   },
+  "oauth_authorization_server": {
+    "uri": "https://sso.riotgames.com/.well-known/oauth-authorization-server",
+    "status_code": 200
+  },
   "oidc": {
     "uri": "https://sso.riotgames.com/.well-known/openid-configuration",
     "status_code": 200

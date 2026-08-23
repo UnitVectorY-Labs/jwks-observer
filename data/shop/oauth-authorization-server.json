@@ -1,0 +1,110 @@
+{
+  "authorization_endpoint": "https://accounts.shop.app/oauth/authorize",
+  "authorization_response_iss_parameter_supported": true,
+  "backchannel_authentication_endpoint": "https://accounts.shop.app/oauth/bc-authorize",
+  "backchannel_authentication_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "backchannel_token_delivery_modes_supported": [
+    "poll",
+    "ping"
+  ],
+  "claims_supported": [
+    "iss",
+    "aud",
+    "sub",
+    "iat",
+    "exp",
+    "email",
+    "email_verified",
+    "phone",
+    "phone_verified",
+    "given_name",
+    "family_name",
+    "nonce",
+    "avatar",
+    "analytics_trace_id"
+  ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "grant_types_supported": [
+    "authorization_code",
+    "refresh_token",
+    "urn:openid:params:grant-type:ciba",
+    "urn:ietf:params:oauth:grant-type:token-exchange"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "identity_chaining_requested_token_types_supported": [
+    "urn:ietf:params:oauth:token-type:jwt"
+  ],
+  "introspection_endpoint": "https://accounts.shop.app/oauth/introspect",
+  "introspection_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "issuer": "https://accounts.shop.app",
+  "jwks_uri": "https://accounts.shop.app/auth/jwks",
+  "response_modes_supported": [
+    "query",
+    "form_post",
+    "fragment"
+  ],
+  "response_types_supported": [
+    "code",
+    "id_token"
+  ],
+  "revocation_endpoint": "https://accounts.shop.app/oauth/revoke",
+  "revocation_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "scopes_supported": [
+    "openid",
+    "discounts:read",
+    "agent:access",
+    "pay:wallet:read",
+    "personal_agent:orders",
+    "email",
+    "email:verified",
+    "favorites",
+    "name",
+    "given_name",
+    "family_name",
+    "avatar",
+    "profile",
+    "birthdate",
+    "orders",
+    "partner_initiated_session",
+    "phone",
+    "phone_number",
+    "phone:verified",
+    "dev.ucp.shopping.catalog.search:read",
+    "dev.ucp.shopping.checkout:manage",
+    "user_settings:read",
+    "shops:follows",
+    "shops:follows:read",
+    "shops:follows:write",
+    "shops:recent:read",
+    "shops:recommendations:read",
+    "products:recent:read",
+    "products:recommendations:read",
+    "product_list",
+    "product_list:read",
+    "product_list:write",
+    "product_list_item:write",
+    "favorites:write"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://accounts.shop.app/oauth/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://accounts.shop.app/oauth/userinfo"
+}

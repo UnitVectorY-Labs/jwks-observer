@@ -1,0 +1,5 @@
+{
+  "Cache-Control": "max-age=[placeholder], no-cache, no-store",
+  "Content-Security-Policy": "frame-ancestors 'self' https://suppliernet.walgreens.com https://snetapp.walgreens.com https://suppliernetpreprod.walgreens.com https://vendorportalpreprod.walgreens.com https://suppliernetadminpreprod.walgreens.com https://scv1.walgreens.com https://sc.walgreens.com https://bonusv1.walgreens.com https://webapp.walgreens.com https://bonus.walgreens.com ;",
+  "Content-Type": "application/json"
+}

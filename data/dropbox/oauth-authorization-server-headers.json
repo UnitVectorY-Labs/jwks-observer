@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "no-cache, no-store",
+  "Content-Security-Policy": "script-src 'none'",
+  "Content-Type": "application/json",
+  "Server": "envoy",
+  "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+}
