@@ -156,6 +156,7 @@
     "product_navigator",
     "automation.events.write",
     "traffic_metrics.write",
+    "traffic-metrics.read",
     "ecp3",
     "ema2_api",
     "epc_api",
@@ -187,9 +188,9 @@
     "syslog.configurations.read",
     "syslog.configurations.write",
     "edr_rule_action_dispatcher",
-    "traffic-metrics.read",
-    "edr_legacy",
     "traffic_metrics.read",
+    "ingestion_gateway.write",
+    "edr_legacy",
     "offline_access"
   ],
   "subject_types_supported": [
