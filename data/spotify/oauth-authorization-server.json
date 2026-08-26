@@ -8,10 +8,10 @@
     "ES256"
   ],
   "grant_types_supported": [
-    "refresh_token",
+    "urn:ietf:params:oauth:grant-type:jwt-bearer",
     "client_credentials",
     "authorization_code",
-    "urn:ietf:params:oauth:grant-type:jwt-bearer"
+    "refresh_token"
   ],
   "issuer": "https://accounts.spotify.com",
   "response_type_supported": [
