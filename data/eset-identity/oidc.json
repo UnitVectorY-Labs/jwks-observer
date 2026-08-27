@@ -192,6 +192,8 @@
     "ingestion_gateway.write",
     "edr_legacy",
     "epc_file_store",
+    "epc.notifications.write",
+    "epc.audits.write.write",
     "offline_access"
   ],
   "subject_types_supported": [

@@ -160,8 +160,6 @@
     "okta.apiTokens.read",
     "okta.manifests.manage",
     "okta.manifests.read",
-    "okta.authModes.manage",
-    "okta.authModes.read",
     "okta.personal.adminSettings.manage",
     "okta.personal.adminSettings.read",
     "openid",

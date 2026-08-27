@@ -1,6 +1,6 @@
 {
   "Content-Type": "application/json",
   "Server": "envoy",
-  "Strict-Transport-Security": "max-age=31536000",
-  "Via": "HTTP/1.1 fringe, HTTP/2 edgeproxy, 1.1 google"
+  "Strict-Transport-Security": "max-age=300",
+  "Via": "HTTP/1.1 fringe, HTTP/2 edgeproxy, 1.1 google, 1.1 varnish"
 }
