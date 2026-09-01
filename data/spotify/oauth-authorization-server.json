@@ -9,9 +9,9 @@
   ],
   "grant_types_supported": [
     "authorization_code",
-    "client_credentials",
+    "refresh_token",
     "urn:ietf:params:oauth:grant-type:jwt-bearer",
-    "refresh_token"
+    "client_credentials"
   ],
   "issuer": "https://accounts.spotify.com",
   "response_type_supported": [
