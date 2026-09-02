@@ -5,17 +5,17 @@
   ],
   "claims_parameter_supported": true,
   "claims_supported": [
-    "email",
-    "phone_number",
-    "sub",
-    "family_name",
-    "phone_number_verified",
     "given_name",
     "gender",
     "shipping_address",
+    "phone_number_verified",
+    "birthdate",
+    "sub",
+    "phone_number",
+    "family_name",
     "email_verified",
     "address",
-    "birthdate"
+    "email"
   ],
   "grant_types_supported": [
     "authorization_code"
@@ -28,7 +28,7 @@
   "jwks_uri": "https://sso.gmx.net/jwk",
   "op_policy_uri": "https://agb-server.gmx.net/datenschutz",
   "op_tos_uri": "https://agb-server.gmx.net/netid",
-  "registration_endpoint": "https://idopcrms-gmx-bs.server.lan/rest",
+  "registration_endpoint": "https://id-op-crms-gmx.poumo.fe-prod-eu.poinfra.server.lan/rest",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "require_request_uri_registration": false,

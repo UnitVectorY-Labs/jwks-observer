@@ -21,7 +21,8 @@
     "refresh_token",
     "password",
     "client_credentials",
-    "urn:ietf:params:oauth:grant-type:jwt-bearer"
+    "urn:ietf:params:oauth:grant-type:jwt-bearer",
+    "urn:ietf:params:oauth:grant-type:saml2-bearer"
   ],
   "id_token_signing_alg_values_supported": [
     "HS256",

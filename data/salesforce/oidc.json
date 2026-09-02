@@ -46,6 +46,11 @@
   "introspection_endpoint": "https://login.salesforce.com/services/oauth2/introspect",
   "issuer": "https://login.salesforce.com",
   "jwks_uri": "https://login.salesforce.com/id/keys",
+  "mtls_endpoint_aliases": {
+    "introspection_endpoint": "https://login.salesforce.com:8443/services/oauth2/introspect",
+    "revocation_endpoint": "https://login.salesforce.com:8443/services/oauth2/revoke",
+    "token_endpoint": "https://login.salesforce.com:8443/services/oauth2/token"
+  },
   "registration_endpoint": "https://login.salesforce.com/services/oauth2/register",
   "response_types_supported": [
     "code",
@@ -80,6 +85,7 @@
     "address",
     "openid",
     "profile",
+    "cmdb_discovery_api",
     "scrt_api",
     "cdp_profile_api",
     "refresh_token",
@@ -88,17 +94,20 @@
     "pwdless_login_api",
     "chatter_api",
     "mcp_api",
+    "a2a_api",
     "full",
     "forgot_password"
   ],
   "subject_types_supported": [
     "public"
   ],
+  "tls_client_certificate_bound_access_tokens": true,
   "token_endpoint": "https://login.salesforce.com/services/oauth2/token",
   "token_endpoint_auth_methods_supported": [
     "client_secret_post",
     "client_secret_basic",
-    "private_key_jwt"
+    "private_key_jwt",
+    "tls_client_auth"
   ],
   "userinfo_endpoint": "https://login.salesforce.com/services/oauth2/userinfo"
 }

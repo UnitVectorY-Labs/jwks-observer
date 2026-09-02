@@ -130,14 +130,14 @@
     "none"
   ],
   "scopes_supported": [
-    "interclient_access",
     "openid",
     "profile",
     "email",
     "address",
     "phone",
     "offline_access",
-    "device_sso"
+    "device_sso",
+    "interclient_access"
   ],
   "subject_types_supported": [
     "public"

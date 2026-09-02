@@ -2,6 +2,6 @@
   "Cache-Control": "max-age=[placeholder], must-revalidate",
   "Content-Security-Policy": "frame-ancestors 'self'",
   "Content-Type": "application/json",
-  "Server": "cloudflare",
+  "Server": "nginx",
   "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
 }
