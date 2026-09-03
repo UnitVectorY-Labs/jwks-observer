@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "private",
+  "Content-Security-Policy": "upgrade-insecure-requests; frame-ancestors 'self' https://stackexchange.com",
+  "Content-Type": "application/json",
+  "Server": "cloudflare",
+  "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+}
