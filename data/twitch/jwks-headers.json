@@ -1,6 +1,5 @@
 {
   "Content-Type": "application/json",
-  "Server": "nginx",
   "Strict-Transport-Security": "max-age=300; includeSubDomains",
   "Via": "1.1 [placeholder].cloudfront.net (CloudFront)"
 }

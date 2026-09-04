@@ -1,6 +1,6 @@
 {
   "Cache-Control": "max-age=[placeholder]",
   "Content-Type": "application/json",
-  "Server": "oauth2",
-  "Via": "1.1 google"
+  "Server": "ATS",
+  "Strict-Transport-Security": "max-age=15552000"
 }

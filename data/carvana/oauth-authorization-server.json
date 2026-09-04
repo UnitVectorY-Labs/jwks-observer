@@ -49,7 +49,8 @@
     "delegation",
     "magic_link",
     "wli_trusted",
-    "aux_as_token_exchange"
+    "aux_as_token_exchange",
+    "vibez_trusted_delegation"
   ],
   "id_token_signing_alg_values_supported": [
     "RS256"
