@@ -1,0 +1,10 @@
+{
+  "alg": "ES512",
+  "crv": "P-521",
+  "first_observed": "2026-09-08T09:27:55Z",
+  "kid": "duaB5AgD_WN1-qLbn38SLTKEkQY",
+  "kty": "EC",
+  "use": "sig",
+  "x": "AWS3GDGhZfb3eDb-EojS7ySYCSVjo3Dht3rF38x3p75zLBsF6zB3ZevYeq7jqF4siofjsTDT2b1SsE866CGm5XGS",
+  "y": "ASdOCA_G5IjR57AuYvKFad2PnCXTW3T-QJt7ZL1IGwOT1JtGzQsByahgq9vljwudwaLr_vlclRiUUOg1_g_rqKaB"
+}
