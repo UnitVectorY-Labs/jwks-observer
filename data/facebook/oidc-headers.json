@@ -1,6 +1,6 @@
 {
-  "Cache-Control": "private, no-cache, no-store, must-revalidate",
+  "Cache-Control": "must-revalidate, max-age=[placeholder]",
   "Content-Security-Policy": "frame-ancestors 'none'",
-  "Content-Type": "application/json",
+  "Content-Type": "application/json; charset=utf-8",
   "Strict-Transport-Security": "max-age=15552000; preload"
 }

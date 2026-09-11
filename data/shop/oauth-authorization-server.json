@@ -50,8 +50,7 @@
   "jwks_uri": "https://accounts.shop.app/auth/jwks",
   "response_modes_supported": [
     "query",
-    "form_post",
-    "fragment"
+    "form_post"
   ],
   "response_types_supported": [
     "code",
