@@ -64,6 +64,7 @@
     "create"
   ],
   "pushed_authorization_request_endpoint": "https://www.namecheap.com/connect/par",
+  "registration_endpoint": "https://mcp.namecheap.com/register",
   "request_parameter_supported": true,
   "require_pushed_authorization_requests": false,
   "response_modes_supported": [
