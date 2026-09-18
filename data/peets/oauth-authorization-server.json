@@ -1,5 +1,19 @@
 {
   "authorization_endpoint": "https://login.peets.com/oauth2/v1/authorize",
+  "backchannel_authentication_request_signing_alg_values_supported": [
+    "HS256",
+    "HS384",
+    "HS512",
+    "RS256",
+    "RS384",
+    "RS512",
+    "ES256",
+    "ES384",
+    "ES512"
+  ],
+  "backchannel_token_delivery_modes_supported": [
+    "poll"
+  ],
   "claims_supported": [
     "ver",
     "jti",
@@ -31,7 +45,12 @@
     "refresh_token",
     "password",
     "client_credentials",
-    "urn:ietf:params:oauth:grant-type:device_code"
+    "urn:ietf:params:oauth:grant-type:device_code",
+    "urn:openid:params:grant-type:ciba",
+    "urn:okta:params:oauth:grant-type:otp",
+    "http://auth0.com/oauth/grant-type/mfa-otp",
+    "urn:okta:params:oauth:grant-type:oob",
+    "http://auth0.com/oauth/grant-type/mfa-oob"
   ],
   "introspection_endpoint": "https://login.peets.com/oauth2/v1/introspect",
   "introspection_endpoint_auth_methods_supported": [
@@ -42,6 +61,7 @@
     "none"
   ],
   "issuer": "https://login.peets.com",
+  "pushed_authorization_request_endpoint": "https://login.peets.com/oauth2/v1/par",
   "registration_endpoint": "https://login.peets.com/oauth2/v1/clients",
   "request_object_signing_alg_values_supported": [
     "HS256",
