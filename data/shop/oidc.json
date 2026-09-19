@@ -65,6 +65,7 @@
     "birthdate",
     "orders",
     "pay:addresses:read",
+    "pay:wallet_tokens:read",
     "partner_initiated_session",
     "phone",
     "phone_number",
