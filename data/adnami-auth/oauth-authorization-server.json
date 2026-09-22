@@ -46,7 +46,10 @@
     "email",
     "profile",
     "roles",
-    "suite:client_api"
+    "suite:client_api",
+    "auth:otp_challenge",
+    "auth:manage_users",
+    "auth:manage_clients"
   ],
   "subject_types_supported": [
     "public"
