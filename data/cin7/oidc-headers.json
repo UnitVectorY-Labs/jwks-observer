@@ -1,0 +1,4 @@
+{
+  "Content-Security-Policy": "frame-ancestors 'self' *.cin7.com;",
+  "Content-Type": "application/json; charset=UTF-8"
+}

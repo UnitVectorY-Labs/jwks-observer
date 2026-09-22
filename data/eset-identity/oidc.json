@@ -195,6 +195,14 @@
     "epc.notifications.write",
     "epc.audits.write.write",
     "epc.audits.write",
+    "connector_acl.protection.read",
+    "connector_acl.protection.write",
+    "product_protection.protection_assignments.read",
+    "product_protection.protection_assignments.write",
+    "product_protection.protection_activities.read",
+    "product_protection.protection_activities.write",
+    "protection_entitlement.protection_entitlements.read",
+    "protection_entitlement.protection_entitlements.write",
     "offline_access"
   ],
   "subject_types_supported": [

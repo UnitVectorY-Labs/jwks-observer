@@ -1,0 +1,7 @@
+{
+  "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' *.centraldispatch.com; style-src 'self' 'nonce-Mt15eC+gKk9db0UPosoejtC2Tb73JO6X/EQEV2RASHw=' *.centraldispatch.com https://fonts.googleapis.com;img-src 'self' data: *.centraldispatch.com cdn.interstate.coxautoinc.com; font-src 'self' data: https://fonts.gstatic.com;connect-src 'self' cdn.interstate.coxautoinc.com",
+  "Content-Type": "application/json; charset=UTF-8",
+  "Server": "Kestrel",
+  "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+  "Via": "1.1 [placeholder].cloudfront.net (CloudFront)"
+}

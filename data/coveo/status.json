@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://connect.coveo.com/id/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://connect.coveo.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "authorization_endpoint": "https://www.credly.com/oauth/authorize",
+  "claim_types_supported": [
+    "normal"
+  ],
+  "claims_supported": [
+    "iss",
+    "sub",
+    "aud",
+    "exp",
+    "iat",
+    "id",
+    "name",
+    "email",
+    "employments",
+    "memberships"
+  ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "grant_types_supported": [
+    "authorization_code",
+    "implicit",
+    "password",
+    "client_credentials",
+    "implicit_oidc",
+    "refresh_token"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://www.credly.com/oauth/introspect",
+  "issuer": "https://www.credly.com",
+  "jwks_uri": "https://www.credly.com/oauth/discovery/keys",
+  "response_modes_supported": [
+    "query",
+    "fragment",
+    "form_post"
+  ],
+  "response_types_supported": [
+    "code",
+    "token",
+    "id_token",
+    "id_token token"
+  ],
+  "revocation_endpoint": "https://www.credly.com/oauth/revoke",
+  "scopes_supported": [
+    "autoaccepts",
+    "badges",
+    "profile",
+    "affiliations",
+    "age",
+    "analytics",
+    "authorization_tokens",
+    "badge_templates",
+    "badges_privileged",
+    "events",
+    "hris_mappings",
+    "invitations",
+    "issued_badges",
+    "location",
+    "memberships",
+    "oauth_applications",
+    "openid",
+    "organizations",
+    "pathways",
+    "profile_privileged",
+    "recommendations",
+    "skills",
+    "skills_privileged",
+    "workforce"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://www.credly.com/oauth/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://www.credly.com/oauth/userinfo"
+}

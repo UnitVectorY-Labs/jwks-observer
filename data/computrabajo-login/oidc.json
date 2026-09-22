@@ -1,0 +1,92 @@
+{
+  "authorization_endpoint": "https://login.computrabajo.com/connect/authorize",
+  "backchannel_logout_session_supported": true,
+  "backchannel_logout_supported": true,
+  "check_session_iframe": "https://login.computrabajo.com/connect/checksession",
+  "claims_supported": [
+    "sub",
+    "name",
+    "family_name",
+    "given_name",
+    "middle_name",
+    "nickname",
+    "preferred_username",
+    "profile",
+    "picture",
+    "website",
+    "gender",
+    "birthdate",
+    "zoneinfo",
+    "locale",
+    "updated_at",
+    "email",
+    "email_verified",
+    "phone_number",
+    "phone_number_verified",
+    "user_id",
+    "areas",
+    "phone",
+    "area_permissions",
+    "email_claim"
+  ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "device_authorization_endpoint": "https://login.computrabajo.com/connect/deviceauthorization",
+  "end_session_endpoint": "https://login.computrabajo.com/connect/endsession",
+  "frontchannel_logout_session_supported": true,
+  "frontchannel_logout_supported": true,
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "refresh_token",
+    "implicit",
+    "password",
+    "urn:ietf:params:oauth:grant-type:device_code"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://login.computrabajo.com/connect/introspect",
+  "issuer": "https://login.computrabajo.com",
+  "jwks_uri": "https://login.computrabajo.com/.well-known/openid-configuration/jwks",
+  "request_parameter_supported": true,
+  "response_modes_supported": [
+    "form_post",
+    "query",
+    "fragment"
+  ],
+  "response_types_supported": [
+    "code",
+    "token",
+    "id_token",
+    "id_token token",
+    "code id_token",
+    "code token",
+    "code id_token token"
+  ],
+  "revocation_endpoint": "https://login.computrabajo.com/connect/revocation",
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email",
+    "phone",
+    "custom.profile",
+    "Backweb_oidc_api",
+    "exceptions.readwrite",
+    "requests.write",
+    "rabbit.publish",
+    "rabbit.status",
+    "offline_access"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://login.computrabajo.com/connect/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://login.computrabajo.com/connect/userinfo"
+}

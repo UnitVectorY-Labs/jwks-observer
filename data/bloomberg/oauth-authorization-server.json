@@ -1,0 +1,12 @@
+{
+  "authorization_endpoint": "https://login.bloomberg.com/api/oauth/authorize",
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "issuer": "https://www.bloomberg.com",
+  "jwks_uri": "https://login.bloomberg.com/api/oauth/.well-known/jwks.json",
+  "response_types_supported": [
+    "code"
+  ],
+  "token_endpoint": "https://login.bloomberg.com/api/oauth/token"
+}

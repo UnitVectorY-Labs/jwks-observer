@@ -1,0 +1,17 @@
+{
+  "jwks": {
+    "uri": "https://auth.alternativeto.net/.well-known/jwks.json",
+    "status_code": 403,
+    "error": "HTTP 403"
+  },
+  "oauth_authorization_server": {
+    "uri": "https://auth.alternativeto.net/.well-known/oauth-authorization-server",
+    "status_code": 403,
+    "error": "HTTP 403"
+  },
+  "oidc": {
+    "uri": "https://auth.alternativeto.net/.well-known/openid-configuration",
+    "status_code": 403,
+    "error": "HTTP 403"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://api.canva.com/auth/v1/oidc/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://www.canva.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

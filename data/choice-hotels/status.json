@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://connect.choicehotels.com/vforcesite/id/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://connect.choicehotels.com/vforcesite/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

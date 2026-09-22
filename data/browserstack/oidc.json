@@ -1,0 +1,59 @@
+{
+  "authorization_endpoint": "https://auth.browserstack.com/oauth2/v2/authorize",
+  "claim_types_supported": [
+    "normal"
+  ],
+  "claims_supported": [
+    "iss",
+    "sub",
+    "aud",
+    "exp",
+    "iat"
+  ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "refresh_token"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://auth.browserstack.com/oauth2/v2/introspect",
+  "issuer": "https://auth.browserstack.com",
+  "jwks_uri": "https://auth.browserstack.com/oauth2/v2/discovery/keys",
+  "response_modes_supported": [
+    "query",
+    "fragment",
+    "form_post"
+  ],
+  "response_types_supported": [
+    "code"
+  ],
+  "revocation_endpoint": "https://auth.browserstack.com/oauth2/v2/revoke",
+  "scopes_supported": [
+    "read",
+    "write",
+    "update",
+    "jira_integration",
+    "service_auth",
+    "central_ai_s2s",
+    "part11_reauth",
+    "automate_tcg",
+    "ai_healing",
+    "ai_agent",
+    "ai_agent_notify"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://auth.browserstack.com/oauth2/v2/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://auth.browserstack.com/oauth2/v3/userinfo"
+}

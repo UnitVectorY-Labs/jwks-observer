@@ -1,0 +1,14 @@
+{
+  "jwks": {
+    "uri": "https://signin.bluebeamstudio.com.au/oauth2/aus10td4j2gKpamLW3l7/v1/keys",
+    "status_code": 200
+  },
+  "oauth_authorization_server": {
+    "uri": "https://signin.bluebeamstudio.com.au/.well-known/oauth-authorization-server/oauth2/aus10td4j2gKpamLW3l7",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://signin.bluebeamstudio.com.au/oauth2/aus10td4j2gKpamLW3l7/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

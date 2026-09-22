@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://auth.chargepoint.com/oauth2/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://auth.chargepoint.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

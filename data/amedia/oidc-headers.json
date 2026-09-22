@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "no-cache, no-store, must-revalidate, private, max-age=[placeholder]",
+  "Content-Security-Policy": "upgrade-insecure-requests",
+  "Content-Type": "application/json",
+  "Server": "envoy",
+  "Via": "1.1 varnish (Varnish/6.0)"
+}

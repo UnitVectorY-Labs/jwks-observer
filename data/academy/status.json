@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://sso.academy.com/pf/JWKS",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://sso.academy.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

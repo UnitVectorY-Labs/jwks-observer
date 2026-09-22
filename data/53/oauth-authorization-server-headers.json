@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "max-age=[placeholder], no-cache, no-store",
+  "Content-Security-Policy": "object-src 'self' b2c-sso-prod.auth-b2c-prod.nube.53.com sso.53.com;",
+  "Content-Type": "application/json",
+  "Server": "Server",
+  "Strict-Transport-Security": "max-age=15768000"
+}

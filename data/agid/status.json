@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://login.agid.gov.it/certs",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://login.agid.gov.it/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

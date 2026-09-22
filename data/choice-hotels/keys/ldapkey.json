@@ -1,0 +1,9 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2026-09-22T21:41:39Z",
+  "kid": "ldapkey",
+  "kty": "RSA",
+  "n": "qcpbcfDQGvBr_FbMDy0RQ8iSTBYPtQ5hOtFa5SEuN_FfIMdwHQgTieYcTfVTg3FuL0M8gBNT6Xl4OJog_I9FM92_rc5KMvfR8wLpnSy5fRMFkI2P73O6Sdf2YKzy80m8dowCqmMqH_Mu-RlZ1h38tddpkrrjLbMn-FY8jfIHJCEr2DhORjgH_FmxPwhp8UOZEJP2XJF3OaJMl1P62uhLQYc3a8h50wKql9sa3CMwa2SpotWgAad95jFnktJWCgAcx5UfNbzYksD_4WCzw8mzaVxbNzUlhH9Tf8ScVtUVRjO7jgx2wMsm7ZJghEfPgH8Mf1GpzF_yEaAL8feAse_OzQ",
+  "use": "sig"
+}

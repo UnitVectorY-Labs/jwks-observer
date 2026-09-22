@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "max-age=[placeholder], must-revalidate",
+  "Content-Security-Policy": "frame-ancestors 'self' https://mb.e5171.com http://localhost:9529 https://*.cb.cityu.edu.hk https://banapps.cityu.edu.hk https://lockerdev.sgs.cityu.edu.hk https://banappstureg.cityu.edu.hk https://banappsdev.cityu.edu.hk:7442 https://banappsstaging.sys0.cityu.edu.hk https://banappsdev.cityu.edu.hk:8443 https://banappsdev.cityu.edu.hk:7443 https://banhrapps.cityu.edu.hk",
+  "Content-Type": "application/json",
+  "Server": "nginx",
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
+}

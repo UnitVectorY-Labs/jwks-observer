@@ -1,0 +1,73 @@
+{
+  "authorization_endpoint": "https://www.aid.no/oauth/authorize",
+  "claim_types_supported": [
+    "normal"
+  ],
+  "claims_supported": [
+    "iss",
+    "sub",
+    "aud",
+    "exp",
+    "iat",
+    "name",
+    "email",
+    "phone_number",
+    "birthdate",
+    "picture",
+    "pse",
+    "privacy_preferences",
+    "access"
+  ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "urn:ietf:params:oauth:grant-type:token-exchange"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://www.aid.no/oauth/introspect",
+  "issuer": "https://www.aid.no/",
+  "jwks_uri": "https://www.aid.no/oauth/discovery/keys",
+  "request_uri_parameter_supported": false,
+  "response_modes_supported": [
+    "query",
+    "fragment",
+    "form_post"
+  ],
+  "response_types_supported": [
+    "code"
+  ],
+  "revocation_endpoint": "https://www.aid.no/oauth/revoke",
+  "scopes_supported": [
+    "uuid",
+    "name",
+    "avatar",
+    "openid",
+    "profile",
+    "id",
+    "email",
+    "phone",
+    "birth_date",
+    "tracking_key",
+    "access",
+    "external_accounts",
+    "privacy_preferences",
+    "groups",
+    "two_factor_enabled",
+    "session_tracking_key"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://www.aid.no/oauth/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://www.aid.no/oauth/userinfo"
+}

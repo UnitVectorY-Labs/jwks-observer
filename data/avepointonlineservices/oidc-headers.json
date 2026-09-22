@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "no-cache, no-store, must-revalidate",
+  "Content-Security-Policy": "default-src 'self'",
+  "Content-Type": "application/json; charset=UTF-8",
+  "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+}

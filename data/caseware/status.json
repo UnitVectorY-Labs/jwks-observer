@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://connect.caseware.com/lpvforcesite/id/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://connect.caseware.com/lpvforcesite/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

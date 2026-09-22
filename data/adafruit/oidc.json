@@ -1,0 +1,71 @@
+{
+  "authorization_endpoint": "https://accounts.adafruit.com/oauth/authorize",
+  "claim_types_supported": [
+    "normal"
+  ],
+  "claims_supported": [
+    "iss",
+    "sub",
+    "aud",
+    "exp",
+    "iat",
+    "preferred_username",
+    "given_name",
+    "family_name",
+    "name",
+    "zoneinfo",
+    "email",
+    "email_verified",
+    "student",
+    "avatar",
+    "avatar_type",
+    "reduce_motion",
+    "grayscale_enabled",
+    "bio",
+    "gravatar_email",
+    "favorite_color",
+    "otp_enabled",
+    "banned",
+    "banned_until"
+  ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "end_session_endpoint": "https://accounts.adafruit.com/oauth/logout",
+  "grant_types_supported": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://accounts.adafruit.com/oauth/introspect",
+  "issuer": "https://accounts.adafruit.com",
+  "jwks_uri": "https://accounts.adafruit.com/oauth/discovery/keys",
+  "response_modes_supported": [
+    "query",
+    "fragment",
+    "form_post"
+  ],
+  "response_types_supported": [
+    "code"
+  ],
+  "revocation_endpoint": "https://accounts.adafruit.com/oauth/revoke",
+  "scopes_supported": [
+    "openid",
+    "email",
+    "profile",
+    "adafruit",
+    "offline_access"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://accounts.adafruit.com/oauth/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://accounts.adafruit.com/oauth/userinfo"
+}

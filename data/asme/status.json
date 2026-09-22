@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://signin.asme.org/id/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://signin.asme.org/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

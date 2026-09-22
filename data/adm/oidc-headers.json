@@ -1,0 +1,6 @@
+{
+  "Content-Security-Policy": "default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; style-src * 'unsafe-inline'; font-src * 'self' data:",
+  "Content-Type": "application/json;charset=UTF-8",
+  "Server": "cloudflare",
+  "Strict-Transport-Security": "max-age=5184000; includeSubDomains; preload"
+}

@@ -1,0 +1,33 @@
+{
+  "authorization_endpoint": "https://auth.bizjournals.com/oauth/authorize",
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "refresh_token",
+    "password"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://auth.bizjournals.com",
+  "jwks_uri": "https://auth.bizjournals.com/oauth/jwks",
+  "response_types_supported": [
+    "code"
+  ],
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email",
+    "phone",
+    "address"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://auth.bizjournals.com/oauth/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://auth.bizjournals.com/userinfo"
+}

@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://auth.browserstack.com/oauth2/v2/discovery/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://auth.browserstack.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

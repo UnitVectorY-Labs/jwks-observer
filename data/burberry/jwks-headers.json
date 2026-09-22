@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "no-cache, no-store",
+  "Content-Security-Policy": "default-src 'unsafe-inline' 'unsafe-eval' 'self' data: https://burberry.scene7.com https://api.burberry.com ; frame-ancestors 'self' https://*.hana.ondemand.com https://*.crm.ondemand.com https://z2.le.liveperson.net https://oauth.apps.burberry.com http://clt-uat.apps.burberry.com http://clt.apps.burberry.com https://teamburberry.com https://api.burberry.com;",
+  "Content-Type": "application/json",
+  "Strict-Transport-Security": "max-age=31536000"
+}

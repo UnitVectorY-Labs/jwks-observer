@@ -1,0 +1,70 @@
+{
+  "authorization_endpoint": "https://auth.buffer.com/auth",
+  "authorization_response_iss_parameter_supported": true,
+  "claim_types_supported": [
+    "normal"
+  ],
+  "claims_parameter_supported": false,
+  "claims_supported": [
+    "sub",
+    "sid",
+    "auth_time",
+    "iss"
+  ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "dpop_signing_alg_values_supported": [
+    "ES256",
+    "Ed25519",
+    "EdDSA"
+  ],
+  "end_session_endpoint": "https://auth.buffer.com/session/end",
+  "grant_types_supported": [
+    "authorization_code",
+    "refresh_token",
+    "client_credentials"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "PS256",
+    "RS256"
+  ],
+  "introspection_endpoint": "https://auth.buffer.com/token/introspection",
+  "issuer": "https://auth.buffer.com",
+  "jwks_uri": "https://auth.buffer.com/jwks",
+  "pushed_authorization_request_endpoint": "https://auth.buffer.com/request",
+  "registration_endpoint": "https://auth.buffer.com/reg",
+  "request_uri_parameter_supported": false,
+  "response_modes_supported": [
+    "form_post",
+    "fragment",
+    "query"
+  ],
+  "response_types_supported": [
+    "code",
+    "none"
+  ],
+  "revocation_endpoint": "https://auth.buffer.com/token/revocation",
+  "scopes_supported": [
+    "offline_access",
+    "posts:read",
+    "posts:write",
+    "ideas:read",
+    "ideas:write",
+    "account:read",
+    "account:write",
+    "insights:read",
+    "engagements:read",
+    "engagements:write",
+    "openid"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://auth.buffer.com/token",
+  "token_endpoint_auth_methods_supported": [
+    "none",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://auth.buffer.com/me"
+}

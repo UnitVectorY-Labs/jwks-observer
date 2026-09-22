@@ -1,0 +1,14 @@
+{
+  "jwks": {
+    "uri": "https://shopify.com/authentication/21852813/.well-known/jwks.json",
+    "status_code": 200
+  },
+  "oauth_authorization_server": {
+    "uri": "https://shopify.com/.well-known/oauth-authorization-server/authentication/21852813",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://shopify.com/authentication/21852813/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

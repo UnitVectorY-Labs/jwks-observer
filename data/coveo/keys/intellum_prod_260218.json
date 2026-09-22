@@ -1,0 +1,9 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2026-09-22T21:41:38Z",
+  "kid": "intellum_prod_260218",
+  "kty": "RSA",
+  "n": "rqEGiBDyJVRBdWja4r9orsqHIRjjTqSiu1pMLAIo99CeXeuELu-auHI60gqDF7e_tyYaSaWqjyB3DVYZPXXbYBaQg7o2rpf741LmMgnp4hfTirsUmDir7yvUC_1S2e6oBz6Kb-u1mtoTpXqg7VprctHrShUSHmdZE2XgPN6zmnS9v_30orPWHwG2OmsWGcnUWuct7o-HbiC0k1fSn2uklS1b3awUDtzQ55Lu_aKrxf_nJU2ksVoJF_9bkFIbwuDuxbmnr1uRPlhu47B_cwjbgGqtfMy7hkFQRDMJVGSeb3f6COf8-2_j5PZed12Krg5_lWizaKl58unI3ZaI3uBYfQ",
+  "use": "sig"
+}

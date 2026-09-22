@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://id.adelaide.edu.au/oauth2/v1/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://id.adelaide.edu.au/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

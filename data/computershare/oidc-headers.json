@@ -1,0 +1,6 @@
+{
+  "Content-Security-Policy": "frame-ancestors https://io.computershare.com https://www.issueronline.com https://auth.computershare.com https://emea.auth.computershare.com https://au.auth.computershare.com",
+  "Content-Type": "application/json;charset=UTF-8",
+  "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload;",
+  "Via": "1.1 google"
+}

@@ -1,0 +1,5 @@
+{
+  "Content-Type": "application/jwk-set+json; charset=utf-8",
+  "Server": "nginx",
+  "Strict-Transport-Security": "max-age=15552000; includeSubDomains"
+}

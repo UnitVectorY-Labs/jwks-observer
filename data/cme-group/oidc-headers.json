@@ -1,0 +1,8 @@
+{
+  "Cache-Control": "no-cache, no-store",
+  "Content-Security-Policy": "frame-ancestors *.cmegroup.com *.cme.com *.cme.com:*",
+  "Content-Type": "application/json",
+  "Server": "WebServer",
+  "Strict-Transport-Security": "max-age=86400",
+  "Via": "1.1 google, 1.1 google"
+}

@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://oauth.anu.edu.au/idp/profile/oidc/keyset",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://oauth.anu.edu.au/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

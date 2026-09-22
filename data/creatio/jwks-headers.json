@@ -1,0 +1,6 @@
+{
+  "Content-Security-Policy": "frame-ancestors 'self'",
+  "Content-Type": "application/json",
+  "Server": "nginx/1.30.4",
+  "Strict-Transport-Security": "max-age=31536000; includeSubDomains;"
+}

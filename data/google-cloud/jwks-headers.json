@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "no-cache, no-store, max-age=[placeholder], must-revalidate",
+  "Content-Security-Policy": "require-trusted-types-for 'script';report-uri /_/AuthPortalOidcHttp/cspreport",
+  "Content-Type": "application/json; charset=utf-8",
+  "Server": "ESF"
+}

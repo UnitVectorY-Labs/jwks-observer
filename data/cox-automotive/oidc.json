@@ -1,0 +1,35 @@
+{
+  "authorization_endpoint": "https://auth.coxautoinc.com/authorize",
+  "grant_types_supported": [
+    "implicit",
+    "authorization_code",
+    "refresh_token",
+    "client_credentials"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "none",
+    "HS256",
+    "HS384",
+    "HS512",
+    "RS256",
+    "RS384",
+    "RS512",
+    "ES256",
+    "ES384",
+    "ES512"
+  ],
+  "issuer": "https://auth.coxautoinc.com",
+  "jwks_uri": "https://auth.coxautoinc.com/.well-known/jwks.json",
+  "response_modes_supported": [
+    "query",
+    "form_post"
+  ],
+  "response_types_supported": [
+    "code",
+    "token"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://auth.coxautoinc.com/token"
+}

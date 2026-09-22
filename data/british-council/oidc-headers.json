@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "max-age=[placeholder]",
+  "Content-Security-Policy": "default-src 'self' 'unsafe-inline' data: britishcouncil.org *.britishcouncil.org *.b2clogin.com dc.services.visualstudio.com s.go-mpulse.ne cdn.cookielaw.org *.vo.msecnd.net www.googletagmanager.com td.doubleclick.net; connect-src 'self' *.britishcouncil.org stats.g.doubleclick.net *.google-analytics.com *.analytics.google.com cdn.cookielaw.org dc.services.visualstudio.com *.vo.msecnd.net https://privacyportal-eu.onetrust.com/request/v1/consentreceipts www.google.com; style-src 'self' 'unsafe-inline' 'unsafe-eval' *.googletagmanager.com tagmanager.google.com fonts.googleapis.com fonts.gstatic.com ajax.aspnetcdn.com cdn.jsdelivr.net cdnjs.cloudflare.com; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.b2clogin.com *.google-analytics.com *.analytics.google.com *.googletagmanager.com tagmanager.google.com ajax.aspnetcdn.com ajax.googleapis.com cdn.cookielaw.org cdn.jsdelivr.net cdnjs.cloudflare.com *.vo.msecnd.net; manifest-src 'self' blob:; font-src 'self' data: bccdn.britishcouncil.org fonts.googleapis.com fonts.gstatic.com ajax.aspnetcdn.com; frame-ancestors 'self' *.britishcouncil.org *.b2clogin.com;",
+  "Content-Type": "application/json; charset=UTF-8",
+  "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload"
+}

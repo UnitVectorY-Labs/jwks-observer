@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://login.3dsystems.com/id/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://login.3dsystems.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

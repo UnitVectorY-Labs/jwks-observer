@@ -1,0 +1,22 @@
+{
+  "authorization_endpoint": "https://www.whatsapp.com/dialog/oauth/",
+  "claims_supported": [
+    "iss",
+    "aud",
+    "sub",
+    "iat",
+    "exp",
+    "nonce"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://www.whatsapp.com",
+  "jwks_uri": "https://www.whatsapp.com/.well-known/oauth/openid/jwks/",
+  "response_types_supported": [
+    "code"
+  ],
+  "subject_types_supported": [
+    "pairwise"
+  ]
+}

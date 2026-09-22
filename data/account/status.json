@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://oidc.account.gov.uk/.well-known/jwks.json",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://oidc.account.gov.uk/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

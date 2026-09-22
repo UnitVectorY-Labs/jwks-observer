@@ -1,0 +1,80 @@
+{
+  "authorization_endpoint": "https://login.agid.gov.it/auth",
+  "authorization_response_iss_parameter_supported": true,
+  "claim_types_supported": [
+    "normal"
+  ],
+  "claims_parameter_supported": false,
+  "claims_supported": [
+    "sub",
+    "provider",
+    "provider_id",
+    "firstname",
+    "lastname",
+    "fiscalNumber",
+    "email",
+    "email_id",
+    "phone",
+    "placeOfBirth",
+    "dateOfBirth",
+    "gender",
+    "address",
+    "last_access",
+    "user_policy",
+    "entity",
+    "sid",
+    "auth_time",
+    "iss"
+  ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "end_session_endpoint": "https://login.agid.gov.it/session/end",
+  "grant_types_supported": [
+    "authorization_code"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://login.agid.gov.it/token/introspection",
+  "introspection_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "issuer": "https://login.agid.gov.it",
+  "jwks_uri": "https://login.agid.gov.it/certs",
+  "op_policy_uri": "/policy",
+  "op_tos_uri": "/tos",
+  "request_object_signing_alg_values_supported": [
+    "HS256",
+    "RS256",
+    "PS256",
+    "ES256",
+    "EdDSA"
+  ],
+  "request_parameter_supported": false,
+  "request_uri_parameter_supported": true,
+  "require_request_uri_registration": true,
+  "response_modes_supported": [
+    "form_post",
+    "fragment",
+    "query"
+  ],
+  "response_types_supported": [
+    "code"
+  ],
+  "scopes_supported": [
+    "openid",
+    "profile"
+  ],
+  "service_documentation": "/service",
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://login.agid.gov.it/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://login.agid.gov.it/userinfo"
+}

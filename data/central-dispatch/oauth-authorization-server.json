@@ -1,0 +1,151 @@
+{
+  "authorization_endpoint": "https://id.centraldispatch.com/connect/authorize",
+  "authorization_response_iss_parameter_supported": true,
+  "backchannel_authentication_endpoint": "https://id.centraldispatch.com/connect/ciba",
+  "backchannel_authentication_request_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "PS256",
+    "PS384",
+    "PS512",
+    "ES256",
+    "ES384",
+    "ES512"
+  ],
+  "backchannel_logout_session_supported": true,
+  "backchannel_logout_supported": true,
+  "backchannel_token_delivery_modes_supported": [
+    "poll"
+  ],
+  "backchannel_user_code_parameter_supported": true,
+  "check_session_iframe": "https://id.centraldispatch.com/connect/checksession",
+  "claims_supported": [
+    "sub"
+  ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "device_authorization_endpoint": "https://id.centraldispatch.com/connect/deviceauthorization",
+  "dpop_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "PS256",
+    "PS384",
+    "PS512",
+    "ES256",
+    "ES384",
+    "ES512"
+  ],
+  "end_session_endpoint": "https://id.centraldispatch.com/connect/endsession",
+  "frontchannel_logout_session_supported": true,
+  "frontchannel_logout_supported": true,
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "refresh_token",
+    "implicit",
+    "password",
+    "urn:ietf:params:oauth:grant-type:device_code",
+    "urn:openid:params:grant-type:ciba"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://id.centraldispatch.com/connect/introspect",
+  "introspection_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "introspection_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://id.centraldispatch.com",
+  "jwks_uri": "https://id.centraldispatch.com/.well-known/openid-configuration/jwks",
+  "prompt_values_supported": [
+    "none",
+    "login",
+    "consent",
+    "select_account"
+  ],
+  "pushed_authorization_request_endpoint": "https://id.centraldispatch.com/connect/par",
+  "request_object_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "PS256",
+    "PS384",
+    "PS512",
+    "ES256",
+    "ES384",
+    "ES512"
+  ],
+  "request_parameter_supported": true,
+  "require_pushed_authorization_requests": false,
+  "response_modes_supported": [
+    "form_post",
+    "query",
+    "fragment"
+  ],
+  "response_types_supported": [
+    "code",
+    "token",
+    "id_token",
+    "id_token token",
+    "code id_token",
+    "code token",
+    "code id_token token"
+  ],
+  "revocation_endpoint": "https://id.centraldispatch.com/connect/revocation",
+  "revocation_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "scopes_supported": [
+    "openid",
+    "listing_service",
+    "listing_service_internal",
+    "listings_search",
+    "listings_search_internal",
+    "user_service",
+    "user_service_internal",
+    "cal.cd.users-api",
+    "listings_search_web_bff",
+    "offer_service",
+    "offer_web_bff",
+    "mapping_cache",
+    "ccm",
+    "marketplace",
+    "mobile_bff",
+    "user_management_bff",
+    "fulfillment_api",
+    "read_inspection",
+    "offers_api",
+    "dispatchdocument_api",
+    "membership",
+    "event_api",
+    "customer-management",
+    "market_intelligence_api",
+    "offer-orch-service-default",
+    "24/365",
+    "authgateway",
+    "connections_api",
+    "end_customer_delegation",
+    "privileged_access",
+    "offline_access"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://id.centraldispatch.com/connect/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://id.centraldispatch.com/connect/userinfo",
+  "userinfo_signing_alg_values_supported": [
+    "RS256"
+  ]
+}

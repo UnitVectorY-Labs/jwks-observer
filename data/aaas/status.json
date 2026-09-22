@@ -1,0 +1,14 @@
+{
+  "jwks": {
+    "uri": "https://identity.aaas.org/.well-known/jwks.json",
+    "status_code": 200
+  },
+  "oauth_authorization_server": {
+    "uri": "https://identity.aaas.org/.well-known/oauth-authorization-server",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://identity.aaas.org/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

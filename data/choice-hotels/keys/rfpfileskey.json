@@ -1,0 +1,9 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2026-09-22T21:41:39Z",
+  "kid": "rfpfileskey",
+  "kty": "RSA",
+  "n": "o5Z_5A3nYi3DstOUL6AnjQCAD42K700bUJopzt5sxfvjST6WdVaVZmPWo9X8elWwfJj1UNtB68nyxXvRVViXi5gfEhL0l23MXTuPCn85AhdmKMBSglmXLgpHP4X00jvM0JRAT0nSszOdBNeHPgqmA2hdC4lkaZAKhNeKish28gfa9AByrXiQhd6gX0L6bKaDtCLWvlMMOmevaylc6ZqixpPtrurRHbbOrwN6NosdeaK3bGDAEQlaiHeyC2NxRFZXOAeG-BOJORNEoteSnKDLuP8dSdEl8CInqLIHvP3NWIntVmTrnrWG-ZDAflKya-YB5MHoqN4vigXsVaiyN6RWzQ",
+  "use": "sig"
+}

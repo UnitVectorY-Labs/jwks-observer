@@ -1,0 +1,9 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2026-09-22T21:41:39Z",
+  "kid": "9ce70e8b-92b0-4614-ab9f-cdc08e9dc61d",
+  "kty": "RSA",
+  "n": "yGKxg-aZL_UO9AeoaIwdeqxQEFaMSWj97Zri37IoLWRgvCwqdD0JhDxFzb3u-eMESeW8_M_xT41AmxDIgLGZXzDuDP45J1ZPD5lBAwlF_uv4-miLOxVUE3neSEzIfYkqtIBWdnXw532oHn24pEnksQozCzuBrfbfSUVbeZP8OJmTPqX0AvLDPk48NxknVkOgcig7ZwuBC6WT3u8dTiyMXwPlxGRcHoPGn2f8_Nxy0uw1XC89tOxYt3qduxHzvN2K_SxS9RneKsbU2z57X0MWfFxgSE0k8eo-AGq9PT94TPsF4lZtrAXaV8D-_gQjZ5bwhRlx0TKr10hpPOsZQy8D3Q3s_uDS-rYbcggXq75TahN72ht0n7SVCUfPdZZmLSw2eDnBKTuqGQBDocLkHMmS_tHJGWZfiJyMI_KF1a7EnrAeEmGBshAp82q7bB7PkCkOyt_sMWXyltb0GCEo9LMkCES9XNabyFc_xDV83T2p1Oq1jwZrGOhL2iP1U_7_y0_wekk7_TvyT6fbAdrKL2ZaclJXcUXDldO1F8eK7sgMFa4zKDyljmf_TA6QhkJ1stCGA3DjEqDx4JQtrGk2mK7fSjhS50ZIwAOXhM_HCoH1LZg5amyhj8bvQyFnfDbCRm0zyCuwMZ2Z7uv8WOoEGfCs2QTR6eZTC4gf6bWc92tDu18",
+  "use": "sig"
+}

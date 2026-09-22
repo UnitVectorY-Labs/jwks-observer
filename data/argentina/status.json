@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://id.argentina.gob.ar/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://id.argentina.gob.ar/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

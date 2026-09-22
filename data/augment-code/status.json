@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://auth.augmentcode.com/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://auth.augmentcode.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

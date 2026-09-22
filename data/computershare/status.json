@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://auth.computershare.com:443/am/oauth2/connect/jwk_uri",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://auth.computershare.com:443/am/oauth2/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

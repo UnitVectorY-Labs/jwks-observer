@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "max-age=[placeholder], must-revalidate",
+  "Content-Security-Policy": "default-src 'self' articulate-id.okta.com id.articulate.com *.oktacdn.com; connect-src 'self' articulate-id.okta.com articulate-id-admin.okta.com id.articulate.com *.oktacdn.com *.mixpanel.com *.mapbox.com articulate-id.kerberos.okta.com https://oinmanager.okta.com data: *.ingest.sentry.io; script-src 'unsafe-inline' 'nonce-[placeholder]' 'self' 'report-sample' articulate-id.okta.com id.articulate.com *.oktacdn.com; style-src 'unsafe-inline' 'nonce-[placeholder]' 'self' 'report-sample' articulate-id.okta.com id.articulate.com *.oktacdn.com; frame-src 'self' articulate-id.okta.com articulate-id-admin.okta.com id.articulate.com login.okta.com *.vidyard.com; img-src 'self' articulate-id.okta.com id.articulate.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com *.vidyard.com data: blob:; font-src 'self' articulate-id.okta.com id.articulate.com data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'",
+  "Content-Type": "application/json",
+  "Server": "openresty",
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
+}

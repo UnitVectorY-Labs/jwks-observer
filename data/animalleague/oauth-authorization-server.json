@@ -1,0 +1,40 @@
+{
+  "authorization_endpoint": "https://www.animalleague.org/oauth/authorize/",
+  "end_session_endpoint": "https://www.animalleague.org/oauth/destroy/",
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "refresh_token",
+    "uswo_me_resource_returner_credentials",
+    "implicit"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://www.animalleague.org/oauth/introspection/",
+  "issuer": "https://www.animalleague.org",
+  "jwks_uri": "https://www.animalleague.org/.well-known/keys/",
+  "registration_endpoint": null,
+  "response_types_supported": [
+    "code",
+    "id_token",
+    "token id_token",
+    "code id_token"
+  ],
+  "revocation_endpoint": "https://www.animalleague.org/oauth/revoke/",
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email",
+    "basic"
+  ],
+  "service_documentation": null,
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://www.animalleague.org/oauth/token/",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic"
+  ],
+  "userinfo_endpoint": "https://www.animalleague.org/oauth/me/"
+}

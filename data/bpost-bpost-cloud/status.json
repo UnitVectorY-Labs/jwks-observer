@@ -1,0 +1,14 @@
+{
+  "jwks": {
+    "uri": "https://login.bpost.cloud/pf/JWKS",
+    "status_code": 200
+  },
+  "oauth_authorization_server": {
+    "uri": "https://login.bpost.cloud/.well-known/oauth-authorization-server",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://login.bpost.cloud/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "max-age=[placeholder]",
+  "Content-Security-Policy": "frame-ancestors https://search-qa.akamai.com/ https://search.akamai.com/ https://mya360-stg.akamai.com/ https://siebelqa.akamai.com/ https://akamai--qa.cs52.my.salesforce.com/ https://akamai--qa.lightning.force.com/ https://collaborate.akamai.com/ https://akamai.my.salesforce.com/ https://grafana.akam.ai/ https://influxdb.eis.akamai.com/ https://siebel.akamai.com/ https://akamai.lightning.force.com/ https://akamai.my.salesforce.com/ https://a360.akamai.com/ https://a360-labs.akamai.com/ https://mya360.akamai.com/ https://bugzilla.akamai.com/ https://track.akamai.com/ https://tririga.akamai.com/ https://jira-staging.akamai.com/",
+  "Content-Type": "application/json",
+  "Server": "akamai/nginx",
+  "Strict-Transport-Security": "max-age=31536000"
+}

@@ -1,0 +1,14 @@
+{
+  "jwks": {
+    "uri": "https://auth.apollographql.com/.well-known/jwks.json",
+    "status_code": 200
+  },
+  "oauth_authorization_server": {
+    "uri": "https://auth.apollographql.com/.well-known/oauth-authorization-server/oauth2",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://auth.apollographql.com/oauth2/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

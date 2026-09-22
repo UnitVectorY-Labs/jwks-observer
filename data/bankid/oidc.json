@@ -1,0 +1,121 @@
+{
+  "acr_values_supported": [
+    "http://id.elegnamnden.se/loa/1.0/loa3"
+  ],
+  "authorization_endpoint": "https://oidc.bankid.com/authorize",
+  "claim_types_supported": [
+    "normal"
+  ],
+  "claims_parameter_supported": true,
+  "claims_supported": [
+    "sub",
+    "name",
+    "given_name",
+    "family_name",
+    "txn",
+    "auth_time",
+    "https://id.oidc.se/claim/personalIdentityNumber",
+    "https://id.oidc.se/claim/userCertificate",
+    "https://id.oidc.se/claim/userSignature",
+    "https://id.oidc.se/claim/credentialValidFrom",
+    "https://id.oidc.se/claim/credentialValidTo",
+    "https://id.oidc.se/claim/deviceIp",
+    "https://id.oidc.se/claim/authnEvidence",
+    "https://id.oidc.bankid.com/claim/age"
+  ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "display_values_supported": [
+    "page",
+    "popup",
+    "touch",
+    "wap"
+  ],
+  "grant_types_supported": [
+    "authorization_code"
+  ],
+  "https://id.oidc.se/disco/authnProviderSupported": false,
+  "https://id.oidc.se/disco/userMessageSupported": true,
+  "https://id.oidc.se/disco/userMessageSupportedMimeTypes": [
+    "text/plain",
+    "text/markdown"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "PS256",
+    "PS384",
+    "PS512"
+  ],
+  "introspection_endpoint": "https://oidc.bankid.com/introspect",
+  "issuer": "https://oidc.bankid.com",
+  "jwks_uri": "https://oidc.bankid.com/jwks",
+  "op_policy_uri": "https://oidc.bankid.com/about",
+  "op_tos_uri": "https://oidc.bankid.com/about",
+  "request_object_encryption_alg_values_supported": [
+    "RSA1_5",
+    "RSA-OAEP"
+  ],
+  "request_object_encryption_enc_values_supported": [
+    "A128CBC-HS256",
+    "A128GCM",
+    "A192CBC-HS384",
+    "A192GCM",
+    "A256CBC-HS512",
+    "A256GCM"
+  ],
+  "request_object_signing_alg_values_supported": [
+    "none",
+    "RS256",
+    "ES256",
+    "PS256"
+  ],
+  "request_parameter_supported": true,
+  "request_uri_parameter_supported": false,
+  "require_request_uri_registration": false,
+  "response_modes_supported": [
+    "query"
+  ],
+  "response_types_supported": [
+    "code"
+  ],
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "https://id.oidc.se/scope/naturalPersonNumber",
+    "https://id.oidc.se/scope/naturalPersonInfo",
+    "https://id.oidc.se/scope/sign",
+    "https://id.oidc.bankid.com/scope/authnInfo"
+  ],
+  "service_documentation": "https://oidc.bankid.com/about",
+  "subject_types_supported": [
+    "public",
+    "pairwise"
+  ],
+  "token_endpoint": "https://oidc.bankid.com/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_post",
+    "client_secret_basic",
+    "private_key_jwt"
+  ],
+  "token_endpoint_auth_signing_alg_values_supported": [
+    "RS256",
+    "ES256",
+    "PS256"
+  ],
+  "ui_locales_supported": [
+    "sv",
+    "en"
+  ],
+  "userinfo_endpoint": "https://oidc.bankid.com/userinfo",
+  "userinfo_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "PS256",
+    "PS384",
+    "PS512"
+  ]
+}

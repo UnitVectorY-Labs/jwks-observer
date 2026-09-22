@@ -1,0 +1,67 @@
+{
+  "authorization_endpoint": "https://auth.banxico.org.mx/acs-authentication/login",
+  "authorization_response_iss_parameter_supported": true,
+  "authorization_signing_alg_values_supported": [
+    "RS256",
+    "ES256"
+  ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "dpop_signing_alg_values_supported": [
+    "RS256",
+    "ES256"
+  ],
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "refresh_token"
+  ],
+  "issuer": "https://auth.banxico.org.mx",
+  "jwks_uri": "https://auth.banxico.org.mx/.well-known/jwks.json",
+  "pushed_authorization_request_endpoint": "https://auth.banxico.org.mx/acs-authentication/par",
+  "registration_endpoint": "https://auth.banxico.org.mx/acs-rest/client-registration",
+  "request_object_signing_alg_values_supported": [
+    "none",
+    "RS256",
+    "ES256"
+  ],
+  "request_parameter_supported": true,
+  "request_uri_parameter_supported": false,
+  "require_pushed_authorization_requests": false,
+  "response_modes_supported": [
+    "query",
+    "fragment",
+    "form_post",
+    "jwt"
+  ],
+  "response_types_supported": [
+    "code"
+  ],
+  "revocation_endpoint": "https://auth.banxico.org.mx/acs-rest/token-revocation",
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email",
+    "address",
+    "phone",
+    "offline_access"
+  ],
+  "tls_client_certificate_bound_access_tokens": true,
+  "token_endpoint": "https://auth.banxico.org.mx/acs-rest/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post",
+    "client_secret_jwt",
+    "private_key_jwt",
+    "self_signed_tls_client_auth"
+  ],
+  "token_endpoint_auth_signing_alg_values_supported": [
+    "RS256",
+    "ES256"
+  ],
+  "ui_locales_supported": [
+    "en-US",
+    "es-MX"
+  ]
+}

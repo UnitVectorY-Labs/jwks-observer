@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://id.bahn.de/auth/iam/realms/bahnid/protocol/openid-connect/certs",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://id.bahn.de/auth/iam/realms/bahnid/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

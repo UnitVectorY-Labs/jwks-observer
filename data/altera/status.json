@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://connect.altera.com/connect/id/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://connect.altera.com/connect/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

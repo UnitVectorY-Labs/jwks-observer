@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://shibboleth.csun.edu/idp/profile/oidc/keyset",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://shibboleth.csun.edu/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://login.canyon.com/id/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://login.canyon.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

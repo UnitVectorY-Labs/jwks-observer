@@ -1,0 +1,15 @@
+{
+  "jwks": {
+    "uri": "https://auth.altium.com/.well-known/openid-configuration/jwks",
+    "status_code": 200
+  },
+  "oauth_authorization_server": {
+    "uri": "https://auth.altium.com/.well-known/oauth-authorization-server",
+    "status_code": 200,
+    "error": "invalid JSON: invalid character '\u003c' looking for beginning of value"
+  },
+  "oidc": {
+    "uri": "https://auth.altium.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

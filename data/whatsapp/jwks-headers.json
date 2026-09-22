@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "must-revalidate, max-age=[placeholder]",
+  "Content-Security-Policy": "default-src 'self' blob:;script-src *.whatsapp.com *.whatsapp.net *.facebook.com *.facebook.net 'nonce-[placeholder]' 'self' blob:;style-src *.whatsapp.com *.whatsapp.net 'unsafe-inline' *.facebook.com 'self' data: blob:;connect-src *.whatsapp.com *.whatsapp.net wss://*.facebook.com:* *.fbcdn.net 'self' data: blob:;font-src *.whatsapp.com *.whatsapp.net *.facebook.com static.xx.fbcdn.net data:;img-src *.whatsapp.com *.whatsapp.net *.facebook.com *.fbcdn.net *.fbsbx.com static.xx.fbcdn.net *.cdninstagram.com 'self' data: blob:;media-src *.fbcdn.net 'self' data: blob:;child-src 'self' data: blob:;frame-src *.facebook.com *.whatsapp.com 'self' data: blob:;manifest-src 'self' data: blob:;object-src 'self' data: blob:;worker-src *.whatsapp.com *.whatsapp.net *.facebook.com *.facebook.net 'nonce-[placeholder]' 'self' data: blob:;block-all-mixed-content;upgrade-insecure-requests;",
+  "Content-Type": "application/json; charset=utf-8",
+  "Strict-Transport-Security": "max-age=31536000; preload; includeSubDomains"
+}

@@ -1,0 +1,31 @@
+{
+  "authorization_endpoint": "https://auth.cloud.google/authorize",
+  "claims_supported": [
+    "sub",
+    "aud",
+    "iss",
+    "iat",
+    "exp",
+    "email"
+  ],
+  "grant_types_supported": [
+    "authorization_code"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://auth.cloud.google",
+  "jwks_uri": "https://auth.cloud.google/.well-known/jwks.json",
+  "response_types_supported": [
+    "code"
+  ],
+  "scopes_supported": [
+    "openid",
+    "email",
+    "https://www.googleapis.com/auth/cloud-platform"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://sts.googleapis.com/v1/oauthtoken"
+}

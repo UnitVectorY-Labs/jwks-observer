@@ -37,7 +37,7 @@
   "issuer": "https://id.cpanel.net",
   "jwks_uri": "https://id.cpanel.net/oauth2/jwks",
   "request_parameter_supported": true,
-  "request_uri_parameter_supported": true,
+  "request_uri_parameter_supported": false,
   "require_request_uri_registration": false,
   "response_types_supported": [
     "code"

@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "no-cache, no-store",
+  "Content-Security-Policy": "script-src 'unsafe-inline' 'unsafe-eval' 'self' https://*.capgemini.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.recaptcha.net/recaptcha/; img-src 'self' https://*.capgemini.com; style-src 'unsafe-inline' 'self' https://*.capgemini.com; style-src-elem 'self' https://signin.capgemini.com https://*.capgemini.com 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-p08VBe6m5i8+qtXWjnH/AN3klt1l4uoOLsjNn8BjdQo='; base-uri 'self' https://*.capgemini.com; object-src 'self'; frame-ancestors 'self' https://*.capgemini.com; frame-src https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/ https://www.recaptcha.net/recaptcha/ https://apps.pingone.com ;",
+  "Content-Type": "application/json",
+  "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload"
+}

@@ -1,0 +1,6 @@
+{
+  "Content-Security-Policy": "default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src adaware-protect: adaware-vpn: soda14: soda15: adaware-ss: inpixio-photo-studio-12.4: suite20: pdfarchitect-desktop-9: game-buff: clean-buff: pdfarchitect-reader-desktop: pdfarchitect-desktop-10: suite21: https://www.google.com ; style-src * 'unsafe-inline'; frame-ancestors 'self' *.sodapdf.com http://localhost:4203 https://localhost:7265 https://localhost:44306 http://localhost:4200 https://stage.sodapdf.com https://sodapdf.com https://accounts.avanquest.com https://stage-accounts.avanquest.com https://stage.inpixio.com https://inpixio.com https://www.inpixio.com;",
+  "Content-Type": "application/json; charset=UTF-8",
+  "Server": "cloudflare",
+  "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload"
+}

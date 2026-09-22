@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "no-cache, no-store, max-age=[placeholder], must-revalidate",
+  "Content-Security-Policy": "default-src 'self'; script-src 'self' https://js.hcaptcha.com https://*.hcaptcha.com; style-src 'self' 'unsafe-inline' https://hcaptcha.com https://*.hcaptcha.com; img-src 'self' data:; font-src 'self'; connect-src 'self' https://hcaptcha.com https://*.hcaptcha.com; frame-src https://hcaptcha.com https://*.hcaptcha.com; frame-ancestors 'none'; base-uri 'self'",
+  "Content-Type": "application/json",
+  "Strict-Transport-Security": "max-age=31536000 ; includeSubDomains"
+}

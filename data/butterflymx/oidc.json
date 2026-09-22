@@ -1,0 +1,61 @@
+{
+  "authorization_endpoint": "https://accounts.butterflymx.com/oauth/authorize",
+  "claim_types_supported": [
+    "normal"
+  ],
+  "claims_supported": [
+    "iss",
+    "sub",
+    "aud",
+    "exp",
+    "iat",
+    "email",
+    "email_verified"
+  ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "password",
+    "implicit_oidc",
+    "refresh_token"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://accounts.butterflymx.com/oauth/introspect",
+  "issuer": "https://accounts.butterflymx.com",
+  "jwks_uri": "https://accounts.butterflymx.com/oauth/discovery/keys",
+  "response_modes_supported": [
+    "query",
+    "fragment",
+    "form_post"
+  ],
+  "response_types_supported": [
+    "code",
+    "token",
+    "id_token",
+    "id_token token"
+  ],
+  "revocation_endpoint": "https://accounts.butterflymx.com/oauth/revoke",
+  "scopes_supported": [
+    "public",
+    "openid",
+    "profile",
+    "os",
+    "caterpillar",
+    "email"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://accounts.butterflymx.com/oauth/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://accounts.butterflymx.com/oauth/userinfo"
+}

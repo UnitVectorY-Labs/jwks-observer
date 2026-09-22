@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://connect.britishcouncil.org/.well-known/openid-configuration/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://connect.britishcouncil.org/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

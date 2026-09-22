@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "private",
+  "Content-Security-Policy": "frame-src *.acog.org *.acog.local cms.acog.org cms-dev.acog.org www.acog.org chairston.acog.org;child-src *.acog.org *.acog.local cms.acog.org cms-dev.acog.org www.acog.org chairston.acog.org;frame-ancestors *.acog.org *.acog.local cms.acog.org cms-dev.acog.org www.acog.org chairston.acog.org",
+  "Content-Type": "application/json; charset=utf-8",
+  "Server": "cloudflare"
+}

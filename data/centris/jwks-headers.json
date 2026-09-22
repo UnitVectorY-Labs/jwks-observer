@@ -1,0 +1,5 @@
+{
+  "Content-Security-Policy": "default-src 'self' https://*.centristst.ca https://*.centris.ca https://*.google-analytics.com https://fonts.gstatic.com https://fonts.googleapis.com https://stats.g.doubleclick.net https://www.google.ca/ads https://www.google.com/ads https://www.googletagmanager.com https://sb.scorecardresearch.com blob: 'unsafe-inline' 'unsafe-eval'; script-src 'self' https://cdnjs.cloudflare.com 'unsafe-inline' 'unsafe-eval'",
+  "Content-Type": "application/json;charset=UTF-8",
+  "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+}

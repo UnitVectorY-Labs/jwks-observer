@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://login.bpost.be/pf/JWKS",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://login.bpost.be/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

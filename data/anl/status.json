@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://login.anl.gov/idp/profile/oidc/keyset",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://login.anl.gov/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "authorization_endpoint": "https://login.anl.gov/idp/profile/oidc/authorize",
+  "claims_parameter_supported": true,
+  "claims_supported": [
+    "aud",
+    "iss",
+    "sub",
+    "iat",
+    "exp",
+    "acr",
+    "auth_time",
+    "email",
+    "email_verified",
+    "address",
+    "phone",
+    "phone_number_verified",
+    "name",
+    "family_name",
+    "given_name",
+    "middle_name",
+    "nickname",
+    "preferred_username",
+    "profile",
+    "picture",
+    "website",
+    "gender",
+    "birthdate",
+    "zoneinfo",
+    "locale",
+    "updated_at"
+  ],
+  "display_values_supported": [
+    "page"
+  ],
+  "grant_types_supported": [
+    "authorization_code",
+    "implicit",
+    "refresh_token"
+  ],
+  "id_token_encryption_alg_values_supported": [
+    "RSA1_5",
+    "RSA-OAEP",
+    "RSA-OAEP-256",
+    "RSA-OAEP-384",
+    "RSA-OAEP-512",
+    "A128KW",
+    "A192KW",
+    "A256KW",
+    "A128GCMKW",
+    "A192GCMKW",
+    "A256GCMKW",
+    "ECDH-ES",
+    "ECDH-ES+A128KW",
+    "ECDH-ES+A192KW",
+    "ECDH-ES+A256KW"
+  ],
+  "id_token_encryption_enc_values_supported": [
+    "A128CBC-HS256",
+    "A192CBC-HS384",
+    "A256CBC-HS512",
+    "A128GCM",
+    "A192GCM",
+    "A256GCM"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "HS256",
+    "HS384",
+    "HS512",
+    "ES256",
+    "ES384",
+    "ES512",
+    "PS256",
+    "PS384",
+    "PS512"
+  ],
+  "issuer": "https://login.anl.gov",
+  "jwks_uri": "https://login.anl.gov/idp/profile/oidc/keyset",
+  "registration_endpoint": "https://login.anl.gov/idp/profile/oidc/register",
+  "request_object_signing_alg_values_supported": [
+    "none",
+    "RS256",
+    "RS384",
+    "RS512",
+    "HS256",
+    "HS384",
+    "HS512",
+    "ES256",
+    "ES384",
+    "ES512"
+  ],
+  "request_parameter_supported": true,
+  "request_uri_parameter_supported": true,
+  "response_modes_supported": [
+    "query",
+    "fragment",
+    "form_post"
+  ],
+  "response_types_supported": [
+    "code",
+    "id_token",
+    "id_token token",
+    "code id_token",
+    "code token",
+    "code id_token token"
+  ],
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email",
+    "address",
+    "phone",
+    "offline_access"
+  ],
+  "subject_types_supported": [
+    "public",
+    "pairwise"
+  ],
+  "token_endpoint": "https://login.anl.gov/idp/profile/oidc/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post",
+    "client_secret_jwt",
+    "private_key_jwt"
+  ],
+  "userinfo_encryption_alg_values_supported": [
+    "RSA1_5",
+    "RSA-OAEP",
+    "RSA-OAEP-256",
+    "RSA-OAEP-384",
+    "RSA-OAEP-512",
+    "A128KW",
+    "A192KW",
+    "A256KW",
+    "A128GCMKW",
+    "A192GCMKW",
+    "A256GCMKW",
+    "ECDH-ES",
+    "ECDH-ES+A128KW",
+    "ECDH-ES+A192KW",
+    "ECDH-ES+A256KW"
+  ],
+  "userinfo_encryption_enc_values_supported": [
+    "A128CBC-HS256",
+    "A192CBC-HS384",
+    "A256CBC-HS512",
+    "A128GCM",
+    "A192GCM",
+    "A256GCM"
+  ],
+  "userinfo_endpoint": "https://login.anl.gov/idp/profile/oidc/userinfo",
+  "userinfo_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "HS256",
+    "HS384",
+    "HS512",
+    "ES256",
+    "ES384",
+    "ES512",
+    "PS256",
+    "PS384",
+    "PS512"
+  ]
+}

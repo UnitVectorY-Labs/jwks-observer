@@ -1,0 +1,130 @@
+{
+  "authorization_endpoint": "https://accounts.builtin.com/connect/authorize",
+  "authorization_response_iss_parameter_supported": true,
+  "backchannel_authentication_endpoint": "https://accounts.builtin.com/connect/ciba",
+  "backchannel_logout_session_supported": true,
+  "backchannel_logout_supported": true,
+  "backchannel_token_delivery_modes_supported": [
+    "poll"
+  ],
+  "backchannel_user_code_parameter_supported": true,
+  "check_session_iframe": "https://accounts.builtin.com/connect/checksession",
+  "claims_supported": [
+    "role",
+    "email",
+    "email_verified",
+    "given_name",
+    "family_name",
+    "website",
+    "updated_at",
+    "locale",
+    "zoneinfo",
+    "birthday",
+    "gender",
+    "picture",
+    "name",
+    "profile",
+    "preferred_username",
+    "nickname",
+    "middle_name",
+    "iid"
+  ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "device_authorization_endpoint": "https://accounts.builtin.com/connect/deviceauthorization",
+  "dpop_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "PS256",
+    "PS384",
+    "PS512",
+    "ES256",
+    "ES384",
+    "ES512"
+  ],
+  "end_session_endpoint": "https://accounts.builtin.com/connect/endsession",
+  "frontchannel_logout_session_supported": true,
+  "frontchannel_logout_supported": true,
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "refresh_token",
+    "implicit",
+    "urn:ietf:params:oauth:grant-type:device_code",
+    "urn:openid:params:grant-type:ciba",
+    "impersonation"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://accounts.builtin.com/connect/introspect",
+  "issuer": "https://accounts.builtin.com",
+  "jwks_uri": "https://accounts.builtin.com/.well-known/openid-configuration/jwks",
+  "prompt_values_supported": [
+    "none",
+    "login",
+    "consent",
+    "select_account",
+    "create"
+  ],
+  "request_object_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "PS256",
+    "PS384",
+    "PS512",
+    "ES256",
+    "ES384",
+    "ES512",
+    "HS256",
+    "HS384",
+    "HS512"
+  ],
+  "request_parameter_supported": true,
+  "response_modes_supported": [
+    "form_post",
+    "query",
+    "fragment"
+  ],
+  "response_types_supported": [
+    "code",
+    "token",
+    "id_token",
+    "id_token token",
+    "code id_token",
+    "code token",
+    "code id_token token"
+  ],
+  "revocation_endpoint": "https://accounts.builtin.com/connect/revocation",
+  "scopes_supported": [
+    "openid",
+    "roles",
+    "email",
+    "profile",
+    "identity-mgmt",
+    "api-external",
+    "impersonate",
+    "anonymize",
+    "locationapi",
+    "usersapi",
+    "companyfilehub:read",
+    "companyfilehub:write",
+    "companyfilehub:delete",
+    "articlesapi:write",
+    "employeragents:extract",
+    "offline_access"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://accounts.builtin.com/connect/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://accounts.builtin.com/connect/userinfo"
+}

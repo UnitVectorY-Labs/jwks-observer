@@ -1,0 +1,14 @@
+{
+  "jwks": {
+    "uri": "https://oauth.adobeaemcloud.com/jwks",
+    "status_code": 200
+  },
+  "oauth_authorization_server": {
+    "uri": "https://oauth.adobeaemcloud.com/.well-known/oauth-authorization-server",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://oauth.adobeaemcloud.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

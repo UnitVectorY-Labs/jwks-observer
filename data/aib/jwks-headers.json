@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "no-cache, no-store",
+  "Content-Security-Policy": "script-src 'self' 'unsafe-inline' 'unsafe-eval' use.typekit.net ajax.googleapis.com; style-src 'self' 'unsafe-inline' p.typekit.net use.typekit.net https://*.aib.ie https://onlinebanking.ebs.ie https://*.aibni.co.uk https://*.aibgb.co.uk; img-src 'self' p.typekit.net https://*.aib.ie https://onlinebanking.ebs.ie https://*.aibni.co.uk https://*.aibgb.co.uk; base-uri 'self' https://*.aib.ie https://onlinebanking.ebs.ie https://*.aibni.co.uk https://*.aibgb.co.uk; object-src 'self'; frame-ancestors 'self' https://*.aib.ie https://onlinebanking.ebs.ie https://*.aibni.co.uk https://*.aibgb.co.uk https://onlinebanking.ebs.ie",
+  "Content-Type": "application/json",
+  "Strict-Transport-Security": "max-age=15552000; includeSubDomains"
+}

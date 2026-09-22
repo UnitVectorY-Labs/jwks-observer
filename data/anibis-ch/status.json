@@ -1,0 +1,14 @@
+{
+  "jwks": {
+    "uri": "https://auth.anibis.ch/.well-known/jwks.json",
+    "status_code": 200
+  },
+  "oauth_authorization_server": {
+    "uri": "https://auth.anibis.ch/.well-known/oauth-authorization-server",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://auth.anibis.ch/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

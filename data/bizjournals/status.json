@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://auth.bizjournals.com/oauth/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://auth.bizjournals.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "authorization_endpoint": "https://www.adm.com/api/episerver/connect/authorize",
+  "claims_parameter_supported": false,
+  "claims_supported": [
+    "aud",
+    "exp",
+    "iat",
+    "iss",
+    "sub",
+    "profile",
+    "email",
+    "role"
+  ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "end_session_endpoint": "https://www.adm.com/api/episerver/connect/logout",
+  "grant_types_supported": [
+    "authorization_code",
+    "refresh_token",
+    "client_credentials"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://www.adm.com/",
+  "jwks_uri": "https://www.adm.com/.well-known/jwks",
+  "request_parameter_supported": false,
+  "request_uri_parameter_supported": false,
+  "response_modes_supported": [
+    "form_post",
+    "fragment",
+    "query"
+  ],
+  "response_types_supported": [
+    "code"
+  ],
+  "scopes_supported": [
+    "openid",
+    "offline_access",
+    "profile",
+    "email",
+    "roles"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://www.adm.com/api/episerver/connect/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://www.adm.com/api/episerver/connect/userinfo"
+}

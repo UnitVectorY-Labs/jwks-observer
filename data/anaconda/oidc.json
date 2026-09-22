@@ -1,0 +1,61 @@
+{
+  "access_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "authorization_endpoint": "https://auth.anaconda.com/api/auth/oauth2/authorize",
+  "claims_supported": [
+    "sub",
+    "iss",
+    "aud",
+    "exp",
+    "iat",
+    "auth_time",
+    "nonce",
+    "email",
+    "email_verified",
+    "given_name",
+    "family_name",
+    "picture",
+    "updated_at"
+  ],
+  "client_id_metadata_document_supported": false,
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "device_authorization_endpoint": "https://auth.anaconda.com/api/auth/oauth2/device/authorize",
+  "end_session_endpoint": "https://auth.anaconda.com/api/auth/oauth2/sessions/logout",
+  "grant_types_supported": [
+    "authorization_code",
+    "refresh_token",
+    "client_credentials",
+    "password",
+    "urn:ietf:params:oauth:grant-type:device_code"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://auth.anaconda.com/api/auth",
+  "jwks_uri": "https://auth.anaconda.com/api/auth/.well-known/jwks.json",
+  "password_endpoint": "https://auth.anaconda.com/api/auth/oauth2/token/password",
+  "response_modes_supported": [
+    "query"
+  ],
+  "response_types_supported": [
+    "code"
+  ],
+  "scopes_supported": [
+    "profile",
+    "email",
+    "openid"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://auth.anaconda.com/api/auth/oauth2/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post",
+    "none"
+  ],
+  "userinfo_endpoint": "https://auth.anaconda.com/api/auth/oauth2/userinfo"
+}

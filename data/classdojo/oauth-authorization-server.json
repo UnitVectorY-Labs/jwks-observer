@@ -1,0 +1,38 @@
+{
+  "authorization_endpoint": "https://login.classdojo.com/authorize",
+  "client_id_metadata_document_supported": true,
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "grant_types_supported": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "introspection_endpoint": "https://login.classdojo.com/oauth/introspect",
+  "introspection_endpoint_auth_methods_supported": [
+    "client_secret_basic"
+  ],
+  "issuer": "https://login.classdojo.com",
+  "jwks_uri": "https://login.classdojo.com/.well-known/jwks.json",
+  "registration_endpoint": "https://login.classdojo.com/register",
+  "response_types_supported": [
+    "code"
+  ],
+  "revocation_endpoint": "https://login.classdojo.com/oauth/revoke",
+  "revocation_endpoint_auth_methods_supported": [
+    "none"
+  ],
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email",
+    "classroom:read",
+    "classroom:write",
+    "messages:read"
+  ],
+  "token_endpoint": "https://login.classdojo.com/token",
+  "token_endpoint_auth_methods_supported": [
+    "none"
+  ],
+  "userinfo_endpoint": "https://login.classdojo.com/userinfo"
+}

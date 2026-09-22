@@ -1,0 +1,143 @@
+{
+  "authorization_endpoint": "https://auth.altium.com/connect/authorize",
+  "authorization_response_iss_parameter_supported": true,
+  "backchannel_authentication_endpoint": "https://auth.altium.com/connect/ciba",
+  "backchannel_logout_session_supported": true,
+  "backchannel_logout_supported": true,
+  "backchannel_token_delivery_modes_supported": [
+    "poll"
+  ],
+  "backchannel_user_code_parameter_supported": true,
+  "check_session_iframe": "https://auth.altium.com/connect/checksession",
+  "claims_supported": [
+    "group_memberships",
+    "email",
+    "family_name",
+    "given_name",
+    "middle_name",
+    "name",
+    "organization_id",
+    "picture",
+    "username"
+  ],
+  "client_id_metadata_document_supported": true,
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "device_authorization_endpoint": "https://auth.altium.com/connect/deviceauthorization",
+  "dpop_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "PS256",
+    "PS384",
+    "PS512",
+    "ES256",
+    "ES384",
+    "ES512"
+  ],
+  "end_session_endpoint": "https://auth.altium.com/connect/endsession",
+  "frontchannel_logout_session_supported": true,
+  "frontchannel_logout_supported": true,
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "refresh_token",
+    "implicit",
+    "password",
+    "urn:ietf:params:oauth:grant-type:device_code",
+    "urn:openid:params:grant-type:ciba",
+    "urn:ietf:params:oauth:grant-type:token-exchange",
+    "tenant_session_exchange"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://auth.altium.com/connect/introspect",
+  "issuer": "https://auth.altium.com",
+  "jwks_uri": "https://auth.altium.com/.well-known/openid-configuration/jwks",
+  "prompt_values_supported": [
+    "none",
+    "login",
+    "consent",
+    "select_account"
+  ],
+  "pushed_authorization_request_endpoint": "https://auth.altium.com/connect/par",
+  "request_object_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "PS256",
+    "PS384",
+    "PS512",
+    "ES256",
+    "ES384",
+    "ES512",
+    "HS256",
+    "HS384",
+    "HS512"
+  ],
+  "request_parameter_supported": true,
+  "require_pushed_authorization_requests": false,
+  "response_modes_supported": [
+    "form_post",
+    "query",
+    "fragment"
+  ],
+  "response_types_supported": [
+    "code",
+    "token",
+    "id_token",
+    "id_token token",
+    "code id_token",
+    "code token",
+    "code id_token token"
+  ],
+  "revocation_endpoint": "https://auth.altium.com/connect/revocation",
+  "scopes_supported": [
+    "openid",
+    "group_memberships",
+    "profile",
+    "a365:workspace",
+    "octopart:cpc_service",
+    "a365:requirements",
+    "nexar",
+    "nexar:part-extra-data",
+    "octopart:octopart.com",
+    "global:notifications.write",
+    "global:events.subscribe",
+    "global:scripts.execute",
+    "global:app.read",
+    "global:app.write",
+    "supply:ref-design.read",
+    "supply.read",
+    "workspace:scripts.execute",
+    "workspace:scripts.manage",
+    "global:app.install",
+    "global:app",
+    "global:user",
+    "global:user.read",
+    "global:user.write",
+    "global:organization",
+    "global:organization.read",
+    "global:organization.write",
+    "global:group",
+    "global:group.read",
+    "global:group.write",
+    "workspace:team",
+    "workspace:team.read",
+    "workspace:team.write",
+    "offline_access"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://auth.altium.com/connect/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post",
+    "none"
+  ],
+  "userinfo_endpoint": "https://auth.altium.com/connect/userinfo"
+}

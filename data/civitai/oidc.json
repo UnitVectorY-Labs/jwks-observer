@@ -1,0 +1,74 @@
+{
+  "authorization_endpoint": "https://auth.civitai.com/api/auth/oauth/authorize",
+  "claims_supported": [
+    "sub",
+    "name",
+    "preferred_username",
+    "picture",
+    "email",
+    "email_verified"
+  ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "device_authorization_endpoint": "https://auth.civitai.com/api/auth/oauth/device",
+  "grant_types_supported": [
+    "authorization_code",
+    "refresh_token",
+    "client_credentials",
+    "urn:ietf:params:oauth:grant-type:device_code"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "ES256"
+  ],
+  "introspection_endpoint": "https://auth.civitai.com/api/auth/oauth/introspect",
+  "introspection_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "issuer": "https://auth.civitai.com",
+  "jwks_uri": "https://auth.civitai.com/.well-known/jwks.json",
+  "response_types_supported": [
+    "code"
+  ],
+  "revocation_endpoint": "https://auth.civitai.com/api/auth/oauth/revoke",
+  "scopes_supported": [
+    "1",
+    "2",
+    "4",
+    "8",
+    "16",
+    "32",
+    "64",
+    "128",
+    "256",
+    "512",
+    "1024",
+    "2048",
+    "4096",
+    "8192",
+    "16384",
+    "32768",
+    "65536",
+    "131072",
+    "262144",
+    "524288",
+    "1048576",
+    "2097152",
+    "4194304",
+    "8388608",
+    "16777216",
+    "33554432",
+    "67108864",
+    "134217728"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://auth.civitai.com/api/auth/oauth/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_post",
+    "none"
+  ],
+  "userinfo_endpoint": "https://auth.civitai.com/api/auth/oauth/userinfo"
+}
