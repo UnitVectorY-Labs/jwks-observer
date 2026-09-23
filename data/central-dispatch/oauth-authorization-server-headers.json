@@ -1,5 +1,5 @@
 {
-  "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' *.centraldispatch.com; style-src 'self' 'nonce-[placeholder]' *.centraldispatch.com https://fonts.googleapis.com;img-src 'self' data: *.centraldispatch.com cdn.interstate.coxautoinc.com; font-src 'self' data: https://fonts.gstatic.com;connect-src 'self' cdn.interstate.coxautoinc.com",
+  "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' *.centraldispatch.com; style-src 'self' 'nonce-FtEPJju6E2cp/CikCmHXQAVREDUu2B1QYTy1+nRBVko=' *.centraldispatch.com https://fonts.googleapis.com;img-src 'self' data: *.centraldispatch.com cdn.interstate.coxautoinc.com; font-src 'self' data: https://fonts.gstatic.com;connect-src 'self' cdn.interstate.coxautoinc.com",
   "Content-Type": "application/json; charset=UTF-8",
   "Server": "Kestrel",
   "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
