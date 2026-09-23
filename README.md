@@ -56,20 +56,70 @@ data/
 
 ### `jwks-headers.json`
 
-- Contents: subset of “stable” response headers mapped as Header-Name: value.
+- Contents: selected response headers mapped as Header-Name: value (the same format applies to `oidc-headers.json` and `oauth-authorization-server-headers.json`).
   - Content-Type
   - Cache-Control
   - Server
   - Via
   - Content-Security-Policy
+  - Strict-Transport-Security
 
 ```json
 {
-  "Cache-Control": "public, max-age=3600",
+  "Cache-Control": "public, max-age=[placeholder]",
   "Content-Type": "application/json; charset=UTF-8",
   "Server": "nginx/1.18.0"
 }
 ```
+
+### Provider header evidence
+
+The three `*-headers.json` files also record the following allowlisted headers
+with the literal string `[present]`, **never their response values**:
+
+| Header (stored spelling) | Potential provider | Evidence source |
+| --- | --- | --- |
+| `X-Auth0-L` | Auth0 | [Auth0 discovery endpoint](https://auth.auth0.com/.well-known/openid-configuration) |
+| `X-Auth0-RequestId` | Auth0 | [Auth0 discovery endpoint](https://auth.auth0.com/.well-known/openid-configuration) |
+| `X-Okta-Request-Id` | Okta | [Okta request debugging documentation](https://developer.okta.com/docs/reference/core-okta-api/#request-debugging) |
+| `X-Ms-Ests-Server` | Microsoft Entra ID | [Microsoft discovery endpoint](https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration) |
+
+All four were observed on the corresponding providers' public discovery endpoints
+on 2026-09-23, including [Okta's endpoint](https://auth.okta.com/.well-known/openid-configuration).
+This is an initial evidence allowlist, not exhaustive provider coverage or a guarantee
+that these headers will always be emitted.
+
+For example, an Auth0 response can produce:
+
+```json
+{
+  "Content-Type": "application/json",
+  "X-Auth0-L": "[present]",
+  "X-Auth0-RequestId": "[present]"
+}
+```
+
+Matching is case-insensitive, includes empty-valued headers, and emits one fixed
+key per header regardless of casing, repeated values, or ordering. Changing
+latencies, request IDs, and deployment versions therefore do not change this
+evidence. No timestamps or provider labels are added. An absent header is omitted;
+its disappearance on a subsequent successful crawl removes the marker.
+
+These are hints for future analysis, not proof of the hosting provider. Proxies
+can strip or inject headers, services can implement their own OAuth endpoints,
+and absence does not rule out any provider. Generic infrastructure headers such
+as `X-Amzn-RequestId`, `X-Ms-Request-Id`, or `CF-Ray` are not collected as provider
+hints: they do not distinguish an identity product from other services on the
+same infrastructure. Existing discovery documents already preserve issuer and
+endpoint URLs for future analysis of providers without distinctive headers.
+
+As with existing header values, evidence is saved only for HTTP 200 responses
+whose JSON passes endpoint validation, from the final response after redirects.
+Intermediate redirect headers are not merged into endpoint evidence. Failed
+fetches retain the previous successful header file; consult `status.json` to
+check whether the latest fetch succeeded. The new markers avoid value churn;
+actual changes in header presence still produce diffs, and existing stable-value
+header collection and normalization remain unchanged.
 
 ### `status.json`
 
