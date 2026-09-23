@@ -4,5 +4,6 @@
   "Content-Type": "application/json",
   "Server": "nginx",
   "Strict-Transport-Security": "max-age=300",
-  "Via": "1.1 varnish, 1.1 varnish"
+  "Via": "1.1 varnish, 1.1 varnish",
+  "X-Okta-Request-Id": "[present]"
 }

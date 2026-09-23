@@ -2,5 +2,6 @@
   "Cache-Control": "no-cache, no-store, max-age=[placeholder], must-revalidate",
   "Content-Security-Policy": "block-all-mixed-content; report-uri https://edge.allegro.pl/seclog/csp;",
   "Content-Type": "application/json",
-  "Strict-Transport-Security": "max-age=15552000"
+  "Strict-Transport-Security": "max-age=15552000",
+  "Via": "1.1 google"
 }

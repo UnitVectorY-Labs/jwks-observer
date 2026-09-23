@@ -3,5 +3,6 @@
   "Content-Security-Policy": "default-src 'self' brp-ecommerce-auth.okta.com auth.brp.com *.oktacdn.com; connect-src 'self' brp-ecommerce-auth.okta.com brp-ecommerce-auth-admin.okta.com auth.brp.com *.oktacdn.com *.mixpanel.com *.mapbox.com brp-ecommerce-auth.kerberos.okta.com https://oinmanager.okta.com data: consumer-auth.brp.com *.ingest.sentry.io; script-src 'unsafe-inline' 'nonce-[placeholder]' 'self' 'report-sample' brp-ecommerce-auth.okta.com auth.brp.com *.oktacdn.com; style-src 'unsafe-inline' 'nonce-[placeholder]' 'self' 'report-sample' brp-ecommerce-auth.okta.com auth.brp.com *.oktacdn.com; frame-src 'self' brp-ecommerce-auth.okta.com brp-ecommerce-auth-admin.okta.com auth.brp.com login.okta.com *.vidyard.com; img-src 'self' brp-ecommerce-auth.okta.com auth.brp.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com *.vidyard.com data: blob:; font-src 'self' brp-ecommerce-auth.okta.com auth.brp.com data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'",
   "Content-Type": "application/json",
   "Server": "nginx",
-  "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains",
+  "X-Okta-Request-Id": "[present]"
 }

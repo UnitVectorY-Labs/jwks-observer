@@ -3,5 +3,6 @@
   "Content-Security-Policy": "frame-ancestors 'self' https://lively-bush-0aec6ec0f-qa.eastus2.4.azurestaticapps.net https://lively-bush-0aec6ec0f.4.azurestaticapps.net",
   "Content-Type": "application/json",
   "Server": "nginx",
-  "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains",
+  "X-Okta-Request-Id": "[present]"
 }

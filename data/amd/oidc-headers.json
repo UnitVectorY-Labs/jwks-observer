@@ -3,5 +3,6 @@
   "Content-Security-Policy": "frame-ancestors 'self' https://partnernetwork.amd.com https://amdsales--levittr2.sandbox.lightning.force.com https://amd.everyonesocial.app https://auth.everyonesocial-prod.com",
   "Content-Type": "application/json",
   "Server": "nginx",
-  "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains",
+  "X-Okta-Request-Id": "[present]"
 }

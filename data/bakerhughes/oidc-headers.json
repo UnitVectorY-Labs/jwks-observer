@@ -3,5 +3,6 @@
   "Content-Security-Policy": "frame-ancestors 'self' https://nimfea.bakerhughes.com https://athena.bakerhughes.com https://rotorgm.bakerhughes.com https://calc55-test.bakerhughes.com https://meca23.bakerhughes.com https://psc4.bakerhughes.com https://athena-fph-test.bakerhughes.com https://trainlayout.bakerhughes.com https://calc55.bakerhughes.com https://c19.bakerhughes.com https://meca19.bakerhughes.com https://meca102.bakerhughes.com https://athena-fph.bakerhughes.com https://meca44.bakerhughes.com https://stagei.bakerhughes.com",
   "Content-Type": "application/json",
   "Server": "nginx",
-  "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains",
+  "X-Okta-Request-Id": "[present]"
 }

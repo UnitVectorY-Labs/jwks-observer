@@ -1,6 +1,6 @@
 {
   "Cache-Control": "max-age=[placeholder], private, must-revalidate",
-  "Content-Security-Policy": "connect-src 'self' https: www.googletagmanager.com o312678.ingest.us.sentry.io; default-src 'self' https:; font-src 'self' https: data:; img-src 'self' https: data: www.googletagmanager.com; object-src 'none'; script-src 'self' https: https://www.googletagmanager.com 'sha256-hFr6x+JMYIKnTAWRePtjnDcryMY6sARMaIMPqeFCmZs=' 'sha256-3v/+MVXLkmB/lTeTMj4Xm6KouCpg9R+UzsuaGs3xnB8=' 'sha256-r7vLw/dBsKBkQ6u43sRSwSDqJRgwf+TmIs7b3x5FMUo=' 'nonce-TdRcmc+kK3qSCTTicJQvLQ=='; style-src 'self' https: 'nonce-TdRcmc+kK3qSCTTicJQvLQ=='; worker-src 'self' blob:; frame-src 'self' blob:",
+  "Content-Security-Policy": "connect-src 'self' https: www.googletagmanager.com o312678.ingest.us.sentry.io; default-src 'self' https:; font-src 'self' https: data:; img-src 'self' https: data: www.googletagmanager.com; object-src 'none'; script-src 'self' https: https://www.googletagmanager.com 'sha256-hFr6x+JMYIKnTAWRePtjnDcryMY6sARMaIMPqeFCmZs=' 'sha256-3v/+MVXLkmB/lTeTMj4Xm6KouCpg9R+UzsuaGs3xnB8=' 'sha256-r7vLw/dBsKBkQ6u43sRSwSDqJRgwf+TmIs7b3x5FMUo=' 'nonce-[placeholder]'; style-src 'self' https: 'nonce-[placeholder]'; worker-src 'self' blob:; frame-src 'self' blob:",
   "Content-Type": "application/json; charset=utf-8",
   "Strict-Transport-Security": "max-age=31556952; includeSubDomains"
 }

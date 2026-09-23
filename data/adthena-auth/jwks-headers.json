@@ -2,5 +2,7 @@
   "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=[placeholder]",
   "Content-Type": "application/json; charset=utf-8",
   "Server": "nginx",
-  "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+  "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+  "X-Auth0-L": "[present]",
+  "X-Auth0-RequestId": "[present]"
 }

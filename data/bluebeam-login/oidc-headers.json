@@ -3,5 +3,6 @@
   "Content-Security-Policy": "default-src 'self' bluebeam.okta.com signin.bluebeam.com *.oktacdn.com; connect-src 'self' bluebeam.okta.com bluebeam-admin.okta.com signin.bluebeam.com *.oktacdn.com *.mixpanel.com *.mapbox.com bluebeam.kerberos.okta.com bluebeam.mtls.okta.com https://oinmanager.okta.com data: *.ingest.sentry.io; script-src 'unsafe-inline' 'nonce-[placeholder]' 'self' 'report-sample' bluebeam.okta.com signin.bluebeam.com *.oktacdn.com; style-src 'unsafe-inline' 'nonce-[placeholder]' 'self' 'report-sample' bluebeam.okta.com signin.bluebeam.com *.oktacdn.com; frame-src 'self' bluebeam.okta.com bluebeam-admin.okta.com signin.bluebeam.com login.okta.com *.vidyard.com; img-src 'self' bluebeam.okta.com signin.bluebeam.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com *.vidyard.com data: blob:; font-src 'self' bluebeam.okta.com signin.bluebeam.com data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'",
   "Content-Type": "application/json",
   "Server": "nginx",
-  "Strict-Transport-Security": "max-age=315360000; includeSubDomains"
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains",
+  "X-Okta-Request-Id": "[present]"
 }
