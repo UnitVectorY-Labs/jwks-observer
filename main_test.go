@@ -34,6 +34,9 @@ func TestWriteHeadersPresence(t *testing.T) {
 		"X-AUTH0-REQUESTID":         {"request-one", "request-two"},
 		"X-Okta-Request-Id":         {""},
 		"x-ms-ests-server":          {"version region"},
+		"x-sfdc-edge-cache":         {"MISS"},
+		"X-SFDC-REQUEST-ID":         {"request-one"},
+		"x-forgerock-transactionid": {"transaction-one"},
 		"X-Auth0-Unknown":           {"not allowlisted"},
 		"X-Amzn-Requestid":          {"generic infrastructure"},
 		"Set-Cookie":                {"session=secret"},
@@ -48,7 +51,9 @@ func TestWriteHeadersPresence(t *testing.T) {
 	want := map[string]string{
 		"X-Auth0-L": "[present]", "X-Auth0-RequestId": "[present]",
 		"X-Okta-Request-Id": "[present]", "X-Ms-Ests-Server": "[present]",
-		"Content-Type": "application/json", "Cache-Control": "public, max-age=[placeholder]",
+		"X-Sfdc-Edge-Cache": "[present]", "X-Sfdc-Request-Id": "[present]",
+		"X-ForgeRock-TransactionId": "[present]",
+		"Content-Type":              "application/json", "Cache-Control": "public, max-age=[placeholder]",
 		"Via":                       "1.1 [placeholder].cloudfront.net (CloudFront)",
 		"Content-Security-Policy":   "script-src 'nonce-[placeholder]'",
 		"Strict-Transport-Security": "max-age=31536000", "Server": "nginx",
@@ -58,7 +63,7 @@ func TestWriteHeadersPresence(t *testing.T) {
 	if !reflect.DeepEqual(got, want) {
 		t.Fatalf("headers = %#v; want %#v", got, want)
 	}
-	for _, key := range []string{"x-auth0-l", "X-AUTH0-REQUESTID", "X-Okta-Request-Id", "x-ms-ests-server"} {
+	for _, key := range []string{"x-auth0-l", "X-AUTH0-REQUESTID", "X-Okta-Request-Id", "x-ms-ests-server", "x-sfdc-edge-cache", "X-SFDC-REQUEST-ID", "x-forgerock-transactionid"} {
 		hdrs[key] = []string{"a completely different value"}
 	}
 	writeHeaders(path, hdrs)
