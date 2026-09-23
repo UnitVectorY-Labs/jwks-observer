@@ -2,5 +2,7 @@
   "Cache-Control": "no-cache,must-revalidate,max-age=[placeholder],no-store,private",
   "Content-Type": "application/json;charset=UTF-8",
   "Server": "sfdcedge",
-  "Strict-Transport-Security": "max-age=63072000; includeSubDomains"
+  "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+  "X-Sfdc-Edge-Cache": "[present]",
+  "X-Sfdc-Request-Id": "[present]"
 }

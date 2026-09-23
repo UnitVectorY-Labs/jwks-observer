@@ -2,5 +2,6 @@
   "Content-Security-Policy": "frame-ancestors 'self' https://payment.cathaypacific.com; script-src 'self'",
   "Content-Type": "application/json;charset=UTF-8",
   "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload;",
-  "Via": "1.1 google"
+  "Via": "1.1 google",
+  "X-ForgeRock-TransactionId": "[present]"
 }
