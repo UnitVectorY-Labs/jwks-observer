@@ -83,8 +83,11 @@ with the literal string `[present]`, **never their response values**:
 | `X-Auth0-RequestId` | Auth0 | [Auth0 discovery endpoint](https://auth.auth0.com/.well-known/openid-configuration) |
 | `X-Okta-Request-Id` | Okta | [Okta request debugging documentation](https://developer.okta.com/docs/reference/core-okta-api/#request-debugging) |
 | `X-Ms-Ests-Server` | Microsoft Entra ID | [Microsoft discovery endpoint](https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration) |
+| `X-Sfdc-Edge-Cache` | Salesforce infrastructure | [AbbVie discovery endpoint](https://id.abbvie.com/.well-known/openid-configuration) |
+| `X-Sfdc-Request-Id` | Salesforce infrastructure | [AbbVie discovery endpoint](https://id.abbvie.com/.well-known/openid-configuration) |
+| `X-ForgeRock-TransactionId` | ForgeRock / Ping Identity platform | [Ping request tracing documentation](https://docs.pingidentity.com/pingoneaic/tenants/audit-debug-logs-pull.html); [Computershare discovery endpoint](https://auth.computershare.com/am/oauth2/.well-known/openid-configuration) |
 
-All four were observed on the corresponding providers' public discovery endpoints
+These headers were observed on the corresponding public discovery endpoints
 on 2026-09-23, including [Okta's endpoint](https://auth.okta.com/.well-known/openid-configuration).
 This is an initial evidence allowlist, not exhaustive provider coverage or a guarantee
 that these headers will always be emitted.
@@ -110,8 +113,11 @@ can strip or inject headers, services can implement their own OAuth endpoints,
 and absence does not rule out any provider. Generic infrastructure headers such
 as `X-Amzn-RequestId`, `X-Ms-Request-Id`, or `CF-Ray` are not collected as provider
 hints: they do not distinguish an identity product from other services on the
-same infrastructure. Existing discovery documents already preserve issuer and
-endpoint URLs for future analysis of providers without distinctive headers.
+same infrastructure. The `X-Sfdc-*` markers indicate Salesforce's edge, which
+also serves non-identity products; they alone do not establish that Salesforce
+provides the underlying identity service. Existing discovery documents preserve
+issuer and endpoint URLs for future analysis of providers without distinctive
+headers.
 
 As with existing header values, evidence is saved only for HTTP 200 responses
 whose JSON passes endpoint validation, from the final response after redirects.

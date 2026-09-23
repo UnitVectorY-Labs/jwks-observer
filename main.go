@@ -67,6 +67,9 @@ var presenceHeaderKeys = []string{
 	"X-Auth0-RequestId",
 	"X-Okta-Request-Id",
 	"X-Ms-Ests-Server",
+	"X-Sfdc-Edge-Cache",
+	"X-Sfdc-Request-Id",
+	"X-ForgeRock-TransactionId",
 }
 var cacheControlRegex = regexp.MustCompile(`(max-age=)(\d+)`)
 var viaRegex = regexp.MustCompile(`(1\.1 )([a-zA-Z0-9_\.-]+)(\.cloudfront\.net \(CloudFront\))`)
