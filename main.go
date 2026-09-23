@@ -13,6 +13,7 @@ import (
 	"path/filepath"
 	"regexp"
 	"sort"
+	"strings"
 	"sync"
 	"time"
 
@@ -57,6 +58,15 @@ var stableHeaderKeys = []string{
 	"Via",
 	"Strict-Transport-Security",
 	"Content-Security-Policy",
+}
+
+// Presence is useful provider evidence; values contain timings, request IDs,
+// or deployment versions and must never be persisted. See README for sources.
+var presenceHeaderKeys = []string{
+	"X-Auth0-L",
+	"X-Auth0-RequestId",
+	"X-Okta-Request-Id",
+	"X-Ms-Ests-Server",
 }
 var cacheControlRegex = regexp.MustCompile(`(max-age=)(\d+)`)
 var viaRegex = regexp.MustCompile(`(1\.1 )([a-zA-Z0-9_\.-]+)(\.cloudfront\.net \(CloudFront\))`)
@@ -252,7 +262,7 @@ func writeFile(path string, data []byte) {
 	}
 }
 
-// writeHeaders extracts stable headers and writes them as JSON.
+// writeHeaders extracts stable values and presence-only evidence as JSON.
 func writeHeaders(path string, hdrs http.Header) {
 	meta := make(map[string]string, len(stableHeaderKeys))
 	for _, k := range stableHeaderKeys {
@@ -266,6 +276,15 @@ func writeHeaders(path string, hdrs http.Header) {
 				v = cspNonceRegex.ReplaceAllString(v, "${1}[placeholder]${3}")
 			}
 			meta[k] = v
+		}
+	}
+	for _, k := range presenceHeaderKeys {
+		for name := range hdrs {
+			// Inspect names rather than Get: even an empty value means present.
+			if strings.EqualFold(name, k) {
+				meta[k] = "[present]"
+				break
+			}
 		}
 	}
 	if b, err := json.MarshalIndent(meta, "", "  "); err != nil {
