@@ -1,6 +1,6 @@
 {
   "Cache-Control": "max-age=[placeholder], must-revalidate",
-  "Content-Security-Policy": "frame-ancestors 'self' https://pulse-test.cbre.com http://localhost:6420 https://go.cbreim.com https://cbreconnectorpro--uat.sandbox.lightning.force.com http://localhost:3000 https://cbre.metricinsights.com https://cbre.sharepoint.com https://pulse.cbre.com https://cms.xc.cbre.com https://plans.cbre.com https://atw.cbreapps.com https://pulse-rec.cbre.com https://waws-prod-am2-787-347e.westeurope.cloudapp.azure.com https://uat-erix-research.cbre.eu https://easitip.trammellcrow.com https://pulse-uat.cbre.com https://agile.cbre.com https://smartfm.cbre.com https://tgm.green.cbre.com",
+  "Content-Security-Policy": "frame-ancestors 'self' https://pulse-test.cbre.com http://localhost:6420 https://go.cbreim.com https://cbreconnectorpro--uat.sandbox.lightning.force.com http://localhost:3000 https://cbre.metricinsights.com https://cbre.sharepoint.com https://pulse.cbre.com https://plans.cbre.com https://cms.xc.cbre.com https://atw.cbreapps.com https://waws-prod-am2-787-347e.westeurope.cloudapp.azure.com https://pulse-rec.cbre.com https://uat-erix-research.cbre.eu https://pulse-uat.cbre.com https://easitip.trammellcrow.com https://agile.cbre.com https://smartfm.cbre.com https://tgm.green.cbre.com",
   "Content-Type": "application/json",
   "Server": "nginx",
   "Strict-Transport-Security": "max-age=315360000; includeSubDomains",

@@ -34,7 +34,9 @@
     "openid",
     "email",
     "customer-account-api:full",
-    "customer-account-mcp-api:full"
+    "customer-account-mcp-api:full",
+    "dev.ucp.shopping.checkout:manage",
+    "dev.ucp.shopping.catalog.search:read"
   ],
   "subject_types_supported": [
     "public"

@@ -48,7 +48,8 @@
     "email",
     "email_verified",
     "urn:cgm:claims:institution",
-    "urn:cgm:claims:org"
+    "urn:cgm:claims:org",
+    "urn:cgm:claims:practitionerroles"
   ],
   "code_challenge_methods_supported": [
     "plain",
@@ -100,11 +101,11 @@
   "issuer": "https://id.cgm.com",
   "jwks_uri": "https://id.cgm.com/jwks.json",
   "prompt_values_supported": [
-    "none",
-    "create",
+    "consent",
     "login",
     "select_account",
-    "consent"
+    "none",
+    "create"
   ],
   "pushed_authorization_request_endpoint": "https://id.cgm.com/par",
   "registration_endpoint": "https://id.cgm.com/clients",
@@ -143,6 +144,7 @@
     "offline_access",
     "urn:cgm:scopes:institution",
     "urn:cgm:scopes:org",
+    "urn:cgm:scopes:practitionerroles",
     "urn:cgm:scopes:sso",
     "urn:cgm:scopes:dokuassist",
     "urn:cgm:scopes:phoneassist"
