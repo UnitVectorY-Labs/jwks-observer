@@ -18,7 +18,7 @@
     "picture",
     "updated_at"
   ],
-  "client_id_metadata_document_supported": false,
+  "client_id_metadata_document_supported": true,
   "code_challenge_methods_supported": [
     "S256"
   ],

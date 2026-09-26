@@ -1,14 +1,17 @@
 {
   "jwks": {
     "uri": "https://login.appsflyer.com/.well-known/jwks.json",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://login.appsflyer.com/.well-known/jwks.json\": dial tcp: lookup login.appsflyer.com on 10.96.0.10:53: no such host"
   },
   "oauth_authorization_server": {
     "uri": "https://login.appsflyer.com/.well-known/oauth-authorization-server",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://login.appsflyer.com/.well-known/oauth-authorization-server\": dial tcp: lookup login.appsflyer.com on 10.96.0.10:53: no such host"
   },
   "oidc": {
     "uri": "https://login.appsflyer.com/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://login.appsflyer.com/.well-known/openid-configuration\": dial tcp: lookup login.appsflyer.com on 10.96.0.10:53: no such host"
   }
 }
