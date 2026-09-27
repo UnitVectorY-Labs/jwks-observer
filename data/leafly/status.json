@@ -1,0 +1,17 @@
+{
+  "jwks": {
+    "uri": "https://sso.leafly.com/jwks",
+    "status_code": 403,
+    "error": "HTTP 403"
+  },
+  "oauth_authorization_server": {
+    "uri": "https://sso.leafly.com/.well-known/oauth-authorization-server",
+    "status_code": 403,
+    "error": "HTTP 403"
+  },
+  "oidc": {
+    "uri": "https://sso.leafly.com/.well-known/openid-configuration",
+    "status_code": 403,
+    "error": "HTTP 403"
+  }
+}

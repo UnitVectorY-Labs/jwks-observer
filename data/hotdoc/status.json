@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://www.hotdoc.com.au/oauth/discovery/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://www.hotdoc.com.au/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

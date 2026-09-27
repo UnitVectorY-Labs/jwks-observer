@@ -1,0 +1,52 @@
+{
+  "authorization_endpoint": "https://accounts.globalgiving.org/oidc/authorize",
+  "claims_supported": [
+    "sub",
+    "email",
+    "name",
+    "gg_uuid",
+    "cognito_sub",
+    "legacy_user_id",
+    "iss",
+    "aud",
+    "exp",
+    "iat",
+    "nonce",
+    "at_hash"
+  ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "end_session_endpoint": "https://accounts.globalgiving.org/oidc/end-session",
+  "grant_types_supported": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://accounts.globalgiving.org",
+  "jwks_uri": "https://accounts.globalgiving.org/.well-known/jwks.json",
+  "response_types_supported": [
+    "code"
+  ],
+  "revocation_endpoint": "https://accounts.globalgiving.org/oidc/revoke",
+  "revocation_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "none"
+  ],
+  "scopes_supported": [
+    "openid",
+    "email",
+    "profile",
+    "offline_access"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://accounts.globalgiving.org/oidc/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic"
+  ],
+  "userinfo_endpoint": "https://accounts.globalgiving.org/oidc/userinfo"
+}

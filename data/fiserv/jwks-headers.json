@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "no-cache, no-store",
+  "Content-Security-Policy": "base-uri 'self'; object-src 'self' *.fiservapps.com; frame-ancestors 'self' *.fiservapps.com;",
+  "Content-Type": "application/json",
+  "Server": "istio-envoy",
+  "Strict-Transport-Security": "max-age=31536000"
+}

@@ -1,0 +1,8 @@
+{
+  "Cache-Control": "max-age=[placeholder], must-revalidate",
+  "Content-Security-Policy": "default-src 'self' hubsso-five9-prod-us.okta.com auth.five9.com *.oktacdn.com; connect-src 'self' hubsso-five9-prod-us.okta.com hubsso-five9-prod-us-admin.okta.com auth.five9.com *.oktacdn.com *.mixpanel.com *.mapbox.com hubsso-five9-prod-us.kerberos.okta.com hubsso-five9-prod-us.mtls.okta.com https://oinmanager.okta.com data: *.ingest.sentry.io; script-src 'unsafe-inline' 'nonce-[placeholder]' 'self' 'report-sample' hubsso-five9-prod-us.okta.com auth.five9.com *.oktacdn.com; style-src 'unsafe-inline' 'nonce-[placeholder]' 'self' 'report-sample' hubsso-five9-prod-us.okta.com auth.five9.com *.oktacdn.com; frame-src 'self' hubsso-five9-prod-us.okta.com hubsso-five9-prod-us-admin.okta.com auth.five9.com login.okta.com *.vidyard.com; img-src 'self' hubsso-five9-prod-us.okta.com auth.five9.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com *.vidyard.com data: blob:; font-src 'self' hubsso-five9-prod-us.okta.com auth.five9.com data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'",
+  "Content-Type": "application/json",
+  "Server": "nginx",
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains",
+  "X-Okta-Request-Id": "[present]"
+}

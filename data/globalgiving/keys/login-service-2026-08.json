@@ -1,0 +1,12 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2026-09-27T20:20:30Z",
+  "key_ops": [
+    "verify"
+  ],
+  "kid": "login-service-2026-08",
+  "kty": "RSA",
+  "n": "j5Wr1-kN3KIn6k16Nx_ur8ab4j7zEMY0Hqc1HzQNEwRmkri2xq79S0PjhvN_WecJCp1HUaSZvNbOAMhKGaBHKCivv4nCw-OXsO2NkqNUxf7ckCIW0QJoCFwtrOw3l5nKqkLKi1NTeZ2BCvAZtPvqAWBGGDR8pa8Gq067roZM1qHwQ83T_JOjZWR2zrTJitFPvMg2pehK-tyTXepRJnbjjIS_oXttX2Em2DaOXQelbTzaoCQdf8V57QF8rcaVrcoBkonT-p36nDw6OFwgnDUhQf3EcdePaYSsXCaNVWyWdDe-vR7jMI_COsSkjgbqdEQUhJ5HrQxUXXxtD8IGMKx5-w",
+  "use": "sig"
+}

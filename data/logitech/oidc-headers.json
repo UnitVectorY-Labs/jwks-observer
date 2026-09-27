@@ -1,0 +1,7 @@
+{
+  "Cache-Control": "private, no-cache, no-store, must-revalidate",
+  "Content-Security-Policy": "frame-ancestors 'none';",
+  "Content-Type": "application/json; charset=utf-8",
+  "Server": "nginx",
+  "Strict-Transport-Security": "max-age=63072000; includeSubdomains; preload"
+}

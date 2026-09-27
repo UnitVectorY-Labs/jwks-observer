@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://sso.monoprix.fr/jwks.json",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://sso.monoprix.fr/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

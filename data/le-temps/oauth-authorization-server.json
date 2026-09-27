@@ -1,0 +1,69 @@
+{
+  "authorization_endpoint": "https://www.letemps.ch/authorize",
+  "claim_types_supported": [
+    "normal"
+  ],
+  "claims_supported": [
+    "iss",
+    "sub",
+    "aud",
+    "exp",
+    "iat",
+    "sub",
+    "user_id",
+    "name",
+    "given_name",
+    "first_name",
+    "last_name",
+    "family_name",
+    "feature_access",
+    "user_metadata",
+    "nickname",
+    "created_at",
+    "preferred_username",
+    "email",
+    "email_verified",
+    "locale",
+    "avatar",
+    "updated_at"
+  ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "refresh_token"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://www.letemps.ch/oauth/introspect",
+  "issuer": "https://www.letemps.ch/",
+  "jwks_uri": "https://www.letemps.ch/discovery/keys",
+  "response_modes_supported": [
+    "query",
+    "fragment",
+    "form_post"
+  ],
+  "response_types_supported": [
+    "code"
+  ],
+  "revocation_endpoint": "https://www.letemps.ch/oauth/revoke",
+  "scopes_supported": [
+    "openid",
+    "email",
+    "profile",
+    "offline_access"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://www.letemps.ch/oauth/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://www.letemps.ch/userinfo"
+}

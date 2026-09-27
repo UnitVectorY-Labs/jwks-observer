@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://sso.hbs.edu/idp/profile/oidc/keyset",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://sso.hbs.edu/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

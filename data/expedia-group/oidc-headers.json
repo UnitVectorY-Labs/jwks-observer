@@ -1,0 +1,6 @@
+{
+  "Content-Security-Policy": "frame-ancestors 'self'",
+  "Content-Type": "application/json",
+  "Server": "istio-envoy",
+  "Strict-Transport-Security": "max-age=63072000; includeSubDomains;"
+}

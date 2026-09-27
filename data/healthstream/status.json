@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://sso.healthstream.com/pf/JWKS",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://sso.healthstream.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

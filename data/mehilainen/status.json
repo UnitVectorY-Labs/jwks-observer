@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://sso.mehilainen.fi/pf/JWKS",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://sso.mehilainen.fi/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

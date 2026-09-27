@@ -1,0 +1,8 @@
+{
+  "Cache-Control": "max-age=[placeholder], must-revalidate",
+  "Content-Security-Policy": "default-src 'self' liverampsso.okta.com sso.liveramp.com *.oktacdn.com; connect-src 'self' liverampsso.okta.com liverampsso-admin.okta.com sso.liveramp.com *.oktacdn.com *.mixpanel.com *.mapbox.com liverampsso.kerberos.okta.com liverampsso.mtls.okta.com https://oinmanager.okta.com data: *.ingest.sentry.io; script-src 'unsafe-inline' 'nonce-[placeholder]' 'self' 'report-sample' liverampsso.okta.com sso.liveramp.com *.oktacdn.com; style-src 'unsafe-inline' 'nonce-[placeholder]' 'self' 'report-sample' liverampsso.okta.com sso.liveramp.com *.oktacdn.com; frame-src 'self' liverampsso.okta.com liverampsso-admin.okta.com sso.liveramp.com login.okta.com *.vidyard.com; img-src 'self' liverampsso.okta.com sso.liveramp.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com *.vidyard.com data: blob:; font-src 'self' liverampsso.okta.com sso.liveramp.com data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'",
+  "Content-Type": "application/json",
+  "Server": "nginx",
+  "Strict-Transport-Security": "max-age=315360000; includeSubDomains",
+  "X-Okta-Request-Id": "[present]"
+}

@@ -1,0 +1,63 @@
+{
+  "authorization_endpoint": "https://auth.doximity.com/oauth/authorize",
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "dpop_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "grant_types_supported": [
+    "authorization_code",
+    "refresh_token",
+    "urn:ietf:params:oauth:grant-type:device_code"
+  ],
+  "issuer": "https://auth.doximity.com",
+  "jwks_uri": "https://auth.doximity.com/.well-known/jwks.json",
+  "response_modes_supported": [
+    "query",
+    "fragment"
+  ],
+  "response_types_supported": [
+    "code id_token",
+    "code",
+    "id_token"
+  ],
+  "revocation_endpoint": "https://auth.doximity.com/oauth/revoke",
+  "revocation_endpoint_auth_methods_supported": [
+    "client_secret_basic"
+  ],
+  "scopes_supported": [
+    "activities:read:cards",
+    "activities:read:comments",
+    "activities:read:likes",
+    "activities:write:likes",
+    "amion:mcp:access",
+    "colleagues:read",
+    "colleagues:write",
+    "dialer",
+    "docsgpt:access",
+    "hipaa:identified",
+    "jobs:read",
+    "login_context:inferred",
+    "openid",
+    "profile:read:basic",
+    "profile:read:dialer_phone",
+    "profile:read:email",
+    "profile:read:experience",
+    "profile:read:office",
+    "profile:read:permissions",
+    "profile:read:private_contact",
+    "search",
+    "sessions:linked",
+    "wiki:agent_api:read"
+  ],
+  "service_documentation": "https://www.doximity.com/developers/documentation",
+  "token_endpoint": "https://auth.doximity.com/oauth/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "none"
+  ],
+  "ui_locales_supported": [
+    "en-US"
+  ]
+}

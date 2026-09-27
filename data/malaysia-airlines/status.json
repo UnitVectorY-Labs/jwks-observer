@@ -1,0 +1,14 @@
+{
+  "jwks": {
+    "uri": "https://sso.malaysiaairlines.com/pf/JWKS",
+    "status_code": 200
+  },
+  "oauth_authorization_server": {
+    "uri": "https://sso.malaysiaairlines.com/.well-known/oauth-authorization-server",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://sso.malaysiaairlines.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

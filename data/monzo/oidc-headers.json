@@ -1,0 +1,8 @@
+{
+  "Cache-Control": "max-age=[placeholder], s-maxage=0, stale-if-error=259200, proxy-revalidate",
+  "Content-Security-Policy": "default-src 'none'; base-uri 'none'; script-src 'self' https://internal-api.monzo.com; img-src 'self' https://internal-api.monzo.com data:; style-src 'self' fonts.googleapis.com; font-src 'self' fonts.googleapis.com fonts.gstatic.com; frame-src 'none'; connect-src 'self' api.monzo.com api.s101.nonprod-ffs.io api.tools.s101.nonprod-ffs.io; object-src 'none'; manifest-src 'none'; worker-src 'none'",
+  "Content-Type": "application/json; charset=utf-8",
+  "Server": "cloudflare",
+  "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+  "Via": "1.1 [placeholder].cloudfront.net (CloudFront)"
+}

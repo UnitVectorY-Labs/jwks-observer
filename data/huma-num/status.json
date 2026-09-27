@@ -1,0 +1,12 @@
+{
+  "jwks": {
+    "uri": "https://humanid.huma-num.fr/oauth2/jwks",
+    "status_code": 403,
+    "error": "HTTP 403"
+  },
+  "oidc": {
+    "uri": "https://humanid.huma-num.fr/.well-known/openid-configuration",
+    "status_code": 403,
+    "error": "HTTP 403"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "authorization_endpoint": "https://accounts.lidl.com/connect/authorize",
+  "backchannel_logout_session_supported": true,
+  "backchannel_logout_supported": true,
+  "check_session_iframe": "https://accounts.lidl.com/connect/checksession",
+  "claims_supported": [
+    "name",
+    "family_name",
+    "given_name",
+    "middle_name",
+    "nickname",
+    "preferred_username",
+    "phone_number",
+    "phone_prefix_number",
+    "email_verified",
+    "profile",
+    "picture",
+    "website",
+    "gender",
+    "birthdate",
+    "birthday",
+    "zoneinfo",
+    "locale",
+    "updated_at",
+    "registration_date",
+    "registrationDate",
+    "title",
+    "email",
+    "address_region",
+    "address_city",
+    "address_street",
+    "address_streetadditional",
+    "address_number",
+    "address_zipcode",
+    "address_country",
+    "sub",
+    "role",
+    "salesforce_id",
+    "alcoholic_content"
+  ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "device_authorization_endpoint": "https://accounts.lidl.com/connect/deviceauthorization",
+  "end_session_endpoint": "https://accounts.lidl.com/connect/endsession",
+  "frontchannel_logout_session_supported": true,
+  "frontchannel_logout_supported": true,
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "refresh_token",
+    "urn:ietf:params:oauth:grant-type:device_code"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "introspection_endpoint": "https://accounts.lidl.com/connect/introspect",
+  "issuer": "https://accounts.lidl.com",
+  "jwks_uri": "https://accounts.lidl.com/.well-known/openid-configuration/jwks",
+  "nonce_endpoint": "https://accounts.lidl.com/connect/nonce",
+  "request_parameter_supported": true,
+  "response_modes_supported": [
+    "form_post",
+    "query",
+    "fragment"
+  ],
+  "response_types_supported": [
+    "code",
+    "code id_token",
+    "code token",
+    "code id_token token"
+  ],
+  "revocation_endpoint": "https://accounts.lidl.com/connect/revocation",
+  "scopes_supported": [
+    "profile",
+    "lpprofile",
+    "openid",
+    "samldata",
+    "Lidl.Authentication",
+    "lpapis",
+    "ShopAndGoClient",
+    "monsieurcuisineclient",
+    "mcgacontrol",
+    "MyPoints.Marketplace",
+    "MyPoints.UserPoints",
+    "MyPoints.Campaigns",
+    "create:emspapi",
+    "read:emspapi",
+    "update:emspapi",
+    "read:emspapi_invoices_open",
+    "update:emspapi_invoices_close",
+    "update:emspapi_invoices",
+    "write:emspapi_invoices",
+    "read:emspapi_invoices",
+    "write:emspapi",
+    "ShoppingList",
+    "mcapis",
+    "recipeapis",
+    "offline_access"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://accounts.lidl.com/connect/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "userinfo_endpoint": "https://accounts.lidl.com/connect/userinfo"
+}

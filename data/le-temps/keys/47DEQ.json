@@ -1,0 +1,11 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "exp": "AQAB",
+  "first_observed": "2026-09-27T20:20:30Z",
+  "kid": "47DEQ",
+  "kty": "RSA",
+  "mod": "lD7b2Eu57ygwbzuWIXjJEhkMWYWOJQMruDwK9Sooh0PoMnaF0H6g89EWT1JgI4SkrqtX0QoJR9tTZYZBnjOTHJ7KsMzvUvvWcFM3IUBjhrFxiWUQPqAP4kf03SIm8ovs8r0qve7PPSfyKHcCGrQLFiRzxBub_KH9L-7FoiDdyujR_o_psYyPKnBz500dp2MjP_5W57IHFmhpHhY5HiOzDV9vHhVKcPJSCRNLFyRYd6wSQpvLrQst8i_FgD-9BWgYvlv83cAOQJsjfvFO88vR7BA2xuBTqhGMpjmsA-hZrzEhtsXznt8hVN_i6gwIjE8dO3HCy04fekJ6v2_zZQ8eHQ",
+  "n": "lD7b2Eu57ygwbzuWIXjJEhkMWYWOJQMruDwK9Sooh0PoMnaF0H6g89EWT1JgI4SkrqtX0QoJR9tTZYZBnjOTHJ7KsMzvUvvWcFM3IUBjhrFxiWUQPqAP4kf03SIm8ovs8r0qve7PPSfyKHcCGrQLFiRzxBub_KH9L-7FoiDdyujR_o_psYyPKnBz500dp2MjP_5W57IHFmhpHhY5HiOzDV9vHhVKcPJSCRNLFyRYd6wSQpvLrQst8i_FgD-9BWgYvlv83cAOQJsjfvFO88vR7BA2xuBTqhGMpjmsA-hZrzEhtsXznt8hVN_i6gwIjE8dO3HCy04fekJ6v2_zZQ8eHQ",
+  "use": "sig"
+}

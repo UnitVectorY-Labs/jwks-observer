@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://www.golfgenius.com/oauth/discovery/keys",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://www.golfgenius.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

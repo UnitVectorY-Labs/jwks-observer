@@ -1,0 +1,40 @@
+{
+  "authorization_endpoint": "https://accounts.expediagroup.com/oidc/authorize",
+  "client_id_metadata_document_supported": true,
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "refresh_token"
+  ],
+  "issuer": "https://accounts.expediagroup.com",
+  "jwks_uri": "https://accounts.expediagroup.com/.well-known/jwks.json",
+  "refresh_token_expiration_types_supported": [
+    "authorization",
+    "token_timeout"
+  ],
+  "response_modes_supported": [
+    "query"
+  ],
+  "response_types_supported": [
+    "code"
+  ],
+  "revocation_endpoint": "https://accounts.expediagroup.com/oidc/revoke",
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email",
+    "address",
+    "phone",
+    "groups",
+    "offline_access"
+  ],
+  "token_endpoint": "https://accounts.expediagroup.com/oidc/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post",
+    "none"
+  ]
+}

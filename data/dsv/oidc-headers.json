@@ -1,0 +1,6 @@
+{
+  "Cache-Control": "no-cache, no-store",
+  "Content-Security-Policy": "default-src 'self'; script-src 'unsafe-inline' 'unsafe-eval' 'self'; style-src 'unsafe-inline' 'self' https://apps.pingone.com; base-uri 'self'; img-src 'self' data:; frame-ancestors 'self'; frame-src 'self' https://apps.pingone.com;",
+  "Content-Type": "application/json",
+  "Strict-Transport-Security": "max-age=31536000"
+}

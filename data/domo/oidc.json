@@ -1,0 +1,132 @@
+{
+  "authorization_endpoint": "https://accounts.domo.com/oauth2/authorize",
+  "claims_supported": [
+    "sub",
+    "iss",
+    "aud",
+    "exp",
+    "iat",
+    "auth_time",
+    "nonce",
+    "email"
+  ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "dpop_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "PS256",
+    "PS384",
+    "PS512",
+    "ES256",
+    "ES384",
+    "ES512"
+  ],
+  "end_session_endpoint": "https://accounts.domo.com/connect/logout",
+  "grant_types_supported": [
+    "authorization_code",
+    "client_credentials",
+    "refresh_token"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "ES256"
+  ],
+  "introspection_endpoint": "https://accounts.domo.com/oauth2/introspect",
+  "introspection_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post",
+    "client_secret_jwt",
+    "private_key_jwt",
+    "tls_client_auth",
+    "self_signed_tls_client_auth"
+  ],
+  "issuer": "https://accounts.domo.com",
+  "jwks_uri": "https://accounts.domo.com/oauth2/jwks",
+  "registration_endpoint": "https://accounts.domo.com/oauth2/register",
+  "resource_indicators_supported": true,
+  "response_types_supported": [
+    "code"
+  ],
+  "revocation_endpoint": "https://accounts.domo.com/oauth2/revoke",
+  "revocation_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post",
+    "none"
+  ],
+  "scopes_supported": [
+    "identity:read",
+    "identity:write",
+    "instance:read",
+    "instance:write",
+    "content:meta:read",
+    "content:meta:write",
+    "content:data:read",
+    "content:share",
+    "dataset:meta:read",
+    "dataset:meta:write",
+    "dataset:data:read",
+    "dataset:data:write",
+    "dataset:share",
+    "accounts:read",
+    "accounts:write",
+    "accounts:share",
+    "integrations:read",
+    "integrations:write",
+    "integrations:share",
+    "dataflow:read",
+    "dataflow:write",
+    "dataflow:execute",
+    "dataflow:share",
+    "apps:meta:read",
+    "apps:meta:write",
+    "apps:data:read",
+    "apps:data:write",
+    "apps:share",
+    "catalog:read",
+    "catalog:write",
+    "workflows:read",
+    "workflows:write",
+    "workflows:share",
+    "publish:read",
+    "publish:write",
+    "search:read",
+    "datascience:read",
+    "datascience:write",
+    "datascience:execute",
+    "datascience:share",
+    "codeengine:read",
+    "codeengine:write",
+    "codeengine:execute",
+    "codeengine:share",
+    "versions:read",
+    "versions:write",
+    "workbench:read",
+    "workbench:write",
+    "usage:read",
+    "usage:write",
+    "files:meta:read",
+    "files:meta:write",
+    "files:data:read",
+    "files:data:write",
+    "files:share",
+    "ai:read",
+    "ai:write",
+    "ai:execute",
+    "openid",
+    "profile",
+    "email"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "tls_client_certificate_bound_access_tokens": true,
+  "token_endpoint": "https://accounts.domo.com/oauth2/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post",
+    "none"
+  ],
+  "userinfo_endpoint": "https://accounts.domo.com/oauth2/userinfo"
+}

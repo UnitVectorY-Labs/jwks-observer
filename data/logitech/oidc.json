@@ -1,0 +1,61 @@
+{
+  "authorization_endpoint": "https://accounts.logi.com/identity/oauth2/authorize",
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "end_session_endpoint": "https://accounts.logi.com/identity/signout",
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://accounts.logi.com",
+  "jwks_uri": "https://accounts.logi.com/identity/keys",
+  "response_types_supported": [
+    "code"
+  ],
+  "revocation_endpoint": "https://accounts.logi.com/identity/oauth2/revoke",
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint": "https://accounts.logi.com/identity/oauth2/token",
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "none"
+  ],
+  "token_endpoint_auth_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "ui_locales_supported": [
+    "ar",
+    "cs",
+    "da",
+    "de",
+    "en",
+    "el",
+    "es",
+    "fi",
+    "fr",
+    "hu",
+    "id",
+    "it",
+    "ja",
+    "ko",
+    "nl",
+    "no",
+    "pl",
+    "pt",
+    "ru",
+    "sv",
+    "th",
+    "tr",
+    "vi",
+    "zh-CN",
+    "zh-HK",
+    "zh-TW"
+  ],
+  "userinfo_endpoint": "https://accounts.logi.com/identity/userinfo"
+}

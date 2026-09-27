@@ -1,0 +1,9 @@
+{
+  "alg": "ED25519",
+  "crv": "Ed25519",
+  "first_observed": "2026-09-27T20:20:30Z",
+  "kid": "0",
+  "kty": "OKP",
+  "use": "sig",
+  "x": "au_wAFEMRG2PMqBDQuXosghnbe_Bq-iGTeNnR1Gl6RM"
+}
