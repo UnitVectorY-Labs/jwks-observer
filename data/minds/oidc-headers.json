@@ -1,0 +1,6 @@
+{
+  "Content-Security-Policy": "default-src 'self' www.minds.com;script-src blob: data: 'self' 'nonce-[placeholder]' www.minds.com;style-src www.minds.com data: 'self' 'unsafe-inline';frame-src *;connect-src data: 'self' www.minds.com *.cloudflarestream.com;block-all-mixed-content; upgrade-insecure-requests;",
+  "Content-Type": "application/json",
+  "Server": "cloudflare",
+  "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload"
+}

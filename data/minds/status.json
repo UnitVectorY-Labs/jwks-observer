@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://www.minds.com/api/v3/oauth/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://www.minds.com/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

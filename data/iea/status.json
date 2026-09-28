@@ -1,0 +1,10 @@
+{
+  "jwks": {
+    "uri": "https://www.iea.org/jwks",
+    "status_code": 200
+  },
+  "oidc": {
+    "uri": "https://www.iea.org/.well-known/openid-configuration",
+    "status_code": 200
+  }
+}

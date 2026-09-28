@@ -219,16 +219,16 @@
     "messenger_code"
   ],
   "scopes_supported": [
-    "email",
-    "events",
-    "mfa",
-    "phone",
     "profile",
-    "address",
+    "phone",
     "session",
-    "full_write",
+    "events",
     "offline_access",
-    "openid"
+    "full_write",
+    "openid",
+    "email",
+    "mfa",
+    "address"
   ],
   "service_documentation": "https://developer.reachfive.com/",
   "subject_types_supported": [

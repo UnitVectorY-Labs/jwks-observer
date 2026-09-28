@@ -8,9 +8,9 @@
     "ES256"
   ],
   "grant_types_supported": [
-    "client_credentials",
     "urn:ietf:params:oauth:grant-type:jwt-bearer",
     "refresh_token",
+    "client_credentials",
     "authorization_code"
   ],
   "issuer": "https://accounts.spotify.com",
