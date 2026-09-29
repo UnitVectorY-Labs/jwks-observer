@@ -1,0 +1,9 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2026-09-29T11:13:15Z",
+  "kid": "AcEE4GN96LN5cY4HI9DpxlvJgGU_RS256",
+  "kty": "RSA",
+  "n": "o3xfQTLvzxopT2LXKLKIHkmV3DxH0np9-lulNH1qiZCk0UoRRECA0QPyAeEuZ8ZkZeCRZsGtGC0ArNc2R8fiGnV3PHoC-ywI_xo49e-pwNw1Oe2ZFnRNtkyg5oPjzKNmbHeekB--4yXoKDWsuVuf34bhPaqSwI1H-c5Lw4OUB6qJHubkoDQT4SlSjJ4iGMbAE_a44a9TtTJ2MgzspZvq0TbuxH7zlVwN8pF2eHb8EHjUm2ZmXdAn1kAQVmf_otvtCzdFazgSUATmPS_gpgaeJLHFQIyNk6F9P_7zjccTN4r12_TB_t3nxeUCxKqjSm2R4qXXPnBRz7roHvPETuag6Q",
+  "use": "sig"
+}

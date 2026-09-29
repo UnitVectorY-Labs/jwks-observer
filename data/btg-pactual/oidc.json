@@ -95,7 +95,8 @@
     "empresas.btgpactual.com/splitters/delete",
     "empresas.btgpactual.com/card/change-pin",
     "empresas.btgpactual.com/btgpay/hire-pos",
-    "empresas.btgpactual.com/btgpaycard-checkout/order/create-manual"
+    "empresas.btgpactual.com/btgpaycard-checkout/order/create-manual",
+    "ccm.btgpactual.com/pixrecpayer/updaterecurrency"
   ],
   "authorization_encryption_alg_values_supported": [
     "RSA1_5",

@@ -102,6 +102,8 @@
     "elements.t2.license.read.all",
     "elements.t2.license.readwrite.all",
     "raku.workflow.graph.readwrite.all",
+    "elements.report.read.all",
+    "elements.t2.report.read.all",
     "offline_access"
   ],
   "subject_types_supported": [
