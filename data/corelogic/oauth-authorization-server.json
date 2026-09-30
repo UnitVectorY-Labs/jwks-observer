@@ -191,6 +191,7 @@
   "scopes_supported": [
     "read",
     "openid",
+    "offline_access",
     "profile",
     "groups",
     "openidhtml",

@@ -10,7 +10,6 @@
   "backchannel_user_code_parameter_supported": true,
   "check_session_iframe": "https://login.cdw.com/connect/checksession",
   "claims_supported": [
-    "sub",
     "name",
     "family_name",
     "given_name",
@@ -24,7 +23,8 @@
     "birthdate",
     "zoneinfo",
     "locale",
-    "updated_at"
+    "updated_at",
+    "sub"
   ],
   "code_challenge_methods_supported": [
     "plain",
@@ -79,12 +79,12 @@
   ],
   "revocation_endpoint": "https://login.cdw.com/connect/revocation",
   "scopes_supported": [
-    "openid",
     "profile",
+    "openid",
     "email",
     "mobile.public.write",
-    "mobile.private.write",
     "mobile.native.read",
+    "mobile.private.write",
     "mobile.public.read",
     "mobile.native.write",
     "mobile.private.read",

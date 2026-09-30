@@ -76,6 +76,9 @@
   "issuer": "https://account.matrix.org/",
   "jwks_uri": "https://account.matrix.org/oauth2/keys.json",
   "org.matrix.matrix-authentication-service.graphql_endpoint": "https://account.matrix.org/graphql",
+  "org.matrix.msc4198.login_hint_types_supported": [
+    "mxid"
+  ],
   "prompt_values_supported": [
     "login",
     "create"

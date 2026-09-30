@@ -96,7 +96,8 @@
     "empresas.btgpactual.com/card/change-pin",
     "empresas.btgpactual.com/btgpay/hire-pos",
     "empresas.btgpactual.com/btgpaycard-checkout/order/create-manual",
-    "ccm.btgpactual.com/pixrecpayer/updaterecurrency"
+    "ccm.btgpactual.com/pixrecpayer/updaterecurrency",
+    "empresas.btgpactual.com/card/edit-controls"
   ],
   "authorization_encryption_alg_values_supported": [
     "RSA1_5",
