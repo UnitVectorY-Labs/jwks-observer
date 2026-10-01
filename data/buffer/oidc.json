@@ -56,6 +56,8 @@
     "insights:read",
     "engagements:read",
     "engagements:write",
+    "snippets:read",
+    "snippets:write",
     "openid"
   ],
   "subject_types_supported": [

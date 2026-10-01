@@ -1,5 +1,5 @@
 {
-  "Content-Security-Policy": "default-src 'self'; script-src 'strict-dynamic' 'report-sample' 'nonce-auth-api-5Vaxb9oupCW+B7zlGijr6Hol9ps' 'self' https://f.doximity.com https://www.google.com https://www.gstatic.com https://www.googletagmanager.com https://*.edge.sdk.awswaf.com; style-src 'self' 'unsafe-inline' 'unsafe-eval' https:; object-src 'none'; base-uri 'self'; font-src 'self' https:; frame-src 'self' https:; img-src 'self' data: https:; manifest-src 'self'; media-src 'self'; worker-src 'none'; connect-src 'self' https:; frame-ancestors 'self' https:",
+  "Content-Security-Policy": "default-src 'self'; script-src 'strict-dynamic' 'report-sample' 'nonce-[placeholder]' 'self' https://f.doximity.com https://www.google.com https://www.gstatic.com https://www.googletagmanager.com https://*.edge.sdk.awswaf.com; style-src 'self' 'unsafe-inline' 'unsafe-eval' https:; object-src 'none'; base-uri 'self'; font-src 'self' https:; frame-src 'self' https:; img-src 'self' data: https:; manifest-src 'self'; media-src 'self'; worker-src 'none'; connect-src 'self' https:; frame-ancestors 'self' https:",
   "Content-Type": "application/json; encoding=utf8",
   "Strict-Transport-Security": "max-age=315360000000000000",
   "Via": "1.1 [placeholder].cloudfront.net (CloudFront)"

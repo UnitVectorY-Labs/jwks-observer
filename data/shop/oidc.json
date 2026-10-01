@@ -22,6 +22,7 @@
     "avatar",
     "analytics_trace_id"
   ],
+  "client_id_metadata_document_supported": true,
   "code_challenge_methods_supported": [
     "S256"
   ],
@@ -91,7 +92,8 @@
   "token_endpoint": "https://accounts.shop.app/oauth/token",
   "token_endpoint_auth_methods_supported": [
     "client_secret_basic",
-    "client_secret_post"
+    "client_secret_post",
+    "none"
   ],
   "userinfo_endpoint": "https://accounts.shop.app/oauth/userinfo"
 }
