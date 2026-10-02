@@ -1,5 +1,6 @@
 {
   "authorization_endpoint": "https://www.openstreetmap.org/oauth2/authorize",
+  "authorization_response_iss_parameter_supported": false,
   "claim_types_supported": [
     "normal"
   ],
