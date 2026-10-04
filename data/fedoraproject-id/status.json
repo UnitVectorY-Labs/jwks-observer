@@ -5,6 +5,7 @@
   },
   "oidc": {
     "uri": "https://id.fedoraproject.org/openidc/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://id.fedoraproject.org/openidc/.well-known/openid-configuration\": read tcp 10.244.0.239:43188-\u003e38.145.32.21:443: read: connection reset by peer"
   }
 }
