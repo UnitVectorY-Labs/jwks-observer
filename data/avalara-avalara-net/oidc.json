@@ -133,6 +133,7 @@
     "portal",
     "webhook:create",
     "property-tax-total",
+    "crr-mcp-rfs",
     "webhook.event:publish",
     "sync_validation",
     "hscodeapps",

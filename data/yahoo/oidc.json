@@ -20,6 +20,9 @@
     "sub",
     "auth_time"
   ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
   "display_values_supported": [
     "page"
   ],

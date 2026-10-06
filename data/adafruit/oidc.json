@@ -1,5 +1,7 @@
 {
   "authorization_endpoint": "https://accounts.adafruit.com/oauth/authorize",
+  "backchannel_logout_session_supported": true,
+  "backchannel_logout_supported": true,
   "claim_types_supported": [
     "normal"
   ],
@@ -9,6 +11,7 @@
     "aud",
     "exp",
     "iat",
+    "sid",
     "preferred_username",
     "given_name",
     "family_name",
