@@ -79,7 +79,9 @@
     "payouts.read",
     "readers.read",
     "readers.write",
-    "sales.read"
+    "sales.read",
+    "subscriptions.read",
+    "subscriptions.write"
   ],
   "service_documentation": "https://developer.sumup.com/tools/authorization/oauth",
   "subject_types_supported": [

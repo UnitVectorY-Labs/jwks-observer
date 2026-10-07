@@ -51,7 +51,11 @@
     "urn:okta:params:oauth:grant-type:otp",
     "http://auth0.com/oauth/grant-type/mfa-otp",
     "urn:okta:params:oauth:grant-type:oob",
-    "http://auth0.com/oauth/grant-type/mfa-oob"
+    "http://auth0.com/oauth/grant-type/mfa-oob",
+    "urn:ietf:params:oauth:grant-type:token-exchange"
+  ],
+  "identity_chaining_requested_token_types_supported": [
+    "urn:ietf:params:oauth:token-type:id-jag"
   ],
   "introspection_endpoint": "https://login.vice.com/oauth2/v1/introspect",
   "introspection_endpoint_auth_methods_supported": [

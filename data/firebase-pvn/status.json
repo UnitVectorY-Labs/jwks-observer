@@ -1,6 +1,7 @@
 {
   "jwks": {
     "uri": "https://fpnv.googleapis.com/v1beta/jwks",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://fpnv.googleapis.com/v1beta/jwks\": net/http: TLS handshake timeout"
   }
 }

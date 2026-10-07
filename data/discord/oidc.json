@@ -1,5 +1,6 @@
 {
   "authorization_endpoint": "https://discord.com/api/oauth2/authorize",
+  "authorization_response_iss_parameter_supported": true,
   "code_challenge_methods_supported": [
     "S256"
   ],

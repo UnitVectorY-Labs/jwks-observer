@@ -53,7 +53,9 @@
   "introspection_endpoint": "https://accounts.sap.com/oauth2/introspect",
   "issuer": "https://accounts.sap.com",
   "jwks_uri": "https://accounts.sap.com/oauth2/certs",
+  "pushed_authorization_request_endpoint": "https://accounts.sap.com/oauth2/par",
   "registration_endpoint": "https://accounts.sap.com/oauth2/register",
+  "require_pushed_authorization_requests": false,
   "response_types_supported": [
     "code",
     "id_token",
