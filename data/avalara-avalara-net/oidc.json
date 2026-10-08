@@ -120,6 +120,7 @@
     "cross-border-quoting",
     "johnny",
     "provisioning_agent",
+    "vrun.activations.read",
     "a1099-api",
     "elr.audit.publish",
     "content-studio-compliance:write",
@@ -137,6 +138,7 @@
     "crr-mcp-rfs",
     "webhook.event:publish",
     "sync_validation",
+    "vrun.activations.write",
     "hscodeapps",
     "avi",
     "offline_access"

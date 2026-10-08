@@ -1,7 +1,8 @@
 {
   "jwks": {
     "uri": "https://auth.bluecore.com/.well-known/jwks.json",
-    "status_code": 200
+    "status_code": 429,
+    "error": "HTTP 429"
   },
   "oauth_authorization_server": {
     "uri": "https://auth.bluecore.com/.well-known/oauth-authorization-server",

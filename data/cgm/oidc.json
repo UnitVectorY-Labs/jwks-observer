@@ -101,10 +101,10 @@
   "issuer": "https://id.cgm.com",
   "jwks_uri": "https://id.cgm.com/jwks.json",
   "prompt_values_supported": [
-    "none",
+    "consent",
     "login",
     "select_account",
-    "consent",
+    "none",
     "create"
   ],
   "pushed_authorization_request_endpoint": "https://id.cgm.com/par",

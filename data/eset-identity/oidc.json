@@ -203,6 +203,7 @@
     "product_protection.protection_activities.write",
     "protection_entitlement.protection_entitlements.read",
     "protection_entitlement.protection_entitlements.write",
+    "ids_api.login",
     "offline_access"
   ],
   "subject_types_supported": [

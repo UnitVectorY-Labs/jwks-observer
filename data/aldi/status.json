@@ -1,7 +1,8 @@
 {
   "jwks": {
     "uri": "https://account.aldi.us/id/keys",
-    "status_code": 200
+    "status_code": 404,
+    "error": "HTTP 404"
   },
   "oidc": {
     "uri": "https://account.aldi.us/.well-known/openid-configuration",

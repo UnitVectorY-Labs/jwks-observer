@@ -13,7 +13,7 @@
   "issuer": "https://auth.descript.com",
   "jwks_uri": "https://auth.descript.com/.well-known/jwks.json",
   "registration_endpoint": "https://auth.descript.com/v1/oauth2/register",
-  "request_id": "request-id-live-0aed593e-b8ec-41bf-9476-750d5af30008",
+  "request_id": "request-id-live-6c2e0fd1-4b73-4a6e-aeca-5a98964d9297",
   "response_types_supported": [
     "code",
     "code token"
