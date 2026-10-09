@@ -151,6 +151,7 @@
     "fastmarkets.articletransformation.api",
     "claudeai",
     "fastmarkets.exchangerates.api",
+    "fastmarkets.aimediator.api",
     "offline_access"
   ],
   "subject_types_supported": [

@@ -40,8 +40,7 @@
     "RS512",
     "ES256",
     "ES384",
-    "ES512",
-    "EdDSA"
+    "ES512"
   ],
   "end_session_endpoint": "https://login.3dsystems.com/services/auth/idp/oidc/logout",
   "frontchannel_logout_session_supported": false,

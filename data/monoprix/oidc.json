@@ -220,15 +220,15 @@
   ],
   "scopes_supported": [
     "offline_access",
-    "session",
     "email",
+    "profile",
     "openid",
     "phone",
-    "address",
     "events",
+    "session",
     "mfa",
-    "full_write",
-    "profile"
+    "address",
+    "full_write"
   ],
   "service_documentation": "https://developer.reachfive.com/",
   "subject_types_supported": [

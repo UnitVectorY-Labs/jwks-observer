@@ -174,15 +174,15 @@
   ],
   "scopes_supported": [
     "mfa",
-    "full_write",
-    "email",
-    "openid",
-    "phone",
     "events",
-    "address",
+    "phone",
     "session",
     "profile",
-    "offline_access"
+    "offline_access",
+    "email",
+    "full_write",
+    "address",
+    "openid"
   ],
   "service_documentation": "https://developer.reachfive.com/",
   "subject_types_supported": [
