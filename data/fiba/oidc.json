@@ -173,16 +173,16 @@
     "messenger_code"
   ],
   "scopes_supported": [
-    "mfa",
-    "events",
+    "profile",
     "phone",
     "session",
-    "profile",
     "offline_access",
     "email",
-    "full_write",
+    "openid",
     "address",
-    "openid"
+    "full_write",
+    "events",
+    "mfa"
   ],
   "service_documentation": "https://developer.reachfive.com/",
   "subject_types_supported": [

@@ -2,11 +2,11 @@
   "jwks": {
     "uri": "https://sso.arubanetworks.com/pf/JWKS",
     "status_code": 0,
-    "error": "Get \"https://sso.arubanetworks.com/pf/JWKS\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "error": "Get \"https://sso.arubanetworks.com/pf/JWKS\": tls: failed to verify certificate: x509: certificate is valid for d.liadm.com, not sso.arubanetworks.com"
   },
   "oidc": {
     "uri": "https://sso.arubanetworks.com/.well-known/openid-configuration",
     "status_code": 0,
-    "error": "Get \"https://sso.arubanetworks.com/.well-known/openid-configuration\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+    "error": "Get \"https://sso.arubanetworks.com/.well-known/openid-configuration\": tls: failed to verify certificate: x509: certificate is valid for d.liadm.com, not sso.arubanetworks.com"
   }
 }
