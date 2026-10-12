@@ -1,6 +1,6 @@
 {
   "Cache-Control": "private, no-store",
-  "Content-Security-Policy": "frame-ancestors 'none'; report-uri /csp-report?source%5Baction%5D=provider\u0026source%5Bapp%5D=Shopify\u0026source%5Bcontroller%5D=access_and_auth%2Fcustomer_authentication_provider%2Fdiscovery\u0026source%5Bsection%5D=customer_authentication_provider\u0026source%5Buuid%5D=71162e17-9b0a-4380-9428-62533b2c369d-1791717586; report-to shopify-csp",
+  "Content-Security-Policy": "frame-ancestors 'none'; report-uri /csp-report?source%5Baction%5D=provider\u0026source%5Bapp%5D=Shopify\u0026source%5Bcontroller%5D=access_and_auth%2Fcustomer_authentication_provider%2Fdiscovery\u0026source%5Bsection%5D=customer_authentication_provider\u0026source%5Buuid%5D=f83fa837-49be-42e7-903e-20971a7d6f76-1791809703; report-to shopify-csp",
   "Content-Type": "application/json; charset=utf-8",
   "Server": "cloudflare",
   "Strict-Transport-Security": "max-age=7889238"

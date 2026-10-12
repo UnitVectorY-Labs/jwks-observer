@@ -124,6 +124,7 @@
     "slack.delivery:read",
     "vrun.activations.read",
     "a1099-api",
+    "amp-kcs-salesforce:write",
     "elr.audit.publish",
     "content-studio-compliance:write",
     "avaprocure_monolith_api",
