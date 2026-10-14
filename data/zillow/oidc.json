@@ -46,7 +46,8 @@
     "offline_access"
   ],
   "subject_types_supported": [
-    "public"
+    "public",
+    "pairwise"
   ],
   "token_endpoint": "https://auth.zillow.com/oauth2/token",
   "token_endpoint_auth_methods_supported": [

@@ -14,6 +14,9 @@
     "sub",
     "updated_at"
   ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
   "id_token_signing_alg_values_supported": [
     "RS256"
   ],

@@ -1,7 +1,8 @@
 {
   "jwks": {
     "uri": "https://api.account.samsung.com/v1/oidc/certs",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://api.account.samsung.com/v1/oidc/certs\": net/http: TLS handshake timeout"
   },
   "oidc": {
     "uri": "https://account.samsung.com/.well-known/openid-configuration",
