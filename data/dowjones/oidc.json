@@ -30,6 +30,7 @@
   ],
   "issuer": "https://sso.accounts.dowjones.com/",
   "jwks_uri": "https://sso.accounts.dowjones.com/.well-known/jwks.json",
+  "pushed_authorization_request_endpoint": "https://sso.accounts.dowjones.com/oauth/par",
   "registration_endpoint": "https://sso.accounts.dowjones.com/register",
   "response_types_supported": [
     "code",

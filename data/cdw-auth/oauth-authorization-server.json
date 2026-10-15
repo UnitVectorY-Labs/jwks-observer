@@ -63,7 +63,6 @@
   "issuer": "https://auth.cdw.com/",
   "jwks_uri": "https://auth.cdw.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.cdw.com/mfa/challenge",
-  "registration_endpoint": "https://auth.cdw.com/oidc/register",
   "request_object_signing_alg_values_supported": [
     "RS256",
     "RS384",

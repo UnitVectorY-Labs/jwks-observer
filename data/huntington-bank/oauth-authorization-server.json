@@ -61,7 +61,6 @@
   "issuer": "https://login.huntington.org/",
   "jwks_uri": "https://login.huntington.org/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://login.huntington.org/mfa/challenge",
-  "registration_endpoint": "https://login.huntington.org/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

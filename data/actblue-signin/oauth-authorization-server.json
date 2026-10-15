@@ -63,7 +63,6 @@
   "issuer": "https://signin.actblue.com/",
   "jwks_uri": "https://signin.actblue.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://signin.actblue.com/mfa/challenge",
-  "registration_endpoint": "https://signin.actblue.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

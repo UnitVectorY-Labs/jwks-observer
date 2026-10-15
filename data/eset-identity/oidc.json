@@ -204,6 +204,7 @@
     "protection_entitlement.protection_entitlements.read",
     "protection_entitlement.protection_entitlements.write",
     "ids_api.login",
+    "eecs_api",
     "offline_access"
   ],
   "subject_types_supported": [

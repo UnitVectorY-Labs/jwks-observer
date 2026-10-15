@@ -64,7 +64,6 @@
   "jwks_uri": "https://auth.carwow.co.uk/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.carwow.co.uk/mfa/challenge",
   "pushed_authorization_request_endpoint": "https://auth.carwow.co.uk/oauth/par",
-  "registration_endpoint": "https://auth.carwow.co.uk/oidc/register",
   "request_object_signing_alg_values_supported": [
     "RS256",
     "RS384",

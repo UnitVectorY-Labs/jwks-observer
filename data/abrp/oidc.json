@@ -4,6 +4,7 @@
   "claims_supported": [
     "act",
     "aud",
+    "client_id",
     "email",
     "email_verified",
     "exp",
@@ -43,10 +44,37 @@
     "code"
   ],
   "scopes_supported": [
+    "acct:read",
+    "acct:security",
+    "acct:write",
+    "admin",
+    "billing",
+    "chargers:write",
+    "creds:write",
+    "devices:write",
     "email",
+    "integ:write",
+    "kiosk:read",
     "offline_access",
     "oidc",
-    "profile"
+    "openid",
+    "plans:read",
+    "plans:write",
+    "profile",
+    "session:act",
+    "session:delegate",
+    "settings:read",
+    "settings:write",
+    "sharing:read",
+    "sharing:write",
+    "tlm:delete",
+    "tlm:read",
+    "tlm:write",
+    "usage:read",
+    "veh:command",
+    "veh:delete",
+    "veh:read",
+    "veh:write"
   ],
   "subject_types_supported": [
     "public"

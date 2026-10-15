@@ -71,6 +71,7 @@
     "pay:wallet:read",
     "pay:wallet:payment_request:approve",
     "personal_agent:orders",
+    "aap:represent",
     "email",
     "email:verified",
     "favorites",

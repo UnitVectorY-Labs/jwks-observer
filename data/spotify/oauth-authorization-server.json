@@ -8,8 +8,8 @@
     "ES256"
   ],
   "grant_types_supported": [
-    "authorization_code",
     "refresh_token",
+    "authorization_code",
     "client_credentials",
     "urn:ietf:params:oauth:grant-type:jwt-bearer"
   ],

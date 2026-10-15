@@ -115,6 +115,7 @@
     "connectorlogger",
     "content-studio-sourcing:write",
     "embed_mint",
+    "compliance-insights:read",
     "elr.mandates.soaptransportservice",
     "webhook:admin",
     "ecm_ms_validation_api",
