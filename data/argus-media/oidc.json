@@ -63,7 +63,6 @@
   "issuer": "https://auth.argusmedia.com/",
   "jwks_uri": "https://auth.argusmedia.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.argusmedia.com/mfa/challenge",
-  "registration_endpoint": "https://auth.argusmedia.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

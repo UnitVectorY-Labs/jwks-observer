@@ -64,7 +64,6 @@
   "issuer": "https://id.awin.com/",
   "jwks_uri": "https://id.awin.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://id.awin.com/mfa/challenge",
-  "registration_endpoint": "https://id.awin.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

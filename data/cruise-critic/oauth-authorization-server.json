@@ -62,7 +62,6 @@
   "issuer": "https://auth.cruisecritic.com/",
   "jwks_uri": "https://auth.cruisecritic.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.cruisecritic.com/mfa/challenge",
-  "registration_endpoint": "https://auth.cruisecritic.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

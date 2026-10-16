@@ -24,6 +24,9 @@
     "A256GCM"
   ],
   "authorization_endpoint": "https://sso.burberry.com/as/authorization.oauth2",
+  "authorization_grant_profiles_supported": [
+    "urn:ietf:params:oauth:grant-profile:id-jag"
+  ],
   "authorization_response_iss_parameter_supported": false,
   "authorization_signing_alg_values_supported": [
     "HS256",
@@ -56,6 +59,7 @@
     "ping"
   ],
   "backchannel_user_code_parameter_supported": false,
+  "client_id_metadata_document_supported": false,
   "code_challenge_methods_supported": [
     "plain",
     "S256"
@@ -85,6 +89,9 @@
     "urn:ietf:params:oauth:grant-type:device_code",
     "urn:ietf:params:oauth:grant-type:token-exchange",
     "urn:openid:params:grant-type:ciba"
+  ],
+  "identity_chaining_requested_token_types_supported": [
+    "urn:ietf:params:oauth:token-type:id-jag"
   ],
   "introspection_encryption_alg_values_supported": [
     "dir",
@@ -188,6 +195,7 @@
     "code",
     "token",
     "id_token",
+    "none",
     "code token",
     "code id_token",
     "token id_token",

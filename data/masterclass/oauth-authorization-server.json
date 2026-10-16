@@ -62,7 +62,6 @@
   "issuer": "https://auth.masterclass.com/",
   "jwks_uri": "https://auth.masterclass.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.masterclass.com/mfa/challenge",
-  "registration_endpoint": "https://auth.masterclass.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

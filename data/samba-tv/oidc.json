@@ -62,7 +62,6 @@
   "issuer": "https://auth.samba.tv/",
   "jwks_uri": "https://auth.samba.tv/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.samba.tv/mfa/challenge",
-  "registration_endpoint": "https://auth.samba.tv/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

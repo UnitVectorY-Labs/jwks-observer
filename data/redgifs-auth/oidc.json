@@ -62,7 +62,6 @@
   "issuer": "https://auth.redgifs.com/",
   "jwks_uri": "https://auth.redgifs.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.redgifs.com/mfa/challenge",
-  "registration_endpoint": "https://auth.redgifs.com/oidc/register",
   "request_object_signing_alg_values_supported": [
     "RS256",
     "RS384",

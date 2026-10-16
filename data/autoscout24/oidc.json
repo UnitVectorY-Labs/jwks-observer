@@ -64,7 +64,6 @@
   "issuer": "https://auth.autoscout24.ch/",
   "jwks_uri": "https://auth.autoscout24.ch/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.autoscout24.ch/mfa/challenge",
-  "registration_endpoint": "https://auth.autoscout24.ch/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

@@ -7,6 +7,9 @@
     "client_credentials",
     "urn:ietf:params:oauth:grant-type:token-exchange"
   ],
+  "identity_chaining_requested_token_types_supported": [
+    "urn:ietf:params:oauth:token-type:id-jag"
+  ],
   "issuer": "https://auth.zillow.com/",
   "jwks_uri": "https://auth.zillow.com/.well-known/jwks.json",
   "pushed_authorization_request_endpoint": "https://auth.zillow.com/oauth2/par",

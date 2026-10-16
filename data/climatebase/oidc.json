@@ -60,7 +60,6 @@
   "issuer": "https://auth.climatebase.org/",
   "jwks_uri": "https://auth.climatebase.org/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.climatebase.org/mfa/challenge",
-  "registration_endpoint": "https://auth.climatebase.org/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

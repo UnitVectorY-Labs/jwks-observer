@@ -63,7 +63,6 @@
   "issuer": "https://id.correos.es/",
   "jwks_uri": "https://id.correos.es/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://id.correos.es/mfa/challenge",
-  "registration_endpoint": "https://id.correos.es/oidc/register",
   "request_object_signing_alg_values_supported": [
     "RS256",
     "RS384",

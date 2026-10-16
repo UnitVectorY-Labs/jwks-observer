@@ -62,7 +62,6 @@
   "issuer": "https://auth.artlist.io/",
   "jwks_uri": "https://auth.artlist.io/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.artlist.io/mfa/challenge",
-  "registration_endpoint": "https://auth.artlist.io/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

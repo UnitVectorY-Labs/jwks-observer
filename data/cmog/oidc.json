@@ -60,7 +60,6 @@
   "issuer": "https://accounts.cmog.org/",
   "jwks_uri": "https://accounts.cmog.org/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://accounts.cmog.org/mfa/challenge",
-  "registration_endpoint": "https://accounts.cmog.org/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

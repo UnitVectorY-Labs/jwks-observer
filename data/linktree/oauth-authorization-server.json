@@ -62,7 +62,6 @@
   "issuer": "https://auth.linktr.ee/",
   "jwks_uri": "https://auth.linktr.ee/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.linktr.ee/mfa/challenge",
-  "registration_endpoint": "https://auth.linktr.ee/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

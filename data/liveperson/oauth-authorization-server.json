@@ -62,7 +62,6 @@
   "issuer": "https://auth.liveperson.net/",
   "jwks_uri": "https://auth.liveperson.net/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.liveperson.net/mfa/challenge",
-  "registration_endpoint": "https://auth.liveperson.net/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [
