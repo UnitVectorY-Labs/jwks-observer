@@ -1,6 +1,6 @@
 {
   "Cache-Control": "max-age=[placeholder], must-revalidate",
-  "Content-Security-Policy": "frame-ancestors 'self' https://connect.liveramp.com https://safehaven.liveramp.fr https://app.liveramp.com https://vmeucert.liveramp.fr https://safehaven.liveramp.com https://app.staging.liveramp.com https://connect.staging.liveramp.com https://connect-preprod.liveramp.com https://app.dev.liveramp.com",
+  "Content-Security-Policy": "frame-ancestors 'self' https://connect.liveramp.com https://safehaven.liveramp.fr https://app.liveramp.com https://vmeucert.liveramp.fr https://safehaven.liveramp.com https://app.staging.liveramp.com https://connect-preprod.liveramp.com https://connect.staging.liveramp.com https://app.dev.liveramp.com",
   "Content-Type": "application/json",
   "Server": "nginx",
   "Strict-Transport-Security": "max-age=315360000; includeSubDomains",
