@@ -61,6 +61,8 @@
     "ES512"
   ],
   "end_session_endpoint": "https://id.bell.ca/oauth2/v1/logout",
+  "frontchannel_logout_session_supported": true,
+  "frontchannel_logout_supported": true,
   "grant_types_supported": [
     "authorization_code",
     "implicit",

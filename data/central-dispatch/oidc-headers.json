@@ -1,5 +1,5 @@
 {
-  "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' *.centraldispatch.com *.optimizely.com; style-src 'self' 'nonce-X/Gf2g6wkwlfwBSkNH1dAtpu134anAJZ120xVXfoP9c=' *.centraldispatch.com https://fonts.googleapis.com;img-src 'self' data: *.centraldispatch.com cdn.interstate.coxautoinc.com; font-src 'self' data: https://fonts.gstatic.com;connect-src 'self' cdn.interstate.coxautoinc.com *.optimizely.com",
+  "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' *.centraldispatch.com *.optimizely.com; style-src 'self' 'nonce-M66Bocw5s8V8H/TTTi7DELApYlP0SmnSJ5yd6hTFpk4=' *.centraldispatch.com https://fonts.googleapis.com;img-src 'self' data: *.centraldispatch.com cdn.interstate.coxautoinc.com; font-src 'self' data: https://fonts.gstatic.com;connect-src 'self' cdn.interstate.coxautoinc.com *.optimizely.com",
   "Content-Type": "application/json; charset=UTF-8",
   "Server": "Kestrel",
   "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
