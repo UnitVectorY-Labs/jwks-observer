@@ -1,5 +1,6 @@
 {
   "authorization_endpoint": "https://sso.monoprix.fr/oauth/authorize",
+  "authorization_response_iss_parameter_supported": false,
   "claims_locales_supported": [
     "en"
   ],
@@ -193,6 +194,9 @@
     "consents.abo_mail_part.consent_version.version_id",
     "consents.abo_mail_part.consent_version.language"
   ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
   "end_session_endpoint": "https://sso.monoprix.fr/identity/v1/logout",
   "grant_types_supported": [
     "authorization_code",
@@ -207,6 +211,7 @@
   ],
   "introspection_endpoint": "https://sso.monoprix.fr/oauth/introspect",
   "introspection_endpoint_auth_methods_supported": [
+    "client_secret_basic",
     "client_secret_post"
   ],
   "issuer": "https://sso.monoprix.fr",
@@ -218,17 +223,18 @@
     "id_token",
     "messenger_code"
   ],
+  "revocation_endpoint": "https://sso.monoprix.fr/oauth/revoke",
   "scopes_supported": [
-    "mfa",
-    "offline_access",
     "address",
     "phone",
+    "mfa",
+    "openid",
+    "offline_access",
+    "profile",
+    "events",
     "full_write",
     "session",
-    "email",
-    "events",
-    "openid",
-    "profile"
+    "email"
   ],
   "service_documentation": "https://developer.reachfive.com/",
   "subject_types_supported": [
@@ -236,7 +242,9 @@
   ],
   "token_endpoint": "https://sso.monoprix.fr/oauth/token",
   "token_endpoint_auth_methods_supported": [
-    "client_secret_post"
+    "client_secret_basic",
+    "client_secret_post",
+    "none"
   ],
   "token_endpoint_auth_signing_alg_values_supported": [
     "HS256",
