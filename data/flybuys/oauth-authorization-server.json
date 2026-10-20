@@ -62,7 +62,6 @@
   "issuer": "https://auth.flybuys.com.au/",
   "jwks_uri": "https://auth.flybuys.com.au/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.flybuys.com.au/mfa/challenge",
-  "registration_endpoint": "https://auth.flybuys.com.au/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [
