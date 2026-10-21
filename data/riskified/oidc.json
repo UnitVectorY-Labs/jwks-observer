@@ -63,7 +63,6 @@
   "issuer": "https://auth.riskified.com/",
   "jwks_uri": "https://auth.riskified.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.riskified.com/mfa/challenge",
-  "registration_endpoint": "https://auth.riskified.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

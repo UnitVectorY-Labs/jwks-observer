@@ -211,7 +211,6 @@
   ],
   "introspection_endpoint": "https://sso.monoprix.fr/oauth/introspect",
   "introspection_endpoint_auth_methods_supported": [
-    "client_secret_basic",
     "client_secret_post"
   ],
   "issuer": "https://sso.monoprix.fr",
@@ -225,16 +224,16 @@
   ],
   "revocation_endpoint": "https://sso.monoprix.fr/oauth/revoke",
   "scopes_supported": [
+    "session",
     "offline_access",
-    "phone",
+    "email",
+    "openid",
+    "events",
     "mfa",
     "address",
-    "session",
-    "events",
+    "phone",
     "full_write",
-    "profile",
-    "email",
-    "openid"
+    "profile"
   ],
   "service_documentation": "https://developer.reachfive.com/",
   "subject_types_supported": [
@@ -242,9 +241,7 @@
   ],
   "token_endpoint": "https://sso.monoprix.fr/oauth/token",
   "token_endpoint_auth_methods_supported": [
-    "client_secret_basic",
-    "client_secret_post",
-    "none"
+    "client_secret_post"
   ],
   "token_endpoint_auth_signing_alg_values_supported": [
     "HS256",

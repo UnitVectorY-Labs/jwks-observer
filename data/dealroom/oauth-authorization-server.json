@@ -63,7 +63,6 @@
   "issuer": "https://accounts.dealroom.co/",
   "jwks_uri": "https://accounts.dealroom.co/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://accounts.dealroom.co/mfa/challenge",
-  "registration_endpoint": "https://accounts.dealroom.co/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

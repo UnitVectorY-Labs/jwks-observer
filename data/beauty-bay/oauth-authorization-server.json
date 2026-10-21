@@ -62,7 +62,6 @@
   "issuer": "https://auth.beautybay.com/",
   "jwks_uri": "https://auth.beautybay.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.beautybay.com/mfa/challenge",
-  "registration_endpoint": "https://auth.beautybay.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

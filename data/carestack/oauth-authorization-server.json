@@ -54,7 +54,8 @@
     "profile",
     "roles",
     "api",
-    "auth_service"
+    "auth_service",
+    "mcp"
   ],
   "subject_types_supported": [
     "public"

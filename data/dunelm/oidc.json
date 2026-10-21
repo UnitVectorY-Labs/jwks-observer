@@ -63,7 +63,6 @@
   "issuer": "https://auth.dunelm.com/",
   "jwks_uri": "https://auth.dunelm.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.dunelm.com/mfa/challenge",
-  "registration_endpoint": "https://auth.dunelm.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

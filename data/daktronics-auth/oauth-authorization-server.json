@@ -63,7 +63,6 @@
   "issuer": "https://auth.daktronics.com/",
   "jwks_uri": "https://auth.daktronics.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.daktronics.com/mfa/challenge",
-  "registration_endpoint": "https://auth.daktronics.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

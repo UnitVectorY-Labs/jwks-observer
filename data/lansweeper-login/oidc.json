@@ -60,7 +60,6 @@
   "issuer": "https://login.lansweeper.com/",
   "jwks_uri": "https://login.lansweeper.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://login.lansweeper.com/mfa/challenge",
-  "registration_endpoint": "https://login.lansweeper.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

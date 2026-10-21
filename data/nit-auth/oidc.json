@@ -61,7 +61,6 @@
   "issuer": "https://auth.nit.ro/",
   "jwks_uri": "https://auth.nit.ro/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.nit.ro/mfa/challenge",
-  "registration_endpoint": "https://auth.nit.ro/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

@@ -62,7 +62,6 @@
   "issuer": "https://auth.piano.io/",
   "jwks_uri": "https://auth.piano.io/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.piano.io/mfa/challenge",
-  "registration_endpoint": "https://auth.piano.io/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

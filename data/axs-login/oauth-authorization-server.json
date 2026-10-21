@@ -170,6 +170,11 @@
     "identity.AXSID.Users.Create",
     "realtimeservice.subscribe",
     "emailsservices.sendgrid.audit.webhook",
+    "identity.devices.link",
+    "identity.devices.internalDeviceRegister",
+    "identity.devices.internalDeviceLink",
+    "identity.devices.internalDeviceReadPushRegistrations",
+    "identity.devices.internalDeviceCreatePushRegistration",
     "offline_access"
   ],
   "subject_types_supported": [

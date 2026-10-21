@@ -60,7 +60,6 @@
   "issuer": "https://login.smartclip.net/",
   "jwks_uri": "https://login.smartclip.net/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://login.smartclip.net/mfa/challenge",
-  "registration_endpoint": "https://login.smartclip.net/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

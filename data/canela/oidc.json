@@ -62,7 +62,6 @@
   "issuer": "https://auth.canela.tv/",
   "jwks_uri": "https://auth.canela.tv/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.canela.tv/mfa/challenge",
-  "registration_endpoint": "https://auth.canela.tv/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

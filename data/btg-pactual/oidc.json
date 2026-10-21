@@ -97,7 +97,9 @@
     "empresas.btgpactual.com/btgpay/hire-pos",
     "empresas.btgpactual.com/btgpaycard-checkout/order/create-manual",
     "ccm.btgpactual.com/pixrecpayer/updaterecurrency",
-    "empresas.btgpactual.com/card/edit-controls"
+    "empresas.btgpactual.com/card/edit-controls",
+    "empresas.btgpactual.com/cdb/approve/acquisition",
+    "empresas.btgpactual.com/cdb/approve/redemption"
   ],
   "authorization_encryption_alg_values_supported": [
     "RSA1_5",

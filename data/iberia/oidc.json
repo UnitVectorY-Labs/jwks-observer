@@ -62,7 +62,6 @@
   "issuer": "https://accounts.iberia.com/",
   "jwks_uri": "https://accounts.iberia.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://accounts.iberia.com/mfa/challenge",
-  "registration_endpoint": "https://accounts.iberia.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

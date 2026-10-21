@@ -62,7 +62,6 @@
   "issuer": "https://signin.exact.com/",
   "jwks_uri": "https://signin.exact.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://signin.exact.com/mfa/challenge",
-  "registration_endpoint": "https://signin.exact.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

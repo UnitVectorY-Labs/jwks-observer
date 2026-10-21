@@ -38,7 +38,9 @@
     "social_security_number",
     "x509_subject",
     "x509_presented",
-    "x509_issuer"
+    "x509_issuer",
+    "document_images",
+    "document_metadata"
   ],
   "end_session_endpoint": "https://secure.login.gov/openid_connect/logout",
   "grant_types_supported": [
@@ -67,7 +69,8 @@
     "profile",
     "profile:name",
     "profile:birthdate",
-    "social_security_number"
+    "social_security_number",
+    "document_images"
   ],
   "service_documentation": "https://developers.login.gov/",
   "subject_types_supported": [

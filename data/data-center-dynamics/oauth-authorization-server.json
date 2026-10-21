@@ -60,7 +60,6 @@
   "issuer": "https://auth.datacenterdynamics.com/",
   "jwks_uri": "https://auth.datacenterdynamics.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.datacenterdynamics.com/mfa/challenge",
-  "registration_endpoint": "https://auth.datacenterdynamics.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

@@ -60,7 +60,6 @@
   "issuer": "https://login.loopme.com/",
   "jwks_uri": "https://login.loopme.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://login.loopme.com/mfa/challenge",
-  "registration_endpoint": "https://login.loopme.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

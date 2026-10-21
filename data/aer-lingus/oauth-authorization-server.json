@@ -62,7 +62,6 @@
   "issuer": "https://accounts.aerlingus.com/",
   "jwks_uri": "https://accounts.aerlingus.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://accounts.aerlingus.com/mfa/challenge",
-  "registration_endpoint": "https://accounts.aerlingus.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

@@ -62,7 +62,6 @@
   "issuer": "https://login.applebees.com/",
   "jwks_uri": "https://login.applebees.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://login.applebees.com/mfa/challenge",
-  "registration_endpoint": "https://login.applebees.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

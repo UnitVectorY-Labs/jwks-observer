@@ -5,7 +5,6 @@
   },
   "oidc": {
     "uri": "https://login.canonical.com/.well-known/openid-configuration",
-    "status_code": 0,
-    "error": "Get \"https://login.canonical.com/.well-known/openid-configuration\": EOF"
+    "status_code": 200
   }
 }

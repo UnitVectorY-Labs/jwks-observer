@@ -62,7 +62,6 @@
   "issuer": "https://login.amagi.tv/",
   "jwks_uri": "https://login.amagi.tv/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://login.amagi.tv/mfa/challenge",
-  "registration_endpoint": "https://login.amagi.tv/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [
