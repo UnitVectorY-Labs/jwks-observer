@@ -128,6 +128,12 @@
     "workspace:team",
     "workspace:team.read",
     "workspace:team.write",
+    "workspace:software",
+    "workspace:software.read",
+    "workspace:software.write",
+    "workspace:software.generate",
+    "global:software",
+    "global:software.generate",
     "offline_access"
   ],
   "subject_types_supported": [
