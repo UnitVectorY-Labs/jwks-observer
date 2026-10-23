@@ -1,6 +1,7 @@
 name: jwks-observer
 default_branch: main
 config:
+  osv: sarif
   description: "Observes and records changes to public OIDC metadata and JWKS for services listed in the jwks-catalog."
   license: MIT
   language: go
