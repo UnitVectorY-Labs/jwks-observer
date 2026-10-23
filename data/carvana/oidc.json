@@ -51,7 +51,8 @@
     "wli_trusted",
     "wli_delegation",
     "aux_as_token_exchange",
-    "vibez_trusted_delegation"
+    "vibez_trusted_delegation",
+    "wli_aux_as_token"
   ],
   "id_token_signing_alg_values_supported": [
     "RS256"

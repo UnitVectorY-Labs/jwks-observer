@@ -49,6 +49,8 @@
     "dlqs:read",
     "dlqs:write",
     "email",
+    "endpoints:read",
+    "endpoints:run",
     "functions:read",
     "functions:write",
     "hitl:read",
