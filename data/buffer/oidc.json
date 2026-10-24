@@ -58,6 +58,7 @@
     "engagements:write",
     "snippets:read",
     "snippets:write",
+    "channels:write",
     "openid"
   ],
   "subject_types_supported": [
