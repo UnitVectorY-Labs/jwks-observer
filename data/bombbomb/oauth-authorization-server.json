@@ -62,7 +62,6 @@
   "issuer": "https://auth.bombbomb.com/",
   "jwks_uri": "https://auth.bombbomb.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.bombbomb.com/mfa/challenge",
-  "registration_endpoint": "https://auth.bombbomb.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

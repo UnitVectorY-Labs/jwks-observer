@@ -60,7 +60,6 @@
   "issuer": "https://auth.freecodecamp.org/",
   "jwks_uri": "https://auth.freecodecamp.org/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.freecodecamp.org/mfa/challenge",
-  "registration_endpoint": "https://auth.freecodecamp.org/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

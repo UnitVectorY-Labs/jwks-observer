@@ -62,7 +62,6 @@
   "issuer": "https://login.confluent.io/",
   "jwks_uri": "https://login.confluent.io/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://login.confluent.io/mfa/challenge",
-  "registration_endpoint": "https://login.confluent.io/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

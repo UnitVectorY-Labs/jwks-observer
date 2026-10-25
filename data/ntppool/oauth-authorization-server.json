@@ -60,7 +60,6 @@
   "issuer": "https://login.ntppool.org/",
   "jwks_uri": "https://login.ntppool.org/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://login.ntppool.org/mfa/challenge",
-  "registration_endpoint": "https://login.ntppool.org/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

@@ -62,7 +62,6 @@
   "issuer": "https://auth.covetrus.com/",
   "jwks_uri": "https://auth.covetrus.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.covetrus.com/mfa/challenge",
-  "registration_endpoint": "https://auth.covetrus.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

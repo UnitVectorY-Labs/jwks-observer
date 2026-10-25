@@ -62,7 +62,6 @@
   "issuer": "https://auth.fireblocks.io/",
   "jwks_uri": "https://auth.fireblocks.io/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.fireblocks.io/mfa/challenge",
-  "registration_endpoint": "https://auth.fireblocks.io/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

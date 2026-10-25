@@ -5,6 +5,7 @@
   "issuer": "https://login.microsoftonline.com/{tenantid}/v2.0",
   "kid": "dgvSDvK8A5KyKyppw1dAwTXD3CA",
   "kty": "RSA",
+  "last_observed": "2026-10-25T09:39:52Z",
   "n": "mm1pKcEpeC5sy8hREHudhjJZwTTzc_M76s7xniMPSBbpNmwu_7lE3Qri8tbvgEoj9-dj9H7bW3UEPt13ry4_iLTPGFf8TGZnWHpJ9sz2v_RedLokzXKWtxKumN9evLT6sR1XYj3_9oMEOT4NXsya1kTsJGWiNRkxwMcRruDnmngQsmvm0AczWl4wlEmdkAsDOmgsqmjy-M3CiNkPt_htRspznLca0rwxVM3uBRPMad_bVUJHPyfm5Ats7WTFUbnBru0Fzbyt0A73MHz-O4MzrWPg8z1Lg4y4btYM30SjOD0a58rkViQrdUbkQrG64HLA7oeX-VV6KfRdW38qD0J0aQ",
   "use": "sig",
   "x5c": [

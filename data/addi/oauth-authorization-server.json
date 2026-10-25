@@ -62,7 +62,6 @@
   "issuer": "https://auth.addi.com/",
   "jwks_uri": "https://auth.addi.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.addi.com/mfa/challenge",
-  "registration_endpoint": "https://auth.addi.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [
