@@ -4,7 +4,11 @@
   "backchannel_logout_supported": true,
   "claims_parameter_supported": false,
   "claims_supported": [
-    "sub"
+    "sub",
+    "auth_time",
+    "email",
+    "email_verified",
+    "name"
   ],
   "code_challenge_methods_supported": [
     "plain",
@@ -95,7 +99,9 @@
     "webhooks_manage",
     "tabs_read",
     "tabs_manage",
-    "metrics_read"
+    "metrics_read",
+    "profile",
+    "email"
   ],
   "subject_types_supported": [
     "pairwise",
