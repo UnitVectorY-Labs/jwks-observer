@@ -3,5 +3,5 @@
   "Content-Type": "application/json; charset=utf-8",
   "Server": "Apache",
   "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
-  "Via": "1.1 slack-prod.tinyspeck.com, ingress-www-iad-external-prod-0114bddf74ac656ef,ingress-edge-cmh-canary-prod-0a8d4cfaa63d5c2ab"
+  "Via": "1.1 slack-prod.tinyspeck.com, ingress-www-iad-external-prod-06e27db30506a6841,ingress-edge-cmh-prod-0d0c9c3deaff1cfc0"
 }
