@@ -70,7 +70,8 @@
     "https://purl.imsglobal.org/spec/lti-ags/scope/result.readonly",
     "https://purl.imsglobal.org/spec/lti-ags/scope/score",
     "https://purl.imsglobal.org/spec/lti-nrps/scope/contextmembership.readonly",
-    "course_creator:read"
+    "course_creator:read",
+    "course_creator:write"
   ],
   "subject_types_supported": [
     "public"
