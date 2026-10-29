@@ -5,6 +5,7 @@
   },
   "oidc": {
     "uri": "https://id.articulate.com/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 502,
+    "error": "HTTP 502"
   }
 }

@@ -7,15 +7,15 @@
   "claims_supported": [
     "email_verified",
     "shipping_address",
-    "birthdate",
-    "email",
-    "phone_number",
-    "family_name",
     "gender",
     "sub",
-    "address",
+    "phone_number",
+    "phone_number_verified",
+    "birthdate",
     "given_name",
-    "phone_number_verified"
+    "email",
+    "family_name",
+    "address"
   ],
   "grant_types_supported": [
     "authorization_code"

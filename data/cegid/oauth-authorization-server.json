@@ -34,6 +34,7 @@
     "cmsopstech",
     "provisioning-authorization",
     "cmsps-operator",
+    "wadm-admin",
     "profile",
     "openid",
     "canImpersonate",
@@ -130,6 +131,7 @@
     "primaveracmsops",
     "juice-provisioning-claims",
     "cmsps-claims",
+    "lithium-wadm-client-app",
     "identityserver4",
     "lithium-datalookup-vatnumber",
     "lithium-settings",
@@ -358,6 +360,7 @@
     "cbms",
     "cbms-wh",
     "lithium-invoicemanager-systemmanagers",
+    "lithium-wadm",
     "offline_access"
   ],
   "subject_types_supported": [

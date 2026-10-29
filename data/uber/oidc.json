@@ -204,6 +204,8 @@
     "eats.partner.mcp",
     "eats.partner_online_ordering",
     "eats.partner_online_ordering.bank_info",
+    "eats.partner_online_ordering.events",
+    "eats.partner_online_ordering.tax_info",
     "eats.payments.events",
     "eats.pos_provisioning",
     "eats.providers.flyt",
