@@ -62,7 +62,6 @@
   "issuer": "https://auth.collegevine.com/",
   "jwks_uri": "https://auth.collegevine.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.collegevine.com/mfa/challenge",
-  "registration_endpoint": "https://auth.collegevine.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

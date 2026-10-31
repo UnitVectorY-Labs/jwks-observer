@@ -24,7 +24,8 @@
     "accesspam",
     "sub",
     "send_id",
-    "organization"
+    "organization",
+    "type"
   ],
   "code_challenge_methods_supported": [
     "plain",
@@ -98,6 +99,7 @@
     "api.installation",
     "internal",
     "api.secrets",
+    "api.pam.rotation",
     "api.send.access",
     "offline_access"
   ],

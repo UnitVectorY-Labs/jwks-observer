@@ -7,7 +7,6 @@
     "sub"
   ],
   "code_challenge_methods_supported": [
-    "plain",
     "S256"
   ],
   "credentials_endpoint_draft_00": "https://auth.deriv.com/credentials",

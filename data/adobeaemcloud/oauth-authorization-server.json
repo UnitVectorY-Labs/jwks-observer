@@ -37,6 +37,8 @@
     "aem.mcp.replication.read",
     "aem.mcp.cdn-insights",
     "aem.mcp.cdn-insights.read",
+    "aem.mcp.cloud-migration",
+    "aem.mcp.cloud-migration.read",
     "openid",
     "AdobeID"
   ],

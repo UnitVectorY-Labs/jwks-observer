@@ -1,4 +1,5 @@
 {
+  "Cache-Control": "public, max-age=[placeholder]",
   "Content-Security-Policy": "frame-ancestors 'self'",
   "Content-Type": "application/json",
   "Server": "istio-envoy",

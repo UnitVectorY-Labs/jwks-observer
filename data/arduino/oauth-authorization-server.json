@@ -62,7 +62,6 @@
   "issuer": "https://login.arduino.cc/",
   "jwks_uri": "https://login.arduino.cc/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://login.arduino.cc/mfa/challenge",
-  "registration_endpoint": "https://login.arduino.cc/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

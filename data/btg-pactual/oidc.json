@@ -99,7 +99,10 @@
     "ccm.btgpactual.com/pixrecpayer/updaterecurrency",
     "empresas.btgpactual.com/card/edit-controls",
     "empresas.btgpactual.com/cdb/approve/acquisition",
-    "empresas.btgpactual.com/cdb/approve/redemption"
+    "empresas.btgpactual.com/cdb/approve/redemption",
+    "empresas.btgpactual.com/btgpaycard-checkout/order/approve-file",
+    "empresas.btgpactual.com/btgpaycard-checkout/transaction/approve",
+    "empresas.btgpactual.com/btgpaycard-checkout/transaction/approve-all"
   ],
   "authorization_encryption_alg_values_supported": [
     "RSA1_5",

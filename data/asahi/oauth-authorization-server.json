@@ -62,7 +62,6 @@
   "issuer": "https://sso.asahi.com/",
   "jwks_uri": "https://sso.asahi.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://sso.asahi.com/mfa/challenge",
-  "registration_endpoint": "https://sso.asahi.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [
