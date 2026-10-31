@@ -1,5 +1,6 @@
 {
   "acr_values_supported": [
+    "https://id.cgm.com/loa/low",
     "https://id.cgm.com/loa/substantial",
     "https://id.cgm.com/loa/substantial-plus"
   ],
@@ -101,9 +102,9 @@
   "issuer": "https://id.cgm.com",
   "jwks_uri": "https://id.cgm.com/jwks.json",
   "prompt_values_supported": [
-    "select_account",
     "login",
     "consent",
+    "select_account",
     "create",
     "none"
   ],

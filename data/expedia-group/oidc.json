@@ -57,6 +57,11 @@
     "code"
   ],
   "revocation_endpoint": "https://accounts.expediagroup.com/oidc/revoke",
+  "revocation_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post",
+    "none"
+  ],
   "scopes_supported": [
     "openid",
     "profile",
@@ -66,8 +71,10 @@
     "groups",
     "offline_access"
   ],
+  "service_documentation": "https://developers.expediagroup.com/travel-redirect-api/lodging/reference/eg-account-linking",
   "subject_types_supported": [
-    "public"
+    "public",
+    "pairwise"
   ],
   "token_endpoint": "https://accounts.expediagroup.com/oidc/token",
   "token_endpoint_auth_methods_supported": [

@@ -62,7 +62,6 @@
   "issuer": "https://sso.treasuredata.com/",
   "jwks_uri": "https://sso.treasuredata.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://sso.treasuredata.com/mfa/challenge",
-  "registration_endpoint": "https://sso.treasuredata.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [
