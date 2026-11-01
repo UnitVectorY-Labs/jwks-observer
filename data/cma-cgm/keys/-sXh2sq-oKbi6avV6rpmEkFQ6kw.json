@@ -1,0 +1,10 @@
+{
+  "alg": "ES512",
+  "crv": "P-521",
+  "first_observed": "2026-11-01T11:45:37Z",
+  "kid": "-sXh2sq-oKbi6avV6rpmEkFQ6kw",
+  "kty": "EC",
+  "use": "sig",
+  "x": "AIpc7OKSuUOu36jYkNQMiDZqUFtV1vAsfM5B1G6Mvz_8kRFwRbH5e3K_PgVacZinSdZdqM_ghRJ-5vqxT94aB_nY",
+  "y": "Aeg05rhru0jiDW3mv25fljtIDGgpga0P5XRvSZukakUmVNPJtYziE7Tpp1OPJx1HO7Sqyvzwu1Y79-QNkI3_X_Ff"
+}
