@@ -59,6 +59,8 @@
     "snippets:read",
     "snippets:write",
     "channels:write",
+    "notes:read",
+    "notes:write",
     "openid"
   ],
   "subject_types_supported": [

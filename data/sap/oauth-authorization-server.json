@@ -24,11 +24,17 @@
     "groups",
     "aud",
     "azp",
+    "azp_app_tid",
     "app_tid",
     "ias_apis",
     "at_hash",
+    "cnf",
+    "azpacr",
     "sap_id_type",
+    "sap_user_type",
     "sap_gtid",
+    "sap_azp_gtid",
+    "sap_introspect",
     "sap_scope"
   ],
   "code_challenge_methods_supported": [

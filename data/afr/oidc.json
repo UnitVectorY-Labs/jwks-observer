@@ -63,7 +63,6 @@
   "issuer": "https://login.afr.com/",
   "jwks_uri": "https://login.afr.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://login.afr.com/mfa/challenge",
-  "registration_endpoint": "https://login.afr.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [
