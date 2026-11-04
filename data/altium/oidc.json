@@ -49,7 +49,8 @@
     "urn:ietf:params:oauth:grant-type:device_code",
     "urn:openid:params:grant-type:ciba",
     "urn:ietf:params:oauth:grant-type:token-exchange",
-    "tenant_session_exchange"
+    "tenant_session_exchange",
+    "digital_user"
   ],
   "id_token_signing_alg_values_supported": [
     "RS256"

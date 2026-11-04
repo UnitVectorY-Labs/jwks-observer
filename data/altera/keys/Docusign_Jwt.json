@@ -1,0 +1,9 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2026-11-04T12:51:41Z",
+  "kid": "Docusign_Jwt",
+  "kty": "RSA",
+  "n": "uvcm26rmnYGYWyplTJD9rMhx5my3De5kqdjuKKMCMeClviGpy6yegCrnV0ZqK05UIBmirTLgKtK6yxKOxLY-FkW-MeBlPpy4S9wtozYzigTO2ACyXZFmhpRhUIkc9LSoiNFe91CLIWOSyJLX7Bf20hLDkJzq0UnL2NuQ743YSB0ayin3JM4QdwHuM_GtF3uWEB9w8lM2zAjhSVD3iUA7ZNbZWqrpGvsFrz7M1ynYAf3AL1rcGz7rEMTr7rtgVT4ax0aR0Gh3b0i-5v028xhQ-p5DcuYXy1BN6UdZ3cNNcUjolUr8-2tXcea595V8-EMh2OqQLIiYt2WYYYGxK1TiLw",
+  "use": "sig"
+}

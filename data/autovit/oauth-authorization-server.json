@@ -63,7 +63,6 @@
   "issuer": "https://auth.autovit.ro/",
   "jwks_uri": "https://auth.autovit.ro/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.autovit.ro/mfa/challenge",
-  "registration_endpoint": "https://auth.autovit.ro/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [

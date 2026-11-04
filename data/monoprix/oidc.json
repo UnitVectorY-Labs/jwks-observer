@@ -226,14 +226,14 @@
   "scopes_supported": [
     "events",
     "offline_access",
-    "phone",
-    "full_write",
-    "email",
-    "session",
-    "openid",
-    "address",
     "mfa",
-    "profile"
+    "address",
+    "phone",
+    "openid",
+    "email",
+    "full_write",
+    "profile",
+    "session"
   ],
   "service_documentation": "https://developer.reachfive.com/",
   "subject_types_supported": [

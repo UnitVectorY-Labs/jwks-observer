@@ -1,10 +1,12 @@
 {
   "jwks": {
     "uri": "https://id.bahn.de/auth/iam/realms/bahnid/protocol/openid-connect/certs",
-    "status_code": 200
+    "status_code": 403,
+    "error": "HTTP 403"
   },
   "oidc": {
     "uri": "https://id.bahn.de/auth/iam/realms/bahnid/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 403,
+    "error": "HTTP 403"
   }
 }

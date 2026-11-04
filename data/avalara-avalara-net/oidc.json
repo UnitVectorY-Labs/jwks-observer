@@ -144,6 +144,7 @@
     "portal",
     "webhook:create",
     "property-tax-total",
+    "connector-credentials-management-service",
     "crr-mcp-rfs",
     "webhook.event:publish",
     "sync_validation",

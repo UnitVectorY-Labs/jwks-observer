@@ -175,6 +175,7 @@
     "identity.devices.internalDeviceLink",
     "identity.devices.internalDeviceReadPushRegistrations",
     "identity.devices.internalDeviceCreatePushRegistration",
+    "identity.userPreferences.overrideModifiedOn",
     "offline_access"
   ],
   "subject_types_supported": [

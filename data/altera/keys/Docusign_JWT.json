@@ -1,0 +1,9 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2026-11-04T12:51:41Z",
+  "kid": "Docusign_JWT",
+  "kty": "RSA",
+  "n": "w_7V86aPaHOkey3gr67QYSMQxqJFtY6-3hXa-rzh4EOTh39H2YfYMYFlrKnDQs91aU22HeIE5YqYjlKnDqbXDzgl918ynrgqs1mkWICEF1FtSIhUxh4epEWytHf8RKpqdl997GkvDywSUAjrldcrRIpDOkbong7jZiaix2_8UGW7H6GBYnZK2_s05ubW8u1T1UQFlvurPaq1uaQ0b79n1YWw2iiksDdavda8M6rxqaV3vHm-7CScdIZ3m9KYBv5ckfPy-R6E14drlT7wXA0g5DhE2tA7bgbKp9FhLifd9TGyqN2ew2k3Y-pASTpTUeZVDcbc94z8zFgkiF0aoVEygZj-E7l8u4BKBPO-m79g4wl18kYXltfF3gHs989Dv5Wsg5U96ENB9DuhO-cQrr_WRGtKYZq2cgUu6KVwUJZxDXmG5Ic8PajCmPCzwVWDqX_TsE3632QkTNIp4XCBMJI-enUu6J-Iyye_PPvoQZntu_h5POoj8Zc6H3T74-BqWzcJ5SKdZtajMayftKtqYBIn2r3jm4WQixZiGHI2ecpo79GJ1kVCcyWziKNPlX5MiV0YnhJcF1XkK19K5xcYUBEvejVvcF7NW1oTPPtBPSGqN-ZUK7IJVv5Uk79qkVIVDVBlA7ug_zz55uTz5aNDLlsEk5baf3Yin6RgesRd_UjEPkc",
+  "use": "sig"
+}

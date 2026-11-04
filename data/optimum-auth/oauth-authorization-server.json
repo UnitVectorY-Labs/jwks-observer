@@ -63,7 +63,6 @@
   "issuer": "https://auth.optimum.net/",
   "jwks_uri": "https://auth.optimum.net/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.optimum.net/mfa/challenge",
-  "registration_endpoint": "https://auth.optimum.net/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [
