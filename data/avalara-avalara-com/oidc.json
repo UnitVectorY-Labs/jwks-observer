@@ -147,6 +147,7 @@
     "connector-credentials-management-service",
     "crr-mcp-rfs",
     "webhook.event:publish",
+    "elr:kb:read",
     "sync_validation",
     "vrun.activations.write",
     "hscodeapps",

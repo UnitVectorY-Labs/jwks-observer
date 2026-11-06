@@ -51,6 +51,8 @@
     "email",
     "endpoints:read",
     "endpoints:run",
+    "event-subscriptions:read",
+    "event-subscriptions:write",
     "functions:read",
     "functions:write",
     "hitl:read",

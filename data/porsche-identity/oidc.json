@@ -62,7 +62,6 @@
   "issuer": "https://identity.porsche.com/",
   "jwks_uri": "https://identity.porsche.com/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://identity.porsche.com/mfa/challenge",
-  "registration_endpoint": "https://identity.porsche.com/oidc/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [
