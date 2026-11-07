@@ -36,6 +36,13 @@
     "S256"
   ],
   "device_authorization_endpoint": "https://accounts.shop.app/oauth/device",
+  "dpop_signing_alg_values_supported": [
+    "ES256",
+    "ES384",
+    "ES512",
+    "RS256",
+    "PS256"
+  ],
   "grant_types_supported": [
     "authorization_code",
     "refresh_token",

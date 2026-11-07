@@ -3,6 +3,7 @@
   "authorization_grant_profiles_supported": [
     "urn:ietf:params:oauth:grant-profile:id-jag"
   ],
+  "authorization_response_iss_parameter_supported": true,
   "backchannel_authentication_endpoint": "https://signin.actblue.com/bc-authorize",
   "backchannel_logout_session_supported": true,
   "backchannel_logout_supported": true,
@@ -27,6 +28,7 @@
     "picture",
     "sub"
   ],
+  "client_id_metadata_document_supported": true,
   "code_challenge_methods_supported": [
     "S256",
     "plain"

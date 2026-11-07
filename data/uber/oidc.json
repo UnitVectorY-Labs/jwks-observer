@@ -211,6 +211,7 @@
     "eats.pos_provisioning",
     "eats.providers.flyt",
     "eats.report",
+    "eats.restaurant.documents.read",
     "eats.sentinel",
     "eats.store",
     "eats.store.hours.write",

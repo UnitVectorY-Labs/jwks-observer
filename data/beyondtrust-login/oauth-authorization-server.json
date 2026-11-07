@@ -8,7 +8,7 @@
     "iat",
     "iss",
     "sub",
-    "email openid tenant_id organization_id tenant aud given_name family_name site_roles"
+    "email openid tenant_id organization_id tenant aud given_name family_name site_roles product_roles"
   ],
   "code_challenge_methods_supported": [
     "plain",
