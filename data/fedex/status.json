@@ -1,7 +1,8 @@
 {
   "jwks": {
     "uri": "https://auth.fedex.com:443/am/oauth2/connect/jwk_uri",
-    "status_code": 200
+    "status_code": 403,
+    "error": "HTTP 403"
   },
   "oidc": {
     "uri": "https://auth.fedex.com/.well-known/openid-configuration",

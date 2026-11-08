@@ -66,6 +66,7 @@
     "AppBlocksDevTunnel",
     "LinkConnect",
     "AppStoreCatalogWrite",
+    "DownloadLink",
     "Full",
     "1",
     "2",
@@ -96,7 +97,8 @@
     "67108864",
     "134217728",
     "268435456",
-    "536870912"
+    "536870912",
+    "1073741824"
   ],
   "subject_types_supported": [
     "public"
