@@ -152,6 +152,7 @@
     "claudeai",
     "fastmarkets.exchangerates.api",
     "fastmarkets.aimediator.api",
+    "fastmarkets.filesproxy.api",
     "offline_access"
   ],
   "subject_types_supported": [

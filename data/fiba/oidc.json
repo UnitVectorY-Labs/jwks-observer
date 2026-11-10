@@ -178,16 +178,16 @@
   ],
   "revocation_endpoint": "https://auth.fiba.basketball/oauth/revoke",
   "scopes_supported": [
-    "mfa",
-    "full_write",
-    "email",
     "openid",
-    "profile",
     "events",
     "address",
-    "offline_access",
+    "email",
+    "phone",
+    "mfa",
     "session",
-    "phone"
+    "full_write",
+    "offline_access",
+    "profile"
   ],
   "service_documentation": "https://developer.reachfive.com/",
   "subject_types_supported": [

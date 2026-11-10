@@ -134,6 +134,8 @@
     "permission-status",
     "gender",
     "basic-profile",
+    "profile:first_name",
+    "profile:last_name",
     "user-security-audit",
     "upgrade-user",
     "edit-user",
