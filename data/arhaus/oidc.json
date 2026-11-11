@@ -15,6 +15,10 @@
   "code_challenge_methods_supported": [
     "S256"
   ],
+  "dpop_signing_alg_values_supported": [
+    "ES256",
+    "RS256"
+  ],
   "end_session_endpoint": "https://shopify.com/authentication/50790170795/logout",
   "grant_types_supported": [
     "authorization_code",
