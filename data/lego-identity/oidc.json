@@ -140,6 +140,9 @@
     "upgrade-user",
     "edit-user",
     "update-user-tos",
+    "urn:lego-group:mentions:admin.read",
+    "urn:lego-group:avatar:active-outfit.write",
+    "urn:lego-group:avatar:default-outfits.read",
     "offline_access"
   ],
   "subject_types_supported": [

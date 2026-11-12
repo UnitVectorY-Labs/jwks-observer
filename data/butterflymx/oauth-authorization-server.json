@@ -10,17 +10,16 @@
     "exp",
     "iat",
     "email",
-    "email_verified"
+    "email_verified",
+    "account_uuid"
   ],
   "code_challenge_methods_supported": [
-    "plain",
     "S256"
   ],
   "grant_types_supported": [
     "authorization_code",
     "client_credentials",
     "password",
-    "implicit_oidc",
     "refresh_token"
   ],
   "id_token_signing_alg_values_supported": [
@@ -30,15 +29,10 @@
   "issuer": "https://accounts.butterflymx.com",
   "jwks_uri": "https://accounts.butterflymx.com/oauth/discovery/keys",
   "response_modes_supported": [
-    "query",
-    "fragment",
-    "form_post"
+    "query"
   ],
   "response_types_supported": [
-    "code",
-    "token",
-    "id_token",
-    "id_token token"
+    "code"
   ],
   "revocation_endpoint": "https://accounts.butterflymx.com/oauth/revoke",
   "scopes_supported": [

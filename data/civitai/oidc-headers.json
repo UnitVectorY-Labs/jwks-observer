@@ -1,5 +1,6 @@
 {
   "Cache-Control": "public, max-age=[placeholder]",
   "Content-Type": "application/json",
-  "Server": "cloudflare"
+  "Server": "cloudflare",
+  "Strict-Transport-Security": "max-age=31536000"
 }

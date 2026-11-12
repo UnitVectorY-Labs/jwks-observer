@@ -1,6 +1,5 @@
 {
-  "Cache-Control": "max-age=[placeholder], private, must-revalidate",
-  "Content-Security-Policy": "connect-src 'self' https: www.googletagmanager.com o312678.ingest.us.sentry.io; default-src 'self' https:; font-src 'self' https: data:; img-src 'self' https: data: www.googletagmanager.com; object-src 'none'; script-src 'self' https: https://www.googletagmanager.com 'sha256-hFr6x+JMYIKnTAWRePtjnDcryMY6sARMaIMPqeFCmZs=' 'sha256-3v/+MVXLkmB/lTeTMj4Xm6KouCpg9R+UzsuaGs3xnB8=' 'sha256-r7vLw/dBsKBkQ6u43sRSwSDqJRgwf+TmIs7b3x5FMUo=' 'nonce-V/srAUPc3fFx/cjzYcc33A=='; style-src 'self' https: 'nonce-V/srAUPc3fFx/cjzYcc33A=='; worker-src 'self' blob:; frame-src 'self' blob:",
+  "Content-Security-Policy": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data: https://www.googletagmanager.com https://*.google-analytics.com;object-src 'none';script-src 'self' 'nonce-[placeholder]' https://www.googletagmanager.com;script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests;connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://o312678.ingest.us.sentry.io;frame-src 'self' https://www.googletagmanager.com;worker-src 'self' blob:",
   "Content-Type": "application/json; charset=utf-8",
-  "Strict-Transport-Security": "max-age=31556952; includeSubDomains"
+  "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
 }

@@ -13,7 +13,8 @@
     "name",
     "email",
     "employments",
-    "memberships"
+    "memberships",
+    "user_organization_connection"
   ],
   "code_challenge_methods_supported": [
     "plain",
@@ -55,6 +56,7 @@
     "authorization_tokens",
     "badge_templates",
     "badges_privileged",
+    "connections",
     "events",
     "external_badges",
     "external_badges_privileged",
