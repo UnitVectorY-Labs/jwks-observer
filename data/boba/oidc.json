@@ -12,6 +12,7 @@
     "email",
     "email_verified"
   ],
+  "client_id_metadata_document_supported": true,
   "code_challenge_methods_supported": [
     "S256"
   ],
@@ -32,6 +33,14 @@
   "jwks_uri": "https://shopify.com/authentication/18298191/.well-known/jwks.json",
   "op_policy_uri": "https://www.shopify.com/legal/privacy",
   "op_tos_uri": "https://www.shopify.com/legal/terms",
+  "protected_resources": [
+    "https://boba-inc.account.myshopify.com",
+    "https://boba-inc.myshopify.com",
+    "https://boba.com",
+    "https://bobafamily.com",
+    "https://www.boba.com",
+    "https://www.bobafamily.com"
+  ],
   "response_types_supported": [
     "code"
   ],

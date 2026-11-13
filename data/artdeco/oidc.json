@@ -12,6 +12,7 @@
     "email",
     "email_verified"
   ],
+  "client_id_metadata_document_supported": true,
   "code_challenge_methods_supported": [
     "S256"
   ],
@@ -32,6 +33,15 @@
   "jwks_uri": "https://shopify.com/authentication/68914413888/.well-known/jwks.json",
   "op_policy_uri": "https://www.shopify.com/legal/privacy",
   "op_tos_uri": "https://www.shopify.com/legal/terms",
+  "protected_resources": [
+    "https://account.artdeco.de",
+    "https://artdeco.at",
+    "https://artdeco.de",
+    "https://artdecocosmetics.account.myshopify.com",
+    "https://artdecocosmetics.myshopify.com",
+    "https://www.artdeco.at",
+    "https://www.artdeco.de"
+  ],
   "response_types_supported": [
     "code"
   ],

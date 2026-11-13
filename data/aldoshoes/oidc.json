@@ -12,6 +12,7 @@
     "email",
     "email_verified"
   ],
+  "client_id_metadata_document_supported": true,
   "code_challenge_methods_supported": [
     "S256"
   ],
@@ -32,6 +33,16 @@
   "jwks_uri": "https://shopify.com/authentication/91188429099/.well-known/jwks.json",
   "op_policy_uri": "https://www.shopify.com/legal/privacy",
   "op_tos_uri": "https://www.shopify.com/legal/terms",
+  "protected_resources": [
+    "https://210aua-9k.account.myshopify.com",
+    "https://210aua-9k.myshopify.com",
+    "https://aldo-admin.myshopify.com",
+    "https://aldo-hybrid-controller-bb71a840dfcec38db724.o2.myshopify.dev",
+    "https://aldoshoes.com",
+    "https://headless-controller-16e03c05b4612e384fa7.o2.myshopify.dev",
+    "https://hybris-order-returns-5b912fad516ca741d274.o2.myshopify.dev",
+    "https://www.aldoshoes.com"
+  ],
   "response_types_supported": [
     "code"
   ],

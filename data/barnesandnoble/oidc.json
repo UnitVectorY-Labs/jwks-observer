@@ -12,6 +12,7 @@
     "email",
     "email_verified"
   ],
+  "client_id_metadata_document_supported": true,
   "code_challenge_methods_supported": [
     "S256"
   ],
@@ -32,6 +33,19 @@
   "jwks_uri": "https://shopify.com/authentication/67454337265/.well-known/jwks.json",
   "op_policy_uri": "https://www.shopify.com/legal/privacy",
   "op_tos_uri": "https://www.shopify.com/legal/terms",
+  "protected_resources": [
+    "https://account.barnesandnoble.com",
+    "https://b-n--prd--d5f178e5bd06e1b8ab7f.o2.myshopify.dev",
+    "https://barnesandnoble.com",
+    "https://beta.barnesandnoble.com",
+    "https://bn-admin.myshopify.com",
+    "https://e9c22f-3.account.myshopify.com",
+    "https://e9c22f-3.myshopify.com",
+    "https://shop-beta.barnesandnoble.com",
+    "https://shop.barnesandnoble.com",
+    "https://staging-46e3e05df8ffb9f83333.o2.myshopify.dev",
+    "https://www.barnesandnoble.com"
+  ],
   "response_types_supported": [
     "code"
   ],

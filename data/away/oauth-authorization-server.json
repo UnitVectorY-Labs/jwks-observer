@@ -12,6 +12,7 @@
     "email",
     "email_verified"
   ],
+  "client_id_metadata_document_supported": true,
   "code_challenge_methods_supported": [
     "S256"
   ],
@@ -32,6 +33,17 @@
   "jwks_uri": "https://shopify.com/authentication/66474180792/.well-known/jwks.json",
   "op_policy_uri": "https://www.shopify.com/legal/privacy",
   "op_tos_uri": "https://www.shopify.com/legal/terms",
+  "protected_resources": [
+    "https://766ad1-ab.account.myshopify.com",
+    "https://766ad1-ab.myshopify.com",
+    "https://accounts.awaytravel.com",
+    "https://awaytravel.com",
+    "https://awaytravelshop.myshopify.com",
+    "https://corporategifting.awaytravel.com",
+    "https://prod.awaytravel.com",
+    "https://prodify.awaytravel.com",
+    "https://www.awaytravel.com"
+  ],
   "response_types_supported": [
     "code"
   ],

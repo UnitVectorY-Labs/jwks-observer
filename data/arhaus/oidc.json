@@ -12,6 +12,7 @@
     "email",
     "email_verified"
   ],
+  "client_id_metadata_document_supported": true,
   "code_challenge_methods_supported": [
     "S256"
   ],
@@ -32,6 +33,15 @@
   "jwks_uri": "https://shopify.com/authentication/50790170795/.well-known/jwks.json",
   "op_policy_uri": "https://www.shopify.com/legal/privacy",
   "op_tos_uri": "https://www.shopify.com/legal/terms",
+  "protected_resources": [
+    "https://account.arhaus.com",
+    "https://arhaus-hydrox-9b6d3149043afdd93a11.o2.myshopify.dev",
+    "https://arhaus.com",
+    "https://arhausllc.account.myshopify.com",
+    "https://arhausllc.myshopify.com",
+    "https://develop-c1498f54beed554bd89d.o2.myshopify.dev",
+    "https://www.arhaus.com"
+  ],
   "response_types_supported": [
     "code"
   ],

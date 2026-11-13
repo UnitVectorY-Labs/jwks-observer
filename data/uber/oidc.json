@@ -544,6 +544,7 @@
     "vehicle_suppliers.drivers.break_mode.update",
     "vehicle_suppliers.drivers.prehire.read",
     "vehicle_suppliers.drivers.read",
+    "vehicle_suppliers.drivers.transfer",
     "vehicle_suppliers.financing.contracts",
     "vehicle_suppliers.organizations.read",
     "vehicle_suppliers.partners.analytics.trips",

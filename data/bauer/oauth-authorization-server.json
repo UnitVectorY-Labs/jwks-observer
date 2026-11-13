@@ -12,6 +12,7 @@
     "email",
     "email_verified"
   ],
+  "client_id_metadata_document_supported": true,
   "code_challenge_methods_supported": [
     "S256"
   ],
@@ -32,6 +33,15 @@
   "jwks_uri": "https://shopify.com/authentication/60627583214/.well-known/jwks.json",
   "op_policy_uri": "https://www.shopify.com/legal/privacy",
   "op_tos_uri": "https://www.shopify.com/legal/terms",
+  "protected_resources": [
+    "https://bauer-hockey.account.myshopify.com",
+    "https://bauer-hockey.myshopify.com",
+    "https://bauer.com",
+    "https://legacy.bauer.com",
+    "https://prosharp.us",
+    "https://www.bauer.com",
+    "https://www.prosharp.us"
+  ],
   "response_types_supported": [
     "code"
   ],

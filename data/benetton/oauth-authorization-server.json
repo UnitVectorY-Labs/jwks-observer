@@ -12,6 +12,7 @@
     "email",
     "email_verified"
   ],
+  "client_id_metadata_document_supported": true,
   "code_challenge_methods_supported": [
     "S256"
   ],
@@ -32,6 +33,40 @@
   "jwks_uri": "https://shopify.com/authentication/95367299416/.well-known/jwks.json",
   "op_policy_uri": "https://www.shopify.com/legal/privacy",
   "op_tos_uri": "https://www.shopify.com/legal/terms",
+  "protected_resources": [
+    "https://at.benetton.com",
+    "https://be.benetton.com",
+    "https://benetton-official.account.myshopify.com",
+    "https://benetton-official.myshopify.com",
+    "https://benetton.com",
+    "https://bg.benetton.com",
+    "https://ch.benetton.com",
+    "https://cz.benetton.com",
+    "https://de.benetton.com",
+    "https://dk.benetton.com",
+    "https://ee.benetton.com",
+    "https://es.benetton.com",
+    "https://fi.benetton.com",
+    "https://fr.benetton.com",
+    "https://gb.benetton.com",
+    "https://gr.benetton.com",
+    "https://hr.benetton.com",
+    "https://ie.benetton.com",
+    "https://it.benetton.com",
+    "https://la.benetton.com",
+    "https://lt.benetton.com",
+    "https://lu.benetton.com",
+    "https://lv.benetton.com",
+    "https://nl.benetton.com",
+    "https://pl.benetton.com",
+    "https://pt.benetton.com",
+    "https://se.benetton.com",
+    "https://si.benetton.com",
+    "https://sk.benetton.com",
+    "https://world-es.benetton.com",
+    "https://world.benetton.com",
+    "https://www.benetton.com"
+  ],
   "response_types_supported": [
     "code"
   ],

@@ -12,6 +12,7 @@
     "email",
     "email_verified"
   ],
+  "client_id_metadata_document_supported": true,
   "code_challenge_methods_supported": [
     "S256"
   ],
@@ -32,6 +33,14 @@
   "jwks_uri": "https://shopify.com/authentication/91265958229/.well-known/jwks.json",
   "op_policy_uri": "https://www.shopify.com/legal/privacy",
   "op_tos_uri": "https://www.shopify.com/legal/terms",
+  "protected_resources": [
+    "https://account.fritz.com",
+    "https://avm-deutschland.account.myshopify.com",
+    "https://avm-deutschland.myshopify.com",
+    "https://fritz.com",
+    "https://www.fritz.com",
+    "https://www.test-fritz.com"
+  ],
   "response_types_supported": [
     "code"
   ],

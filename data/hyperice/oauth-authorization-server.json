@@ -12,6 +12,7 @@
     "email",
     "email_verified"
   ],
+  "client_id_metadata_document_supported": true,
   "code_challenge_methods_supported": [
     "S256"
   ],
@@ -32,6 +33,15 @@
   "jwks_uri": "https://shopify.com/authentication/78618525910/.well-known/jwks.json",
   "op_policy_uri": "https://www.shopify.com/legal/privacy",
   "op_tos_uri": "https://www.shopify.com/legal/terms",
+  "protected_resources": [
+    "https://accounts.hyperice.com",
+    "https://api-production-20aee4f27b8df8ee79ba.o2.myshopify.dev",
+    "https://backend-f57d90258dff637c38b3.o2.myshopify.dev",
+    "https://hyperice.com",
+    "https://hypericeprod.account.myshopify.com",
+    "https://hypericeprod.myshopify.com",
+    "https://www.hyperice.com"
+  ],
   "response_types_supported": [
     "code"
   ],

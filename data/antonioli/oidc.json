@@ -12,6 +12,7 @@
     "email",
     "email_verified"
   ],
+  "client_id_metadata_document_supported": true,
   "code_challenge_methods_supported": [
     "S256"
   ],
@@ -32,6 +33,12 @@
   "jwks_uri": "https://shopify.com/authentication/55767433394/.well-known/jwks.json",
   "op_policy_uri": "https://www.shopify.com/legal/privacy",
   "op_tos_uri": "https://www.shopify.com/legal/terms",
+  "protected_resources": [
+    "https://antonioli-srl.account.myshopify.com",
+    "https://antonioli-srl.myshopify.com",
+    "https://antonioli.eu",
+    "https://www.antonioli.eu"
+  ],
   "response_types_supported": [
     "code"
   ],

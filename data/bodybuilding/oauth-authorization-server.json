@@ -12,6 +12,7 @@
     "email",
     "email_verified"
   ],
+  "client_id_metadata_document_supported": true,
   "code_challenge_methods_supported": [
     "S256"
   ],
@@ -32,6 +33,14 @@
   "jwks_uri": "https://shopify.com/authentication/47133327519/.well-known/jwks.json",
   "op_policy_uri": "https://www.shopify.com/legal/privacy",
   "op_tos_uri": "https://www.shopify.com/legal/terms",
+  "protected_resources": [
+    "https://bodybuilding.com",
+    "https://dynamo-bodybuilding.myshopify.com",
+    "https://shop.bodybuilding.com",
+    "https://vitalize-bodybuilding.account.myshopify.com",
+    "https://vitalize-bodybuilding.myshopify.com",
+    "https://www.bodybuilding.com"
+  ],
   "response_types_supported": [
     "code"
   ],

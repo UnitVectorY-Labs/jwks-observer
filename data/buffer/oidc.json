@@ -61,6 +61,8 @@
     "channels:write",
     "notes:read",
     "notes:write",
+    "assets:read",
+    "assets:write",
     "openid"
   ],
   "subject_types_supported": [
