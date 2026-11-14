@@ -2,7 +2,7 @@ package main
 
 import (
 	"bytes"
-	"encoding/json"
+	json "encoding/json/v2"
 	"fmt"
 	"net/http"
 	"net/http/httptest"
@@ -134,6 +134,44 @@ func TestCrawlCollectsPresenceForAllEndpointTypes(t *testing.T) {
 				t.Fatalf("%s changed between crawls", filename)
 			}
 			previous[filename] = b
+		}
+	}
+}
+
+func TestFetchAndValidateJSONStrictInput(t *testing.T) {
+	for _, tc := range []struct {
+		name    string
+		body    string
+		wantErr bool
+	}{
+		{"valid", `{"issuer":"https://example.com","jwks_uri":"https://example.com/keys"}`, false},
+		{"duplicate names", `{"issuer":"one","issuer":"two","jwks_uri":"https://example.com/keys"}`, true},
+		{"invalid UTF-8", "{\"issuer\":\"\xff\",\"jwks_uri\":\"https://example.com/keys\"}", true},
+		{"case-sensitive required field", `{"Issuer":"one","jwks_uri":"https://example.com/keys"}`, true},
+	} {
+		t.Run(tc.name, func(t *testing.T) {
+			server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+				fmt.Fprint(w, tc.body)
+			}))
+			defer server.Close()
+			_, _, _, _, err := fetchAndValidateJSON(server.URL, []string{"issuer", "jwks_uri"})
+			if (err != nil) != tc.wantErr {
+				t.Fatalf("error = %v, want error: %v", err, tc.wantErr)
+			}
+		})
+	}
+}
+
+func TestMarshalJSONSnapshots(t *testing.T) {
+	value := map[string]any{"z": "<value>", "a": []string(nil)}
+	want := "{\n  \"a\": [],\n  \"z\": \"<value>\"\n}"
+	for range 10 {
+		got, err := marshalJSON(value)
+		if err != nil {
+			t.Fatal(err)
+		}
+		if string(got) != want {
+			t.Fatalf("snapshot = %s; want %s", got, want)
 		}
 	}
 }
