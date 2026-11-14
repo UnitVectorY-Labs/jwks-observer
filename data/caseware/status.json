@@ -1,10 +1,12 @@
 {
   "jwks": {
     "uri": "https://connect.caseware.com/lpvforcesite/id/keys",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://connect.caseware.com/lpvforcesite/id/keys\": dial tcp: lookup connect.caseware.com on 10.96.0.10:53: no such host"
   },
   "oidc": {
     "uri": "https://connect.caseware.com/lpvforcesite/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://connect.caseware.com/lpvforcesite/.well-known/openid-configuration\": dial tcp: lookup connect.caseware.com on 10.96.0.10:53: no such host"
   }
 }
