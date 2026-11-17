@@ -518,6 +518,7 @@
     "test.temporary.scope.ignore",
     "tgo.merchant-integration",
     "third_party_meter.device.create",
+    "third_party_meter.device.update",
     "tour.adjustment",
     "transit.payment.events",
     "transit.routematch",

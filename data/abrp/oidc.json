@@ -36,6 +36,7 @@
   ],
   "issuer": "https://accounts.abetterrouteplanner.com",
   "jwks_uri": "https://accounts.abetterrouteplanner.com/.well-known/jwks.json",
+  "registration_endpoint": "https://accounts.abetterrouteplanner.com/register",
   "request_parameter_supported": false,
   "request_uri_parameter_supported": false,
   "response_modes_supported": [
