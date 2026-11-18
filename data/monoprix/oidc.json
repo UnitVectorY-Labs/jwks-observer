@@ -224,16 +224,16 @@
   ],
   "revocation_endpoint": "https://sso.monoprix.fr/oauth/revoke",
   "scopes_supported": [
-    "mfa",
-    "full_write",
     "events",
-    "phone",
-    "offline_access",
-    "session",
-    "email",
     "openid",
+    "profile",
+    "phone",
+    "session",
+    "offline_access",
     "address",
-    "profile"
+    "email",
+    "mfa",
+    "full_write"
   ],
   "service_documentation": "https://developer.reachfive.com/",
   "subject_types_supported": [

@@ -68,6 +68,8 @@
     "LinkConnect",
     "AppStoreCatalogWrite",
     "DownloadLink",
+    "AppsRead",
+    "AppDataRead",
     "Full",
     "1",
     "2",
@@ -99,7 +101,9 @@
     "134217728",
     "268435456",
     "536870912",
-    "1073741824"
+    "1073741824",
+    "2147483648",
+    "4294967296"
   ],
   "subject_types_supported": [
     "public"

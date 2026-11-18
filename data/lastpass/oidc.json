@@ -122,6 +122,7 @@
     "vpn/provisioning",
     "vpn/entitlement",
     "visibility/report",
+    "endpoint-telemetry/usage-reports.write",
     "offline_access"
   ],
   "subject_types_supported": [

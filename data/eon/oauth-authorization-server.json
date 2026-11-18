@@ -63,7 +63,6 @@
   "issuer": "https://auth.eon.de/",
   "jwks_uri": "https://auth.eon.de/.well-known/jwks.json",
   "mfa_challenge_endpoint": "https://auth.eon.de/mfa/challenge",
-  "registration_endpoint": "https://auth.eon.de/oidc/register",
   "request_object_signing_alg_values_supported": [
     "RS256",
     "RS384",

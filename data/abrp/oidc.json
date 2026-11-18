@@ -22,8 +22,7 @@
   ],
   "client_id_metadata_document_supported": true,
   "code_challenge_methods_supported": [
-    "S256",
-    "plain"
+    "S256"
   ],
   "device_authorization_endpoint": "https://accounts.abetterrouteplanner.com/device/authorize",
   "grant_types_supported": [
