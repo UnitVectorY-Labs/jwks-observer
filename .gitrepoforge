@@ -12,6 +12,9 @@ config:
   clip4llm:
     exclude:
       - data
+  indexer:
+    exclude:
+      - data/**
   repver:
     goversion:
       paths:
