@@ -3,7 +3,8 @@ package main
 
 import (
 	"context"
-	"encoding/json"
+	"encoding/json/jsontext"
+	json "encoding/json/v2"
 	"flag"
 	"fmt"
 	"io"
@@ -175,7 +176,7 @@ func main() {
 			}
 
 			// 5) Write status.json
-			if b, err := json.MarshalIndent(statuses, "", "  "); err != nil {
+			if b, err := marshalJSON(statuses); err != nil {
 				fmt.Fprintf(os.Stderr, "[%s] status.json marshal error: %v\n", svc.ID, err)
 			} else if err := os.WriteFile(filepath.Join(dir, "status.json"), b, 0o644); err != nil {
 				fmt.Fprintf(os.Stderr, "[%s] status.json write error: %v\n", svc.ID, err)
@@ -254,8 +255,13 @@ func fetchAndValidateJSON(url string, requiredFields []string) (
 		}
 	}
 
-	pretty, err = json.MarshalIndent(parsed, "", "  ")
+	pretty, err = marshalJSON(parsed)
 	return parsed, pretty, resp.Header, statusCode, err
+}
+
+// marshalJSON produces stable, indented snapshots for version control.
+func marshalJSON(value any) ([]byte, error) {
+	return json.Marshal(value, json.Deterministic(true), jsontext.WithIndent("  "))
 }
 
 // writeFile writes data to path, reporting any errors.
@@ -290,7 +296,7 @@ func writeHeaders(path string, hdrs http.Header) {
 			}
 		}
 	}
-	if b, err := json.MarshalIndent(meta, "", "  "); err != nil {
+	if b, err := marshalJSON(meta); err != nil {
 		fmt.Fprintf(os.Stderr, "headers marshal error %s: %v\n", path, err)
 	} else if err := os.WriteFile(path, b, 0o644); err != nil {
 		fmt.Fprintf(os.Stderr, "headers write error %s: %v\n", path, err)
@@ -309,7 +315,7 @@ func writeJWKSMismatches(outDir string) {
 	mismatchesPath := filepath.Join(outDir, "jwks_mismatch.json")
 
 	// Write the sorted list to the file
-	if b, err := json.MarshalIndent(jwksMismatches.Services, "", "  "); err != nil {
+	if b, err := marshalJSON(jwksMismatches.Services); err != nil {
 		fmt.Fprintf(os.Stderr, "jwks_mismatch.json marshal error: %v\n", err)
 	} else if err := os.WriteFile(mismatchesPath, b, 0o644); err != nil {
 		fmt.Fprintf(os.Stderr, "jwks_mismatch.json write error: %v\n", err)
@@ -369,7 +375,7 @@ func updateObservedKeys(keysDir, serviceDir string, parsedJWKS any) {
 		keyWithTimestamps["first_observed"] = entry.FirstObserved
 		// Do not write last_observed if it's empty
 
-		if kb, err := json.MarshalIndent(keyWithTimestamps, "", "  "); err != nil {
+		if kb, err := marshalJSON(keyWithTimestamps); err != nil {
 			fmt.Fprintf(os.Stderr, "key marshal error %s/%s.json: %v\n", keysDir, kid, err)
 		} else {
 			os.WriteFile(filepath.Join(keysDir, kid+".json"), kb, 0o644)
@@ -388,7 +394,7 @@ func updateObservedKeys(keysDir, serviceDir string, parsedJWKS any) {
 				var keyMap map[string]any
 				if json.Unmarshal(data, &keyMap) == nil {
 					keyMap["last_observed"] = now
-					if kb, err := json.MarshalIndent(keyMap, "", "  "); err == nil {
+					if kb, err := marshalJSON(keyMap); err == nil {
 						os.WriteFile(keyFilePath, kb, 0o644)
 					}
 				}
@@ -400,7 +406,7 @@ func updateObservedKeys(keysDir, serviceDir string, parsedJWKS any) {
 	sort.Strings(activeKidsList)
 
 	// write back the jwks-observed.json as a sorted array of active KIDs
-	if b, err := json.MarshalIndent(activeKidsList, "", "  "); err != nil {
+	if b, err := marshalJSON(activeKidsList); err != nil {
 		fmt.Fprintf(os.Stderr, "observed marshal error %s: %v\n", obsPath, err)
 	} else if err := os.WriteFile(obsPath, b, 0o644); err != nil {
 		fmt.Fprintf(os.Stderr, "observed write error %s: %v\n", obsPath, err)
