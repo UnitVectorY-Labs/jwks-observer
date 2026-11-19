@@ -21,6 +21,7 @@
     "A256CBC-HS512"
   ],
   "authorization_endpoint": "https://openiam.cathaypacific.com:443/am/oauth2/authorize",
+  "authorization_response_iss_parameter_supported": true,
   "authorization_signing_alg_values_supported": [
     "PS384",
     "RS384",
@@ -41,6 +42,7 @@
   "check_session_iframe": "https://openiam.cathaypacific.com:443/am/oauth2/connect/checkSession",
   "claims_parameter_supported": false,
   "claims_supported": [],
+  "client_id_metadata_document_supported": true,
   "code_challenge_methods_supported": [
     "plain",
     "S256"

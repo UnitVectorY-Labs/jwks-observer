@@ -327,6 +327,7 @@
     "subscription_read",
     "contract.reminder.read",
     "sign_vector_index_read_write",
+    "provisioning_entitlements_write",
     "organization_sub_account_read",
     "signature.soap.credentials",
     "concealed_packaging_write",

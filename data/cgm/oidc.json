@@ -103,9 +103,9 @@
   "jwks_uri": "https://id.cgm.com/jwks.json",
   "prompt_values_supported": [
     "none",
-    "login",
-    "consent",
     "select_account",
+    "consent",
+    "login",
     "create"
   ],
   "pushed_authorization_request_endpoint": "https://id.cgm.com/par",

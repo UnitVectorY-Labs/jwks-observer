@@ -37,7 +37,7 @@
     "RS256",
     "EdDSA"
   ],
-  "issuer": "https://auth.sumup.com/",
+  "issuer": "https://auth.sumup.com",
   "jwks_uri": "https://auth.sumup.com/.well-known/jwks.json",
   "nonce_endpoint": "https://auth.sumup.com/oauth2/nonce",
   "pushed_authorization_request_endpoint": "https://auth.sumup.com/oauth2/par",
