@@ -5,6 +5,7 @@
   },
   "oidc": {
     "uri": "https://auth.anadolu.edu.tr/.well-known/openid-configuration",
-    "status_code": 200
+    "status_code": 0,
+    "error": "Get \"https://auth.anadolu.edu.tr/.well-known/openid-configuration\": read tcp 10.244.0.108:60668-\u003e212.175.41.177:443: read: connection reset by peer"
   }
 }

@@ -65,7 +65,8 @@
     "profile",
     "email",
     "partner_profile",
-    "remote:write"
+    "remote:write",
+    "sites:read"
   ],
   "subject_types_supported": [
     "public"

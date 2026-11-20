@@ -410,6 +410,7 @@
     "payment_methods.write",
     "payment_methods_readonly",
     "payment_methods_share",
+    "payment_terminal",
     "payments.deposits",
     "payments.deposits.thirdparty",
     "payments.payment_profiles",
