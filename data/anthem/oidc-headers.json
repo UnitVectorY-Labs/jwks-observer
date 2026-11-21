@@ -1,6 +1,6 @@
 {
   "Cache-Control": "max-age=[placeholder], must-revalidate",
-  "Content-Security-Policy": "frame-ancestors 'self' https://membersecure.anthem.com",
+  "Content-Security-Policy": "frame-ancestors 'self' https://membersecure.wellpoint.com https://membersecure.unicare.com https://membersecure.anthem.com",
   "Content-Type": "application/json",
   "Server": "nginx",
   "Strict-Transport-Security": "max-age=315360000; includeSubDomains",
