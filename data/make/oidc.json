@@ -86,6 +86,8 @@
     "sdk-apps:read",
     "sdk-apps:write",
     "speedboat-integrations:use",
+    "task-mining:read",
+    "task-mining:write",
     "teams:read",
     "teams:write",
     "team-variables:read",

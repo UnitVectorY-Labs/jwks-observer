@@ -160,6 +160,12 @@
     "mail",
     "security.CWMDRAsioTicketing.read",
     "security.CWMDRAsioTicketing.write",
+    "platform.tasking.read",
+    "asset.read",
+    "asset.update",
+    "management.read",
+    "cloudservices.alerts.write",
+    "cloudservices.backup.read",
     "offline_access"
   ],
   "subject_types_supported": [

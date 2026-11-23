@@ -1,41 +1,52 @@
 {
-  "authorization_endpoint": "https://auth.careerbuilder.com/connect/authorize",
+  "authorization_endpoint": "https://identity.monster.com/oneiam/connect/authorize",
   "authorization_response_iss_parameter_supported": true,
-  "backchannel_authentication_endpoint": "https://auth.careerbuilder.com/connect/ciba",
+  "backchannel_authentication_endpoint": "https://identity.monster.com/oneiam/connect/ciba",
+  "backchannel_authentication_request_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "PS256",
+    "PS384",
+    "PS512",
+    "ES256",
+    "ES384",
+    "ES512"
+  ],
   "backchannel_logout_session_supported": true,
   "backchannel_logout_supported": true,
   "backchannel_token_delivery_modes_supported": [
     "poll"
   ],
   "backchannel_user_code_parameter_supported": true,
-  "check_session_iframe": "https://auth.careerbuilder.com/connect/checksession",
+  "check_session_iframe": "https://identity.monster.com/oneiam/connect/checksession",
   "claims_supported": [
     "sub",
-    "name",
+    "birthdate",
     "family_name",
+    "gender",
     "given_name",
+    "locale",
     "middle_name",
+    "name",
     "nickname",
+    "picture",
     "preferred_username",
     "profile",
-    "picture",
-    "website",
-    "gender",
-    "birthdate",
-    "zoneinfo",
-    "locale",
     "updated_at",
+    "website",
+    "zoneinfo",
     "email",
     "email_verified",
-    "address",
     "phone_number",
-    "phone_number_verified"
+    "phone_number_verified",
+    "address"
   ],
   "code_challenge_methods_supported": [
     "plain",
     "S256"
   ],
-  "device_authorization_endpoint": "https://auth.careerbuilder.com/connect/deviceauthorization",
+  "device_authorization_endpoint": "https://identity.monster.com/oneiam/connect/deviceauthorization",
   "dpop_signing_alg_values_supported": [
     "RS256",
     "RS384",
@@ -47,7 +58,7 @@
     "ES384",
     "ES512"
   ],
-  "end_session_endpoint": "https://auth.careerbuilder.com/connect/endsession",
+  "end_session_endpoint": "https://identity.monster.com/oneiam/connect/endsession",
   "frontchannel_logout_session_supported": true,
   "frontchannel_logout_supported": true,
   "grant_types_supported": [
@@ -58,21 +69,43 @@
     "password",
     "urn:ietf:params:oauth:grant-type:device_code",
     "urn:openid:params:grant-type:ciba",
-    "urn:ietf:params:oauth:grant-type:jwt-bearer"
+    "urn:monster:params:oauth:grant-type:native-ticket"
   ],
   "id_token_signing_alg_values_supported": [
-    "RS256"
+    "RS256",
+    "PS256"
   ],
-  "introspection_endpoint": "https://auth.careerbuilder.com/connect/introspect",
-  "issuer": "https://auth.careerbuilder.com",
-  "jwks_uri": "https://auth.careerbuilder.com/.well-known/openid-configuration/jwks",
+  "introspection_endpoint": "https://identity.monster.com/oneiam/connect/introspect",
+  "introspection_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post",
+    "client_secret_jwt",
+    "private_key_jwt"
+  ],
+  "introspection_endpoint_auth_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "PS256",
+    "PS384",
+    "PS512",
+    "ES256",
+    "ES384",
+    "ES512"
+  ],
+  "introspection_signing_alg_values_supported": [
+    "RS256",
+    "PS256"
+  ],
+  "issuer": "https://identity.monster.com/oneiam",
+  "jwks_uri": "https://identity.monster.com/oneiam/.well-known/openid-configuration/jwks",
   "prompt_values_supported": [
     "none",
     "login",
     "consent",
     "select_account"
   ],
-  "pushed_authorization_request_endpoint": "https://auth.careerbuilder.com/connect/par",
+  "pushed_authorization_request_endpoint": "https://identity.monster.com/oneiam/connect/par",
   "request_object_signing_alg_values_supported": [
     "RS256",
     "RS384",
@@ -82,10 +115,7 @@
     "PS512",
     "ES256",
     "ES384",
-    "ES512",
-    "HS256",
-    "HS384",
-    "HS512"
+    "ES512"
   ],
   "request_parameter_supported": true,
   "require_pushed_authorization_requests": false,
@@ -103,13 +133,40 @@
     "code token",
     "code id_token token"
   ],
-  "revocation_endpoint": "https://auth.careerbuilder.com/connect/revocation",
+  "revocation_endpoint": "https://identity.monster.com/oneiam/connect/revocation",
+  "revocation_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post",
+    "client_secret_jwt",
+    "private_key_jwt"
+  ],
+  "revocation_endpoint_auth_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "PS256",
+    "PS384",
+    "PS512",
+    "ES256",
+    "ES384",
+    "ES512"
+  ],
   "scopes_supported": [
     "openid",
     "profile",
+    "verification",
     "email",
-    "address",
+    "name",
+    "given_name",
+    "family_name",
+    "nickname",
+    "email_verified",
+    "picture",
+    "created_at",
     "phone",
+    "address",
+    "GatewayAccess",
+    "OnSeenApi",
     "identity_server_api",
     "employees_api",
     "teller_api",
@@ -145,12 +202,27 @@
   "subject_types_supported": [
     "public"
   ],
-  "token_endpoint": "https://auth.careerbuilder.com/connect/token",
+  "token_endpoint": "https://identity.monster.com/oneiam/connect/token",
   "token_endpoint_auth_methods_supported": [
-    "client_secret_jwt",
-    "service_account_jwt",
     "client_secret_basic",
-    "client_secret_post"
+    "client_secret_post",
+    "client_secret_jwt",
+    "private_key_jwt"
   ],
-  "userinfo_endpoint": "https://auth.careerbuilder.com/connect/userinfo"
+  "token_endpoint_auth_signing_alg_values_supported": [
+    "RS256",
+    "RS384",
+    "RS512",
+    "PS256",
+    "PS384",
+    "PS512",
+    "ES256",
+    "ES384",
+    "ES512"
+  ],
+  "userinfo_endpoint": "https://identity.monster.com/oneiam/connect/userinfo",
+  "userinfo_signing_alg_values_supported": [
+    "RS256",
+    "PS256"
+  ]
 }
