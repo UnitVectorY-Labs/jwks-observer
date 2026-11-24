@@ -1,12 +1,12 @@
 {
   "jwks": {
     "uri": "https://oauth.infura.io/.well-known/jwks.json",
-    "status_code": 503,
-    "error": "HTTP 503"
+    "status_code": 0,
+    "error": "Get \"https://oauth.infura.io/.well-known/jwks.json\": dial tcp: lookup oauth.infura.io on 10.96.0.10:53: no such host"
   },
   "oidc": {
     "uri": "https://oauth.infura.io/.well-known/openid-configuration",
-    "status_code": 503,
-    "error": "HTTP 503"
+    "status_code": 0,
+    "error": "Get \"https://oauth.infura.io/.well-known/openid-configuration\": dial tcp: lookup oauth.infura.io on 10.96.0.10:53: no such host"
   }
 }

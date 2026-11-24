@@ -135,6 +135,7 @@
     "companyfilehub:delete",
     "articlesapi:write",
     "employeragents:extract",
+    "talentpartner:write",
     "offline_access"
   ],
   "subject_types_supported": [

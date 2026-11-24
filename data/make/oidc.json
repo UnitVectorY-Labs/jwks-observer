@@ -55,6 +55,8 @@
     "event-subscriptions:write",
     "functions:read",
     "functions:write",
+    "grid:read",
+    "grid:write",
     "hitl:read",
     "hitl:write",
     "hooks:read",

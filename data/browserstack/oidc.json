@@ -45,7 +45,8 @@
     "automate_tcg",
     "ai_healing",
     "ai_agent",
-    "ai_agent_notify"
+    "ai_agent_notify",
+    "scim_provisioning"
   ],
   "subject_types_supported": [
     "public"
