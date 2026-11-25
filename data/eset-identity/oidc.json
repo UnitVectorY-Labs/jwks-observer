@@ -207,6 +207,11 @@
     "ids_api.login",
     "eecs_api",
     "ids_api.password",
+    "integration_management.integrations.change_status.connector_core",
+    "integration_management.integrations.change_status.automation",
+    "integration_management.integrations.change_status.asset_management",
+    "integration_management.integrations.change_status.ingestion",
+    "epc.integrations.write",
     "offline_access"
   ],
   "subject_types_supported": [

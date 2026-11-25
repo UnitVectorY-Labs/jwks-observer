@@ -48,7 +48,7 @@
   "introspection_endpoint": "https://www.futurelearn.com/oauth/introspect",
   "issuer": "https://www.futurelearn.com",
   "jwks_uri": "https://www.futurelearn.com/oauth/discovery/keys",
-  "registration_endpoint": "https://www.futurelearn.com/admin/lti_dynamic_registrations/register",
+  "registration_endpoint": "https://www.futurelearn.com/course-creator/mcp/register",
   "response_modes_supported": [
     "query",
     "fragment",
@@ -79,7 +79,8 @@
   "token_endpoint": "https://www.futurelearn.com/oauth/token",
   "token_endpoint_auth_methods_supported": [
     "client_secret_basic",
-    "client_secret_post"
+    "client_secret_post",
+    "none"
   ],
   "userinfo_endpoint": "https://www.futurelearn.com/oauth/userinfo"
 }
