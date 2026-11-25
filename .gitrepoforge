@@ -7,8 +7,6 @@ config:
   language: go
   release: release-go
   justfile: true
-  codecov:
-    enabled: false
   clip4llm:
     exclude:
       - data
