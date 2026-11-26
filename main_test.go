@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"crypto/sha256"
 	"encoding/json"
 	"fmt"
 	"net/http"
@@ -10,6 +11,7 @@ import (
 	"os/exec"
 	"path/filepath"
 	"reflect"
+	"strings"
 	"sync/atomic"
 	"testing"
 )
@@ -135,5 +137,89 @@ func TestCrawlCollectsPresenceForAllEndpointTypes(t *testing.T) {
 			}
 			previous[filename] = b
 		}
+	}
+}
+
+func TestKeyFilename(t *testing.T) {
+	for _, kid := range []string{"ordinary-key_1.2", strings.Repeat("a", 250)} {
+		if got := keyFilename(kid); got != kid+".json" {
+			t.Fatalf("unexpected filename: %s", got)
+		}
+	}
+	for _, kid := range []string{"", strings.Repeat("a", 251), strings.Repeat("x", 996), "../escape", "a/b", `a\b`, "a:b", "a b", "☃", ".", "..", "hash-reserved"} {
+		want := fmt.Sprintf("hash-%x.json", sha256.Sum256([]byte(kid)))
+		if got := keyFilename(kid); got != want {
+			t.Fatalf("kid %q: got %q want %q", kid, got, want)
+		}
+	}
+}
+
+func TestObservedKeysHashedLifecycle(t *testing.T) {
+	for _, kid := range []string{"", strings.Repeat("x", 996), "../escape", "hash-reserved", "ordinary"} {
+		t.Run(keyFilename(kid), func(t *testing.T) {
+			dir := t.TempDir()
+			keysDir := filepath.Join(dir, "keys")
+			if err := os.Mkdir(keysDir, 0755); err != nil {
+				t.Fatal(err)
+			}
+			payload := map[string]any{"keys": []any{map[string]any{"kid": kid, "kty": "RSA"}}}
+			if err := updateObservedKeys(keysDir, dir, payload); err != nil {
+				t.Fatal(err)
+			}
+			path := filepath.Join(keysDir, keyFilename(kid))
+			b, err := os.ReadFile(path)
+			if err != nil {
+				t.Fatal(err)
+			}
+			var key map[string]any
+			if err := json.Unmarshal(b, &key); err != nil {
+				t.Fatal(err)
+			}
+			if key["kid"] != kid {
+				t.Fatal("original KID lost")
+			}
+			key["first_observed"] = "2020-01-01T00:00:00Z"
+			b, _ = json.Marshal(key)
+			if err := os.WriteFile(path, b, 0644); err != nil {
+				t.Fatal(err)
+			}
+			empty := map[string]any{"keys": []any{}}
+			if err := updateObservedKeys(keysDir, dir, empty); err != nil {
+				t.Fatal(err)
+			}
+			b, _ = os.ReadFile(path)
+			json.Unmarshal(b, &key)
+			if key["last_observed"] == nil {
+				t.Fatal("key not retired")
+			}
+			if err := updateObservedKeys(keysDir, dir, payload); err != nil {
+				t.Fatal(err)
+			}
+			b, _ = os.ReadFile(path)
+			key = nil
+			json.Unmarshal(b, &key)
+			if key["first_observed"] != "2020-01-01T00:00:00Z" || key["last_observed"] != nil {
+				t.Fatal("history not preserved on reappearance")
+			}
+			b, _ = os.ReadFile(filepath.Join(dir, "jwks-observed.json"))
+			var ids []string
+			if err := json.Unmarshal(b, &ids); err != nil {
+				t.Fatal(err)
+			}
+			if len(ids) != 1 || ids[0] != kid {
+				t.Fatal("observation KID changed")
+			}
+		})
+	}
+}
+
+func TestObservedKeysWriteFailure(t *testing.T) {
+	dir := t.TempDir()
+	payload := map[string]any{"keys": []any{map[string]any{"kid": "test"}}}
+	if err := updateObservedKeys(filepath.Join(dir, "missing"), dir, payload); err == nil {
+		t.Fatal("missing write error")
+	}
+	if _, err := os.Stat(filepath.Join(dir, "jwks-observed.json")); !os.IsNotExist(err) {
+		t.Fatal("published observations after failed write")
 	}
 }

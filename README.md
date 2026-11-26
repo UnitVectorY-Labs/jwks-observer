@@ -160,6 +160,14 @@ header collection and normalization remain unchanged.
 
 ### `keys/<kid>.json`
 
+KIDs up to 250 ASCII bytes using letters, digits, `_`, `-`, and internal `.`
+are used directly as filenames. Other KIDs (including empty values and the reserved
+`hash-` prefix) use `hash-<SHA-256 of the KID>.json`. The original `kid` remains
+inside the JSON and in `jwks-observed.json`. Existing key filenames are retained
+when updating history. Key storage failures are reported in the JWKS status error,
+even when the HTTP fetch returned 200.
+
+
 - Contents: the raw single-JWK object
 - Purpose: This includes historical keys that have been observed, even if they are no longer present in the current JWKS.
 
