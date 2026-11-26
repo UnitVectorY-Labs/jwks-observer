@@ -3,6 +3,7 @@ package main
 
 import (
 	"context"
+	"crypto/sha256"
 	"encoding/json"
 	"flag"
 	"fmt"
@@ -71,6 +72,7 @@ var presenceHeaderKeys = []string{
 	"X-Sfdc-Request-Id",
 	"X-ForgeRock-TransactionId",
 }
+var safeKIDRegex = regexp.MustCompile(`^[A-Za-z0-9_-][A-Za-z0-9_.-]*$`)
 var cacheControlRegex = regexp.MustCompile(`(max-age=)(\d+)`)
 var viaRegex = regexp.MustCompile(`(1\.1 )([a-zA-Z0-9_\.-]+)(\.cloudfront\.net \(CloudFront\))`)
 var cspNonceRegex = regexp.MustCompile(`('nonce-)([a-zA-Z0-9_=\\-]+)(')`)
@@ -168,7 +170,10 @@ func main() {
 					writeHeaders(filepath.Join(dir, "jwks-headers.json"), hdrsJWKS)
 
 					// 4) Update observed keys
-					updateObservedKeys(keysDir, dir, parsedJWKS)
+					if err := updateObservedKeys(keysDir, dir, parsedJWKS); err != nil {
+						statuses["jwks"] = statusEntry{URI: svc.JWKSURI, StatusCode: codeJWKS, Error: err.Error()}
+						fmt.Fprintf(os.Stderr, "[%s] JWKS key storage failed: %v\n", svc.ID, err)
+					}
 				}
 			} else {
 				fmt.Fprintf(os.Stdout, "[%s] Skipping JWKS fetch: URL not set\n", svc.ID)
@@ -318,24 +323,37 @@ func writeJWKSMismatches(outDir string) {
 	}
 }
 
-// updateObservedKeys reads (or creates) jwks-observed.json, updates first/last observed times,
-// writes per-key files, and writes back jwks-observed.json.
-// jwks-observed.json will now be an array of active KIDs.
-func updateObservedKeys(keysDir, serviceDir string, parsedJWKS any) {
+// keyFilename preserves ordinary KIDs and hashes values unsafe for portable filenames.
+// Reserve hash- so literal KIDs cannot collide with generated filenames.
+func keyFilename(kid string) string {
+	if len(kid) > 0 && len(kid) <= 250 && !strings.HasPrefix(kid, "hash-") && safeKIDRegex.MatchString(kid) {
+		return kid + ".json"
+	}
+	return fmt.Sprintf("hash-%x.json", sha256.Sum256([]byte(kid)))
+}
+
+// updateObservedKeys persists key history and the original active KIDs.
+func updateObservedKeys(keysDir, serviceDir string, parsedJWKS any) error {
 	obsPath := filepath.Join(serviceDir, "jwks-observed.json")
 
 	// load existing observations from individual key files to preserve first_observed dates
 	existingKeyFiles, _ := filepath.Glob(filepath.Join(keysDir, "*.json"))
 	obsData := make(map[string]KeyObservation)
+	keyPaths := make(map[string]string)
 	for _, keyFile := range existingKeyFiles {
 		kid := filepath.Base(keyFile[:len(keyFile)-len(filepath.Ext(keyFile))])
 		if data, err := os.ReadFile(keyFile); err == nil {
 			var keyData struct {
-				FirstObserved string `json:"first_observed"`
-				LastObserved  string `json:"last_observed,omitempty"`
+				KID           *string `json:"kid"`
+				FirstObserved string  `json:"first_observed"`
+				LastObserved  string  `json:"last_observed,omitempty"`
 			}
 			if json.Unmarshal(data, &keyData) == nil {
+				if keyData.KID != nil {
+					kid = *keyData.KID
+				}
 				obsData[kid] = KeyObservation{FirstObserved: keyData.FirstObserved, LastObserved: keyData.LastObserved}
+				keyPaths[kid] = keyFile
 			}
 		}
 	}
@@ -370,9 +388,15 @@ func updateObservedKeys(keysDir, serviceDir string, parsedJWKS any) {
 		// Do not write last_observed if it's empty
 
 		if kb, err := json.MarshalIndent(keyWithTimestamps, "", "  "); err != nil {
-			fmt.Fprintf(os.Stderr, "key marshal error %s/%s.json: %v\n", keysDir, kid, err)
+			return fmt.Errorf("marshal key %q: %w", kid, err)
 		} else {
-			os.WriteFile(filepath.Join(keysDir, kid+".json"), kb, 0o644)
+			keyPath := keyPaths[kid]
+			if keyPath == "" {
+				keyPath = filepath.Join(keysDir, keyFilename(kid))
+			}
+			if err := os.WriteFile(keyPath, kb, 0o644); err != nil {
+				return fmt.Errorf("write key %q: %w", kid, err)
+			}
 		}
 	}
 
@@ -383,13 +407,15 @@ func updateObservedKeys(keysDir, serviceDir string, parsedJWKS any) {
 			obsData[kid] = entry // Update obsData for consistency, though it's not directly saved anymore
 
 			// update the individual key file with last_observed
-			keyFilePath := filepath.Join(keysDir, kid+".json")
+			keyFilePath := keyPaths[kid]
 			if data, err := os.ReadFile(keyFilePath); err == nil {
 				var keyMap map[string]any
 				if json.Unmarshal(data, &keyMap) == nil {
 					keyMap["last_observed"] = now
 					if kb, err := json.MarshalIndent(keyMap, "", "  "); err == nil {
-						os.WriteFile(keyFilePath, kb, 0o644)
+						if err := os.WriteFile(keyFilePath, kb, 0o644); err != nil {
+							return fmt.Errorf("retire key %q: %w", kid, err)
+						}
 					}
 				}
 			}
@@ -401,8 +427,9 @@ func updateObservedKeys(keysDir, serviceDir string, parsedJWKS any) {
 
 	// write back the jwks-observed.json as a sorted array of active KIDs
 	if b, err := json.MarshalIndent(activeKidsList, "", "  "); err != nil {
-		fmt.Fprintf(os.Stderr, "observed marshal error %s: %v\n", obsPath, err)
+		return fmt.Errorf("marshal observations: %w", err)
 	} else if err := os.WriteFile(obsPath, b, 0o644); err != nil {
-		fmt.Fprintf(os.Stderr, "observed write error %s: %v\n", obsPath, err)
+		return fmt.Errorf("write observations: %w", err)
 	}
+	return nil
 }
