@@ -1,5 +1,5 @@
 {
   "Content-Type": "application/json; charset=utf-8",
-  "Server": "nginx",
+  "Server": "nginx/1.28.3 (Ubuntu)",
   "Strict-Transport-Security": "max-age=15552000; includeSubDomains"
 }

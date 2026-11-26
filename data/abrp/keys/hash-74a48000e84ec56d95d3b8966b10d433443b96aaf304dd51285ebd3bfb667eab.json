@@ -1,0 +1,9 @@
+{
+  "alg": "RS256",
+  "e": "AQAB",
+  "first_observed": "2026-11-26T14:52:17Z",
+  "kid": "arn:aws:kms:eu-central-1:324894082076:key/cfd3a6bd-a138-459e-b9ac-6dc1fc681074",
+  "kty": "RSA",
+  "n": "zEQeEiGfbQ84EsgrSlWZpMl32Juc8jUIl447eq7hfLoAeRZKup8RRjumy7Zwh_A2491Sfarc-4f-_0MbBMr1z05m1Jm1U6t5TnVS7qbxMSjX400UcuT2LlFIKVyPSAa_-nVROaFwd7pyc-FCgRpKmhP_WU0JI-8a7jO3NLVFHT1iU9DyQ4jGoYLggH_iKibHRWRPSQ6F2uhJsbZqTkZ9UFTvNeT9u-YbqznEmRxjh1tqEpE3U49UMSN5GOeJM9Bkeaugfqlbfl2OhSx85AgytbEo7HVusL0tAAA8AgfGWFRzH-mzm7l0-CQqhoCO9RDKuvaSw4v8KwyazX1FBaWWvw",
+  "use": "sig"
+}

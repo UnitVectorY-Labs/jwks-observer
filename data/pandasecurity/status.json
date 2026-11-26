@@ -1,12 +1,10 @@
 {
   "jwks": {
     "uri": "https://auth.pandasecurity.com/.well-known/jwks",
-    "status_code": 0,
-    "error": "Get \"https://auth.pandasecurity.com/.well-known/jwks\": local error: tls: no renegotiation"
+    "status_code": 200
   },
   "oidc": {
     "uri": "https://auth.pandasecurity.com/.well-known/openid-configuration",
-    "status_code": 0,
-    "error": "Get \"https://auth.pandasecurity.com/.well-known/openid-configuration\": local error: tls: no renegotiation"
+    "status_code": 200
   }
 }
