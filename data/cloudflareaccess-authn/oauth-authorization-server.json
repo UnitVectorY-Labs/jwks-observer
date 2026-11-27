@@ -8,7 +8,6 @@
     "refresh_token"
   ],
   "issuer": "https://authn.cloudflareaccess.com",
-  "registration_endpoint": "https://authn.cloudflareaccess.com/cdn-cgi/access/oauth/registration",
   "response_modes_supported": [
     "query"
   ],
