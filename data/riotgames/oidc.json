@@ -103,8 +103,8 @@
   "jwks_uri": "https://auth.riotgames.com/jwks.json",
   "prompt_values_supported": [
     "select_account",
-    "consent",
     "none",
+    "consent",
     "create",
     "login"
   ],
